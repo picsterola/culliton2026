@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a response · Culliton 2026</title>
+  <meta name="description" content="Candidates, campaigns, and members of the public can submit corrections or additional context.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f3d2b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-style='italic' fill='%23fbf8f1' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="index.html" class="site-header__brand">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect width="32" height="32" rx="4" fill="var(--color-primary)"/>
+        <text x="16" y="22" font-family="Source Serif 4, Georgia, serif" font-size="18" font-style="italic" fill="var(--color-text-inverse)" text-anchor="middle" font-weight="500">C</text>
+      </svg>
+      <span><span class="site-header__brand-text-full">Culliton</span> <span class="brand-year">2026</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Candidates</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="about.html">About</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <article class="article form-page">
+      <nav class="breadcrumb"><a href="index.html">Home</a><span class="breadcrumb__sep">/</span>Submit a response</nav>
+
+      <h1>Submit a response</h1>
+      <p class="lede">
+        Candidates, campaigns, and members of the public are invited to submit corrections,
+        clarifications, or additional public-record context. Documented submissions will be
+        reviewed and, where appropriate, appended to the relevant candidate page.
+      </p>
+
+      <p>We are particularly interested in:</p>
+      <ul>
+        <li>Citations to public statements, writings, or judicial opinions that bear on the underlying constitutional question.</li>
+        <li>Corrections to factual claims about a candidate's biography, appointing authority, or record.</li>
+        <li>Links to upcoming public forums or bar-association questionnaires.</li>
+        <li>Photo substitution requests from candidates or rights-holders.</li>
+      </ul>
+
+      <p>We do not publish anonymous tips, opposition research, or unsourced claims.</p>
+
+      <form id="response-form" style="margin-top: 2.5rem;">
+        <div class="form-field">
+          <label for="name">Your name <span class="req">*</span></label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email <span class="req">*</span></label>
+          <input type="email" id="email" name="email" required>
+          <p class="form-field__help">Used only to verify the submission. Not published or shared.</p>
+        </div>
+
+        <div class="form-field">
+          <label for="role">Your role</label>
+          <select id="role" name="role">
+            <option value="">Select…</option>
+            <option value="candidate">Judicial candidate</option>
+            <option value="campaign">Campaign staff or representative</option>
+            <option value="attorney">Attorney / member of the bar</option>
+            <option value="journalist">Journalist or researcher</option>
+            <option value="voter">Voter / member of the public</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="candidate">About which candidate or page?</label>
+          <select id="candidate" name="candidate">
+            <option value="">Select a candidate…</option>
+            <option value="melody">Colleen Melody (Position 1)</option>
+            <option value="edwards">Scott Edwards (Position 1)</option>
+            <option value="diaz">J. Michael Diaz (Position 3)</option>
+            <option value="stevens">David Stevens (Position 3)</option>
+            <option value="birk">Ian Birk (Position 4)</option>
+            <option value="odonnell">Sean O'Donnell (Position 4)</option>
+            <option value="shelvey">David Shelvey (Position 4)</option>
+            <option value="angelis">Theo Angelis (Position 5)</option>
+            <option value="larson">David Larson (Position 5)</option>
+            <option value="amamilo">Sharonda Amamilo (Position 5)</option>
+            <option value="stephens">Debra Stephens (Position 7)</option>
+            <option value="methodology">Methodology / general</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Your response <span class="req">*</span></label>
+          <textarea id="message" name="message" required placeholder="Please cite public sources where possible. Documented corrections are processed first."></textarea>
+        </div>
+
+        <div class="form-field">
+          <label for="sources">Sources or URLs</label>
+          <textarea id="sources" name="sources" style="min-height: 100px;" placeholder="One per line."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit response</button>
+      </form>
+
+      <div id="form-success" class="form-success" style="display: none; margin-top: 2rem;">
+        <h3>Thank you.</h3>
+        <p>Your submission has been recorded. We review responses on a rolling basis and will append documented corrections to the relevant page.</p>
+      </div>
+
+      <p style="margin-top: 3rem; font-size: var(--text-sm); color: var(--color-text-muted);">
+        Prefer email? Submissions can also be sent to a designated contact — placeholder during launch.
+      </p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <div class="site-footer__brand">Culliton 2026</div>
+      <p class="site-footer__disclaimer">
+        Nonpartisan, noncommercial civic publication. Signals are drawn from public records.
+      </p>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="methodology.html">Methodology</a>
+      <a href="about.html">About</a>
+      <a href="response.html">Submit a response</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+(function () {
+  const form = document.getElementById("response-form");
+  const success = document.getElementById("form-success");
+  if (!form) return;
+
+  // Pre-select candidate from query string if provided
+  const params = new URLSearchParams(window.location.search);
+  const preselect = params.get("c");
+  if (preselect) {
+    const sel = document.getElementById("candidate");
+    if (sel) {
+      const opt = [...sel.options].find((o) => o.value === preselect);
+      if (opt) sel.value = preselect;
+    }
+  }
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    // Frontend-only acknowledgement; no backend wired up at launch.
+    // A future revision will route this to a moderated inbox.
+    form.style.display = "none";
+    success.style.display = "block";
+    success.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+})();
+</script>
+</body>
+</html>
