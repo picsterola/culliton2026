@@ -29,9 +29,10 @@
   });
 
   // Position 4 is the only open seat (Johnson retiring). State holds the
-  // user's pick from the Pos 4 selector. Default is 'open' (treat as unclear).
-  // Values: 'open' | candidate.name
-  let pos4Pick = 'open';
+  // user's pick from the Pos 4 selector. Default is O'Donnell as the most
+  // plausible front-runner; user can switch to Birk or Shelvey.
+  // Values: candidate.name (must match data/candidates.json)
+  let pos4Pick = "Sean O'Donnell";
 
   const labelForLean = lean => {
     if (lean === 'keep') return 'Keep Culliton';
@@ -43,11 +44,8 @@
   function pos4Seat() {
     const base = currentCourt.find(s => s.position === 4);
     const cands = candByPos[4] || [];
-    if (pos4Pick === 'open') {
-      return { ...base, lean: 'unclear', name: 'Open seat (Johnson retiring)' };
-    }
     const pick = cands.find(c => c.name === pos4Pick);
-    if (!pick) return { ...base, lean: 'unclear', name: 'Open seat (Johnson retiring)' };
+    if (!pick) return { ...base, lean: 'unclear', name: 'Position 4 (TBD)' };
     return { ...base, lean: pick.lean, name: pick.name };
   }
 
@@ -93,27 +91,18 @@
     const pos4Lean = pos4.lean;
 
     if (name === 'current') {
-      if (pos4Pick === 'open') {
-        return 'The court as it sits today, with Position 4 open. Eight justices are seated: three of the four off-ballot lean scrap (González, Whitener, Mungia) and one keeps (McCloud); on the ballot, three incumbents lean scrap (Melody, Diaz, Angelis) and one keeps (Stephens). Without Position 4 the count is six scrap, two keep. Pick a Position 4 candidate to see who tips it further.';
-      }
-      const tipPhrase = pos4Lean === 'scrap' ? 'pushes the scrap side to seven' : pos4Lean === 'keep' ? 'gives the keep side a third vote (still not enough)' : 'leaves Position 4 unclear, holding the count at six scrap, two keep';
-      return `With ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}), today's bench ${tipPhrase}. Either way, the scrap side already has the five votes to uphold a labeled income tax. The other eight seats are unchanged.`;
+      const tipPhrase = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'gives the keep side a third vote (still short of five)' : 'leaves Position 4 in the unclear column';
+      return `Today's bench with ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}). That ${tipPhrase}. Either way, the scrap side already has the five votes to uphold a labeled income tax. The other eight seats are unchanged from the current court.`;
     }
 
     if (name === 'incumbents') {
-      if (pos4Pick === 'open') {
-        return 'If all four ballot incumbents win reelection (Melody, Diaz, Angelis return; Stephens keeps her seat), this is the same map as the current bench: six scrap, two keep, one open. The scrap side already has five votes without Position 4. Position 4 is open — pick a candidate to see who tips it further.';
-      }
-      const ftip = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'adds a third keep vote (still short of five)' : 'leaves Position 4 unclear';
-      return `Four ballot incumbents return (Melody, Diaz, Angelis, Stephens). With ${pos4.name} at Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ftip}. The scrap side has its five votes regardless of who wins Position 4.`;
+      const ftip = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'adds a third keep vote (still short of five)' : 'leaves Position 4 in the unclear column';
+      return `Four ballot incumbents return (Melody, Diaz, Angelis, Stephens). With ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ftip}. The scrap side has its five votes (Melody, Diaz, Angelis, Mungia, Whitener, González) regardless of who wins Position 4.`;
     }
 
     if (name === 'challengers') {
-      if (pos4Pick === 'open') {
-        return 'If every leading challenger sweeps the three contested incumbents (Edwards beats Melody at Pos 1, Stevens beats Diaz at Pos 3, Larson beats Angelis at Pos 5), the court flips. Stephens runs unopposed and stays at Pos 7. That gives the keep side five votes (Edwards, Stevens, Larson, Stephens, McCloud) — enough to enforce Culliton and strike down ESSB 6346 regardless of who wins Position 4. Pick a Position 4 candidate to see how decisive the margin gets.';
-      }
-      const ctip = pos4Lean === 'keep' ? 'pushes the keep side to six' : pos4Lean === 'scrap' ? 'gives scrap a fourth vote (still not enough)' : 'leaves Position 4 unclear';
-      return `Challengers sweep the contested seats: Edwards (Pos 1), Stevens (Pos 3), Larson (Pos 5) unseat the incumbents. Stephens runs unopposed at Pos 7. With ${pos4.name} at Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ctip}. The keep side has its five votes (Edwards, Stevens, Larson, Stephens, McCloud) regardless of who wins Position 4. The wall holds.`;
+      const ctip = pos4Lean === 'keep' ? 'pushes the keep side to six' : pos4Lean === 'scrap' ? 'gives scrap a fourth vote (still short of five)' : 'leaves Position 4 in the unclear column';
+      return `Challengers sweep the contested seats: Edwards (Pos 1), Stevens (Pos 3), and Larson (Pos 5) unseat the incumbents. Stephens runs unopposed at Pos 7. With ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ctip}. The keep side has its five votes (Edwards, Stevens, Larson, Stephens, McCloud) regardless of who wins Position 4. The wall holds.`;
     }
     return '';
   }
@@ -176,7 +165,7 @@
       });
       btn.classList.add('is-active');
       btn.setAttribute('aria-pressed', 'true');
-      pos4Pick = btn.dataset.pos4 || 'open';
+      pos4Pick = btn.dataset.pos4;
       renderScenario(activeScenario);
     });
   });
