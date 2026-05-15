@@ -231,10 +231,11 @@ a, button, [role="button"], input, textarea, select {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: oklch(from var(--color-bg) l c h / 0.88);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: oklch(from var(--color-bg) l c h / 0.97);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
   border-bottom: 1px solid var(--color-divider);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -16px rgba(0,0,0,0.18);
 }
 .site-header__inner {
   max-width: var(--content-wide);
@@ -1416,9 +1417,15 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
    ========================================================= */
 .body--has-cover { background: #0f0e0b; }
 .site-header--over-cover {
-  background: transparent;
+  background: linear-gradient(to bottom, rgba(15,14,11,0.55), rgba(15,14,11,0));
   border-bottom: none;
+  box-shadow: none;
   color: #f6f2e9;
+}
+.site-header--solid-dark {
+  background: rgba(15,14,11,0.94);
+  border-bottom: 1px solid rgba(246,242,233,0.08);
+  box-shadow: 0 8px 24px -16px rgba(0,0,0,0.6);
 }
 .site-header--over-cover .site-header__brand { color: #f6f2e9; }
 .site-header--over-cover .site-header__brand .brand-year {
