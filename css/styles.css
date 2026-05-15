@@ -2620,3 +2620,17 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   background: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
 }
+
+/* Outro paragraph at the bottom of the explainer article */
+.article .explainer-outro {
+  margin-top: var(--space-8);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-divider);
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
+.article .explainer-outro a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
