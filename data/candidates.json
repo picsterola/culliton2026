@@ -99,7 +99,7 @@
       "photo": "images/edwards.jpg",
       "position": 1,
       "position_label": "Position 1",
-      "seat_context": "Yu seat — challenging Melody",
+      "seat_context": "Yu seat \u2014 challenging Melody",
       "current_role": "Partner at Ballard Spahr; UW Law affiliate faculty",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -120,7 +120,7 @@
         },
         {
           "type": "His academic role",
-          "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out — this isn't theoretical for him."
+          "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out \u2014 this isn't theoretical for him."
         },
         {
           "type": "What he has said about Culliton",
@@ -285,7 +285,7 @@
       "photo": "images/stevens.jpg",
       "position": 3,
       "position_label": "Position 3",
-      "seat_context": "Montoya-Lewis seat — challenging Diaz",
+      "seat_context": "Montoya-Lewis seat \u2014 challenging Diaz",
       "current_role": "Judge, Mason County Superior Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -380,12 +380,12 @@
       "photo": "images/birk.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat — open",
+      "seat_context": "Charles Johnson seat \u2014 open",
       "current_role": "Judge, WA Court of Appeals",
       "lean": "scrap",
       "lean_short": "Leans toward scrapping the rule",
       "lean_confidence": "Medium",
-      "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax — but his own record on this is thin.",
+      "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax \u2014 but his own record on this is thin.",
       "appointed_by": "Gov. Jay Inslee (to the Court of Appeals)",
       "prior_practice": "Civil rights and constitutional litigation in Seattle, on the plaintiffs' side.",
       "endorsements": "Heavy slate of progressive elected officials and labor unions.",
@@ -393,7 +393,7 @@
       "signals": [
         {
           "type": "Who put him on the bench",
-          "text": "Inslee appointed him to the Court of Appeals — same governor who signed the capital gains tax."
+          "text": "Inslee appointed him to the Court of Appeals \u2014 same governor who signed the capital gains tax."
         },
         {
           "type": "His background",
@@ -471,7 +471,7 @@
       "photo": "images/odonnell.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat — open",
+      "seat_context": "Charles Johnson seat \u2014 open",
       "current_role": "Judge, King County Superior Court",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -558,7 +558,7 @@
       "photo": "images/shelvey.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat — open",
+      "seat_context": "Charles Johnson seat \u2014 open",
       "current_role": "Solo practitioner",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -640,7 +640,7 @@
       "photo": "images/angelis.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat — special election",
+      "seat_context": "Madsen seat \u2014 special election",
       "current_role": "Justice, WA Supreme Court",
       "lean": "scrap",
       "lean_short": "Leans toward scrapping the rule",
@@ -731,7 +731,7 @@
       "photo": "images/larson.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat — challenging Angelis",
+      "seat_context": "Madsen seat \u2014 challenging Angelis",
       "current_role": "Judge, Federal Way Municipal Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -822,7 +822,7 @@
       "photo": "images/amamilo.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat — three-way race",
+      "seat_context": "Madsen seat \u2014 three-way race",
       "current_role": "Judge, Thurston County Superior Court",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -913,38 +913,39 @@
       "photo": "images/miller.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat — special election",
+      "seat_context": "Madsen seat \u2014 special election",
       "current_role": "Appellate lawyer, Carney Badley Spellman (Seattle)",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
       "lean_confidence": "Low",
-      "one_liner": "Veteran appellate lawyer. Deep technical chops, no judicial record, and nothing public on Article VII. Genuine unknown.",
+      "one_liner": "Veteran appellate lawyer with 40+ years at the WA bar. Deep institutional ties to the Seattle legal establishment, no judicial record, and nothing public on Article VII.",
       "appointed_by": "Not applicable.",
-      "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman since 2008. Health-law and appellate practice. Former judicial law clerk at the WA Court of Appeals, Div. I.",
+      "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman (2008\u2013present). Admitted to the Washington bar in 1984 (WSBA No. 14459). Earlier: judicial law clerk at the WA Court of Appeals Div. I (assisted on 75 appeals), judicial extern at the U.S. District Court, Seattle municipal court prosecutor, and staff counsel to the WA Senate Health and Long-Term Care Committee (1990). Pro tem judge, Seattle Municipal Court.",
       "endorsements": "None publicly reported as of May 2026.",
       "fundraising": "Not yet reported in PDC filings located.",
       "signals": [
         {
           "type": "His background",
-          "text": "125+ merits appeals briefed, 75+ argued in Washington appellate courts and the Ninth Circuit. 20+ amicus submissions, mostly in health law. Pure appellate practitioner, no trial bench experience."
+          "text": "WSBA No. 14459 since 1984. 125+ merits appeals briefed, 75+ argued in Washington appellate courts and the Ninth Circuit. 20+ amicus submissions, concentrated in health law. Pure appellate practitioner, no trial bench experience. Harvard cum laude, J.D. Northeastern."
         },
         {
           "type": "How he talks about the law",
-          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas."
+          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas. Has briefed Washington constitutional questions in practice (e.g., WA Water Jet Workers v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29)."
         },
         {
           "type": "Who's backing him",
-          "text": "No endorsements located. None of the institutional patterns visible for the other three Pos 5 candidates (Angelis has the Democratic establishment, Larson has the conservative coalition, Amamilo has Whitener) appear here."
+          "text": "No endorsements located. None of the institutional patterns visible for the other three Pos 5 candidates (Angelis has the Democratic establishment, Larson has the conservative coalition, Amamilo has Whitener) appear here. UW law professor Hugh Spitzer told the Columbia Basin Herald in April 2026 that 'there are few conservative candidates running' in this cycle, implicitly bucketing Miller outside the overturn camp."
         },
         {
           "type": "His tax record",
-          "text": "Nothing public on Article VII, Culliton, or Quinn. Health-law specialty doesn't intersect the tax uniformity question."
+          "text": "Nothing public on Article VII, Culliton, Quinn, or ESSB 6346. Health-law specialty doesn't intersect the tax uniformity question directly. His appellate record shows comfort with both pro-state (UW Medicine) and anti-agency (DOH overreach) postures, depending on the doctrine."
         }
       ],
       "questions": [
         "How would you approach a request to overturn a 90-year-old precedent like Culliton?",
         "Does your appellate practice include any constitutional tax or revenue cases the public can review?",
-        "Which Washington Supreme Court justices, sitting or retired, best reflect your judicial philosophy?"
+        "Which Washington Supreme Court justices, sitting or retired, best reflect your judicial philosophy?",
+        "You've served the state (Special AAG for UW Medicine) and challenged state agencies (DOH in WSHA). How do you decide when a state institution has exceeded its authority?"
       ],
       "sources": [
         {
@@ -956,37 +957,45 @@
           "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
       ],
-      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean. He is a shareholder at Carney Badley Spellman in Seattle and a founding member of the firm's Appellate Group, with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. His specialty is health law representing physicians and physician groups, with twenty-plus amicus submissions concentrated in that area. He clerked at the Washington Court of Appeals, Division One, earlier in his career, but he has never served as a judge, and there is no body of opinions or rulings to read. As of mid-May 2026, Wikipedia's election page lists no endorsements for him, no campaign infrastructure or significant fundraising has surfaced in public reporting, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. Carney Badley Spellman is a Seattle business-defense and appellate firm without the strong ideological signature of, for example, the Federalist Society network around Larson or the institutional Democratic coalition behind Angelis. The Position 5 field is unusually crowded: an appointed incumbent with the entire sitting court and the governor behind him, a repeat conservative challenger with explicit Quinn opposition, a sitting superior court judge with a single high-court endorsement, and a career appellate lawyer with technical depth but no public lean. Without further signals, assigning him a tax direction would be guessing.",
+      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean even though the circumstantial pattern is mildly keep-coded. He is a Carney Badley Spellman shareholder and a founding member of the firm's Appellate Group, admitted to the Washington bar in 1984 (WSBA No. 14459), with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. He clerked at the Washington Court of Appeals Division One, served as a Seattle Municipal Court prosecutor, was staff counsel to the Washington Senate Health and Long-Term Care Committee in 1990, and sits pro tem on the Seattle Municipal Court. His institutional life runs through the King County Bar Association, where he has been a member since 1985, served as a trustee from 2001 to 2004, co-founded the Appellate Law Section in 2005 and chaired it in 2006\u20132007, has chaired and served on the Judicial Evaluation Committee, and has sat on the Martin Luther King Jr. Luncheon Committee for over twenty years. He is also a founding member of the Washington Appellate Lawyers Association. In 2025 he served as a Special Assistant Attorney General for UW Medicine in a Washington Supreme Court amicus filing, showing comfort representing state institutions. At the same time, in Washington State Hospital Association v. Department of Health, 183 Wn.2d 590 (2015), he successfully argued that the Department of Health exceeded its certificate-of-need authority. He has briefed at least one Washington constitutional question of consequence (WA Water Jet Workers v. Yarbrough, art. II \u00a7 29). As of mid-May 2026, Wikipedia lists no endorsements for him, no campaign infrastructure has surfaced, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. The coalition signal points away from the conservative overturn camp (no WSRP, no Future 42, no Federalist Society trail; long KCBA and MLK Committee tenure), but coalition is not doctrine, and without his own statement the case for moving him off 'unclear' is not strong enough.",
       "expanded_signals": [
         {
-          "type": "Pure appellate practice, no trial bench",
-          "text": "Miller's professional identity is appellate work, not the trial bench. Over twenty-five years at Carney Badley Spellman he has handled appeals in administrative law, civil and appellate procedure, statutory construction, commercial, contract, constitutional, criminal, medical malpractice, probate, and family law. That breadth is unusual and signals technical versatility, but it does not include a visible specialization in state constitutional revenue questions. None of the located cases involve Article VII or income tax doctrine."
+          "type": "Forty-plus years inside the Seattle appellate bar",
+          "text": "Miller has been a Washington lawyer since 1984. He clerked at the Court of Appeals Division I, externed in U.S. District Court, and has practiced appeals continuously for over four decades. He co-founded the King County Bar Association's Appellate Law Section in 2005 and chaired it. He is a founding member of the Washington Appellate Lawyers Association (2000), chaired its judicial CJE programs in 2003 and 2006, and has chaired or served on the KCBA Judicial Evaluation Committee across multiple terms. That is the resume of a career institutionalist embedded in the Seattle legal establishment, not a movement-aligned candidate."
         },
         {
-          "type": "Health-law amicus practice as institutional signature",
-          "text": "Miller's twenty-plus amicus filings have been concentrated in health-law matters on behalf of the Washington State Medical Association, the Washington Chapter of the American College of Emergency Physicians, the Washington Academy of Family Physicians, the American Medical Association, and the Washington State Hospital Association. That coalition is professional rather than ideological. Medical associations are generally institutionalist clients, not movement litigants, and the practice suggests a lawyer comfortable representing established institutions in technical legal questions, not a lawyer associated with a particular constitutional movement."
+          "type": "Has worked both sides of the state",
+          "text": "In 2025 Miller was retained as a Special Assistant Attorney General representing UW Medicine in a Washington Supreme Court amicus filing (Snyder v. Virginia Mason). In 2015 he argued and won Washington State Hospital Association v. Department of Health, 183 Wn.2d 590, where the court held DOH exceeded its certificate-of-need authority. The pattern is a lawyer who will work for state institutions when retained and challenge them when the doctrine says so. That cuts against any clean ideological read in either direction."
         },
         {
-          "type": "No endorsement footprint",
-          "text": "The three other Position 5 candidates all have identifiable institutional coalitions. Angelis has the governor, the lieutenant governor, multiple sitting justices, and the bulk of the Democratic legislature. Larson has the Washington State Republican Party, Future 42 funding, and Federalist Society-adjacent training. Amamilo has at least one sitting justice (Whitener) and Thurston County connections. Miller, as of May 2026, has none of these visible markers. That could reflect a deliberately low-profile campaign, late entry, or simply a candidacy still ramping up. It also means there is no coalition-based signal to read."
+          "type": "Constitutional questions are in his portfolio, just not Article VII",
+          "text": "Miller has briefed at least one notable Washington constitutional case: WA Water Jet Workers Association v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29. He has filed amicus briefs on charter-school constitutionality, medical malpractice doctrine, parenting plans, and municipal antitrust. Constitutional argument is in his toolkit. Article VII and tax uniformity are not in the located record, which is the issue."
         },
         {
-          "type": "Firm-level political pattern is mixed",
-          "text": "Carney Badley Spellman's PAC and partner political giving runs across both parties, with a tilt toward business-friendly Republicans historically (OpenSecrets). Firm donations are not a candidate signal in either direction, and Washington's nonpartisan judicial races make even partisan PAC activity an imperfect read. Without Miller's own contribution history or stated positions, the firm-level data does not move the needle."
+          "type": "No conservative coalition footprint, no progressive coalition footprint either",
+          "text": "Angelis carries the Democratic establishment, sitting justices, and the governor. Larson carries the Washington State Republican Party, Future 42, and Federalist Society-adjacent training. Amamilo has Justice Whitener and Thurston County. Miller has long-running KCBA leadership and MLK Luncheon Committee tenure, which code mildly center-left in Seattle terms, but no party endorsement, no movement training, no surfaced fundraising. Hugh Spitzer's April 2026 comment that 'there are few conservative candidates running' implicitly excludes him from the overturn coalition. That is suggestive, not dispositive."
         }
       ],
       "additional_sources": [
         {
-          "label": "Carney Badley Spellman: Gregory M. Miller (appellate group bio)",
-          "url": "https://www.carneybadleyspellman.com/attorney/gregory-m-miller-2/"
+          "label": "Carney Badley Spellman: Gregory M. Miller (firm CV PDF)",
+          "url": "https://www.carneybadleyspellman.com/wp-content/uploads/2023/11/Miller-Greg.pdf"
         },
         {
           "label": "Gregory M. Miller LinkedIn profile",
           "url": "https://www.linkedin.com/in/gregory-m-miller-630436b7"
         },
         {
-          "label": "Wikipedia: 2026 Washington Supreme Court election",
-          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+          "label": "Snyder v. Virginia Mason \u2014 UW Medicine amicus joinder (Miller as Special AAG, 2025)",
+          "url": "https://www.courts.wa.gov/content/petitions/1041365%20UW%20Amicus%20Joinder.pdf"
+        },
+        {
+          "label": "Columbia Basin Herald: WA Supreme Court races could decide fate of income tax (April 2026)",
+          "url": "https://columbiabasinherald.com/news/2026/apr/27/washington-supreme-court-races-could-decide-fate-of-controversial-income-tax/"
+        },
+        {
+          "label": "The Daily World: WA Supreme Court races shape up as income tax case looms (May 2026)",
+          "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
         }
       ]
     },
@@ -997,7 +1006,7 @@
       "photo": "images/stephens.jpg",
       "position": 7,
       "position_label": "Position 7",
-      "seat_context": "Chief Justice — reelection",
+      "seat_context": "Chief Justice \u2014 reelection",
       "current_role": "Chief Justice, Washington Supreme Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -1010,7 +1019,7 @@
       "signals": [
         {
           "type": "On-record opinion",
-          "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
+          "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax \u2014 but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
         },
         {
           "type": "How she talks about the law",
@@ -1022,7 +1031,7 @@
         },
         {
           "type": "What it means",
-          "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
+          "text": "If a graduated income tax \u2014 clearly framed as a tax on income \u2014 reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
         }
       ],
       "questions": [
