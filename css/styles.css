@@ -2037,7 +2037,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 /* ===== Balance graphic ===== */
 .balance-section {
   padding: clamp(3rem, 7vh, 5rem) 0;
-  background: linear-gradient(180deg, var(--color-bg) 0%, oklch(from var(--color-primary) l c h / 0.04) 100%);
+  background: var(--color-bg);
+  border-top: 1px solid oklch(from var(--color-text) l c h / 0.08);
+  border-bottom: 1px solid oklch(from var(--color-text) l c h / 0.08);
 }
 .balance {
   margin-top: 2rem;
