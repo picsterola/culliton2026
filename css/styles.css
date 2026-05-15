@@ -1966,9 +1966,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   margin-bottom: 0.4rem;
   transition: color 200ms ease;
 }
-.balance__count--scrap .balance__count-num { color: var(--color-primary); }
-.balance__count--keep .balance__count-num { color: var(--color-accent); }
-.balance__count--unclear .balance__count-num { color: oklch(from var(--color-text) l c h / 0.4); }
+.balance__count--scrap .balance__count-num { color: var(--lean-scrap); }
+.balance__count--keep .balance__count-num { color: var(--lean-keep); }
+.balance__count--unclear .balance__count-num { color: oklch(from var(--lean-unclear) l c h / 0.7); }
 .balance__count-label {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.72rem;
@@ -2017,17 +2017,25 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   border-radius: 50%;
   transition: all 300ms ease;
 }
+/* Decision-palette: distinct from site brand colors so the data reads as data. */
+:root {
+  --lean-keep: #1e4d8c;        /* deep institutional blue: keep Culliton */
+  --lean-keep-soft: #2f6bb5;
+  --lean-scrap: #b8731a;       /* warm amber: scrap Culliton */
+  --lean-scrap-soft: #d68f3a;
+  --lean-unclear: #8a8578;
+}
 .seat--keep .seat__dot {
-  background: var(--color-accent);
-  box-shadow: 0 0 0 3px oklch(from var(--color-accent) l c h / 0.18);
+  background: var(--lean-keep);
+  box-shadow: 0 0 0 3px oklch(from var(--lean-keep) l c h / 0.22);
 }
 .seat--scrap .seat__dot {
-  background: var(--color-primary);
-  box-shadow: 0 0 0 3px oklch(from var(--color-primary) l c h / 0.18);
+  background: var(--lean-scrap);
+  box-shadow: 0 0 0 3px oklch(from var(--lean-scrap) l c h / 0.22);
 }
 .seat--unclear .seat__dot {
-  background: oklch(from var(--color-text) l c h / 0.25);
-  box-shadow: 0 0 0 3px oklch(from var(--color-text) l c h / 0.08);
+  background: oklch(from var(--lean-unclear) l c h / 0.45);
+  box-shadow: 0 0 0 3px oklch(from var(--lean-unclear) l c h / 0.12);
 }
 /* Ballot seats: outlined ring to indicate "in play" */
 .seat--ballot .seat__dot {
@@ -2035,9 +2043,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   border: 3px solid currentColor;
   box-shadow: 0 0 0 3px oklch(from var(--color-text) l c h / 0.06);
 }
-.seat--ballot.seat--keep .seat__dot { color: var(--color-accent); }
-.seat--ballot.seat--scrap .seat__dot { color: var(--color-primary); }
-.seat--ballot.seat--unclear .seat__dot { color: oklch(from var(--color-text) l c h / 0.35); }
+.seat--ballot.seat--keep .seat__dot { color: var(--lean-keep); }
+.seat--ballot.seat--scrap .seat__dot { color: var(--lean-scrap); }
+.seat--ballot.seat--unclear .seat__dot { color: var(--lean-unclear); }
 
 .seat__name {
   font-family: 'Inter', sans-serif;
@@ -2062,8 +2070,8 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   color: oklch(from var(--color-text) l c h / 0.82);
   margin: 1rem 0 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid var(--color-primary);
-  background: oklch(from var(--color-primary) l c h / 0.04);
+  border-left: 3px solid oklch(from var(--color-text) l c h / 0.2);
+  background: oklch(from var(--color-text) l c h / 0.03);
   border-radius: 0 4px 4px 0;
 }
 .balance__footnote {
@@ -2072,6 +2080,49 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   color: oklch(from var(--color-text) l c h / 0.6);
   margin-top: 1.25rem;
   line-height: 1.5;
+}
+
+/* ===== Legend (color key for balance graphic) ===== */
+.balance__legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem 1.5rem;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.5rem;
+  background: oklch(from var(--color-text) l c h / 0.03);
+  border: 1px solid oklch(from var(--color-text) l c h / 0.08);
+  border-radius: 6px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: oklch(from var(--color-text) l c h / 0.78);
+}
+.legend-item strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+.legend-item em {
+  font-style: italic;
+}
+.legend-swatch {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.legend-swatch--scrap { background: var(--lean-scrap); box-shadow: 0 0 0 2px oklch(from var(--lean-scrap) l c h / 0.2); }
+.legend-swatch--keep  { background: var(--lean-keep);  box-shadow: 0 0 0 2px oklch(from var(--lean-keep) l c h / 0.2); }
+.legend-swatch--unclear { background: oklch(from var(--lean-unclear) l c h / 0.45); box-shadow: 0 0 0 2px oklch(from var(--lean-unclear) l c h / 0.12); }
+.legend-swatch--ballot {
+  background: var(--color-bg);
+  border: 3px solid oklch(from var(--color-text) l c h / 0.55);
+  box-sizing: border-box;
 }
 
 /* Legend dot for ballot vs fixed inside the balance section */
@@ -2114,9 +2165,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   height: 4px;
   border-radius: 6px 6px 0 0;
 }
-.justice--keep::before { background: var(--color-accent); }
-.justice--scrap::before { background: var(--color-primary); }
-.justice--unclear::before { background: oklch(from var(--color-text) l c h / 0.25); }
+.justice--keep::before { background: var(--lean-keep); }
+.justice--scrap::before { background: var(--lean-scrap); }
+.justice--unclear::before { background: oklch(from var(--lean-unclear) l c h / 0.45); }
 
 .justice__head {
   margin-bottom: 1rem;
