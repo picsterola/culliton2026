@@ -41,70 +41,15 @@
     </div>
   </section>
 
-  <!-- ===== Balance of power graphic ===== -->
-  <section id="balance" class="balance-section">
-    <div class="container container--wide">
-      <header class="section-header">
-        <div class="section-eyebrow">Balance of power</div>
-        <h2 class="section-headline">How the five races move the court.</h2>
-        <p class="section-deck">Each circle is a seat on the Washington Supreme Court, colored by how that justice is likely to rule on a labeled income tax. Circles with a halo are the five seats up for election this November. Click a scenario to see how the math shifts.</p>
-      </header>
-
-      <div class="balance">
-        <div class="balance__tabs" role="tablist">
-          <button class="balance__tab is-active" data-scenario="current" role="tab" aria-selected="true">Current court</button>
-          <button class="balance__tab" data-scenario="incumbents" role="tab" aria-selected="false">Incumbents all win</button>
-          <button class="balance__tab" data-scenario="challengers" role="tab" aria-selected="false">Challengers sweep</button>
-        </div>
-
-        <div class="balance__board">
-          <div class="balance__counts">
-            <div class="balance__count balance__count--scrap">
-              <span class="balance__count-num" data-count="scrap">6</span>
-              <span class="balance__count-label">Likely to scrap Culliton</span>
-            </div>
-            <div class="balance__count balance__count--keep">
-              <span class="balance__count-num" data-count="keep">2</span>
-              <span class="balance__count-label">Likely to keep Culliton</span>
-            </div>
-            <div class="balance__count balance__count--unclear">
-              <span class="balance__count-num" data-count="unclear">1</span>
-              <span class="balance__count-label">Not enough to tell</span>
-            </div>
-          </div>
-
-          <div class="balance__legend" aria-label="Color legend">
-            <div class="legend-item">
-              <span class="legend-swatch legend-swatch--scrap" aria-hidden="true"></span>
-              <span class="legend-label"><strong>Amber</strong> &middot; Likely to scrap <em>Culliton</em> (uphold an income tax)</span>
-            </div>
-            <div class="legend-item">
-              <span class="legend-swatch legend-swatch--keep" aria-hidden="true"></span>
-              <span class="legend-label"><strong>Blue</strong> &middot; Likely to keep <em>Culliton</em> (strike down an income tax)</span>
-            </div>
-            <div class="legend-item">
-              <span class="legend-swatch legend-swatch--unclear" aria-hidden="true"></span>
-              <span class="legend-label"><strong>Gray</strong> &middot; Not enough public signal to call</span>
-            </div>
-            <div class="legend-item legend-item--shape">
-              <span class="legend-swatch legend-swatch--ballot" aria-hidden="true"></span>
-              <span class="legend-label"><strong>Halo ring</strong> &middot; Seat on this year's ballot</span>
-            </div>
-          </div>
-
-          <div class="balance__seats" aria-label="Nine Washington Supreme Court seats">
-            <!-- Seats rendered by JS -->
-          </div>
-
-          <p class="balance__caption" data-caption>The court as it sits today. Six of nine justices have signaled, through opinions, votes, or appointment coalitions, that they'd uphold a labeled income tax. Two would strike one down. One open seat (Johnson retiring) creates real uncertainty.</p>
-        </div>
-
-        <p class="balance__footnote">
-          A graduated income tax needs <strong>5 votes</strong> to survive at the Supreme Court. Culliton needs <strong>5 votes</strong> to be formally overturned. These are reads on public signals, not predictions of how any individual justice will vote.
-        </p>
+  <!-- ===== Callout: balance graphic moved to home ===== -->
+  <aside class="bench-callout">
+    <div class="container container--narrow">
+      <div class="bench-callout__inner">
+        <div class="section-eyebrow">Want the math?</div>
+        <p class="bench-callout__text">See how these nine seats could shift in November on the interactive <a href="index.html#balance">Balance of Power graphic</a> on the front page.</p>
       </div>
     </div>
-  </section>
+  </aside>
 
   <!-- ===== Non-ballot justices ===== -->
   <section id="justices" class="justices-section">

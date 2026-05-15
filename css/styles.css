@@ -2153,10 +2153,10 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 }
 .balance__footnote {
   font-family: 'Inter', sans-serif;
-  font-size: 0.85rem;
-  color: oklch(from var(--color-text) l c h / 0.6);
+  font-size: 0.9rem;
+  color: oklch(from var(--color-text) l c h / 0.78);
   margin-top: 1.25rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 /* ===== Legend (color key for balance graphic) ===== */
@@ -2374,4 +2374,26 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   line-height: 1.65;
   margin-bottom: 1.1rem;
   color: oklch(from var(--color-text) l c h / 0.85);
+}
+
+/* ===== Bench page callout pointing back to index Balance graphic ===== */
+.bench-callout {
+  padding: clamp(1.5rem, 4vh, 2.5rem) 0 0;
+}
+.bench-callout__inner {
+  border-left: 3px solid var(--color-primary);
+  padding: 0.75rem 0 0.75rem 1.25rem;
+  background: oklch(from var(--color-primary) l c h / 0.04);
+  border-radius: 0 6px 6px 0;
+}
+.bench-callout__text {
+  margin: 0.35rem 0 0;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--color-text);
+}
+.bench-callout__text a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
