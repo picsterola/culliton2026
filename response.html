@@ -54,14 +54,11 @@
 
       <p>We do not publish anonymous tips, opposition research, or unsourced claims.</p>
 
-      <form id="response-form" action="https://formsubmit.co/ajax/viet@seafor.live" method="POST" style="margin-top: 2.5rem;">
-        <!-- FormSubmit configuration -->
+      <form id="response-form" action="https://formspree.io/f/xgodgaep" method="POST" style="margin-top: 2.5rem;">
         <input type="hidden" name="_subject" value="New Culliton 2026 response submission">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
 
-        <!-- Honeypot: bots fill this, humans don't see it -->
-        <input type="text" name="_honey" id="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <!-- Honeypot: bots fill this, humans don't see it. Formspree convention: _gotcha -->
+        <input type="text" name="_gotcha" id="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
         <div class="form-field">
           <label for="name">Your name <span class="req">*</span></label>
@@ -182,24 +179,24 @@
     submitBtn.textContent = "Sending…";
 
     try {
-      // FormSubmit's AJAX endpoint accepts multipart/form-data without
-      // triggering a CORS preflight. Do NOT set Content-Type manually;
-      // let the browser pick multipart/form-data for FormData bodies.
+      // Formspree accepts FormData with Accept: application/json header
+      // and returns CORS headers for AJAX submissions.
       const formData = new FormData(form);
       const response = await fetch(form.action, {
         method: "POST",
         headers: { Accept: "application/json" },
         body: formData
       });
-      const data = await response.json();
+      const data = await response.json().catch(() => ({}));
 
-      // FormSubmit returns { success: "true" | "false", message: "..." }
-      if (response.ok && (data.success === "true" || data.success === true)) {
+      // Formspree returns 200 OK with { ok: true } on success
+      if (response.ok) {
         form.style.display = "none";
         success.style.display = "block";
         success.scrollIntoView({ behavior: "smooth", block: "center" });
       } else {
-        throw new Error(data.message || "Submission failed");
+        const msg = (data.errors && data.errors.map(e => e.message).join(", ")) || data.error || "Submission failed";
+        throw new Error(msg);
       }
     } catch (err) {
       errorBox.style.display = "block";
