@@ -1087,9 +1087,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   flex-shrink: 0;
   vertical-align: middle;
 }
-.lean-dot--keep { background: var(--color-accent); box-shadow: 0 0 0 2px oklch(from var(--color-accent) l c h / 0.18); }
-.lean-dot--scrap { background: var(--color-primary); box-shadow: 0 0 0 2px oklch(from var(--color-primary) l c h / 0.18); }
-.lean-dot--unclear { background: var(--color-text-faint); box-shadow: 0 0 0 2px oklch(from var(--color-text-faint) l c h / 0.18); }
+.lean-dot--keep { background: var(--lean-keep); box-shadow: 0 0 0 2px oklch(from var(--lean-keep) l c h / 0.2); }
+.lean-dot--scrap { background: var(--lean-scrap); box-shadow: 0 0 0 2px oklch(from var(--lean-scrap) l c h / 0.2); }
+.lean-dot--unclear { background: oklch(from var(--lean-unclear) l c h / 0.55); box-shadow: 0 0 0 2px oklch(from var(--lean-unclear) l c h / 0.18); }
 
 /* =========================================================
    Hero — split (image left, content right)
@@ -1455,9 +1455,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   border-right: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
 }
-.lean-banner--keep { border-left-color: var(--color-accent); background: oklch(from var(--color-accent) l c h / 0.06); }
-.lean-banner--scrap { border-left-color: var(--color-primary); background: oklch(from var(--color-primary) l c h / 0.06); }
-.lean-banner--unclear { border-left-color: var(--color-text-faint); background: var(--color-surface); }
+.lean-banner--keep { border-left-color: var(--lean-keep); background: oklch(from var(--lean-keep) l c h / 0.06); }
+.lean-banner--scrap { border-left-color: var(--lean-scrap); background: oklch(from var(--lean-scrap) l c h / 0.07); }
+.lean-banner--unclear { border-left-color: oklch(from var(--lean-unclear) l c h / 0.55); background: var(--color-surface); }
 .lean-banner__dot {
   margin-top: 4px;
   width: 16px;
@@ -1521,9 +1521,9 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   font-family: var(--font-mono);
   color: var(--color-text-muted);
 }
-.candidate-card__lean--keep { background: oklch(from var(--color-accent) l c h / 0.08); color: var(--color-accent); }
-.candidate-card__lean--scrap { background: oklch(from var(--color-primary) l c h / 0.08); color: var(--color-primary); }
-.candidate-card__lean--unclear { background: var(--color-surface-offset); color: var(--color-text-muted); }
+.candidate-card__lean--keep { background: oklch(from var(--lean-keep) l c h / 0.1); color: var(--lean-keep); }
+.candidate-card__lean--scrap { background: oklch(from var(--lean-scrap) l c h / 0.12); color: var(--lean-scrap); }
+.candidate-card__lean--unclear { background: oklch(from var(--lean-unclear) l c h / 0.14); color: var(--color-text-muted); }
 .candidate-card__one-liner {
   font-size: var(--text-sm);
   line-height: 1.5;
