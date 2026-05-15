@@ -49,14 +49,6 @@
     return { ...base, lean: pick.lean, name: pick.name };
   }
 
-  function scenarioCurrent() {
-    // Today's bench, with Pos 4 reflecting the user's pick (default: open).
-    return currentCourt.map(s => {
-      if (s.position === 4) return pos4Seat();
-      return { ...s };
-    });
-  }
-
   function scenarioIncumbents() {
     // Four ballot incumbents (Pos 1, 3, 5, 7) keep their seats. Pos 4 uses
     // the user's pick because there is no incumbent.
@@ -90,14 +82,9 @@
     const pos4 = pos4Seat();
     const pos4Lean = pos4.lean;
 
-    if (name === 'current') {
-      const tipPhrase = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'gives the keep side a third vote (still short of five)' : 'leaves Position 4 in the unclear column';
-      return `Today's bench with ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}). That ${tipPhrase}. Either way, the scrap side already has the five votes to uphold a labeled income tax. The other eight seats are unchanged from the current court.`;
-    }
-
     if (name === 'incumbents') {
       const ftip = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'adds a third keep vote (still short of five)' : 'leaves Position 4 in the unclear column';
-      return `Four ballot incumbents return (Melody, Diaz, Angelis, Stephens). With ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ftip}. The scrap side has its five votes (Melody, Diaz, Angelis, Mungia, Whitener, González) regardless of who wins Position 4.`;
+      return `Four contested ballot incumbents return (Melody, Diaz, Angelis, Stephens). Position 4 has no incumbent — Justice Johnson is retiring, so the seat is open by default and goes to whichever non-incumbent wins. With ${pos4.name} taking it (lean: ${labelForLean(pos4Lean)}), the math ${ftip}. The scrap side already has a six-vote majority (Melody, Diaz, Angelis, Mungia, Whitener, González) regardless of who wins Position 4.`;
     }
 
     if (name === 'challengers') {
@@ -108,16 +95,14 @@
   }
 
   function seatsForScenario(name) {
-    if (name === 'current') return scenarioCurrent();
-    if (name === 'incumbents') return scenarioIncumbents();
     if (name === 'challengers') return scenarioChallengers();
-    return scenarioCurrent();
+    return scenarioIncumbents();
   }
 
   const countsEl = document.querySelectorAll('[data-count]');
   const captionEl = document.querySelector('[data-caption]');
 
-  let activeScenario = 'current';
+  let activeScenario = 'incumbents';
 
   function renderScenario(name) {
     activeScenario = name;
@@ -170,5 +155,5 @@
     });
   });
 
-  renderScenario('current');
+  renderScenario('incumbents');
 })();
