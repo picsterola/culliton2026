@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The bench · Culliton 2026</title>
+  <meta name="description" content="The four sitting Washington Supreme Court justices not on the 2026 ballot, and how the balance of power shifts depending on who wins the five seats that are.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..800;1,8..60,300..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f3d2b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-style='italic' fill='%23fbf8f1' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="index.html" class="site-header__brand">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect width="32" height="32" rx="4" fill="var(--color-primary)"/>
+        <text x="16" y="22" font-family="Source Serif 4, Georgia, serif" font-size="18" font-style="italic" fill="var(--color-text-inverse)" text-anchor="middle" font-weight="500">C</text>
+      </svg>
+      <span><span class="site-header__brand-text-full">Culliton</span> <span class="brand-year">2026</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Candidates</a>
+      <a href="explainer.html">The chain</a>
+      <a href="bench.html" class="is-active">The bench</a>
+      <a href="about.html">About</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container container--narrow">
+      <div class="page-hero__eyebrow">The bench · Spring 2026</div>
+      <h1 class="page-hero__title">The four justices who aren't on this year's ballot.</h1>
+      <p class="page-hero__lede">Five of nine seats are up. The other four set the floor. Read these first; they're the votes that determine how big the swing actually is.</p>
+    </div>
+  </section>
+
+  <!-- ===== Balance of power graphic ===== -->
+  <section id="balance" class="balance-section">
+    <div class="container container--wide">
+      <header class="section-header">
+        <div class="section-eyebrow">Balance of power</div>
+        <h2 class="section-headline">How the five races move the court.</h2>
+        <p class="section-deck">Each circle is a seat. Filled circles are sitting justices not on the ballot. Outlined circles are the five seats voters will decide. Click a scenario to see how the math changes.</p>
+      </header>
+
+      <div class="balance">
+        <div class="balance__tabs" role="tablist">
+          <button class="balance__tab is-active" data-scenario="current" role="tab" aria-selected="true">Current court</button>
+          <button class="balance__tab" data-scenario="incumbents" role="tab" aria-selected="false">Incumbents all win</button>
+          <button class="balance__tab" data-scenario="challengers" role="tab" aria-selected="false">Challengers sweep</button>
+        </div>
+
+        <div class="balance__board">
+          <div class="balance__counts">
+            <div class="balance__count balance__count--scrap">
+              <span class="balance__count-num" data-count="scrap">6</span>
+              <span class="balance__count-label">Likely to scrap Culliton</span>
+            </div>
+            <div class="balance__count balance__count--keep">
+              <span class="balance__count-num" data-count="keep">2</span>
+              <span class="balance__count-label">Likely to keep Culliton</span>
+            </div>
+            <div class="balance__count balance__count--unclear">
+              <span class="balance__count-num" data-count="unclear">1</span>
+              <span class="balance__count-label">Not enough to tell</span>
+            </div>
+          </div>
+
+          <div class="balance__seats" aria-label="Nine Washington Supreme Court seats">
+            <!-- Seats rendered by JS -->
+          </div>
+
+          <p class="balance__caption" data-caption>The court as it sits today. Six of nine justices have signaled, through opinions, votes, or appointment coalitions, that they'd uphold a labeled income tax. Two would strike one down. One open seat (Johnson retiring) creates real uncertainty.</p>
+        </div>
+
+        <p class="balance__footnote">
+          A graduated income tax needs <strong>5 votes</strong> to survive at the Supreme Court. Culliton needs <strong>5 votes</strong> to be formally overturned. These are reads on public signals, not predictions of how any individual justice will vote.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Non-ballot justices ===== -->
+  <section id="justices" class="justices-section">
+    <div class="container container--wide">
+      <header class="section-header">
+        <div class="section-eyebrow">The four off the ballot</div>
+        <h2 class="section-headline">The votes already in the column.</h2>
+        <p class="section-deck">These four sitting justices are not up for election in 2026. Their terms run past the next Culliton challenge. Whatever happens with the five ballot seats, these are the starting four votes.</p>
+      </header>
+      <div id="justices-root" class="justices-grid"></div>
+    </div>
+  </section>
+
+  <section class="bench-close">
+    <div class="container container--narrow">
+      <h2 class="section-headline">The math of five seats.</h2>
+      <p>The starting four off-ballot votes: McCloud (keep), and three votes leaning scrap (González, Whitener, Mungia). To overturn <em>Culliton</em> or to uphold ESSB 6346 as an excise, the scrap side needs five total, meaning at least two of the five ballot seats. To preserve <em>Culliton</em> and strike down 6346, the keep side needs five total, meaning at least four of the five ballot seats.</p>
+      <p>That's why this election is the leverage point. Same court, same precedent, same statute, but a swing of two seats either direction decides whether the 93-year-old wall holds or comes down.</p>
+      <p><a href="index.html#candidates">Meet the eleven candidates running for those five seats →</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <div class="site-footer__brand">Culliton 2026</div>
+      <p class="site-footer__disclaimer">Nonpartisan, noncommercial civic publication. Information drawn from public records.</p>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="explainer.html">The chain</a>
+      <a href="bench.html">The bench</a>
+      <a href="about.html">About</a>
+      <a href="response.html">Submit a response</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/bench.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+{
+  "updated": "May 2026",
+  "ballot_positions": [1, 3, 4, 5, 7],
+  "non_ballot_justices": [
+    {
+      "name": "Steven C. González",
+      "position": 8,
+      "appointed_by": "Gov. Christine Gregoire (2011)",
+      "current_term_ends": "January 2031",
+      "background": "King County Superior Court judge 2002–2011; Assistant U.S. Attorney (Western District of WA) 1997–2002, including prosecution of the Millennium Bomber Ressam; City of Seattle domestic violence prosecutor 1996–1997; private civil/business practice at Hillis Clark 1991–1996. First Mexican-American justice on the WA Supreme Court. Chief Justice 2021–2025.",
+      "quinn_vote": "majority",
+      "lean": "scrap",
+      "lean_short": "Ready to scrap the rule",
+      "lean_confidence": "High",
+      "one_liner": "He signed Quinn's majority holding that capital gains is an excise, and the opinion he joined contained unmistakable 'Easter eggs' signaling sympathy for eventually overturning Culliton altogether. On ESSB 6346 he faces the same basic question with a weaker excise predicate — but his record and coalitional position make it far more likely he finds a way to uphold the tax than to sink it.",
+      "signals": [
+        {
+          "type": "Quinn majority signatory",
+          "text": "Signed the 7-2 Quinn majority that held the capital gains tax is an excise on transactions, not a property tax. The majority opinion he joined explicitly called Washington's tax code 'uniquely regressive' and declined to revisit Culliton only because it was unnecessary — leaving the door open."
+        },
+        {
+          "type": "Institutional position and coalition",
+          "text": "Endorsed Colleen Melody (Ferguson appointee, Position 1) and J. Michael Diaz (Inslee appointee, Position 3) for the 2026 election. His endorsement pattern aligns solidly with the court's progressive bloc."
+        },
+        {
+          "type": "Teaching and philosophy",
+          "text": "Taught state constitutional law at Gonzaga University Law School. His public statements emphasize access to justice and equity. No textualist commitments on record that would lock him into preserving a 93-year-old precedent widely seen as methodologically flawed."
+        },
+        {
+          "type": "Quinn majority language on Culliton",
+          "text": "The majority he joined noted that the 1933 Culliton vote itself was 5-4, with one justice apparently switching positions under political pressure, and characterized the state's tax code as producing outcomes where 'the poorest pay the most.' That framing is not neutral; it telegraphs where the court's sympathies lie when Culliton is squarely at issue."
+        }
+      ],
+      "sources": [
+        {
+          "label": "NW Progressive — Quinn majority opinion breakdown",
+          "url": "https://www.nwprogressive.org/weblog/2023/03/victory-washington-state-supreme-court-upholds-new-capital-gains-tax-on-the-wealthy.html"
+        },
+        {
+          "label": "Ballotpedia — Steven González",
+          "url": "https://ballotpedia.org/Steven_Gonzalez"
+        },
+        {
+          "label": "Gov. Gregoire appointment announcement (WA Courts)",
+          "url": "https://www.courts.wa.gov/newsinfo/?fa=newsinfo.pressdetail&newsid=1969"
+        },
+        {
+          "label": "Wikipedia — Steven González",
+          "url": "https://en.wikipedia.org/wiki/Steven_Gonz%C3%A1lez"
+        },
+        {
+          "label": "American Law Institute bio",
+          "url": "https://www.ali.org/profile/2876"
+        }
+      ]
+    },
+    {
+      "name": "Sheryl Gordon McCloud",
+      "position": 9,
+      "appointed_by": "Not appointed — elected 2012 (no prior appointment)",
+      "current_term_ends": "January 2031",
+      "background": "Trial and appellate lawyer for nearly 30 years before the bench; public defender background; appellate practice; adjunct professor at Seattle University Law School. First elected to the court in 2012 defeating former Justice Richard Sanders; re-elected 2018 and 2024 unopposed. Chair of the WA Supreme Court Gender and Justice Commission.",
+      "quinn_vote": "dissent",
+      "lean": "keep",
+      "lean_short": "Will enforce Culliton — hard",
+      "lean_confidence": "High",
+      "one_liner": "McCloud wrote the Quinn dissent and its logic is a direct roadmap for striking down ESSB 6346: capital gains are income, income is property, a tax on income is a property tax, and this one is at 9.9% instead of the constitutional maximum of 1%. If anything, ESSB 6346 is easier for her than Quinn — it has no transactional fig leaf, so she doesn't even need to work through excise-tax doctrine before reaching the same result.",
+      "signals": [
+        {
+          "type": "Quinn dissent author",
+          "text": "McCloud co-authored the Quinn dissent (with Johnson): 'Capital gains are income. In Washington, income is property. A Washington capital gains tax is therefore a property tax.' That syllogism applies even more directly to ESSB 6346, which does not even claim a transactional trigger."
+        },
+        {
+          "type": "Strict reading of Article VII",
+          "text": "Her dissent insisted that the taxable incident of the capital gains tax was 'the realization of income derived from the sale,' not the sale itself — so the majority's excise theory was wrong. ESSB 6346 doesn't even attempt the excise framing; it's measured directly from federal AGI. She would see that as a slam-dunk Culliton violation."
+        },
+        {
+          "type": "Unanimous referendum order — limited signal",
+          "text": "She joined the court's unanimous May 4, 2026 per curiam order blocking the ESSB 6346 referendum (Heywood v. Hobbs). That order addressed only referendum eligibility, not constitutionality. Reading it as softening her position on the merits would be a serious mistake; the court expressly said it was 'not concern[ed] with the constitutionality of the tax.'"
+        },
+        {
+          "type": "Elected, not appointed — independent coalition",
+          "text": "Unlike most of her colleagues, McCloud was never a governor's appointee. She won competitive races against experienced opponents. She has no political debt to the coalition that passed ESSB 6346 and no career trajectory that depends on progressive approval."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Quinn v. State — WA Courts opinion PDF",
+          "url": "https://www.courts.wa.gov/opinions/pdf/1007698.pdf"
+        },
+        {
+          "label": "Courthouse News — Quinn dissent analysis",
+          "url": "https://www.courthousenews.com/washington-supreme-court-upholds-capital-gains-tax/"
+        },
+        {
+          "label": "Ballotpedia — Sheryl McCloud",
+          "url": "https://ballotpedia.org/Sheryl_McCloud"
+        },
+        {
+          "label": "Wikipedia — Sheryl Gordon McCloud",
+          "url": "https://en.wikipedia.org/wiki/Sheryl_Gordon_McCloud"
+        },
+        {
+          "label": "WA Supreme Court — Heywood v. Hobbs order (May 4, 2026)",
+          "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1052201%20Public%20Order%20Terminating%20Review%2005042026.pdf"
+        }
+      ]
+    },
+    {
+      "name": "G. Helen Whitener",
+      "position": 6,
+      "appointed_by": "Gov. Jay Inslee (April 2020)",
+      "current_term_ends": "January 2029",
+      "background": "Pierce County Superior Court judge 2015–2020 (appointed by Inslee); Washington Board of Industrial Insurance Appeals 2013–2015; private practice 2005–2013. J.D. from Seattle University. First Black woman on the Washington Supreme Court. Prior to the Supreme Court, known for trial-level experience in workers' compensation and civil matters.",
+      "quinn_vote": "majority",
+      "lean": "scrap",
+      "lean_short": "Leans toward scrapping the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "She signed Quinn as part of Inslee's court bloc and has never shown any instinct toward preserving Culliton. As early as 2020, tax-law commentators flagged her arrival as potentially opening the door to revisiting the income-is-property doctrine. On ESSB 6346 the picture is less clear than González — she has no major opinions on the specific doctrine and her background is not in tax law — but her appointment coalition and Quinn vote push her toward uphold.",
+      "signals": [
+        {
+          "type": "Quinn majority signatory",
+          "text": "Signed the 7-2 Quinn majority. She was one of Inslee's two appointees in the Quinn lineup (alongside Montoya-Lewis). Both Inslee appointees voted to uphold the capital gains tax."
+        },
+        {
+          "type": "2020 appointment commentary",
+          "text": "A 2020 Tax Notes State article flagged Whitener's appointment and speculated that 'if Whitener is of the progressive mindset, and if the right vehicle arises, Culliton could be revisited and overruled.' The Quinn vote confirmed the first assumption; ESSB 6346 may be the vehicle."
+        },
+        {
+          "type": "Judicial emphasis on equity and access",
+          "text": "Her public statements emphasize equitable treatment, dismantling legal barriers, and access to justice. Post-George Floyd, she supported the court's June 2020 mandate to address systemic racism in the legal system. No statements specifically on tax uniformity or Culliton on the record."
+        },
+        {
+          "type": "No tax law background — uncertainty on doctrinal specifics",
+          "text": "Unlike González (who taught state constitutional law) or McCloud (who wrote extensively on the doctrine), Whitener's background is in workers' compensation, civil litigation, and labor. Her ESSB 6346 ruling may be shaped more by her Quinn commitment and appointment coalition than by deep engagement with Article VII doctrine. That keeps her lean at 'scrap' but at lower confidence."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia — G. Helen Whitener",
+          "url": "https://ballotpedia.org/G._Helen_Whitener"
+        },
+        {
+          "label": "NW Progressive — Quinn majority",
+          "url": "https://www.nwprogressive.org/weblog/2023/03/victory-washington-state-supreme-court-upholds-new-capital-gains-tax-on-the-wealthy.html"
+        },
+        {
+          "label": "Tax Notes State — income tax for WA? (2020, flagging Whitener)",
+          "url": "https://budgetandpolicy.org/wp-content/uploads/2020/08/2020_08_17_TaxNotesState_An-income-tax-for-WA-Not-likely.pdf"
+        },
+        {
+          "label": "31st District Democrats — Whitener 2022 questionnaire",
+          "url": "https://31stdistrictdemocrats.org/washington-supreme-court-pos-6-g-helen-whitener/"
+        }
+      ]
+    },
+    {
+      "name": "Salvador A. Mungia",
+      "position": 2,
+      "appointed_by": "Not appointed — elected November 2024 (short-term interim appointment by Gov. Inslee Dec. 2024 to fill last 12 days of Owens' term)",
+      "current_term_ends": "January 2031",
+      "background": "Civil trial and appellate lawyer at Gordon Thomas Honeywell (Tacoma) for 38 years; law clerk to a WA Supreme Court justice and a federal district court judge; past president of the Washington State Bar Association and Tacoma-Pierce County Bar Association; Georgetown Law J.D. 1984; argued before every level of state and federal appellate courts including U.S. Supreme Court. Specialties: complex civil litigation, air crash, condemnation, insurance. No prior judicial service before January 2025.",
+      "quinn_vote": "did not participate",
+      "lean": "scrap",
+      "lean_short": "Likely to scrap the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "Mungia has never ruled on a case squarely involving Culliton, and his background is in civil litigation rather than state tax law. But the signal from his appointment coalition is clear: endorsed by 8 of 9 sitting justices, by Inslee and Ferguson, and by the state Democratic Party — the same coalition that passed ESSB 6346. He also stated publicly that 'precedent should rarely be overruled' but framed this around stability for litigants, not as a categorical commitment to Culliton. A post-Quinn justice with no doctrinal stake in preserving the 1933 rule.",
+      "signals": [
+        {
+          "type": "Did not participate in Quinn",
+          "text": "Mungia joined the court in January 2025, nearly two years after Quinn. He has no public record on whether the capital gains tax was correctly decided and has made no statements about Culliton specifically."
+        },
+        {
+          "type": "Appointment coalition",
+          "text": "Endorsed by Gov. Inslee (who signed the capital gains tax), AG Bob Ferguson (who defended it in court and who, as governor, signed ESSB 6346), the WA State Democratic Party, and 8 of the 9 sitting justices. His entire institutional support structure is aligned with the forces that created both taxes."
+        },
+        {
+          "type": "Judicial philosophy statement on precedent",
+          "text": "In his 2024 campaign materials, Mungia said 'precedent should rarely be overruled as it provides stability and reliability to the law.' That cuts both ways: it could support preserving Culliton, or it could support deferring to the Quinn majority's reading. He framed it around protection of litigants, not constitutional originalism."
+        },
+        {
+          "type": "Background in civil litigation — no tax doctrine expertise",
+          "text": "His 38-year practice covered aviation, condemnation, insurance, and commercial disputes. He is not a tax lawyer. In a case where the doctrinal question is technical, he is more likely to be guided by the institutional posture of his colleagues than by independent constitutional analysis."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ballotpedia — Sal Mungia",
+          "url": "https://ballotpedia.org/Sal_Mungia"
+        },
+        {
+          "label": "Wikipedia — Sal Mungia",
+          "url": "https://en.wikipedia.org/wiki/Sal_Mungia"
+        },
+        {
+          "label": "WA Courts — swearing-in announcement Jan. 2025",
+          "url": "https://www.courts.wa.gov/newsinfo/?fa=newsinfo.internetdetail&newsid=51618"
+        },
+        {
+          "label": "31st District Democrats — Mungia 2024 questionnaire",
+          "url": "https://31stdistrictdemocrats.org/washington-state-supreme-court-position-2-salvador-sal-mungia-2/"
+        },
+        {
+          "label": "NPI Cascadia Advocate — Mungia campaign profile",
+          "url": "https://www.nwprogressive.org/weblog/2024/10/allies-of-sal-mungia-urge-washingtonians-to-cast-an-informed-vote-for-state-supreme-court-position-2.html"
+        }
+      ]
+    }
+  ],
+  "all_nine_summary": [
+    {
+      "name": "Colleen Melody (incumbent)",
+      "position": 1,
+      "on_ballot_2026": true,
+      "lean": "scrap"
+    },
+    {
+      "name": "Salvador A. Mungia",
+      "position": 2,
+      "on_ballot_2026": false,
+      "lean": "scrap"
+    },
+    {
+      "name": "J. Michael Diaz (incumbent)",
+      "position": 3,
+      "on_ballot_2026": true,
+      "lean": "scrap"
+    },
+    {
+      "name": "Charles W. Johnson (retiring)",
+      "position": 4,
+      "on_ballot_2026": true,
+      "lean": "keep"
+    },
+    {
+      "name": "Theo Angelis (incumbent)",
+      "position": 5,
+      "on_ballot_2026": true,
+      "lean": "scrap"
+    },
+    {
+      "name": "G. Helen Whitener",
+      "position": 6,
+      "on_ballot_2026": false,
+      "lean": "scrap"
+    },
+    {
+      "name": "Debra L. Stephens (incumbent)",
+      "position": 7,
+      "on_ballot_2026": true,
+      "lean": "keep"
+    },
+    {
+      "name": "Steven C. González",
+      "position": 8,
+      "on_ballot_2026": false,
+      "lean": "scrap"
+    },
+    {
+      "name": "Sheryl Gordon McCloud",
+      "position": 9,
+      "on_ballot_2026": false,
+      "lean": "keep"
+    }
+  ]
+}
