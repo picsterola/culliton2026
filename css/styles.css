@@ -1013,6 +1013,22 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   margin-bottom: var(--space-2);
 }
 
+.form-error {
+  background: var(--color-surface);
+  border: 1px solid var(--color-accent);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  font-size: var(--text-base);
+}
+.form-error h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-2);
+  color: var(--color-accent);
+}
+.form-error a { color: var(--color-accent); }
+
 /* =========================================================
    Footer
    ========================================================= */
