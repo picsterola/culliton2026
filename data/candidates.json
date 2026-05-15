@@ -1,5 +1,5 @@
 {
-  "updated": "May 2026",
+  "updated": "2026-05-15",
   "candidates": [
     {
       "slug": "melody",
@@ -903,6 +903,90 @@
         {
           "label": "Daily World: WA Supreme Court races shape up as income tax case looms",
           "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        }
+      ]
+    },
+    {
+      "slug": "miller",
+      "name": "Greg Miller",
+      "incumbent": false,
+      "photo": "images/miller.jpg",
+      "position": 5,
+      "position_label": "Position 5",
+      "seat_context": "Madsen seat — special election",
+      "current_role": "Appellate lawyer, Carney Badley Spellman (Seattle)",
+      "lean": "unclear",
+      "lean_short": "Not enough to tell",
+      "lean_confidence": "Low",
+      "one_liner": "Veteran appellate lawyer. Deep technical chops, no judicial record, and nothing public on Article VII. Genuine unknown.",
+      "appointed_by": "Not applicable.",
+      "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman since 2008. Health-law and appellate practice. Former judicial law clerk at the WA Court of Appeals, Div. I.",
+      "endorsements": "None publicly reported as of May 2026.",
+      "fundraising": "Not yet reported in PDC filings located.",
+      "signals": [
+        {
+          "type": "His background",
+          "text": "125+ merits appeals briefed, 75+ argued in Washington appellate courts and the Ninth Circuit. 20+ amicus submissions, mostly in health law. Pure appellate practitioner, no trial bench experience."
+        },
+        {
+          "type": "How he talks about the law",
+          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas."
+        },
+        {
+          "type": "Who's backing him",
+          "text": "No endorsements located. None of the institutional patterns visible for the other three Pos 5 candidates (Angelis has the Democratic establishment, Larson has the conservative coalition, Amamilo has Whitener) appear here."
+        },
+        {
+          "type": "His tax record",
+          "text": "Nothing public on Article VII, Culliton, or Quinn. Health-law specialty doesn't intersect the tax uniformity question."
+        }
+      ],
+      "questions": [
+        "How would you approach a request to overturn a 90-year-old precedent like Culliton?",
+        "Does your appellate practice include any constitutional tax or revenue cases the public can review?",
+        "Which Washington Supreme Court justices, sitting or retired, best reflect your judicial philosophy?"
+      ],
+      "sources": [
+        {
+          "label": "Carney Badley Spellman bio: Gregory M. Miller",
+          "url": "https://www.carneybadleyspellman.com/attorney/gregory-m-miller/"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        }
+      ],
+      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean. He is a shareholder at Carney Badley Spellman in Seattle and a founding member of the firm's Appellate Group, with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. His specialty is health law representing physicians and physician groups, with twenty-plus amicus submissions concentrated in that area. He clerked at the Washington Court of Appeals, Division One, earlier in his career, but he has never served as a judge, and there is no body of opinions or rulings to read. As of mid-May 2026, Wikipedia's election page lists no endorsements for him, no campaign infrastructure or significant fundraising has surfaced in public reporting, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. Carney Badley Spellman is a Seattle business-defense and appellate firm without the strong ideological signature of, for example, the Federalist Society network around Larson or the institutional Democratic coalition behind Angelis. The Position 5 field is unusually crowded: an appointed incumbent with the entire sitting court and the governor behind him, a repeat conservative challenger with explicit Quinn opposition, a sitting superior court judge with a single high-court endorsement, and a career appellate lawyer with technical depth but no public lean. Without further signals, assigning him a tax direction would be guessing.",
+      "expanded_signals": [
+        {
+          "type": "Pure appellate practice, no trial bench",
+          "text": "Miller's professional identity is appellate work, not the trial bench. Over twenty-five years at Carney Badley Spellman he has handled appeals in administrative law, civil and appellate procedure, statutory construction, commercial, contract, constitutional, criminal, medical malpractice, probate, and family law. That breadth is unusual and signals technical versatility, but it does not include a visible specialization in state constitutional revenue questions. None of the located cases involve Article VII or income tax doctrine."
+        },
+        {
+          "type": "Health-law amicus practice as institutional signature",
+          "text": "Miller's twenty-plus amicus filings have been concentrated in health-law matters on behalf of the Washington State Medical Association, the Washington Chapter of the American College of Emergency Physicians, the Washington Academy of Family Physicians, the American Medical Association, and the Washington State Hospital Association. That coalition is professional rather than ideological. Medical associations are generally institutionalist clients, not movement litigants, and the practice suggests a lawyer comfortable representing established institutions in technical legal questions, not a lawyer associated with a particular constitutional movement."
+        },
+        {
+          "type": "No endorsement footprint",
+          "text": "The three other Position 5 candidates all have identifiable institutional coalitions. Angelis has the governor, the lieutenant governor, multiple sitting justices, and the bulk of the Democratic legislature. Larson has the Washington State Republican Party, Future 42 funding, and Federalist Society-adjacent training. Amamilo has at least one sitting justice (Whitener) and Thurston County connections. Miller, as of May 2026, has none of these visible markers. That could reflect a deliberately low-profile campaign, late entry, or simply a candidacy still ramping up. It also means there is no coalition-based signal to read."
+        },
+        {
+          "type": "Firm-level political pattern is mixed",
+          "text": "Carney Badley Spellman's PAC and partner political giving runs across both parties, with a tilt toward business-friendly Republicans historically (OpenSecrets). Firm donations are not a candidate signal in either direction, and Washington's nonpartisan judicial races make even partisan PAC activity an imperfect read. Without Miller's own contribution history or stated positions, the firm-level data does not move the needle."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Carney Badley Spellman: Gregory M. Miller (appellate group bio)",
+          "url": "https://www.carneybadleyspellman.com/attorney/gregory-m-miller-2/"
+        },
+        {
+          "label": "Gregory M. Miller LinkedIn profile",
+          "url": "https://www.linkedin.com/in/gregory-m-miller-630436b7"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
       ]
     },
