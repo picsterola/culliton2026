@@ -9,24 +9,28 @@
       "position": 1,
       "position_label": "Position 1",
       "seat_context": "Yu seat",
-      "current_role": "Justice, Washington Supreme Court (sworn in 2025)",
+      "current_role": "Justice, Washington Supreme Court",
+      "lean": "scrap",
+      "lean_short": "Likely to scrap the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "Career civil rights lawyer appointed by Gov. Ferguson, who defended the capital gains tax as Attorney General. Her side has the strongest reasons to want a state income tax.",
       "appointed_by": "Gov. Bob Ferguson (November 2025)",
-      "prior_practice": "Civil Rights Division Chief, WA Attorney General's Office. Career civil rights enforcement attorney, ~20 years.",
+      "prior_practice": "Civil Rights Division Chief at the WA Attorney General's Office. About 20 years in civil rights enforcement.",
       "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; King County Bar.",
-      "fundraising": "PDC data evolving",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Methodology", "text": "Career civil rights litigator; campaign materials emphasize equity and access to justice. No published textualist or originalist self-identification."},
-        {"type": "Stated influence", "text": "Cited admiration for U.S. Justice Elena Kagan in interviews and judicial discussion materials."},
-        {"type": "Appointing authority", "text": "Selected by Gov. Ferguson, who as Attorney General defended Washington's capital gains tax through the Quinn v. State litigation."},
-        {"type": "Tax / Art. VII record", "text": "No reported direct opinions on Art. VII §1 or Culliton; no published tax-law writings located."}
+        {"type": "Who put her on the court", "text": "Gov. Bob Ferguson appointed her in November 2025. As Attorney General, Ferguson defended the capital gains tax all the way to the state Supreme Court."},
+        {"type": "Her background", "text": "Career civil rights lawyer. About 20 years prosecuting discrimination cases for the state. No tax law in her resume."},
+        {"type": "How she talks about the law", "text": "Campaign materials emphasize equity and access to justice. She has cited Justice Elena Kagan as an influence. She does not describe herself as a textualist."},
+        {"type": "What she has said about Culliton", "text": "Nothing directly. No published opinions, articles, or campaign statements on the 1933 ruling."}
       ],
       "questions": [
-        "How would you approach a precedent that is widely regarded as legally dubious but has decades of reliance interests behind it?",
-        "What weight should the Washington Supreme Court give to U.S. Supreme Court stare decisis frameworks when interpreting the state constitution?"
+        "How would you approach a court ruling that's nearly a century old but is widely seen as legally shaky?",
+        "When the words of the constitution and a long-standing interpretation point in different directions, which should win?"
       ],
       "sources": [
         {"label": "Governor's appointment announcement", "url": "https://governor.wa.gov/news/2025/governor-ferguson-appoints-colleen-melody-washington-supreme-court"},
-        {"label": "WA Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
+        {"label": "Washington Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
       ]
     },
     {
@@ -37,20 +41,24 @@
       "position": 1,
       "position_label": "Position 1",
       "seat_context": "Yu seat — challenging Melody",
-      "current_role": "Partner, Ballard Spahr LLP (Seattle). Affiliate faculty, UW School of Law.",
-      "appointed_by": "Not applicable (challenger)",
-      "prior_practice": "State and local tax controversy practice. Represents taxpayers in Washington Department of Revenue and Board of Tax Appeals disputes.",
-      "endorsements": "Campaign-disclosed endorsements pending PDC consolidation.",
-      "fundraising": "PDC data evolving",
+      "current_role": "Partner at Ballard Spahr; UW Law affiliate faculty",
+      "lean": "keep",
+      "lean_short": "Likely to keep the rule",
+      "lean_confidence": "Medium-High",
+      "one_liner": "Tax lawyer who has spent his career fighting the Department of Revenue on behalf of taxpayers. People in his world tend to like the rule that blocks an income tax.",
+      "appointed_by": "Not applicable. He's a challenger, not a sitting judge.",
+      "prior_practice": "Tax lawyer. Represents companies and individuals in disputes with the Washington Department of Revenue.",
+      "endorsements": "Campaign-disclosed endorsements still being filed.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Practice area", "text": "Spent his career on the taxpayer side of Washington tax controversies, including matters involving classification of taxes under Art. VII."},
-        {"type": "Methodology", "text": "Campaign materials emphasize 'rule of law,' tax-system fairness, and predictability for taxpayers."},
-        {"type": "Academic role", "text": "Affiliate faculty at UW Law where he teaches state and local tax — exposure to Art. VII §1 doctrine is professional, not incidental."},
-        {"type": "Tax / Art. VII record", "text": "Authored or co-authored tax bar publications on Washington tax structure. No reported public position on Culliton specifically."}
+        {"type": "His day job", "text": "He sues the state tax agency for a living. His client base benefits from the current setup where Washington has no income tax."},
+        {"type": "How he talks about the law", "text": "Campaign focuses on rule of law, a predictable tax system, and fairness for taxpayers."},
+        {"type": "His academic role", "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out — this isn't theoretical for him."},
+        {"type": "What he has said about Culliton", "text": "No public position on overturning it specifically. His professional incentives strongly suggest he'd preserve it."}
       ],
       "questions": [
-        "As a tax practitioner, how should the court evaluate whether to revisit a tax-doctrine precedent that has shaped 90 years of revenue policy?",
-        "What is the proper role of the judiciary when the legislature enacts a tax whose constitutional status is contested?"
+        "After 90 years, should the court revisit how it defined property in the tax context?",
+        "What's the judge's job when the legislature passes a tax whose constitutionality is in doubt?"
       ],
       "sources": [
         {"label": "Ballard Spahr firm bio", "url": "https://www.ballardspahr.com/people/attorneys/e/edwards-scott"},
@@ -67,22 +75,26 @@
       "position_label": "Position 3",
       "seat_context": "Montoya-Lewis seat",
       "current_role": "Justice, Washington Supreme Court",
+      "lean": "scrap",
+      "lean_short": "Leans toward scrapping the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "Former federal prosecutor appointed by Gov. Inslee, who signed Washington's capital gains tax. Less direct signal than other appointees, but he's in the same coalition.",
       "appointed_by": "Gov. Jay Inslee",
-      "prior_practice": "Judge, WA Court of Appeals (Division One). Former Assistant United States Attorney; DOJ Civil Rights Division.",
+      "prior_practice": "Judge on the WA Court of Appeals. Before that, federal prosecutor and US Department of Justice Civil Rights Division.",
       "endorsements": "Sitting WA Supreme Court justices; bar association ratings strong.",
-      "fundraising": "PDC data evolving",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Appointing authority", "text": "Inslee appointee. Inslee signed the capital gains tax into law and his administration defended it in Quinn v. State."},
-        {"type": "Methodology", "text": "Federal-prosecutor and DOJ Civil Rights background. Appellate opinions tend toward careful statutory construction with attention to legislative intent."},
-        {"type": "Stated influence", "text": "Public writings emphasize institutional credibility of the courts, plain meaning, and clear analytical reasoning."},
-        {"type": "Tax / Art. VII record", "text": "No reported direct Court of Appeals opinion on Art. VII §1 or Culliton. Federal background means limited state-constitutional tax exposure."}
+        {"type": "Who put him on the court", "text": "Gov. Jay Inslee appointed him. Inslee signed Washington's capital gains tax and his administration defended it in court."},
+        {"type": "His background", "text": "Career federal prosecutor and civil rights enforcement. Limited experience with state tax law specifically."},
+        {"type": "How he talks about the law", "text": "Public writings emphasize careful legal reasoning, plain meaning, and the institutional credibility of courts. More measured than ideological."},
+        {"type": "What he has said about Culliton", "text": "Nothing direct. His Court of Appeals record doesn't include cases squarely on this topic."}
       ],
       "questions": [
-        "How does federal stare decisis doctrine inform your approach to long-standing Washington Supreme Court precedent?",
-        "When the constitutional text and a long-standing interpretation diverge, what should govern?"
+        "How does federal precedent influence how you think about long-standing state Supreme Court rulings?",
+        "When the constitution's words and a 90-year-old interpretation diverge, which should govern?"
       ],
       "sources": [
-        {"label": "WA Courts bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"},
+        {"label": "Washington Courts bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"},
         {"label": "Campaign site", "url": "https://www.diazforjustice.com"}
       ]
     },
@@ -95,19 +107,23 @@
       "position_label": "Position 3",
       "seat_context": "Montoya-Lewis seat — challenging Diaz",
       "current_role": "Judge, Mason County Superior Court",
-      "appointed_by": "Not applicable (elected superior court judge)",
-      "prior_practice": "General-jurisdiction trial judge. Prior private practice in Mason County.",
-      "endorsements": "WAGOP recommendation (2026); local bar and law-enforcement endorsements.",
-      "fundraising": "PDC data evolving",
+      "lean": "keep",
+      "lean_short": "Likely to keep the rule",
+      "lean_confidence": "Medium-High",
+      "one_liner": "Self-described textualist who looks to Scalia for guidance. Counterintuitively, that approach actually preserves the 1933 ruling rather than overturning it.",
+      "appointed_by": "Elected county judge, not appointed.",
+      "prior_practice": "Trial court judge in Mason County. Private practice before that.",
+      "endorsements": "WA Republican Party recommendation; local bar and law enforcement.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Methodology", "text": "Public statements cite Justices Scalia and Alito as influences and emphasize 'constitution as written' textualism."},
-        {"type": "Counterintuitive implication", "text": "Strict-textualist reading of Art. VII §1 — that 'property' includes income because the 1933 court said so — entrenches Culliton rather than overturning it."},
-        {"type": "Funding network", "text": "Aligned with conservative judicial-recommendation infrastructure; backed by Republican party recommendation."},
-        {"type": "Tax / Art. VII record", "text": "No direct appellate opinions on Art. VII (superior court is trial level). Position derived from stated methodology, not record."}
+        {"type": "How he talks about the law", "text": "Cites US Justices Scalia and Alito as influences. Emphasizes constitution as written textualism."},
+        {"type": "The counterintuitive part", "text": "If you read Article VII strictly as written and stick with how the 1933 court understood property, you keep the rule. Stevens's methodology entrenches it."},
+        {"type": "Who's backing him", "text": "Backed by Republican-aligned judicial infrastructure. His coalition has built its tax politics around the existing rule."},
+        {"type": "His tax record", "text": "Trial court judges don't write Article VII opinions. The signal here is methodology and coalition, not case record."}
       ],
       "questions": [
-        "If the original public meaning of 'property' in 1889 differed from the 1933 court's construction, which should control?",
-        "How should a textualist approach a precedent that has shaped tax policy for nine decades?"
+        "If the original public meaning of property in 1889 was different from what the 1933 court said, which controls?",
+        "How should a textualist approach a ruling that has shaped tax policy for nine decades?"
       ],
       "sources": [
         {"label": "Mason County Journal coverage", "url": "https://www.masoncounty.com/story/2023/11/09/news/stevens-has-decisive-lead-in-judicial-race/3336.html"},
@@ -123,23 +139,27 @@
       "position": 4,
       "position_label": "Position 4",
       "seat_context": "Charles Johnson seat — open",
-      "current_role": "Judge, WA Court of Appeals (Division One)",
-      "appointed_by": "Gov. Jay Inslee (Court of Appeals)",
-      "prior_practice": "Plaintiff-side civil litigation, Seattle. Constitutional and civil-rights litigation experience.",
-      "endorsements": "Broad slate of progressive elected officials and labor organizations.",
-      "fundraising": "PDC data evolving",
+      "current_role": "Judge, WA Court of Appeals",
+      "lean": "scrap",
+      "lean_short": "Leans toward scrapping the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax — but his own record on this is thin.",
+      "appointed_by": "Gov. Jay Inslee (to the Court of Appeals)",
+      "prior_practice": "Civil rights and constitutional litigation in Seattle, on the plaintiffs' side.",
+      "endorsements": "Heavy slate of progressive elected officials and labor unions.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Appointing authority", "text": "Inslee appointee to the Court of Appeals — same governor who signed the capital gains tax."},
-        {"type": "Prior practice", "text": "Plaintiff-side civil litigator before the bench; familiar with constitutional litigation strategy."},
-        {"type": "Endorsement profile", "text": "Endorsement slate skews heavily toward progressive elected officials and labor organizations relative to other Position 4 candidates."},
-        {"type": "Tax / Art. VII record", "text": "No reported Court of Appeals opinion squarely addressing Art. VII §1 or Culliton."}
+        {"type": "Who put him on the bench", "text": "Inslee appointed him to the Court of Appeals — same governor who signed the capital gains tax."},
+        {"type": "His background", "text": "Spent his career suing on behalf of plaintiffs in civil rights cases. Comfortable with constitutional litigation."},
+        {"type": "Who's backing him", "text": "Endorsement list tilts heavily progressive and pro-labor relative to other Position 4 candidates."},
+        {"type": "His tax record", "text": "No Court of Appeals opinion directly on Article VII or Culliton. He hasn't had a chance to show his hand on this."}
       ],
       "questions": [
-        "What is the proper role of stare decisis when a precedent significantly constrains the legislature's revenue authority?",
-        "How do you distinguish between fixing a doctrinal error and judicial policymaking?"
+        "When a ruling has limited the legislature's tax authority for decades, how much weight does that history get?",
+        "What's the line between fixing a legal mistake and judges making policy?"
       ],
       "sources": [
-        {"label": "WA Courts judge bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/coaBiographies/index.cfm?fa=coabios.display"},
+        {"label": "Washington Courts judge bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/coaBiographies/index.cfm?fa=coabios.display"},
         {"label": "Campaign site", "url": "https://ianbirk.com"}
       ]
     },
@@ -152,22 +172,26 @@
       "position_label": "Position 4",
       "seat_context": "Charles Johnson seat — open",
       "current_role": "Judge, King County Superior Court",
-      "appointed_by": "Not applicable (elected superior court judge)",
-      "prior_practice": "Former King County Deputy Prosecuting Attorney. Long career in criminal trial work prior to the bench.",
-      "endorsements": "Cross-partisan endorsements from law enforcement, prosecutors, and bar associations.",
-      "fundraising": "PDC data evolving",
+      "lean": "unclear",
+      "lean_short": "Not enough to tell",
+      "lean_confidence": "Low",
+      "one_liner": "Career prosecutor turned trial judge. Cross-partisan endorsements. He hasn't said much that would tip his hand either way.",
+      "appointed_by": "Elected county judge, not appointed.",
+      "prior_practice": "King County Deputy Prosecuting Attorney. Long criminal trial career before the bench.",
+      "endorsements": "Cross-partisan: law enforcement, prosecutors, bar associations.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Methodology", "text": "Court-administration and trial-judge profile. No public ideological signature on constitutional methodology."},
-        {"type": "Prior practice", "text": "Career prosecutor before the bench; trial-court orientation rather than appellate or doctrinal."},
-        {"type": "Endorsement profile", "text": "Cross-partisan endorsements typical of moderate King County judicial candidates."},
-        {"type": "Tax / Art. VII record", "text": "No reported public position on Art. VII or Culliton. Superior court bench provides no Art. VII opinion record."}
+        {"type": "His background", "text": "Career prosecutor. Trial-court judge, not appellate. His instincts are courtroom and case management, not doctrine."},
+        {"type": "How he talks about the law", "text": "No clear ideological signature. Moderate King County judicial style."},
+        {"type": "Who's backing him", "text": "Cross-partisan endorsement pattern typical of moderate candidates. Doesn't tell you much about how he'd rule on tax cases."},
+        {"type": "His tax record", "text": "Nothing public on Article VII or Culliton. Genuine uncertainty."}
       ],
       "questions": [
-        "How would a trial-court background inform how you weigh reliance interests when considering overruling precedent?",
-        "What kinds of cases do you believe the court should be most cautious about reaching?"
+        "How does a trial court background shape how you weigh real-world disruption when considering whether to overturn precedent?",
+        "Which kinds of cases should the court be most cautious about reaching?"
       ],
       "sources": [
-        {"label": "King County Superior Court bio", "url": "https://kingcounty.gov/en/court/superior-court"}
+        {"label": "King County Superior Court", "url": "https://kingcounty.gov/en/court/superior-court"}
       ]
     },
     {
@@ -179,20 +203,24 @@
       "position_label": "Position 4",
       "seat_context": "Charles Johnson seat — open",
       "current_role": "Solo practitioner",
-      "appointed_by": "Not applicable",
+      "lean": "unclear",
+      "lean_short": "Not enough to tell",
+      "lean_confidence": "Low",
+      "one_liner": "Filed to run but appears to have no real campaign. No fundraising, no endorsements, no public statements. Included for completeness.",
+      "appointed_by": "Not applicable.",
       "prior_practice": "Solo private practice.",
       "endorsements": "None reported.",
       "fundraising": "PDC reports $0 raised as of latest filing.",
       "signals": [
-        {"type": "Viability", "text": "Filed but appears to have no campaign infrastructure, no fundraising, and no public endorsements. Included for completeness."},
-        {"type": "Methodology", "text": "No public statements on judicial methodology located."},
-        {"type": "Tax / Art. VII record", "text": "None located."}
+        {"type": "Campaign status", "text": "No campaign infrastructure, no fundraising, no public endorsements located. May not be a serious contender."},
+        {"type": "His background", "text": "Solo private practice. No published opinions or articles found."},
+        {"type": "His tax record", "text": "Nothing located."}
       ],
       "questions": [
         "Why are you seeking this seat, and what experience qualifies you to serve on the state's highest court?"
       ],
       "sources": [
-        {"label": "Justia profile", "url": "https://justatic.com/profile-images/1662307-1706854270-s.png"}
+        {"label": "Justia profile", "url": "https://www.justia.com"}
       ]
     },
     {
@@ -203,20 +231,24 @@
       "position": 5,
       "position_label": "Position 5",
       "seat_context": "Madsen seat — special election",
-      "current_role": "Justice, WA Supreme Court (sworn in April 2026)",
+      "current_role": "Justice, WA Supreme Court",
+      "lean": "scrap",
+      "lean_short": "Leans toward scrapping the rule",
+      "lean_confidence": "Medium",
+      "one_liner": "Long-time appellate lawyer appointed by Gov. Ferguson. Institutional and careful. Same coalition as Melody but without the direct civil rights signal.",
       "appointed_by": "Gov. Bob Ferguson (March 2026)",
-      "prior_practice": "K&L Gates (Seattle), 26 years. Appellate practice leader, later global IP lead. Constitutional, appellate, tribal, real property, IP litigation.",
-      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officeholders.",
+      "prior_practice": "Partner at K&L Gates in Seattle for 26 years. Led appellate practice, then global IP. Constitutional, appellate, tribal, real property, and IP litigation.",
+      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials.",
       "fundraising": "$143,610 (PDC, May 2026)",
       "signals": [
-        {"type": "Appointing authority", "text": "Ferguson appointment. As AG, Ferguson defended capital gains tax in Quinn."},
-        {"type": "Prior practice", "text": "Long-tenure appellate and constitutional litigator; treatise contributor on Washington law."},
-        {"type": "Methodology", "text": "Campaign language emphasizes 'careful legal analysis and thoughtful decision-making' — moderate, institutionalist tone rather than textualist or originalist."},
-        {"type": "Tax / Art. VII record", "text": "No public tax, Art. VII, or takings record located."}
+        {"type": "Who put him on the court", "text": "Ferguson appointee. As AG, Ferguson defended the capital gains tax that survived because of how the court read around Culliton."},
+        {"type": "His background", "text": "26-year appellate lawyer. Has written treatise material on Washington law. Knows how appellate doctrine actually moves."},
+        {"type": "How he talks about the law", "text": "Careful legal analysis and thoughtful decision-making. Moderate, institutionalist tone. Not a textualist self-identification."},
+        {"type": "What he has said about Culliton", "text": "Nothing directly. No public tax or Article VII record."}
       ],
       "questions": [
-        "How does appellate-practice experience shape your approach to stare decisis?",
-        "What weight do you give to legislative responses when the court interprets revenue authority?"
+        "How does appellate experience shape your approach to overturning precedent?",
+        "What weight do you give to how the legislature has built around a long-standing ruling?"
       ],
       "sources": [
         {"label": "Governor's appointment announcement", "url": "https://governor.wa.gov/news/2026/governor-ferguson-appoints-theo-angelis-washington-supreme-court"},
@@ -232,19 +264,23 @@
       "position_label": "Position 5",
       "seat_context": "Madsen seat — challenging Angelis",
       "current_role": "Judge, Federal Way Municipal Court",
-      "appointed_by": "Not applicable (elected municipal judge)",
-      "prior_practice": "Municipal court bench; prior private practice. Repeat candidate for higher judicial office.",
-      "endorsements": "Conservative-leaning endorsements; previously backed by Project 42 in prior judicial races.",
-      "fundraising": "PDC data evolving",
+      "lean": "keep",
+      "lean_short": "Likely to keep the rule",
+      "lean_confidence": "High",
+      "one_liner": "Self-described textualist running with anti-income-tax money behind him. His coalition's whole tax politics depends on the 1933 ruling staying put.",
+      "appointed_by": "Elected municipal judge, not appointed.",
+      "prior_practice": "Municipal court bench. Private practice before that. Has run for higher judicial office before.",
+      "endorsements": "Conservative-leaning endorsements. Previously backed by Project 42, an anti-income-tax independent expenditure group.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Methodology", "text": "Self-described textualist; public statements invoke 'constitution as written' framing."},
-        {"type": "Funding network", "text": "Previously supported by Project 42, an anti-income-tax-aligned independent expenditure organization, in prior runs."},
-        {"type": "Counterintuitive implication", "text": "Anti-income-tax candidates have a strong incentive to preserve Culliton because it operates as the constitutional shield against a graduated income tax."},
-        {"type": "Tax / Art. VII record", "text": "No appellate opinions (municipal-court bench). Position inferred from stated methodology and funding network."}
+        {"type": "How he talks about the law", "text": "Self-described textualist. Constitution as written framing."},
+        {"type": "Who's funded him", "text": "Project 42, an anti-income-tax group, has supported him in prior races."},
+        {"type": "The counterintuitive part", "text": "Anti-income-tax candidates have every reason to protect the 1933 rule because it's the constitutional wall that blocks the income tax their funders oppose."},
+        {"type": "His tax record", "text": "Municipal court doesn't generate appellate opinions on Article VII. Signal here is methodology and funding, not record."}
       ],
       "questions": [
-        "If you concluded that Culliton was wrongly decided as an original matter, what would your approach be?",
-        "How should the court treat reliance interests when those interests are held primarily by state government rather than private parties?"
+        "If you concluded the 1933 ruling was wrong as a matter of original meaning, what would you do about it?",
+        "When the party relying on a precedent is the state government itself, how should that change your analysis?"
       ],
       "sources": [
         {"label": "Ballotpedia", "url": "https://ballotpedia.org/Dave_Larson_(Federal_Way_Municipal_Court,_Washington)"},
@@ -258,21 +294,25 @@
       "photo": "images/amamilo.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat — challenging Angelis & Larson",
+      "seat_context": "Madsen seat — three-way race",
       "current_role": "Judge, Thurston County Superior Court",
-      "appointed_by": "Not applicable (elected superior court judge)",
-      "prior_practice": "Former public defender. Trial-court bench experience.",
-      "endorsements": "Seeking Democratic LD endorsements; bar-association ratings pending.",
-      "fundraising": "PDC data evolving",
+      "lean": "unclear",
+      "lean_short": "Not enough to tell",
+      "lean_confidence": "Low",
+      "one_liner": "Former public defender. Pursuing Democratic endorsements but talks more about due process than tax policy. Genuine question mark on this issue.",
+      "appointed_by": "Elected county judge, not appointed.",
+      "prior_practice": "Public defender before the bench.",
+      "endorsements": "Pursuing Democratic LD endorsements; bar ratings pending.",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Prior practice", "text": "Public-defender career suggests left-of-center civil-liberties orientation."},
-        {"type": "Methodology", "text": "Stated stare decisis framing appears more conservative-formal than reformist."},
-        {"type": "Endorsement profile", "text": "Pursuing Democratic-aligned endorsements but with a procedural-justice rather than tax-policy frame."},
-        {"type": "Tax / Art. VII record", "text": "No tax or Art. VII record located. Genuine uncertainty on Culliton posture."}
+        {"type": "Her background", "text": "Public defender career. Civil-liberties orientation."},
+        {"type": "How she talks about the law", "text": "Her stare decisis framing leans more formal-conservative than reformist."},
+        {"type": "Who's backing her", "text": "Democratic-aligned endorsements with a procedural-justice frame, not a tax-policy one."},
+        {"type": "Her tax record", "text": "Nothing on Article VII or Culliton. Genuine uncertainty."}
       ],
       "questions": [
-        "What four or five factors most heavily weigh in your stare decisis analysis?",
-        "Does a precedent's reliance interest weigh differently when the relying party is the legislature itself?"
+        "What are the most important factors when deciding whether to overturn a precedent?",
+        "Does the case for overturning weigh differently when the party who has relied on the ruling is the legislature itself?"
       ],
       "sources": [
         {"label": "Thurston County Superior Court", "url": "https://www.co.thurston.wa.us/superior-court/"},
@@ -288,23 +328,27 @@
       "position_label": "Position 7",
       "seat_context": "Chief Justice — reelection",
       "current_role": "Chief Justice, Washington Supreme Court",
-      "appointed_by": "Gov. Christine Gregoire (initially appointed 2008); elected since.",
+      "lean": "keep",
+      "lean_short": "Likely to keep the rule",
+      "lean_confidence": "High",
+      "one_liner": "She literally wrote the opinion that upheld the capital gains tax without touching Culliton. She had the chance to revisit the 1933 ruling and chose not to.",
+      "appointed_by": "Gov. Christine Gregoire (2008); elected since.",
       "prior_practice": "Court of Appeals (Division Three); academic and appellate-litigation background.",
       "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice.",
-      "fundraising": "PDC data evolving",
+      "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "On-record tax opinion", "text": "Authored the lead opinion in Quinn v. State (2023) upholding the capital gains tax — and expressly declined to revisit Culliton, instead characterizing the capital gains tax as an excise rather than property tax."},
-        {"type": "Methodology", "text": "Institutionalist. Quinn relied on the excise-tax framework rather than overruling 90-year-old precedent."},
-        {"type": "Stated influence", "text": "Public writings and CLE talks emphasize careful statutory construction, judicial restraint, and stare decisis."},
-        {"type": "Implication", "text": "If a graduated income tax styled as a tax on income reached the court, Stephens has signaled she would not be the vote to overrule Culliton outright — though she may permit alternative characterizations."}
+        {"type": "On-record opinion", "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."},
+        {"type": "How she talks about the law", "text": "Institutionalist. Her approach in Quinn was to work around the old precedent rather than confront it."},
+        {"type": "Stated influences", "text": "Public writings and CLE talks emphasize careful statutory construction, judicial restraint, and respect for precedent."},
+        {"type": "What it means", "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."}
       ],
       "questions": [
-        "When the Quinn opinion declined to revisit Culliton, what considerations drove that choice?",
-        "Under what circumstances would the court be justified in overruling a tax-doctrine precedent of comparable vintage?"
+        "When you wrote the Quinn opinion, what made you decide not to revisit the 1933 ruling?",
+        "Under what circumstances would the court be justified in overturning a tax precedent that old?"
       ],
       "sources": [
         {"label": "Quinn v. State (opinion PDF)", "url": "https://www.courts.wa.gov/opinions/pdf/1007698.pdf"},
-        {"label": "WA Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
+        {"label": "Washington Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
       ]
     }
   ]

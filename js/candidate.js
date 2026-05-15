@@ -25,6 +25,17 @@
 
   document.title = `${c.name} · Culliton 2026`;
 
+  const leanBannerHTML = c.lean ? `
+    <div class="lean-banner lean-banner--${escapeAttr(c.lean)}">
+      <span class="lean-dot lean-dot--${escapeAttr(c.lean)} lean-banner__dot"></span>
+      <div class="lean-banner__content">
+        <div class="lean-banner__label">Our read on this candidate</div>
+        <div class="lean-banner__short">${escapeHTML(c.lean_short || '')}</div>
+        ${c.lean_confidence ? `<span class="lean-banner__confidence">Confidence: ${escapeHTML(c.lean_confidence)}</span>` : ''}
+        ${c.one_liner ? `<p class="lean-banner__one-liner">${escapeHTML(c.one_liner)}</p>` : ''}
+      </div>
+    </div>` : '';
+
   const factHTML = `
     <dl class="fact-strip">
       <div class="fact-strip__item"><dt>Seat</dt><dd>${escapeHTML(c.position_label)} — ${escapeHTML(c.seat_context)}</dd></div>
@@ -36,11 +47,9 @@
 
   const signalsHTML = `
     <section class="signals">
-      <h2 class="signals__heading">What the record shows</h2>
+      <h2 class="signals__heading">What the record actually shows</h2>
       <p class="signals__intro">
-        Factual signals drawn from public sources — appointing authority, prior practice,
-        published opinions or writings, and disclosed endorsements. We do not infer how
-        the candidate would vote. Read the methodology page for why these categories were chosen.
+        Facts pulled from public sources — who appointed them, what they did before, what they've said or written, who's backing them. We're not predicting any vote. <a href="explainer.html">Why these categories?</a>
       </p>
       <ul class="signal-list">
         ${c.signals
@@ -102,6 +111,7 @@
       </div>
     </header>
 
+    ${leanBannerHTML}
     ${factHTML}
     ${signalsHTML}
     ${questionsHTML}

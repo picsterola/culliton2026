@@ -956,3 +956,457 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
+
+/* =========================================================
+   Lean dot — used in legend, cards, and explainer callout
+   ========================================================= */
+.lean-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-text-faint);
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+.lean-dot--keep { background: var(--color-accent); box-shadow: 0 0 0 2px oklch(from var(--color-accent) l c h / 0.18); }
+.lean-dot--scrap { background: var(--color-primary); box-shadow: 0 0 0 2px oklch(from var(--color-primary) l c h / 0.18); }
+.lean-dot--unclear { background: var(--color-text-faint); box-shadow: 0 0 0 2px oklch(from var(--color-text-faint) l c h / 0.18); }
+
+/* =========================================================
+   Hero — split (image left, content right)
+   ========================================================= */
+.hero--split {
+  padding: 0;
+  border-bottom: 1px solid var(--color-divider);
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  min-height: clamp(520px, 70vh, 760px);
+  position: relative;
+  overflow: hidden;
+}
+.hero--split::before { display: none; }
+.hero--split .hero__image {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-surface-offset);
+}
+.hero--split .hero__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.1) contrast(1.05);
+}
+.hero--split .hero__image-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to right, transparent 60%, var(--color-bg) 100%),
+    linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.1) 0%, transparent 30%, transparent 70%, oklch(from var(--color-bg) l c h / 0.25) 100%);
+  pointer-events: none;
+}
+.hero--split .hero__content {
+  padding: clamp(var(--space-10), 7vw, var(--space-20)) clamp(var(--space-5), 5vw, var(--space-12));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 680px;
+}
+.hero--split h1 {
+  font-size: clamp(2rem, 1.4rem + 3.2vw, 4rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+  max-width: none;
+  margin-bottom: var(--space-6);
+}
+.hero--split h1 em {
+  font-style: italic;
+  color: var(--color-accent);
+  border-bottom: 2px solid oklch(from var(--color-accent) l c h / 0.25);
+  padding-bottom: 2px;
+}
+.hero--split .hero__lede {
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  line-height: 1.5;
+  max-width: 58ch;
+  margin-bottom: var(--space-8);
+  color: var(--color-text);
+}
+.hero--split .hero__lede strong {
+  font-weight: 600;
+  color: var(--color-text);
+  background: linear-gradient(180deg, transparent 60%, oklch(from var(--color-primary) l c h / 0.18) 60%);
+  padding: 0 2px;
+}
+.hero__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+.btn--hero {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--text-base);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+.btn--hero:hover { transform: translateY(-1px); box-shadow: var(--shadow-lg); }
+.btn-text {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-text-faint);
+  padding-bottom: 2px;
+}
+.btn-text:hover { color: var(--color-primary); border-bottom-color: var(--color-primary); }
+
+@media (max-width: 900px) {
+  .hero--split {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .hero--split .hero__image {
+    aspect-ratio: 16 / 10;
+    max-height: 360px;
+  }
+  .hero--split .hero__image-overlay {
+    background: linear-gradient(to bottom, transparent 50%, var(--color-bg) 100%);
+  }
+  .hero--split .hero__content {
+    padding: clamp(var(--space-8), 8vw, var(--space-12)) var(--space-5);
+    max-width: none;
+  }
+}
+
+/* =========================================================
+   TLDR section (60-second version)
+   ========================================================= */
+.section--tldr {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-divider);
+}
+.tldr {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(var(--space-6), 5vw, var(--space-12));
+  align-items: center;
+}
+.tldr__image {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-offset);
+  aspect-ratio: 4 / 5;
+}
+.tldr__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.08) contrast(1.04);
+}
+.tldr__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--color-accent);
+  margin-bottom: var(--space-4);
+}
+.tldr__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 1.2rem + 1.6vw, 2.5rem);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin-bottom: var(--space-6);
+  max-width: 28ch;
+}
+.tldr__body p {
+  font-size: var(--text-lg);
+  line-height: 1.55;
+  margin-bottom: var(--space-4);
+  max-width: 60ch;
+  color: var(--color-text);
+}
+.tldr__body p:last-child { margin-bottom: 0; }
+.tldr__link a {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+}
+.tldr__link a:hover { color: var(--color-primary-hover); }
+@media (max-width: 800px) {
+  .tldr { grid-template-columns: 1fr; }
+  .tldr__image { aspect-ratio: 16 / 10; max-height: 320px; }
+}
+
+/* =========================================================
+   Legend (above candidate grid)
+   ========================================================= */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-6);
+  margin-bottom: var(--space-10);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+.legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* =========================================================
+   Bench section (full-bleed image + content)
+   ========================================================= */
+.section--bench {
+  padding: 0;
+  border-top: 1px solid var(--color-divider);
+}
+.bench {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  min-height: 480px;
+}
+.bench__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.2) contrast(1.05);
+}
+.bench__content {
+  padding: clamp(var(--space-10), 7vw, var(--space-16)) clamp(var(--space-5), 5vw, var(--space-10));
+  background: var(--color-surface);
+  display: flex;
+  align-items: center;
+}
+.bench__content .container { padding-inline: 0; }
+.bench__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin-bottom: var(--space-5);
+  max-width: 22ch;
+}
+.bench__body {
+  font-size: var(--text-base);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+}
+.bench__body:last-child { margin-bottom: 0; }
+@media (max-width: 800px) {
+  .bench { grid-template-columns: 1fr; min-height: 0; }
+  .bench__image { aspect-ratio: 16 / 10; max-height: 320px; }
+}
+
+/* =========================================================
+   Explainer hero
+   ========================================================= */
+.explainer-hero {
+  position: relative;
+  padding: 0;
+  min-height: 380px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-divider);
+  display: flex;
+  align-items: flex-end;
+}
+.explainer-hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.1) contrast(1.05) brightness(0.92);
+}
+.explainer-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.4) 0%, oklch(from var(--color-bg) l c h / 0.85) 70%, var(--color-bg) 100%);
+  pointer-events: none;
+}
+.explainer-hero__content {
+  position: relative;
+  z-index: 1;
+  padding-block: var(--space-10);
+  max-width: 720px;
+}
+.explainer-hero__content h1 {
+  font-size: clamp(1.875rem, 1.4rem + 2.4vw, 3.25rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  margin-bottom: var(--space-4);
+  margin-top: var(--space-3);
+  color: var(--color-text);
+}
+.explainer-hero__lede {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+/* =========================================================
+   Callout (used in explainer for keep/scrap split)
+   ========================================================= */
+.callout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin: var(--space-8) 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-surface);
+}
+.callout__keep,
+.callout__scrap {
+  padding: var(--space-6);
+}
+.callout__keep {
+  border-right: 1px solid var(--color-divider);
+  background: oklch(from var(--color-accent) l c h / 0.06);
+}
+.callout__scrap {
+  background: oklch(from var(--color-primary) l c h / 0.06);
+}
+.callout h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+  color: var(--color-text);
+}
+.callout p {
+  font-size: var(--text-sm);
+  line-height: 1.55;
+  margin: 0;
+  color: var(--color-text);
+}
+@media (max-width: 700px) {
+  .callout { grid-template-columns: 1fr; }
+  .callout__keep { border-right: none; border-bottom: 1px solid var(--color-divider); }
+}
+
+/* =========================================================
+   Lean banner (candidate detail page)
+   ========================================================= */
+.lean-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-5);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-10);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-text-faint);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.lean-banner--keep { border-left-color: var(--color-accent); background: oklch(from var(--color-accent) l c h / 0.06); }
+.lean-banner--scrap { border-left-color: var(--color-primary); background: oklch(from var(--color-primary) l c h / 0.06); }
+.lean-banner--unclear { border-left-color: var(--color-text-faint); background: var(--color-surface); }
+.lean-banner__dot {
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.lean-banner__content { flex: 1; }
+.lean-banner__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-1);
+  font-weight: 500;
+}
+.lean-banner__short {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+  letter-spacing: -0.01em;
+}
+.lean-banner__confidence {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-divider);
+}
+.lean-banner__one-liner {
+  font-size: var(--text-base);
+  line-height: 1.55;
+  color: var(--color-text);
+  margin-top: var(--space-3);
+  max-width: 65ch;
+}
+
+/* =========================================================
+   Candidate card — lean indicator strip
+   ========================================================= */
+.candidate-card__lean {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  background: var(--color-surface-offset);
+  border-bottom: 1px solid var(--color-divider);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+}
+.candidate-card__lean--keep { background: oklch(from var(--color-accent) l c h / 0.08); color: var(--color-accent); }
+.candidate-card__lean--scrap { background: oklch(from var(--color-primary) l c h / 0.08); color: var(--color-primary); }
+.candidate-card__lean--unclear { background: var(--color-surface-offset); color: var(--color-text-muted); }
+.candidate-card__one-liner {
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}

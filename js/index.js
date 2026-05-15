@@ -51,11 +51,16 @@
             (c) => `
           <a href="candidate.html?c=${encodeURIComponent(c.slug)}" class="candidate-card">
             <img src="${escapeAttr(c.photo)}" alt="Portrait of ${escapeAttr(c.name)}" class="candidate-card__photo" loading="lazy">
+            <div class="candidate-card__lean candidate-card__lean--${escapeAttr(c.lean || 'unclear')}">
+              <span class="lean-dot lean-dot--${escapeAttr(c.lean || 'unclear')}"></span>
+              <span>${escapeHTML(c.lean_short || 'Not enough to tell')}</span>
+            </div>
             <div class="candidate-card__body">
               ${c.incumbent ? '<span class="candidate-card__incumbent">Currently sitting</span>' : ""}
               <span class="candidate-card__name">${escapeHTML(c.name)}</span>
               <span class="candidate-card__role">${escapeHTML(c.current_role)}</span>
-              <span class="candidate-card__chevron">View signals →</span>
+              ${c.one_liner ? `<p class="candidate-card__one-liner">${escapeHTML(c.one_liner)}</p>` : ''}
+              <span class="candidate-card__chevron">Full record →</span>
             </div>
           </a>`
           )
