@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Culliton 2026 — A Voter's Guide to the WA Supreme Court Races</title>
-  <meta name="description" content="There's a 1933 ruling that quietly decides whether Washington can have a state income tax. Five seats on the Supreme Court are on the ballot. Here's where each candidate stands.">
+  <meta name="description" content="93 years of court rulings built the wall that blocks a state income tax in Washington. Five seats on the court that decides whether the wall holds are on this year's ballot. Here's where each candidate stands.">
   <meta property="og:title" content="Culliton 2026 — A Voter's Guide">
-  <meta property="og:description" content="A 1933 court ruling decides whether Washington can have a state income tax. Five Supreme Court seats are on the 2026 ballot. Here's where each candidate stands.">
+  <meta property="og:description" content="93 years of court rulings built the wall that blocks a state income tax in Washington. Five Supreme Court seats are on the 2026 ballot.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..800;1,8..60,300..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f3d2b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-style='italic' fill='%23fbf8f1' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
 </head>
-<body>
+<body class="body--has-cover">
 
-<header class="site-header">
+<header class="site-header site-header--over-cover">
   <div class="site-header__inner">
     <a href="index.html" class="site-header__brand">
       <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-        <rect width="32" height="32" rx="4" fill="var(--color-primary)"/>
-        <text x="16" y="22" font-family="Source Serif 4, Georgia, serif" font-size="18" font-style="italic" fill="var(--color-text-inverse)" text-anchor="middle" font-weight="500">C</text>
+        <rect width="32" height="32" rx="4" fill="currentColor"/>
+        <text x="16" y="22" font-family="Source Serif 4, Georgia, serif" font-size="18" font-style="italic" fill="var(--color-bg)" text-anchor="middle" font-weight="500">C</text>
       </svg>
       <span><span class="site-header__brand-text-full">Culliton</span> <span class="brand-year">2026</span></span>
     </a>
     <nav class="site-nav">
       <a href="index.html" class="is-active">Candidates</a>
-      <a href="explainer.html">Why it matters</a>
+      <a href="explainer.html">The chain</a>
       <a href="about.html">About</a>
       <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"></button>
     </nav>
@@ -34,63 +34,140 @@
 </header>
 
 <main>
-  <section class="hero hero--split">
-    <div class="hero__image">
-      <img src="images/art/hero-scale.jpg" alt="A weathered brass balance scale, slightly tilted, with coins on one side and folded money on the other">
-      <div class="hero__image-overlay"></div>
+  <!-- =========================
+       HERO — Cinematic cover
+       ========================= -->
+  <section class="cover">
+    <div class="cover__image">
+      <img src="images/art/hero-chamber.jpg" alt="Empty Washington State Supreme Court chamber lit by a single shaft of light through a clerestory window" />
+      <div class="cover__scrim"></div>
     </div>
-    <div class="hero__content">
-      <div class="hero__eyebrow">A nonpartisan voter's guide · Updated May 2026</div>
-      <h1>
-        Washington has no income tax<br>
-        because of <em>one 1933 court ruling</em>.<br>
-        Five seats on the court that decides<br>
-        its future are on this year's ballot.
+    <div class="cover__inner">
+      <div class="cover__eyebrow">
+        <span class="cover__rule"></span>
+        <span>A voter's guide to the 2026 Washington Supreme Court races</span>
+      </div>
+      <h1 class="cover__title">
+        How Washington<br>
+        banned the<br>
+        <em>income tax.</em>
       </h1>
-      <p class="hero__lede">
-        Most voter guides cover endorsements and biographies. This one asks a single question:
-        <strong>how is each candidate likely to approach the 90-year-old rule</strong>
-        that quietly blocks a state income tax in Washington?
+      <p class="cover__sub">
+        Nine decades. Seven court rulings. One sentence written in 1933 that still decides whether the state can tax income. Five seats on the court that gets the next vote are on this year's ballot.
       </p>
-      <div class="hero__cta-row">
-        <a href="#candidates" class="btn btn--hero">See the candidates</a>
-        <a href="explainer.html" class="btn-text">What's a Culliton? <span aria-hidden="true">→</span></a>
+      <div class="cover__cta-row">
+        <a href="#candidates" class="btn btn--cover">Meet the candidates <span aria-hidden="true">↓</span></a>
+        <a href="#chain" class="btn-text btn-text--light">See the 93-year chain →</a>
       </div>
-      <div class="hero__meta">
-        <span>11 candidates</span>
-        <span>5 seats</span>
-        <span>1 question</span>
+      <div class="cover__meta">
+        <span><strong>11</strong> candidates</span>
+        <span><strong>5</strong> seats</span>
+        <span><strong>93</strong> years of precedent</span>
+        <span><strong>1</strong> question</span>
       </div>
+    </div>
+    <div class="cover__byline">
+      <span>Independent · Nonpartisan · Updated May 2026</span>
     </div>
   </section>
 
-  <section class="section--tldr">
-    <div class="container">
-      <div class="tldr">
-        <div class="tldr__image">
-          <img src="images/art/section-culliton.jpg" alt="An aged document on a dark wood surface titled 'Culliton v. Chase 1933', beside a fountain pen, old law books, and brass coins">
-        </div>
-        <div class="tldr__content">
-          <div class="tldr__label">The 60-second version</div>
-          <h2 class="tldr__title">A 1933 ruling decided income was "property." That single sentence has shaped Washington's tax code for nine decades.</h2>
-          <div class="tldr__body">
-            <p>The Washington Constitution says property has to be taxed at a uniform rate. In 1933, the state Supreme Court said income counted as property. That's why Washington can't have a graduated income tax — and why your sales tax keeps going up instead.</p>
-            <p>In 2023, the court upheld the capital gains tax by calling it an excise instead of a property tax. The court could have overturned the 1933 ruling. It chose not to.</p>
-            <p><strong>Whoever sits on the Washington Supreme Court for the next eight years will decide whether that workaround holds, expands, or finally breaks.</strong></p>
-            <p class="tldr__link"><a href="explainer.html">Read the longer explainer →</a></p>
-          </div>
-        </div>
-      </div>
+  <!-- =========================
+       INTRO — Editorial deck
+       ========================= -->
+  <section class="deck">
+    <div class="container container--narrow">
+      <p class="deck__dropcap">
+        <span class="deck__drop">I</span>n 1889, when Washington became a state, the constitution required that all property be taxed at a uniform rate. In 1933, the state Supreme Court ruled — by a single vote — that income counts as property. That one sentence is the reason Washington has no graduated income tax. It is also the reason the state has one of the most regressive tax structures in the country.
+      </p>
+      <p class="deck__body">
+        Every income tax the legislature has tried to pass since has been struck down, rebranded, or designed to dodge that ruling. <em>Culliton v. Chase</em> is the keystone in a chain of decisions stretching from 1908 to 2023 that built the wall. In 2026, the legislature is trying to climb over it again. The court will decide whether the wall holds.
+      </p>
+      <p class="deck__kicker">
+        Five of nine seats are on the ballot. This guide does one thing: it reads the public record on each candidate and asks where they're likely to land when the question reaches them.
+      </p>
     </div>
   </section>
 
-  <section id="candidates">
+  <!-- =========================
+       THE CHAIN — Timeline
+       ========================= -->
+  <section id="chain" class="chain-section">
     <div class="container container--wide">
-      <div class="section-eyebrow">Where each candidate stands</div>
-      <h2 class="section-title">Who's on the ballot</h2>
-      <p class="section-lede">
-        Each candidate gets a one-sentence read on whether they're likely to <strong>keep the 1933 rule</strong>, <strong>scrap it</strong>, or where the record isn't clear enough to tell. Click any candidate for the full record — appointing authority, background, what they've actually said, and primary sources.
+      <header class="section-header">
+        <div class="section-eyebrow">The chain · 1908 — 2026</div>
+        <h2 class="section-headline">How one sentence became a wall.</h2>
+        <p class="section-deck">
+          Culliton isn't a standalone ruling. It's the keystone in a 93-year chain of decisions, each one building on the last. Read left to right: every link is a brick in the wall that blocks a state income tax in Washington.
+        </p>
+      </header>
+
+      <ol class="chain">
+        <li class="chain__item">
+          <div class="chain__year">1908</div>
+          <h3 class="chain__case">Wolfe v. Parmenter</h3>
+          <p class="chain__gloss">Cash is property the instant you receive it. A footnote at the time. The seed for everything that followed.</p>
+        </li>
+        <li class="chain__item">
+          <div class="chain__year">June 1930</div>
+          <h3 class="chain__case">Aberdeen Sav. &amp; Loan v. Chase</h3>
+          <p class="chain__gloss">A tax on net income is a property tax, no matter what the legislature calls it. Substance over label.</p>
+        </li>
+        <li class="chain__item chain__item--amendment">
+          <div class="chain__year">Nov 1930</div>
+          <h3 class="chain__case">14th Amendment</h3>
+          <p class="chain__gloss">Voters approve a constitutional rewrite. Property now means <em>"everything, whether tangible or intangible, subject to ownership."</em></p>
+        </li>
+        <li class="chain__item chain__item--keystone">
+          <div class="chain__year chain__year--keystone">Sept 1933</div>
+          <h3 class="chain__case">Culliton v. Chase</h3>
+          <p class="chain__gloss">5–4. Income is property. A graduated income tax violates the uniformity clause. The wall.</p>
+          <span class="chain__pin">KEYSTONE</span>
+        </li>
+        <li class="chain__item">
+          <div class="chain__year">Sept 1933</div>
+          <h3 class="chain__case">State ex rel. Stiner v. Yelle</h3>
+          <p class="chain__gloss">Same day. Excise taxes on specific activities are fine, even if measured by income. The only door left open.</p>
+        </li>
+        <li class="chain__item">
+          <div class="chain__year">1936</div>
+          <h3 class="chain__case">Jensen v. Henneford</h3>
+          <p class="chain__gloss">You can't rename an income tax "an excise on the privilege of receiving income." Back door closed.</p>
+        </li>
+        <li class="chain__item">
+          <div class="chain__year">2023</div>
+          <h3 class="chain__case">Quinn v. State</h3>
+          <p class="chain__gloss">Capital gains tax upheld as an excise on the sale of assets. Court declined to revisit Culliton. The workaround held.</p>
+        </li>
+        <li class="chain__item chain__item--pending">
+          <div class="chain__year">2026</div>
+          <h3 class="chain__case">ESSB 6346 — pending</h3>
+          <p class="chain__gloss">9.9% tax on income over $1M, labeled an excise on "the receipt of income." Synonym for the 1936 statute Jensen killed. Litigation pending.</p>
+        </li>
+      </ol>
+
+      <aside class="chain__pull">
+        <p>"It would certainly defy the ingenuity of the most profound lexicographer to formulate a more comprehensive definition of <em>property</em>. It is <em>everything, whether tangible or intangible, subject to ownership.</em> Income is either property under our fourteenth amendment, or no one owns it."</p>
+        <cite>— Justice Oscar Holcomb, <em>Culliton v. Chase</em>, September 8, 1933</cite>
+      </aside>
+
+      <p class="chain__footer">
+        The full story — including why the farmers who fought to expand "property" inadvertently built the wall against their own income tax — is in <a href="explainer.html">the explainer</a>.
       </p>
+    </div>
+  </section>
+
+  <!-- =========================
+       CANDIDATES
+       ========================= -->
+  <section id="candidates" class="candidates-section">
+    <div class="container container--wide">
+      <header class="section-header">
+        <div class="section-eyebrow">2026 Supreme Court ballot</div>
+        <h2 class="section-headline">Eleven candidates. Five seats. One question.</h2>
+        <p class="section-deck">
+          For each candidate, we read the public record — who appointed them, what they did before, what they've said or written, who's backing them — and give a one-sentence read: likely to <strong>keep</strong> the 1933 rule, <strong>scrap it</strong>, or where the record isn't clear enough to tell.
+        </p>
+      </header>
 
       <div class="legend">
         <div class="legend__item"><span class="lean-dot lean-dot--keep"></span> Likely to keep the rule</div>
@@ -102,14 +179,18 @@
     </div>
   </section>
 
+  <!-- =========================
+       BENCH (close)
+       ========================= -->
   <section class="section--bench">
     <div class="bench">
       <img src="images/art/section-bench.jpg" alt="An empty wooden judge's chair raised on a courtroom bench, lit by directional window light" class="bench__image">
       <div class="bench__content">
         <div class="container container--narrow">
-          <h2 class="bench__title">Judicial elections are the lowest-information races on your ballot.</h2>
-          <p class="bench__body">Most voters skip them or pick based on incumbency. The result: the rules that decide how your state collects revenue swing on small turnout among voters who didn't know the question was even on the table.</p>
-          <p class="bench__body">This guide narrows the field to one durable question. There are others worth caring about — judicial temperament, criminal procedure, civil rights, environmental law. For those, please also check the <a href="https://www.lwvwa.org" target="_blank" rel="noopener">League of Women Voters</a> and the <a href="https://www.wsba.org" target="_blank" rel="noopener">Washington State Bar</a> ratings.</p>
+          <div class="section-eyebrow">One last thing</div>
+          <h2 class="bench__title">Judicial races decide more than judicial races.</h2>
+          <p class="bench__body">Most voters skip them or pick on incumbency. The result: the rules that decide how a state collects revenue swing on tiny turnout, decided by voters who didn't know the question was on the table.</p>
+          <p class="bench__body">This guide narrows the field to one durable question. There are others worth caring about — temperament, criminal procedure, civil rights, environmental law. For those, check the <a href="https://www.lwvwa.org" target="_blank" rel="noopener">League of Women Voters</a> and the <a href="https://www.wsba.org" target="_blank" rel="noopener">Washington State Bar</a>.</p>
         </div>
       </div>
     </div>
@@ -121,11 +202,11 @@
     <div>
       <div class="site-footer__brand">Culliton 2026</div>
       <p class="site-footer__disclaimer">
-        Nonpartisan, noncommercial civic publication. Independent of any campaign, party, or expenditure committee. Information is drawn from public records. Candidates and campaigns may submit responses via the response form. For broader voter resources, see the <a href="https://www.lwvwa.org" target="_blank" rel="noopener">League of Women Voters of Washington</a> and the <a href="https://www.wsba.org" target="_blank" rel="noopener">Washington State Bar Association</a>.
+        Nonpartisan, noncommercial civic publication. Independent of any campaign, party, or expenditure committee. Information drawn from public records. Candidates and campaigns may submit responses via the response form. For broader voter resources, see the <a href="https://www.lwvwa.org" target="_blank" rel="noopener">League of Women Voters of Washington</a> and the <a href="https://www.wsba.org" target="_blank" rel="noopener">Washington State Bar Association</a>.
       </p>
     </div>
     <nav class="site-footer__links" aria-label="Footer">
-      <a href="explainer.html">Why it matters</a>
+      <a href="explainer.html">The chain</a>
       <a href="about.html">About</a>
       <a href="response.html">Submit a response</a>
     </nav>
