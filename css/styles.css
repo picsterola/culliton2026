@@ -2037,15 +2037,11 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   background: oklch(from var(--lean-unclear) l c h / 0.45);
   box-shadow: 0 0 0 3px oklch(from var(--lean-unclear) l c h / 0.12);
 }
-/* Ballot seats: outlined ring to indicate "in play" */
+/* Ballot seats: same fill as fixed seats; outer halo ring distinguishes "in play" */
 .seat--ballot .seat__dot {
-  background: var(--color-bg);
-  border: 3px solid currentColor;
-  box-shadow: 0 0 0 3px oklch(from var(--color-text) l c h / 0.06);
+  outline: 2px solid oklch(from var(--color-text) l c h / 0.35);
+  outline-offset: 4px;
 }
-.seat--ballot.seat--keep .seat__dot { color: var(--lean-keep); }
-.seat--ballot.seat--scrap .seat__dot { color: var(--lean-scrap); }
-.seat--ballot.seat--unclear .seat__dot { color: var(--lean-unclear); }
 
 .seat__name {
   font-family: 'Inter', sans-serif;
@@ -2120,9 +2116,10 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 .legend-swatch--keep  { background: var(--lean-keep);  box-shadow: 0 0 0 2px oklch(from var(--lean-keep) l c h / 0.2); }
 .legend-swatch--unclear { background: oklch(from var(--lean-unclear) l c h / 0.45); box-shadow: 0 0 0 2px oklch(from var(--lean-unclear) l c h / 0.12); }
 .legend-swatch--ballot {
-  background: var(--color-bg);
-  border: 3px solid oklch(from var(--color-text) l c h / 0.55);
-  box-sizing: border-box;
+  background: var(--lean-scrap);
+  outline: 2px solid oklch(from var(--color-text) l c h / 0.45);
+  outline-offset: 3px;
+  margin-right: 6px; /* compensate for the outline offset so text doesn't crowd */
 }
 
 /* Legend dot for ballot vs fixed inside the balance section */
