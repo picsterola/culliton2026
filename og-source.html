@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #14110d;
+    --bg-2: #1c1813;
+    --paper: #f5efe2;
+    --paper-dim: #c9c1b0;
+    --paper-mute: #8a8578;
+    --primary: #1f3d2b;
+    --accent: #6e2a26;
+    --accent-bright: #c44a44;
+    --keystone: #c44a44;
+    --rule: rgba(245, 239, 226, 0.18);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 630px;
+    background: var(--bg);
+    color: var(--paper);
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow: hidden;
+  }
+
+  body {
+    position: relative;
+    background:
+      radial-gradient(ellipse 80% 60% at 30% 20%, rgba(110, 42, 38, 0.18), transparent 70%),
+      radial-gradient(ellipse 60% 50% at 80% 90%, rgba(31, 61, 43, 0.22), transparent 70%),
+      linear-gradient(180deg, #1c1813 0%, #14110d 100%);
+    padding: 48px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Subtle paper texture via repeating lines */
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(245, 239, 226, 0.012) 0, rgba(245, 239, 226, 0.012) 1px, transparent 1px, transparent 3px);
+    pointer-events: none;
+  }
+
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand__mark {
+    width: 44px;
+    height: 44px;
+    background: var(--primary);
+    color: var(--paper);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .brand__name {
+    font-family: 'Source Serif 4', serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .brand__year {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 3px 7px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    color: var(--paper-dim);
+    margin-left: 6px;
+  }
+
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--paper-mute);
+  }
+
+  /* TITLE */
+  .title-block {
+    z-index: 2;
+    margin-top: 8px;
+  }
+
+  .title {
+    font-family: 'Source Serif 4', serif;
+    font-size: 60px;
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    color: var(--paper);
+  }
+
+  .title em {
+    font-style: italic;
+    color: var(--accent-bright);
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--paper-dim);
+    margin-top: 14px;
+    max-width: 780px;
+  }
+
+  /* WALL */
+  .wall {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 6px;
+    z-index: 2;
+    margin-top: 24px;
+  }
+
+  .brick {
+    background: rgba(245, 239, 226, 0.05);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 12px 10px;
+    position: relative;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brick__year {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--paper-mute);
+    margin-bottom: 8px;
+  }
+
+  .brick__case {
+    font-family: 'Source Serif 4', serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: -0.005em;
+    color: var(--paper);
+    flex: 1;
+  }
+
+  .brick--keystone {
+    background: rgba(196, 74, 68, 0.14);
+    border-color: rgba(196, 74, 68, 0.55);
+  }
+
+  .brick--keystone .brick__case {
+    color: var(--accent-bright);
+  }
+
+  .brick--pending {
+    background:
+      repeating-linear-gradient(45deg, rgba(245, 239, 226, 0.04) 0 6px, transparent 6px 12px),
+      rgba(245, 239, 226, 0.03);
+    border-style: dashed;
+  }
+
+  .brick__pin {
+    position: absolute;
+    top: -7px;
+    right: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    background: var(--accent);
+    color: var(--paper);
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  /* FOOTER */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 2;
+  }
+
+  .stats {
+    display: flex;
+    gap: 28px;
+  }
+
+  .stat__num {
+    font-family: 'Source Serif 4', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--paper);
+    line-height: 1;
+  }
+
+  .stat__label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--paper-mute);
+    margin-top: 4px;
+  }
+
+  .url {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: var(--paper-dim);
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="brand">
+      <div class="brand__mark">C</div>
+      <div class="brand__name">Culliton</div>
+      <div class="brand__year">2026</div>
+    </div>
+    <div class="eyebrow">A voter's guide · WA Supreme Court</div>
+  </div>
+
+  <div class="title-block">
+    <h1 class="title">Eight bricks. <em>93 years.</em><br>One ruling holds the wall.</h1>
+    <p class="subtitle">How Washington's Supreme Court decides the fate of the income tax — and why five seats on the 2026 ballot matter more than you think.</p>
+  </div>
+
+  <div class="wall">
+    <div class="brick">
+      <div class="brick__year">1908</div>
+      <div class="brick__case">Wolfe v. Parmenter</div>
+    </div>
+    <div class="brick">
+      <div class="brick__year">JUN 1930</div>
+      <div class="brick__case">Aberdeen v. Chase</div>
+    </div>
+    <div class="brick">
+      <div class="brick__year">NOV 1930</div>
+      <div class="brick__case">14th Amendment</div>
+    </div>
+    <div class="brick brick--keystone">
+      <div class="brick__pin">KEYSTONE</div>
+      <div class="brick__year">SEP 1933</div>
+      <div class="brick__case">Culliton v. Chase</div>
+    </div>
+    <div class="brick">
+      <div class="brick__year">SEP 1933</div>
+      <div class="brick__case">Stiner v. Yelle</div>
+    </div>
+    <div class="brick">
+      <div class="brick__year">1936</div>
+      <div class="brick__case">Jensen v. Henneford</div>
+    </div>
+    <div class="brick">
+      <div class="brick__year">2023</div>
+      <div class="brick__case">Quinn v. State</div>
+    </div>
+    <div class="brick brick--pending">
+      <div class="brick__year">2026</div>
+      <div class="brick__case">ESSB 6346 — pending</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="stats">
+      <div>
+        <div class="stat__num">11</div>
+        <div class="stat__label">Candidates</div>
+      </div>
+      <div>
+        <div class="stat__num">5</div>
+        <div class="stat__label">Seats</div>
+      </div>
+      <div>
+        <div class="stat__num">1</div>
+        <div class="stat__label">Question</div>
+      </div>
+    </div>
+    <div class="url">A voter's guide →</div>
+  </div>
+
+</body>
+</html>
