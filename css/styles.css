@@ -706,6 +706,87 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 }
 
 /* =========================================================
+   Deep read (bench-style analytical narrative)
+   ========================================================= */
+.deep-read {
+  position: relative;
+  margin: var(--space-12) 0;
+  padding: var(--space-7) var(--space-7) var(--space-6);
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  border-left-width: 4px;
+}
+.deep-read--scrap { border-left-color: var(--lean-scrap); }
+.deep-read--keep  { border-left-color: var(--lean-keep); }
+.deep-read--unclear { border-left-color: var(--lean-unclear); }
+
+.deep-read__eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: oklch(from var(--color-text) l c h / 0.55);
+  margin-bottom: 0.5rem;
+}
+.deep-read__heading {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.4rem, 1rem + 1.4vw, 1.9rem);
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  color: var(--color-text);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+.deep-read__lede {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  margin: 0 0 1.75rem;
+}
+.deep-read__signals {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.deep-read__signal {
+  padding: 1rem 1.1rem;
+  background: var(--color-bg);
+  border: 1px solid oklch(from var(--color-text) l c h / 0.08);
+  border-radius: 4px;
+}
+.deep-read__signal-type {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: oklch(from var(--color-text) l c h / 0.62);
+  margin-bottom: 0.5rem;
+}
+.deep-read__signal-text {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin: 0;
+}
+.deep-read__footnote {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  color: oklch(from var(--color-text) l c h / 0.55);
+  font-style: italic;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .deep-read { padding: var(--space-5) var(--space-5) var(--space-4); }
+}
+
+/* =========================================================
    Questions block
    ========================================================= */
 .questions-block {

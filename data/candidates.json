@@ -19,18 +19,77 @@
       "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; King County Bar.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Who put her on the court", "text": "Gov. Bob Ferguson appointed her in November 2025. As Attorney General, Ferguson defended the capital gains tax all the way to the state Supreme Court."},
-        {"type": "Her background", "text": "Career civil rights lawyer. About 20 years prosecuting discrimination cases for the state. No tax law in her resume."},
-        {"type": "How she talks about the law", "text": "Campaign materials emphasize equity and access to justice. She has cited Justice Elena Kagan as an influence. She does not describe herself as a textualist."},
-        {"type": "What she has said about Culliton", "text": "Nothing directly. No published opinions, articles, or campaign statements on the 1933 ruling."}
+        {
+          "type": "Who put her on the court",
+          "text": "Gov. Bob Ferguson appointed her in November 2025. As Attorney General, Ferguson defended the capital gains tax all the way to the state Supreme Court."
+        },
+        {
+          "type": "Her background",
+          "text": "Career civil rights lawyer. About 20 years prosecuting discrimination cases for the state. No tax law in her resume."
+        },
+        {
+          "type": "How she talks about the law",
+          "text": "Campaign materials emphasize equity and access to justice. She has cited Justice Elena Kagan as an influence. She does not describe herself as a textualist."
+        },
+        {
+          "type": "What she has said about Culliton",
+          "text": "Nothing directly. No published opinions, articles, or campaign statements on the 1933 ruling."
+        }
       ],
       "questions": [
         "How would you approach a court ruling that's nearly a century old but is widely seen as legally shaky?",
         "When the words of the constitution and a long-standing interpretation point in different directions, which should win?"
       ],
       "sources": [
-        {"label": "Governor's appointment announcement", "url": "https://governor.wa.gov/news/2025/governor-ferguson-appoints-colleen-melody-washington-supreme-court"},
-        {"label": "Washington Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
+        {
+          "label": "Governor's appointment announcement",
+          "url": "https://governor.wa.gov/news/2025/governor-ferguson-appoints-colleen-melody-washington-supreme-court"
+        },
+        {
+          "label": "Washington Courts justice bio",
+          "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
+        }
+      ],
+      "deep_read": "Colleen Melody's path to the bench runs straight through the office that fought hardest to keep the capital gains tax alive. She spent a decade leading the Wing Luke Civil Rights Division of the Attorney General's office, the same office that defended the capital gains tax in Quinn all the way to the state Supreme Court, and she was Gov. Ferguson's first judicial appointment in November 2025. That appointment coalition is the clearest available signal: Ferguson signed ESSB 6346 and his administration treated the millionaires' tax as a constitutional project, not just a legislative one. Melody herself has described her judicial approach as one of curiosity and openness, beginning each case 'brand new,' and has cited structural analysis and deep doctrinal reading as her methods. She graduated first in her class at UW Law, clerked, and spent roughly 20 years in enforcement litigation rather than tax or appellate doctrine work, which means her ESSB 6346 ruling is more likely to be shaped by institutional coalition and general constitutional orientation than by independent Article VII analysis. On a court asked to scrap or preserve Culliton, she is firmly in the coalition that brought the case to that moment.",
+      "expanded_signals": [
+        {
+          "type": "UW Law valedictorian and civil rights enforcement record",
+          "text": "Melody graduated first in her class from the University of Washington School of Law and spent approximately a decade building the Wing Luke Civil Rights Division into a 35-person operation. Under her leadership, the division successfully litigated to protect DACA recipients in Washington, winning a 2018 court order that preserved deferred-removal status for nearly 20,000 Dreamers. This record marks her as a technically rigorous lawyer with a strong civil rights enforcement posture, not a cautious institutionalist in the Stephens mold."
+        },
+        {
+          "type": "Full endorsement of all nine sitting justices",
+          "text": "Melody received endorsements from all sitting Washington Supreme Court justices, including Chief Justice Stephens, who would otherwise be the most prominent 'keep' signal on the court. That unanimous judicial endorsement is procedurally unusual and reflects a strong institutional closing of ranks around a Ferguson appointee. It does not tell us how Melody will rule on Culliton, but it signals she is firmly inside the court's current majority bloc."
+        },
+        {
+          "type": "WAGOP recusal demand as a political signal",
+          "text": "The Washington State Republican Party publicly called for Melody to recuse herself from income tax litigation on grounds that she received campaign donations from Solicitor General Noah Purcell and AG Nick Brown, the same officials who will argue the state's case defending ESSB 6346. The recusal demand has no obvious legal merit and will likely fail, but it confirms that opponents view her appointment as carrying a direct institutional stake in the outcome of the tax case."
+        },
+        {
+          "type": "Legal methodology: access-focused process, not textualism",
+          "text": "In a March 2026 Washington Bar News interview, Melody described her judicial method as beginning each case 'brand new' with 'curiosity and openness,' emphasizing procedural rules as co-equal with substantive law, and viewing the court's role as promoting public trust through reasoned explanation. She cited Justice Elena Kagan as an influence in earlier public materials. None of this forecloses any particular ruling on Culliton, but the combination of Kagan as touchstone and access-justice framing is not the profile of a justice looking to preserve a 93-year-old precedent on structural constitutional grounds."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "KOMO News: Ferguson appoints Melody to WA Supreme Court",
+          "url": "https://komonews.com/news/local/gov-ferguson-appoints-civil-rights-attorney-colleen-melody-state-supreme-court-temple-of-justice-mary-yu-wing-luke-civil-rights-division-uw-school-of-law"
+        },
+        {
+          "label": "WA Bar News: 'Let's Get Technical' interview with Melody (March 2026)",
+          "url": "https://wabarnews.org/2026/03/17/lets-get-technical-an-interview-with-justice-colleen-melody/"
+        },
+        {
+          "label": "WSBA: Meet the Newest Supreme Court Justice (Dec. 2025)",
+          "url": "https://www.wsba.org/news-events/latest-news/news-detail/2025/12/04/meet-the-newest-supreme-court-justice"
+        },
+        {
+          "label": "Wikipedia: Colleen Melody",
+          "url": "https://en.wikipedia.org/wiki/Colleen_Melody"
+        },
+        {
+          "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
+          "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        }
       ]
     },
     {
@@ -51,19 +110,81 @@
       "endorsements": "Campaign-disclosed endorsements still being filed.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "His day job", "text": "He sues the state tax agency for a living. His client base benefits from the current setup where Washington has no income tax."},
-        {"type": "How he talks about the law", "text": "Campaign focuses on rule of law, a predictable tax system, and fairness for taxpayers."},
-        {"type": "His academic role", "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out — this isn't theoretical for him."},
-        {"type": "What he has said about Culliton", "text": "No public position on overturning it specifically. His professional incentives strongly suggest he'd preserve it."}
+        {
+          "type": "His day job",
+          "text": "He sues the state tax agency for a living. His client base benefits from the current setup where Washington has no income tax."
+        },
+        {
+          "type": "How he talks about the law",
+          "text": "Campaign focuses on rule of law, a predictable tax system, and fairness for taxpayers."
+        },
+        {
+          "type": "His academic role",
+          "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out — this isn't theoretical for him."
+        },
+        {
+          "type": "What he has said about Culliton",
+          "text": "No public position on overturning it specifically. His professional incentives strongly suggest he'd preserve it."
+        }
       ],
       "questions": [
         "After 90 years, should the court revisit how it defined property in the tax context?",
         "What's the judge's job when the legislature passes a tax whose constitutionality is in doubt?"
       ],
       "sources": [
-        {"label": "Ballard Spahr firm bio", "url": "https://www.ballardspahr.com/people/attorneys/e/edwards-scott"},
-        {"label": "UW Law affiliate faculty", "url": "https://www.law.uw.edu/directory/affiliate-faculty/edwards-scott-m"},
-        {"label": "Campaign site", "url": "https://votescottedwards.com"}
+        {
+          "label": "Ballard Spahr firm bio",
+          "url": "https://www.ballardspahr.com/people/attorneys/e/edwards-scott"
+        },
+        {
+          "label": "UW Law affiliate faculty",
+          "url": "https://www.law.uw.edu/directory/affiliate-faculty/edwards-scott-m"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://votescottedwards.com"
+        }
+      ],
+      "deep_read": "Scott Edwards is the most directly relevant professional challenger on the ballot for understanding where Culliton fits in 2026 litigation politics. He is a tax specialist who has spent nearly two decades teaching state and local tax at UW Law and representing clients before the Washington Department of Revenue at Ballard Spahr, and Ballard Spahr itself tracked the capital gains tax through every stage of Quinn litigation and the subsequent SCOTUS cert denial. Edwards was a party to client-side commentary on the Douglas County superior court ruling that found the capital gains tax unconstitutional in 2022, and the firm's client advisory position has consistently noted that Quinn's excise-tax framing makes a broad income tax harder to implement, not easier. His campaign materials emphasize constitution, statutes, and precedent as the trifecta of decision-making, and he holds out analytical discipline and rule-of-law framing as distinct from the sitting court's orientation. The record is thin enough that specific public positions on Culliton overruling are absent, but the combination of practice area, client base, and professional commentary leaves the inference clear: he represents the taxpayer side of the revenue argument, and that side has a structural interest in keeping Culliton in place.",
+      "expanded_signals": [
+        {
+          "type": "Ballard Spahr Quinn tracking and client advisory record",
+          "text": "Ballard Spahr, where Edwards is a partner, published client alerts at every stage of Quinn litigation: the 2022 Douglas County ruling finding the capital gains tax unconstitutional, the 2023 Washington Supreme Court 7-2 reversal, the subsequent initiative campaign to repeal the tax, and the January 2024 SCOTUS cert denial. These alerts consistently framed the capital gains tax as a borderline revenue instrument and noted that Quinn's excise-tax framing, while upholding the specific tax, made future broad income taxes more difficult, not less. Edwards is the firm's named state and local tax specialist and was identified by the firm as continuing to help clients 'navigate and minimize' the tax after the cert denial."
+        },
+        {
+          "type": "20-year academic position in the exact doctrinal space",
+          "text": "Edwards has taught state and local tax at UW Law as an adjunct faculty member for nearly 20 years, a period that spans the full cycle of post-Culliton tax litigation in Washington. That academic role means he has lectured on Article VII, the uniformity clause, and the income-as-property doctrine in a formal instructional context. It is difficult to teach Article VII for two decades without forming a settled view of what Culliton means and whether it should survive. His campaign's emphasis on 'predictability' and 'fair tax system' in its policy framing is consistent with the pedagogical posture of someone who teaches the existing doctrinal framework as authoritative."
+        },
+        {
+          "type": "Princeton and UW Law academic background",
+          "text": "Edwards graduated magna cum laude from Princeton University, winning the Paul Volcker award in economics, and earned his law degree with honors from UW Law. The economics background is notable: state and local tax practitioners who come through economics-oriented undergraduate programs tend to think about tax incidence and distributional effects in systematic terms, which reinforces a rule-based rather than result-oriented approach to questions like whether income is constitutionally classifiable as property."
+        },
+        {
+          "type": "Campaign launch with minimal fundraising as signal",
+          "text": "As of late April 2026, Edwards had raised approximately $306 in reported contributions, compared to Melody's $154,000. That gap is not primarily an indicator of his legal positions but of his competitive profile: he filed in mid-March, later than most candidates, and does not yet have the anti-income-tax independent expenditure infrastructure behind him that backed Dave Larson in 2024. Whether Project 42 or similar groups engage in this race is a material open question for his electoral viability."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Ballard Spahr: SCOTUS declines further review of Washington capital gains tax (2024)",
+          "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2024/lp/scotus-declines-further-review-of-washington-capital-gains-tax"
+        },
+        {
+          "label": "Ballard Spahr: Capital gains tax ruled to be an excise tax (Quinn analysis, 2023)",
+          "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2023/lp/capital-gains-tax-ruled-to-be-an-excise-tax-on-the-privilege-of-selling-assets"
+        },
+        {
+          "label": "UW Law: Scott Edwards affiliate faculty bio",
+          "url": "https://www.law.uw.edu/directory/affiliate-faculty/edwards-scott-m/"
+        },
+        {
+          "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
+          "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        },
+        {
+          "label": "Scott Edwards campaign site: About",
+          "url": "https://votescottedwards.com/about-scott-edwards/"
+        }
       ]
     },
     {
@@ -84,18 +205,77 @@
       "endorsements": "Sitting WA Supreme Court justices; bar association ratings strong.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Who put him on the court", "text": "Gov. Jay Inslee appointed him. Inslee signed Washington's capital gains tax and his administration defended it in court."},
-        {"type": "His background", "text": "Career federal prosecutor and civil rights enforcement. Limited experience with state tax law specifically."},
-        {"type": "How he talks about the law", "text": "Public writings emphasize careful legal reasoning, plain meaning, and the institutional credibility of courts. More measured than ideological."},
-        {"type": "What he has said about Culliton", "text": "Nothing direct. His Court of Appeals record doesn't include cases squarely on this topic."}
+        {
+          "type": "Who put him on the court",
+          "text": "Gov. Jay Inslee appointed him. Inslee signed Washington's capital gains tax and his administration defended it in court."
+        },
+        {
+          "type": "His background",
+          "text": "Career federal prosecutor and civil rights enforcement. Limited experience with state tax law specifically."
+        },
+        {
+          "type": "How he talks about the law",
+          "text": "Public writings emphasize careful legal reasoning, plain meaning, and the institutional credibility of courts. More measured than ideological."
+        },
+        {
+          "type": "What he has said about Culliton",
+          "text": "Nothing direct. His Court of Appeals record doesn't include cases squarely on this topic."
+        }
       ],
       "questions": [
         "How does federal precedent influence how you think about long-standing state Supreme Court rulings?",
         "When the constitution's words and a 90-year-old interpretation diverge, which should govern?"
       ],
       "sources": [
-        {"label": "Washington Courts bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"},
-        {"label": "Campaign site", "url": "https://www.diazforjustice.com"}
+        {
+          "label": "Washington Courts bio",
+          "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://www.diazforjustice.com"
+        }
+      ],
+      "deep_read": "J. Michael Diaz brings a stronger institutional pedigree than almost any other candidate on the ballot. Born in Peru, raised in Seattle, he earned a philosophy degree magna cum laude from Notre Dame, studied at Princeton, and took his law degree from Cornell Law, where he served on the International Law Journal. He spent a decade as a federal prosecutor in the Western District of Washington and was the founder of that office's Civil Rights Program, which earned him a DOJ Distinguished Service Award and multiple performance recognitions. President Obama nominated him to the federal district bench in 2016, a nomination that expired when the 114th Congress adjourned without a vote. Governor Inslee then appointed him to King County Superior Court in 2018 and to the Court of Appeals in 2022, where he has authored over 200 opinions and teaches Washington Constitutional Law at Seattle University as an adjunct professor. His endorsement coalition for this race is built almost entirely from the same progressive-institutionalist network that passed ESSB 6346: former Governors Inslee, Gregoire, and Locke all endorsed him, as did AG Nick Brown and five sitting Supreme Court justices. No Court of Appeals opinion by Diaz directly addresses Article VII or Culliton, and his questionnaire language for this race emphasizes fair process, access to justice, and institutional credibility rather than doctrinal methodology. His trajectory points toward the scrap coalition, but the absence of any direct Culliton signal keeps confidence at medium.",
+      "expanded_signals": [
+        {
+          "type": "Obama federal bench nomination as coalition marker",
+          "text": "Obama nominated Diaz to the U.S. District Court for the Western District of Washington on April 14, 2016, with the American Bar Association rating him 'unanimously qualified.' The Senate took no action, and the nomination expired at sine die in January 2017 after 264 days pending. Federal bench nominations under Obama are a reasonably precise predictor of judicial coalition: they track toward DOJ's civil rights posture and against the kind of originalist-formalist reading of state constitutional provisions that would preserve Culliton."
+        },
+        {
+          "type": "Teaches Washington Constitutional Law at Seattle University",
+          "text": "Diaz is an adjunct professor at Seattle University School of Law, where he teaches Washington Constitutional Law. That course necessarily covers Article VII and the state's tax uniformity framework. Unlike the typical candidate with no public record on these questions, Diaz has an academic forum in which he regularly engages with WA constitutional doctrine. He has made no public statements about Culliton specifically, but the teaching role means he has a formed view on how state constitutional doctrine evolves."
+        },
+        {
+          "type": "K&L Gates donation crossover as coalition indicator",
+          "text": "The Clark County Today coverage of the 2026 races noted that Diaz received campaign contributions from K&L Gates, the same firm where co-appointee Theo Angelis was a partner before joining the court. K&L Gates under Ferguson's former orbit has a strong alignment with the coalition that both defended and now passed the income tax. It is a small financial data point, but it reinforces the network picture: Diaz, Angelis, and the firm share institutional ties to the same political coalition."
+        },
+        {
+          "type": "No article VII record at Court of Appeals",
+          "text": "Diaz has participated in hundreds of appellate decisions across criminal, civil, family, and administrative law since 2022, but none has been identified as bearing directly on the income-as-property doctrine or the Article VII uniformity clause. His record at King County Superior Court also did not include tax or state constitutional cases squarely on point. This is a genuine gap. His ESSB 6346 position will have to be inferred from coalition and philosophy rather than from any direct prior engagement with the doctrine."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Wikipedia: J. Michael Diaz",
+          "url": "https://en.wikipedia.org/wiki/J._Michael_Diaz"
+        },
+        {
+          "label": "Diaz for Justice campaign site: About",
+          "url": "https://www.diazforjustice.com/about-5"
+        },
+        {
+          "label": "31st District Democrats: Diaz endorsement questionnaire",
+          "url": "https://31stdistrictdemocrats.org/seeking-endorsement-washington-supreme-court-mike-diaz/"
+        },
+        {
+          "label": "Obama White House: Nomination of Diaz to U.S. District Court (April 2016)",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2016/04/14/president-obama-nominates-three-serve-united-states-district-court"
+        },
+        {
+          "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
+          "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        }
       ]
     },
     {
@@ -116,19 +296,81 @@
       "endorsements": "WA Republican Party recommendation; local bar and law enforcement.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "How he talks about the law", "text": "Cites US Justices Scalia and Alito as influences. Emphasizes constitution as written textualism."},
-        {"type": "The counterintuitive part", "text": "If you read Article VII strictly as written and stick with how the 1933 court understood property, you keep the rule. Stevens's methodology entrenches it."},
-        {"type": "Who's backing him", "text": "Backed by Republican-aligned judicial infrastructure. His coalition has built its tax politics around the existing rule."},
-        {"type": "His tax record", "text": "Trial court judges don't write Article VII opinions. The signal here is methodology and coalition, not case record."}
+        {
+          "type": "How he talks about the law",
+          "text": "Cites US Justices Scalia and Alito as influences. Emphasizes constitution as written textualism."
+        },
+        {
+          "type": "The counterintuitive part",
+          "text": "If you read Article VII strictly as written and stick with how the 1933 court understood property, you keep the rule. Stevens's methodology entrenches it."
+        },
+        {
+          "type": "Who's backing him",
+          "text": "Backed by Republican-aligned judicial infrastructure. His coalition has built its tax politics around the existing rule."
+        },
+        {
+          "type": "His tax record",
+          "text": "Trial court judges don't write Article VII opinions. The signal here is methodology and coalition, not case record."
+        }
       ],
       "questions": [
         "If the original public meaning of property in 1889 was different from what the 1933 court said, which controls?",
         "How should a textualist approach a ruling that has shaped tax policy for nine decades?"
       ],
       "sources": [
-        {"label": "Mason County Journal coverage", "url": "https://www.masoncounty.com/story/2023/11/09/news/stevens-has-decisive-lead-in-judicial-race/3336.html"},
-        {"label": "Candidate interview (video)", "url": "https://www.youtube.com/watch?v=eGtINpbi2FQ"},
-        {"label": "WAGOP recommendation", "url": "https://wagop.org/wagop-breaks-with-precedent-to-officially-recommend-two-candidates-for-open-seats-on-was-high-court/"}
+        {
+          "label": "Mason County Journal coverage",
+          "url": "https://www.masoncounty.com/story/2023/11/09/news/stevens-has-decisive-lead-in-judicial-race/3336.html"
+        },
+        {
+          "label": "Candidate interview (video)",
+          "url": "https://www.youtube.com/watch?v=eGtINpbi2FQ"
+        },
+        {
+          "label": "WAGOP recommendation",
+          "url": "https://wagop.org/wagop-breaks-with-precedent-to-officially-recommend-two-candidates-for-open-seats-on-was-high-court/"
+        }
+      ],
+      "deep_read": "David Stevens is one of the two WAGOP-recommended candidates in 2026, and the philosophical logic of that recommendation is direct: he explicitly cites Antonin Scalia and Samuel Alito as his judicial heroes, argues that the Washington State Constitution must be interpreted based on 'its text and original meaning,' and has stated publicly that the current court engages in 'ideological rulings and judicial overreach.' Stevens has served as a Mason County Superior Court judge for several years and spent most of his earlier career as a county prosecutor, so his record is entirely in criminal law and local bench work, not in constitutional doctrine or tax law. The methodological point matters here: a textualist reading of Article VII as it was understood in 1889 and as the 1933 Culliton court applied it, with income defined broadly as property, is the approach most likely to preserve Culliton rather than overturn it. His coalition also has every political incentive to maintain the 1933 rule; the anti-income-tax funding network built its entire electoral project around that constitutional barrier. Stevens would likely reach the same result as a Keep vote by a different doctrinal path than McCloud, but the destination is the same.",
+      "expanded_signals": [
+        {
+          "type": "Scalia-Alito textualism as a structural Culliton anchor",
+          "text": "Stevens has cited Scalia and Alito as his judicial heroes in multiple public forums, including a recorded candidate interview. Scalia-style textualism applied to Article VII Section 1 of the WA Constitution, which defines property as 'everything, whether tangible or intangible, subject to ownership,' provides no obvious basis for excluding income from that definition. The original public meaning of 'property' in 1889 almost certainly encompassed income; the Culliton court's 1933 ruling is consistent with that reading. A genuine textualist applying this framework has no principled basis for overruling Culliton on methodological grounds."
+        },
+        {
+          "type": "Explicit 'diversity of thought' campaign framing",
+          "text": "Stevens has stated that the court lacks 'diversity of thought' and that he is concerned about the effects of gubernatorial appointments dominating the court's composition. That framing is a direct signal: it positions him as an ideological counterweight to the Ferguson-Inslee bloc, not as a neutral institutionalist. WAGOP's official recommendation, the first time the party broke from tradition to recommend candidates for the court, cited the pending income tax lawsuits as among the specific reasons these seats matter. Stevens is the WAGOP's vehicle for Position 3."
+        },
+        {
+          "type": "Over 200 criminal jury trials but no tax or constitutional record",
+          "text": "Stevens's campaign materials emphasize over 200 criminal jury trials and a deep understanding of evidence, procedure, and jury decision-making. That record makes him a credible candidate for the trial-court perspective he says the Supreme Court needs. It does not provide any direct signal about how he would approach Article VII, the uniformity clause, or the precedential weight of Culliton. For this particular race, the doctrinal inference runs entirely through methodology and coalition, not through any prior ruling on the relevant question."
+        },
+        {
+          "type": "Position on constitutional amendment vs. judicial reinterpretation",
+          "text": "Stevens's campaign site states explicitly that 'any change to the Washington State Constitution must be performed via constitutional amendment, not through judicial re-interpretation of the Constitution or court precedent.' If taken seriously, this principle applies with particular force to overruling Culliton: the 1933 ruling was itself a constitutional interpretation, and a court that scraps it without a constitutional amendment would be doing precisely what Stevens says courts should not do. His position thus locks him into a strong keep posture on ESSB 6346 by his own stated methodology."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Judge Stevens for WA campaign site",
+          "url": "https://www.judgestevensforwa.com"
+        },
+        {
+          "label": "The Urbanist: Progressives and dark-money-backed conservatives vie for WA Supreme Court",
+          "url": "https://www.theurbanist.org/progressives-and-dark-money-backed-conservatives-vie-for-control-of-washington-state-supreme-court/"
+        },
+        {
+          "label": "Daily World: WA Supreme Court races shape up as income tax case looms",
+          "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        },
+        {
+          "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
+          "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        },
+        {
+          "label": "Columbia Basin Herald: WA Supreme Court races could decide fate of income tax",
+          "url": "https://columbiabasinherald.com/news/2026/apr/27/washington-supreme-court-races-could-decide-fate-of-controversial-income-tax/"
+        }
       ]
     },
     {
@@ -149,18 +391,77 @@
       "endorsements": "Heavy slate of progressive elected officials and labor unions.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Who put him on the bench", "text": "Inslee appointed him to the Court of Appeals — same governor who signed the capital gains tax."},
-        {"type": "His background", "text": "Spent his career suing on behalf of plaintiffs in civil rights cases. Comfortable with constitutional litigation."},
-        {"type": "Who's backing him", "text": "Endorsement list tilts heavily progressive and pro-labor relative to other Position 4 candidates."},
-        {"type": "His tax record", "text": "No Court of Appeals opinion directly on Article VII or Culliton. He hasn't had a chance to show his hand on this."}
+        {
+          "type": "Who put him on the bench",
+          "text": "Inslee appointed him to the Court of Appeals — same governor who signed the capital gains tax."
+        },
+        {
+          "type": "His background",
+          "text": "Spent his career suing on behalf of plaintiffs in civil rights cases. Comfortable with constitutional litigation."
+        },
+        {
+          "type": "Who's backing him",
+          "text": "Endorsement list tilts heavily progressive and pro-labor relative to other Position 4 candidates."
+        },
+        {
+          "type": "His tax record",
+          "text": "No Court of Appeals opinion directly on Article VII or Culliton. He hasn't had a chance to show his hand on this."
+        }
       ],
       "questions": [
         "When a ruling has limited the legislature's tax authority for decades, how much weight does that history get?",
         "What's the line between fixing a legal mistake and judges making policy?"
       ],
       "sources": [
-        {"label": "Washington Courts judge bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/coaBiographies/index.cfm?fa=coabios.display"},
-        {"label": "Campaign site", "url": "https://ianbirk.com"}
+        {
+          "label": "Washington Courts judge bio",
+          "url": "https://www.courts.wa.gov/appellate_trial_courts/coaBiographies/index.cfm?fa=coabios.display"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://ianbirk.com"
+        }
+      ],
+      "deep_read": "Ian Birk is the best-resourced progressive candidate in the 2026 field, having raised over $200,000 by May and drawing the most money of any candidate across all five races. His endorsement list is dense with progressive institutional weight: five current Supreme Court justices, former Justice Mary Yu, State Senate Majority Leader Jamie Pedersen (the lead architect of the millionaires' tax), a WEA-affiliated PAC, and a slate of progressive state legislators. Birk is a fifth-generation Washingtonian who graduated from UW undergrad at 19, clerked at the Washington Supreme Court after law school, spent two decades as a plaintiff-side civil litigator at Keller Rohrback representing individuals against insurance companies and corporate interests, and was appointed to the Court of Appeals by Gov. Inslee in 2022, where he has now authored over 200 opinions. His public philosophy emphasizes fairness, access to justice, and equal treatment regardless of circumstance, framed in terms of civic duty rather than doctrine. No Court of Appeals opinion he has authored directly engages Article VII or Culliton. The inference to a scrap position is strong given the coalition, but it rests on endorsement pattern and appointment lineage rather than on any public commitment on the tax question itself.",
+      "expanded_signals": [
+        {
+          "type": "Pedersen endorsement as direct ESSB 6346 signal",
+          "text": "State Senate Majority Leader Jamie Pedersen, the lead sponsor of ESSB 6346 and the principal legislative architect of the millionaires' tax, endorsed Birk for Position 4. Pedersen's endorsement of a judicial candidate is not primarily about courtroom competence; Pedersen has described the income tax bill as a vehicle to force the court to revisit the 1933 ruling. His decision to endorse Birk, and not O'Donnell, in the same three-way race suggests a judgment about which candidate is more likely to vote to uphold the tax."
+        },
+        {
+          "type": "200-plus Court of Appeals opinions across civil, criminal, family, and administrative law",
+          "text": "Since his appointment to Division I in 2022, Birk has authored over 200 opinions and participated in hundreds more across civil, criminal, family, administrative, and constitutional law, and has sat in all three appellate divisions statewide. He is the only Position 4 candidate with a substantial appellate record. None of those opinions has been identified as touching Article VII directly, but the volume of constitutional work gives him the doctrinal exposure that O'Donnell and Shelvey lack entirely."
+        },
+        {
+          "type": "Plaintiff-side litigation background at Keller Rohrback",
+          "text": "Before the bench, Birk spent two decades at Keller Rohrback representing individuals in insurance coverage disputes, consumer protection cases, workplace discrimination claims, and complex civil litigation, consistently on the plaintiffs' side. That professional orientation, combined with 10 years of pro bono work at King County Bar neighborhood legal clinics, reflects a career-long alignment with legal access and consumer protection values. It is not direct evidence on tax uniformity, but it establishes a consistent pattern of plaintiff-leaning orientation that clusters with the scrap coalition."
+        },
+        {
+          "type": "Bar ratings and judicial evaluations as quality signal",
+          "text": "Birk has received 'Exceptionally Well Qualified' ratings from both Washington Women Lawyers and the Cardozo Society of Washington State for the 2026 Supreme Court race. These bar ratings assess professional competence and judicial temperament rather than political orientation, but they confirm that Birk's standing among legal professionals supports treating him as a serious appellate contender, not a protest or low-information candidacy."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Ian Birk campaign site: About",
+          "url": "https://ianbirk.com/about/"
+        },
+        {
+          "label": "Ian Birk campaign site: Endorsements",
+          "url": "https://ianbirk.com/endorsements/"
+        },
+        {
+          "label": "Ballotpedia: Ian Birk",
+          "url": "https://ballotpedia.org/Ian_Birk"
+        },
+        {
+          "label": "KOMO News: Big money pours into state Supreme Court races as millionaires' tax raises stakes",
+          "url": "https://komonews.com/news/local/big-money-pours-into-state-supreme-court-races-as-millionaires-tax-debate-raises-stakes-advocacy-groups-senator-jamie-pederson-endorsements-of-appeals-judge-ian-birk-position-4"
+        },
+        {
+          "label": "Lynnwood Times: Ian Birk candidacy profile (Feb. 2026)",
+          "url": "https://lynnwoodtimes.com/2026/02/05/ian-birk/"
+        }
       ]
     },
     {
@@ -181,17 +482,73 @@
       "endorsements": "Cross-partisan: law enforcement, prosecutors, bar associations.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "His background", "text": "Career prosecutor. Trial-court judge, not appellate. His instincts are courtroom and case management, not doctrine."},
-        {"type": "How he talks about the law", "text": "No clear ideological signature. Moderate King County judicial style."},
-        {"type": "Who's backing him", "text": "Cross-partisan endorsement pattern typical of moderate candidates. Doesn't tell you much about how he'd rule on tax cases."},
-        {"type": "His tax record", "text": "Nothing public on Article VII or Culliton. Genuine uncertainty."}
+        {
+          "type": "His background",
+          "text": "Career prosecutor. Trial-court judge, not appellate. His instincts are courtroom and case management, not doctrine."
+        },
+        {
+          "type": "How he talks about the law",
+          "text": "No clear ideological signature. Moderate King County judicial style."
+        },
+        {
+          "type": "Who's backing him",
+          "text": "Cross-partisan endorsement pattern typical of moderate candidates. Doesn't tell you much about how he'd rule on tax cases."
+        },
+        {
+          "type": "His tax record",
+          "text": "Nothing public on Article VII or Culliton. Genuine uncertainty."
+        }
       ],
       "questions": [
         "How does a trial court background shape how you weigh real-world disruption when considering whether to overturn precedent?",
         "Which kinds of cases should the court be most cautious about reaching?"
       ],
       "sources": [
-        {"label": "King County Superior Court", "url": "https://kingcounty.gov/en/court/superior-court"}
+        {
+          "label": "King County Superior Court",
+          "url": "https://kingcounty.gov/en/court/superior-court"
+        }
+      ],
+      "deep_read": "Sean O'Donnell is the most genuinely cross-partisan candidate in the 2026 field, and his cross-partisan profile is the source of both his electoral strength and the genuine uncertainty about how he would rule on ESSB 6346. He was a legislative aide to Republican Senator Slade Gorton in 1995, interned in Democrat Christine Gregoire's Attorney General office, worked under Republican Norm Maleng at the King County Prosecutor's office, and served as a Special Assistant U.S. Attorney under the Obama administration. He has been a King County Superior Court judge since 2013, serving as chief judge of the Family Law Division and the Criminal Division, and has led multiple statewide task forces on courthouse security, pre-trial release, and court interpreter funding. His endorser list runs to more than 200 judicial officers across the state, former Governor Christine Gregoire, and elected officials from both parties. He has also received a $500 contribution from Rob McKenna, the former Republican AG who filed the lawsuit challenging ESSB 6346. O'Donnell has specifically denied any affiliation with the Federalist Society and has not associated himself with Full Court Press despite appearing on a now-deleted version of that organization's 'prospects' page. His judicial questionnaire frames the law through a lens of impact on people, procedural justice, and constitutional fidelity, not through any partisan ideological commitment. The record on Article VII is genuinely empty, and the cross-partisan donor and endorser pattern adds to rather than resolves the uncertainty.",
+      "expanded_signals": [
+        {
+          "type": "McKenna contribution as ambiguity signal",
+          "text": "O'Donnell received a $500 campaign contribution from former AG Rob McKenna, who filed the lawsuit challenging ESSB 6346 and chairs the board of Full Court Press. That contribution is small enough to be financially insignificant, but in the context of a nonpartisan judicial race where endorsement and donation patterns do most of the signaling work, it is notable. O'Donnell has stated he has no affiliation with Full Court Press and asked to have his photo removed from their website. Whether McKenna's contribution reflects a genuine assessment of O'Donnell as favorable to the anti-tax position, or simply as a professionally qualified moderate, is not determinable from the record."
+        },
+        {
+          "type": "Green River Task Force and human trafficking prosecutions",
+          "text": "Before the bench, O'Donnell served on the Green River Task Force that led to the prosecution of serial killer Gary Ridgway, handled Washington's first human trafficking prosecution, and handled the first case involving commercial sexual abuse of a minor. He was also trained and trained others nationally and internationally on human trafficking prosecution. This criminal law background is not directly relevant to the income tax question but is relevant to his professional identity: he is a career prosecutor and trial court manager, not a constitutional theorist or appellate practitioner."
+        },
+        {
+          "type": "Two rulings on constitutional questions: firearms and equal pay",
+          "text": "In the Montesi case, O'Donnell upheld Washington's weapons surrender statute against a Second Amendment challenge. In the Bleakney case, he ruled that Washington's Equal Pay and Opportunity Act was not superseded by federal law, a case of first impression involving a nurse manager at Providence Hospital. These are the two constitutional rulings identified in his public questionnaire responses. Both were in favor of state statutes, which could suggest a general posture of deference to legislative action, but neither touches the tax uniformity question."
+        },
+        {
+          "type": "Stated judicial philosophy: law begins with constitution, statutes, and precedent",
+          "text": "In his 31st District Democrats questionnaire, O'Donnell stated that his 'framework for decision-making begins with the Constitution, laws enacted by the Legislature, and legal precedent that guides the Court in resolving cases.' He emphasized that a faithful interpretation of the law includes 'appreciating its effect on people, families, and communities.' That framing is more associated with living-constitutionalist or purposivist methodology than with strict textualism, but it is also consistent with a justice who upholds ESSB 6346 on narrow grounds without overturning Culliton. Genuine uncertainty persists."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "O'Donnell for Justice campaign site: About",
+          "url": "https://www.odonnellforjustice.com/about"
+        },
+        {
+          "label": "O'Donnell for Justice campaign site: Endorsements",
+          "url": "https://www.odonnellforjustice.com/endorsements"
+        },
+        {
+          "label": "31st District Democrats: O'Donnell endorsement questionnaire",
+          "url": "https://31stdistrictdemocrats.org/seeking-endorsement-supreme-court-position-4-judge-sean-odonnell/"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        },
+        {
+          "label": "KOMO News: Big money pours into state Supreme Court races",
+          "url": "https://komonews.com/news/local/big-money-pours-into-state-supreme-court-races-as-millionaires-tax-debate-raises-stakes-advocacy-groups-senator-jamie-pederson-endorsements-of-appeals-judge-ian-birk-position-4"
+        }
       ]
     },
     {
@@ -212,15 +569,68 @@
       "endorsements": "None reported.",
       "fundraising": "PDC reports $0 raised as of latest filing.",
       "signals": [
-        {"type": "Campaign status", "text": "No campaign infrastructure, no fundraising, no public endorsements located. May not be a serious contender."},
-        {"type": "His background", "text": "Solo private practice. No published opinions or articles found."},
-        {"type": "His tax record", "text": "Nothing located."}
+        {
+          "type": "Campaign status",
+          "text": "No campaign infrastructure, no fundraising, no public endorsements located. May not be a serious contender."
+        },
+        {
+          "type": "His background",
+          "text": "Solo private practice. No published opinions or articles found."
+        },
+        {
+          "type": "His tax record",
+          "text": "Nothing located."
+        }
       ],
       "questions": [
         "Why are you seeking this seat, and what experience qualifies you to serve on the state's highest court?"
       ],
       "sources": [
-        {"label": "Justia profile", "url": "https://www.justia.com"}
+        {
+          "label": "Justia profile",
+          "url": "https://www.justia.com"
+        }
+      ],
+      "deep_read": "The public record on David Shelvey is thin to the point of near-absence, and the honest assessment is that he is not a serious contender for the seat. He raised exactly $0 in campaign contributions as of late April 2026, has no reported endorsements, and his campaign website includes content on skeletal similarities between T. rexes and kangaroos, which led journalists covering the race to describe it as a curiosity rather than a candidacy. Shelvey is a solo practitioner based in Sumner, Washington, practicing family law, estate planning, and tax law; he earned his law degree from Western Michigan University Cooley Law School and is licensed in both Washington and North Dakota. He ran for the Position 2 seat in the 2024 primary and received 3.7% of the vote in a four-candidate field. His stated campaign platform focuses on term limits, judicial accountability surveys, and open-mindedness. He obtained an LL.M. in IP, tax, and economics through online coursework at Antonin Scalia Law School at George Mason University, which is a Federalist Society-affiliated institution, but there is no evidence he holds a Federalist Society membership or has made any public statement about Culliton, income taxes, or Article VII. Without a campaign, endorsements, or any substantive legal record, assigning a lean is not analytically defensible.",
+      "expanded_signals": [
+        {
+          "type": "2024 primary performance: 3.7% of the vote",
+          "text": "In the 2024 Position 2 primary, Shelvey received 33,258 votes out of 907,131 cast, finishing fourth in a four-candidate field with 3.7% of the vote. Sal Mungia won with 41.9%, and David Larson came second with 37.1%. That result is consistent with a candidacy driven by filing fees rather than a realistic electoral strategy. His 2026 filing for Position 4 appears to follow the same pattern."
+        },
+        {
+          "type": "Scalia Law School coursework as partial signal",
+          "text": "Shelvey began online coursework in antitrust and global law at Antonin Scalia Law School at George Mason University in January 2023. GMU Law's Scalia School is strongly associated with Federalist Society methodology and was renamed to honor Scalia after his death. Whether Shelvey has absorbed or endorses that methodological approach is unknown; he has made no public statements linking his coursework to a judicial philosophy. The Scalia Law School connection is a weak signal at best, and without corroborating evidence it is insufficient to assign a lean."
+        },
+        {
+          "type": "Tax law practice before the IRS",
+          "text": "Shelvey's Justia and campaign profiles indicate he has practiced tax law, including before the IRS, and that he has obtained a PTIN and CAF number to practice as a tax attorney. That background means he has some engagement with tax doctrine, though at the level of individual tax compliance and appeals rather than constitutional tax policy. His prior Cooley Law School degree, solo practice in family law and estate planning, and the absence of any identified appellate brief or constitutional litigation makes it very unlikely he has engaged with Article VII or the Culliton framework."
+        },
+        {
+          "type": "No campaign infrastructure, no institutional backing",
+          "text": "As of the filing deadline in May 2026, Shelvey had no campaign manager, no fundraising apparatus, no identified endorsers, and no institutional support from any legal, bar, or political organization. By every observable metric, this is not a viable candidacy for the state's highest court. The most honest reading of his participation in this race is that he chose to file, as he did in 2024, without the resources or support structure to mount a competitive challenge."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Ballotpedia: David Shelvey",
+          "url": "https://ballotpedia.org/David_Shelvey"
+        },
+        {
+          "label": "David Shelvey campaign website",
+          "url": "https://davidshelvey.com"
+        },
+        {
+          "label": "Justia: David Robert Shelvey attorney profile",
+          "url": "https://lawyers.justia.com/lawyer/david-robert-shelvey-1662307"
+        },
+        {
+          "label": "2024 WA Supreme Court Position 2 primary results (PDC)",
+          "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?election_year=2026&office=STATE+SUPREME+COURT+JUSTICE&jurisdiction_type=Judicial"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        }
       ]
     },
     {
@@ -241,18 +651,77 @@
       "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials.",
       "fundraising": "$143,610 (PDC, May 2026)",
       "signals": [
-        {"type": "Who put him on the court", "text": "Ferguson appointee. As AG, Ferguson defended the capital gains tax that survived because of how the court read around Culliton."},
-        {"type": "His background", "text": "26-year appellate lawyer. Has written treatise material on Washington law. Knows how appellate doctrine actually moves."},
-        {"type": "How he talks about the law", "text": "Careful legal analysis and thoughtful decision-making. Moderate, institutionalist tone. Not a textualist self-identification."},
-        {"type": "What he has said about Culliton", "text": "Nothing directly. No public tax or Article VII record."}
+        {
+          "type": "Who put him on the court",
+          "text": "Ferguson appointee. As AG, Ferguson defended the capital gains tax that survived because of how the court read around Culliton."
+        },
+        {
+          "type": "His background",
+          "text": "26-year appellate lawyer. Has written treatise material on Washington law. Knows how appellate doctrine actually moves."
+        },
+        {
+          "type": "How he talks about the law",
+          "text": "Careful legal analysis and thoughtful decision-making. Moderate, institutionalist tone. Not a textualist self-identification."
+        },
+        {
+          "type": "What he has said about Culliton",
+          "text": "Nothing directly. No public tax or Article VII record."
+        }
       ],
       "questions": [
         "How does appellate experience shape your approach to overturning precedent?",
         "What weight do you give to how the legislature has built around a long-standing ruling?"
       ],
       "sources": [
-        {"label": "Governor's appointment announcement", "url": "https://governor.wa.gov/news/2026/governor-ferguson-appoints-theo-angelis-washington-supreme-court"},
-        {"label": "Campaign site", "url": "https://justiceangelis.com"}
+        {
+          "label": "Governor's appointment announcement",
+          "url": "https://governor.wa.gov/news/2026/governor-ferguson-appoints-theo-angelis-washington-supreme-court"
+        },
+        {
+          "label": "Campaign site",
+          "url": "https://justiceangelis.com"
+        }
+      ],
+      "deep_read": "Theo Angelis is the least legible of the three Ferguson-appointed incumbents on the ballot, but his coalition is unmistakably clear. He spent 25 years at K&L Gates in Seattle, leading the firm's appellate practice and then its global IP litigation group, and clerked for Judge Stephen F. Williams on the D.C. Circuit after graduating from Yale Law School. Williams was a Reagan appointee known for rigorous economic analysis, which gives Angelis's professional formation a slightly more institutionalist character than the typical progressive-appointed judge. But his endorsement list maps perfectly onto the Ferguson-Inslee network: he is endorsed by Governor Ferguson, former Governors Gregoire and Heck, five sitting Supreme Court justices, Senate Majority Leader Pedersen (the ESSB 6346 architect), the WEA-linked PAC, and a dense roster of Democratic state legislators. His pro bono work for unrepresented minors in immigration proceedings won him ACLU Humanitarian Award and the NWIRP Amicus Award. He is also, notably, the first justice of Middle Eastern descent on the Washington Supreme Court. None of his K&L Gates work involved Washington tax uniformity law, and his published statements emphasize independence, access to justice, and the rule of law in general terms. His ESSB 6346 position is almost entirely an inference from coalition and appointment; the doctrinal record that would sharpen that inference does not yet exist.",
+      "expanded_signals": [
+        {
+          "type": "D.C. Circuit clerkship under Judge Williams: institutionalist formation",
+          "text": "Angelis clerked for Judge Stephen F. Williams on the U.S. Court of Appeals for the D.C. Circuit from 1999 to 2000. Williams was a Reagan appointee who brought free-market economic analysis to administrative law and was associated with the law-and-economics school that also influenced Scalia's early jurisprudence. A D.C. Circuit clerkship in that chambers signals careful doctrinal work and formalist methodology. It is possible, though speculative, that Angelis's approach to constitutional questions carries more structural rigor than is typical for progressive-coalition appointees. This is a genuine uncertainty that his judicial record will eventually resolve."
+        },
+        {
+          "type": "Pedersen and WEA PAC endorsements as ESSB 6346 signals",
+          "text": "Among Angelis's endorsers are Senate Majority Leader Jamie Pedersen, the lead sponsor of ESSB 6346, and a PAC associated with the Washington Education Association, which has identified income tax revenue as its top legislative priority for the current cycle. These endorsements follow the same pattern as Birk's: they are not endorsements of a specific ruling, but they reflect a judgment by the tax bill's backers that Angelis is a more favorable vehicle than Larson or Amamilo."
+        },
+        {
+          "type": "Appellate practice leader and former head of global IP at K&L Gates",
+          "text": "Angelis led the appellate practice at K&L Gates and then the firm's global IP litigation group, arguing before the Federal Circuit, Ninth Circuit, D.C. Circuit, and state appellate courts. His IP work included lead ITC counsel roles for Sharp Corporation, Realtek Semiconductor, and others. That body of work reflects deep appellate practice competence across complex constitutional and statutory frameworks. While none of it touches the specific Article VII question, it is a much richer institutional appellate background than any non-incumbent candidate brings to this race."
+        },
+        {
+          "type": "ACLU and NWIRP recognition for immigration pro bono",
+          "text": "Angelis received an ACLU Humanitarian Award and an NWIRP Amicus Award for his pro bono representation of unrepresented minors in immigration proceedings, work he pursued while a K&L Gates partner. The NWIRP Amicus Award was specifically associated with his work on the JEFM case involving unrepresented immigrant children's right to counsel. These recognitions are from organizations whose institutional values align with the coalition that passed ESSB 6346. They are also a genuine indicator of personal commitment to access-to-justice principles that extends beyond his appointment coalition."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "K&L Gates: Angelis appointed to WA Supreme Court (March 2026)",
+          "url": "https://www.klgates.com/KL-Gates-Partner-Theo-Angelis-Appointed-to-Washington-State-Supreme-Court-3-12-2026"
+        },
+        {
+          "label": "K&L Gates: Theodore J. Angelis attorney bio",
+          "url": "https://www.klgates.com/lawyers/Theodore-J-Angelis"
+        },
+        {
+          "label": "Justice Angelis campaign site: Endorsements",
+          "url": "https://justiceangelis.com/endorsements/"
+        },
+        {
+          "label": "Lynnwood Times: Theo Angelis campaign profile (March 2026)",
+          "url": "https://lynnwoodtimes.com/2026/03/23/theo-angeles-campaign/"
+        },
+        {
+          "label": "Governor Ferguson appointment announcement (March 2026)",
+          "url": "https://www.klgates.com/KL-Gates-Partner-Theo-Angelis-Appointed-to-Washington-State-Supreme-Court-3-12-2026"
+        }
       ]
     },
     {
@@ -273,18 +742,77 @@
       "endorsements": "Conservative-leaning endorsements. Previously backed by Project 42, an anti-income-tax independent expenditure group.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "How he talks about the law", "text": "Self-described textualist. Constitution as written framing."},
-        {"type": "Who's funded him", "text": "Project 42, an anti-income-tax group, has supported him in prior races."},
-        {"type": "The counterintuitive part", "text": "Anti-income-tax candidates have every reason to protect the 1933 rule because it's the constitutional wall that blocks the income tax their funders oppose."},
-        {"type": "His tax record", "text": "Municipal court doesn't generate appellate opinions on Article VII. Signal here is methodology and funding, not record."}
+        {
+          "type": "How he talks about the law",
+          "text": "Self-described textualist. Constitution as written framing."
+        },
+        {
+          "type": "Who's funded him",
+          "text": "Project 42, an anti-income-tax group, has supported him in prior races."
+        },
+        {
+          "type": "The counterintuitive part",
+          "text": "Anti-income-tax candidates have every reason to protect the 1933 rule because it's the constitutional wall that blocks the income tax their funders oppose."
+        },
+        {
+          "type": "His tax record",
+          "text": "Municipal court doesn't generate appellate opinions on Article VII. Signal here is methodology and funding, not record."
+        }
       ],
       "questions": [
         "If you concluded the 1933 ruling was wrong as a matter of original meaning, what would you do about it?",
         "When the party relying on a precedent is the state government itself, how should that change your analysis?"
       ],
       "sources": [
-        {"label": "Ballotpedia", "url": "https://ballotpedia.org/Dave_Larson_(Federal_Way_Municipal_Court,_Washington)"},
-        {"label": "Northwest Progressive coverage", "url": "https://www.nwprogressive.org/weblog/wp-content/uploads/2024/07/JUL24-David-Larson-1200x800.jpg"}
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Dave_Larson_(Federal_Way_Municipal_Court,_Washington)"
+        },
+        {
+          "label": "Northwest Progressive coverage",
+          "url": "https://www.nwprogressive.org/weblog/wp-content/uploads/2024/07/JUL24-David-Larson-1200x800.jpg"
+        }
+      ],
+      "deep_read": "Dave Larson is the clearest anti-income-tax candidate in the 2026 field, and his record makes that reading unusually well-grounded. He has been endorsed by the Washington State Republican Party, received direct financial support in the 2024 cycle from Future 42 and its affiliated Project 42 network, whose stated mission is to maintain Washington as income-tax-free, and appeared in training programs organized by Full Court Press, the conservative judicial infrastructure organization chaired by former Republican AG Rob McKenna. Larson himself has stated publicly that he 'opposed the state Supreme Court decision to uphold the capital gains tax' in Quinn, the most direct candidate statement on the tax question identified in this research. He joined the Federalist Society 41 years ago, though he states he has not renewed membership. His campaign emphasizes applying law as written rather than personal agendas, protecting constitutional principles as written, and restoring balance to a court he views as ideologically captured. He ran in 2024, coming within 0.61 percentage points of Sal Mungia, earning over 1.6 million votes on a thin campaign. Larson brings nearly 18 years of trial court experience as a Federal Way Municipal Court judge and 23 prior years as a trial lawyer, but municipal court generates no Article VII opinions. The inference is about as strong as it can be for a non-incumbent challenger: coalition, funding, stated opposition to Quinn, and Federalist Society formation all point in the same direction.",
+      "expanded_signals": [
+        {
+          "type": "Stated opposition to Quinn: the only direct candidate statement on record",
+          "text": "The Urbanist reporting on the 2026 races identifies Larson as having opposed the state Supreme Court decision that upheld the capital gains tax in Quinn v. State (2023). This is the most direct public statement on the tax question available from any challenger in the 2026 field. It does not say whether he would have joined the McCloud dissent's Article VII analysis or whether he would have found a separate basis for striking the tax, but opposition to Quinn is a strong indicator that he would not uphold ESSB 6346, which has a weaker excise-tax predicate than the capital gains tax."
+        },
+        {
+          "type": "Future 42 and Project 42 financial and organizational support",
+          "text": "Future 42, successor to Project 42, tracked Larson's 2024 race as a 'critically important development' in its post-election recap and described the race as one that 'could start to bring some balance to the state's high court.' Project 42 was co-created by Congresswoman Cathy McMorris Rodgers and has a stated mission of maintaining Washington as income-tax-free. Michael Baumgartner, now a U.S. Representative, sits on the board of Full Court Press and is associated with Project 42. The organizational overlap among these groups, their shared anti-income-tax mission, and their support of Larson is the clearest ideological funding pattern of any candidate in the 2026 races."
+        },
+        {
+          "type": "Federalist Society membership and Full Court Press training",
+          "text": "Larson joined the Federalist Society 41 years ago, giving him a doctrinal formation in originalist and textualist methodology that long predates his judicial career. His participation in Full Court Press campaign training in 2025 puts him inside the organization that Rob McKenna chairs and that aims to shift the court's ideological composition. Larson has attempted to distance himself from the Full Court Press affiliation by noting that the group has supported diverse candidates, but his presence on their prospects page and receipt of training confirms a working relationship."
+        },
+        {
+          "type": "2024 race result: institutional viability as a real candidate",
+          "text": "Larson's 2024 performance, coming within 0.61% of Sal Mungia and earning 37.1% of the vote statewide, establishes him as a serious electoral contender, not a protest candidate. He raised approximately $94,000 for the 2026 Position 5 race through May, second only to Angelis among the three Position 5 candidates. His recognition as 'Exceptionally Well Qualified' by the Washington State District and Municipal Court Judges Association through the President's Award adds professional credibility that distinguishes him from low-viability challengers."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Dave Larson for Justice campaign site",
+          "url": "https://www.larsonforjustice.com"
+        },
+        {
+          "label": "Lynnwood Times: Larson campaign announcement (Feb. 2026)",
+          "url": "https://lynnwoodtimes.com/2026/02/23/dave-larson/"
+        },
+        {
+          "label": "Future 42: 2024 election recap",
+          "url": "https://future42.org/2024-election-recap-the-fight-continues-on/"
+        },
+        {
+          "label": "WAGOP recommendation announcement",
+          "url": "https://wagop.org/wagop-breaks-with-precedent-to-officially-recommend-two-candidates-for-open-seats-on-was-high-court/"
+        },
+        {
+          "label": "Federal Way, WA: Judge David Larson bio",
+          "url": "https://www.federalwaywa.gov/page/judge-david-larson"
+        }
       ]
     },
     {
@@ -305,18 +833,77 @@
       "endorsements": "Pursuing Democratic LD endorsements; bar ratings pending.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "Her background", "text": "Public defender career. Civil-liberties orientation."},
-        {"type": "How she talks about the law", "text": "Her stare decisis framing leans more formal-conservative than reformist."},
-        {"type": "Who's backing her", "text": "Democratic-aligned endorsements with a procedural-justice frame, not a tax-policy one."},
-        {"type": "Her tax record", "text": "Nothing on Article VII or Culliton. Genuine uncertainty."}
+        {
+          "type": "Her background",
+          "text": "Public defender career. Civil-liberties orientation."
+        },
+        {
+          "type": "How she talks about the law",
+          "text": "Her stare decisis framing leans more formal-conservative than reformist."
+        },
+        {
+          "type": "Who's backing her",
+          "text": "Democratic-aligned endorsements with a procedural-justice frame, not a tax-policy one."
+        },
+        {
+          "type": "Her tax record",
+          "text": "Nothing on Article VII or Culliton. Genuine uncertainty."
+        }
       ],
       "questions": [
         "What are the most important factors when deciding whether to overturn a precedent?",
         "Does the case for overturning weigh differently when the party who has relied on the ruling is the legislature itself?"
       ],
       "sources": [
-        {"label": "Thurston County Superior Court", "url": "https://www.co.thurston.wa.us/superior-court/"},
-        {"label": "Yelm Community coverage", "url": "https://yelmcommunity.org/"}
+        {
+          "label": "Thurston County Superior Court",
+          "url": "https://www.co.thurston.wa.us/superior-court/"
+        },
+        {
+          "label": "Yelm Community coverage",
+          "url": "https://yelmcommunity.org/"
+        }
+      ],
+      "deep_read": "Sharonda Amamilo is a genuine question mark on the Culliton question, and the honest reading of the available record supports that uncertainty rather than resolving it. She is the first African American judge in Thurston County's history, a former public defender and private practitioner with nearly two decades of legal experience, and a sitting Thurston County Superior Court judge who handles child welfare, family law, and administrative appeals including multi-million-dollar tax disputes. Her endorsers include Justice Helen Whitener, who voted with the Quinn majority, and judges and attorneys across western Washington's Democratic-leaning bar. She is pursuing Democratic legislative district endorsements. But her stated judicial philosophy is notably more formal and process-centered than her endorsement coalition might suggest: she has described her approach using a 'FIRE' framework emphasizing Facts, Issues, Rules, and Exceptions, has stated that 'every perceived wrong doesn't necessarily have a legal remedy,' and has emphasized careful scrutiny of recommendations and fidelity to the written law. The stare decisis framing in her public materials leans more formal-conservative than reformist. Her coalition wants her to vote to scrap Culliton; her stated methodology is more cautious. That gap is what keeps the lean at 'unclear' rather than a confident scrap signal.",
+      "expanded_signals": [
+        {
+          "type": "Whitener endorsement as Quinn-bloc signal",
+          "text": "Justice G. Helen Whitener, who signed the 7-2 Quinn majority and whose appointment in 2020 was flagged by Tax Notes State as potentially opening the door to Culliton revisitation, has endorsed Amamilo. Whitener's endorsement of Amamilo rather than Angelis for Position 5 is the most direct institutional signal in Amamilo's favor from the scrap coalition. It does not guarantee a scrap vote, but it suggests that at least one justice in the Quinn majority believes Amamilo is more favorable than neutral on the income tax question."
+        },
+        {
+          "type": "Multi-million-dollar tax disputes in superior court",
+          "text": "Amamilo's Seattle Medium profile indicates her Thurston County Superior Court docket includes 'multi-million-dollar tax disputes' and review of agency decisions with statewide implications. That language suggests she has reviewed administrative tax assessments at the trial level, which is substantively distinct from the constitutional question in ESSB 6346 but means she is not without any engagement with tax litigation. No specific case names or outcomes have been identified in this research; a direct record search would be needed to evaluate how she has approached tax questions."
+        },
+        {
+          "type": "Former public defender orientation with formal-conservative stare decisis framing",
+          "text": "Amamilo's public defense background typically correlates with a civil liberties and pro-defendant orientation that leans toward the progressive coalition. But her public statements on judicial decision-making emphasize the FIRE framework, strict adherence to the written record, and a statement that not every perceived wrong has a legal remedy. This is more cautious and formalist than the reform-oriented framing typical of progressive judicial candidates. Taken at face value, it could lead her to find that the Legislature cannot simply relabel an income tax as an excise tax and expect the court to follow the label."
+        },
+        {
+          "type": "Low fundraising as electoral risk signal",
+          "text": "Amamilo has raised approximately $10,600 in campaign contributions as of late April 2026, compared to Angelis's $103,000 and Larson's $94,000. That fundraising gap makes it structurally unlikely she advances past the August primary in a three-way race unless significant institutional money enters behind her. The Sentencing Guidelines Commission and DCYF Oversight Board roles in her resume add relevant public-service credentials, but without competitive fundraising those credentials may not reach enough voters."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Seattle Medium: Judge Sharonda Amamilo for Supreme Court",
+          "url": "https://seattlemedium.com/judge-sharonda-amamilo-supreme-court/"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        },
+        {
+          "label": "Thurston County Superior Court: Judge roster",
+          "url": "https://www.thurstoncountywa.gov/departments/superior-court/court"
+        },
+        {
+          "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
+          "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        },
+        {
+          "label": "Daily World: WA Supreme Court races shape up as income tax case looms",
+          "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        }
       ]
     },
     {
@@ -337,18 +924,77 @@
       "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
-        {"type": "On-record opinion", "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."},
-        {"type": "How she talks about the law", "text": "Institutionalist. Her approach in Quinn was to work around the old precedent rather than confront it."},
-        {"type": "Stated influences", "text": "Public writings and CLE talks emphasize careful statutory construction, judicial restraint, and respect for precedent."},
-        {"type": "What it means", "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."}
+        {
+          "type": "On-record opinion",
+          "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
+        },
+        {
+          "type": "How she talks about the law",
+          "text": "Institutionalist. Her approach in Quinn was to work around the old precedent rather than confront it."
+        },
+        {
+          "type": "Stated influences",
+          "text": "Public writings and CLE talks emphasize careful statutory construction, judicial restraint, and respect for precedent."
+        },
+        {
+          "type": "What it means",
+          "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
+        }
       ],
       "questions": [
         "When you wrote the Quinn opinion, what made you decide not to revisit the 1933 ruling?",
         "Under what circumstances would the court be justified in overturning a tax precedent that old?"
       ],
       "sources": [
-        {"label": "Quinn v. State (opinion PDF)", "url": "https://www.courts.wa.gov/opinions/pdf/1007698.pdf"},
-        {"label": "Washington Courts justice bio", "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"}
+        {
+          "label": "Quinn v. State (opinion PDF)",
+          "url": "https://www.courts.wa.gov/opinions/pdf/1007698.pdf"
+        },
+        {
+          "label": "Washington Courts justice bio",
+          "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
+        }
+      ],
+      "deep_read": "Debra Stephens is the author of the majority opinion in Quinn v. State, the 7-2 March 2023 ruling that upheld the capital gains tax by classifying it as an excise tax on transactions rather than a property tax on income. Her opinion explicitly declined to revisit Culliton, stating: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That choice was deliberate. She had the votes, the case, and the doctrinal opportunity to confront Culliton head-on in 2023, and she chose the narrower path. That choice defines the analytical baseline for ESSB 6346: the new bill's label as an excise tax is much weaker than Quinn's transactional framing, because it is measured from federal AGI rather than from a discrete sale or exchange event, and McCloud's dissent in Quinn made exactly this distinction explicit. Stephens could uphold ESSB 6346 only by extending Quinn in a way that her own 2023 opinion did not anticipate, or by overruling Culliton directly, which she declined to do when she had the chance. Her Gonzaga undergraduate and law school education, 18 years on the Washington Supreme Court, tenure as Chief Justice twice, and teaching background in state and federal constitutional law at Gonzaga Law all reinforce an institutionalist, careful, stare-decisis-oriented judicial style. The most accurate read of her record is not that she is a conservative in the Culliton-preserve sense, but that she is a cautious institutionalist who will look for the narrowest path, and on ESSB 6346 the narrowest path is significantly harder to find than it was in Quinn.",
+      "expanded_signals": [
+        {
+          "type": "Quinn majority language on Culliton: an explicit choice not to act",
+          "text": "Stephens wrote: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That sentence is not an endorsement of Culliton or a commitment to preserve it; it is a statement that the specific case did not require revisiting the 1933 ruling. But ESSB 6346, which attaches to federal AGI and lacks any transactional trigger, does not present the same avoidance opportunity. She will either have to extend Quinn's excise-tax logic to a tax that lacks Quinn's excise predicate, or overrule Culliton directly, or strike down ESSB 6346. Her 2023 record indicates she prefers the first option when available, but whether it is available for a pure income tax is the doctrinal crux of the case."
+        },
+        {
+          "type": "Bipartisan and bar-association endorsement pattern",
+          "text": "Stephens's 2020 reelection drew endorsements from the Washington Education Association ($3,500), the Washington State Association for Justice ($1,900), and NARAL Pro-Choice Washington, along with the Washington State Labor Council, AFL-CIO. Ballotpedia's partisan confidence scoring rated her 'mild Democrat' based on these sources. For the 2026 race, no new institutional endorsements have been publicly reported; the incumbent Chief Justice profile in a well-resourced race typically attracts a broad, bipartisan bar-association slate. She has not drawn a serious challenger as of May 2026."
+        },
+        {
+          "type": "Taught state and federal constitutional law at Gonzaga",
+          "text": "Before joining the bench, Stephens taught state constitutional law, federal constitutional law, community property, and appellate advocacy as an adjunct professor at Gonzaga University School of Law. That academic background, combined with the 18 years on the state's highest court, makes her among the most doctrinally sophisticated justices currently on the bench on constitutional questions. Her approach to Culliton will not be driven by uncertainty about what the doctrine says; it will be a deliberate choice about what to do with a precedent she knows thoroughly."
+        },
+        {
+          "type": "Co-chair of National Courts Science Institute: institutionalist framing",
+          "text": "Stephens serves as co-chair of the National Courts Science Institute and previously chaired ASTAR, a congressionally directed program enhancing courts' capacity to address scientific and technical issues. This role is not directly related to tax law but reflects a consistent pattern of building institutional capacity and reform within established frameworks rather than through doctrinal disruption. It is consistent with a justice who looks for incremental paths and is deeply invested in the court as an institution."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "Ballotpedia: Debra Stephens",
+          "url": "https://ballotpedia.org/Debra_Stephens"
+        },
+        {
+          "label": "KOMO News: Chief Justice Stephens on possible court shake-up (2026)",
+          "url": "https://komonews.com/news/politics/washington-supreme-court-chief-justice-weighs-in-on-possible-court-shake-up-this-fall-party-line-voter-democrat-republican-law-legalolympia-political"
+        },
+        {
+          "label": "The Startup Law Blog: ESSB 6346 constitutional analysis under Quinn and Culliton",
+          "url": "https://www.thestartuplawblog.com/essb-6346-a-constitutional-analysis-under-quinn-and-culliton/"
+        },
+        {
+          "label": "NAWJ 2014: Debra Stephens career bio",
+          "url": "https://www.nawj.org/uploads/pdf/conferences/2014/nawj_2014_debra_stephens.pdf"
+        },
+        {
+          "label": "Cascade PBS: WA Supreme Court rules capital gains tax constitutional (2023)",
+          "url": "https://www.cascadepbs.org/news/2023/03/wa-supreme-court-rules-capital-gains-tax-constitutional/"
+        }
       ]
     }
   ]

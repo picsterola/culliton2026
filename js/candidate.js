@@ -64,6 +64,23 @@
       </ul>
     </section>`;
 
+  // Deep read: bench-style analytical narrative and expanded signals.
+  const deepReadHTML = (c.deep_read || (c.expanded_signals && c.expanded_signals.length)) ? `
+    <section class="deep-read deep-read--${escapeAttr(c.lean || 'unclear')}">
+      <div class="deep-read__eyebrow">Deep read</div>
+      <h2 class="deep-read__heading">How this candidate is likely to rule, and why.</h2>
+      ${c.deep_read ? `<p class="deep-read__lede">${escapeHTML(c.deep_read)}</p>` : ''}
+      ${(c.expanded_signals && c.expanded_signals.length) ? `
+        <ul class="deep-read__signals">
+          ${c.expanded_signals.map((s) => `
+            <li class="deep-read__signal">
+              <div class="deep-read__signal-type">${escapeHTML(s.type)}</div>
+              <p class="deep-read__signal-text">${escapeHTML(s.text)}</p>
+            </li>`).join('')}
+        </ul>` : ''}
+      <p class="deep-read__footnote">An analytical read on public signals. Not a prediction of any individual vote.</p>
+    </section>` : '';
+
   const questionsHTML = `
     <section class="questions-block">
       <h3>Questions a voter might ask this candidate</h3>
@@ -77,11 +94,13 @@
       </p>
     </section>`;
 
+  // Merge existing sources with any additional_sources from the deep read.
+  const allSources = [...(c.sources || []), ...(c.additional_sources || [])];
   const sourcesHTML = `
     <section class="sources-block">
       <h3>Sources</h3>
       <ul>
-        ${c.sources
+        ${allSources
           .map((s) => `<li><a href="${escapeAttr(s.url)}" rel="noopener" target="_blank">${escapeHTML(s.label)}</a></li>`)
           .join("")}
         <li><a href="response.html?c=${encodeURIComponent(c.slug)}">Are you ${escapeHTML(c.name)} or their campaign? Submit a response →</a></li>
@@ -114,6 +133,7 @@
     ${leanBannerHTML}
     ${factHTML}
     ${signalsHTML}
+    ${deepReadHTML}
     ${questionsHTML}
     ${sourcesHTML}
   `;
