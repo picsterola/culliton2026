@@ -182,15 +182,14 @@
     submitBtn.textContent = "Sending…";
 
     try {
+      // FormSubmit's AJAX endpoint accepts multipart/form-data without
+      // triggering a CORS preflight. Do NOT set Content-Type manually;
+      // let the browser pick multipart/form-data for FormData bodies.
       const formData = new FormData(form);
-      const payload = Object.fromEntries(formData);
       const response = await fetch(form.action, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: JSON.stringify(payload)
+        headers: { Accept: "application/json" },
+        body: formData
       });
       const data = await response.json();
 
