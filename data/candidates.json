@@ -90,7 +90,10 @@
           "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
           "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
         }
-      ]
+      ],
+      "campaign_website": "https://melodyforjustice.com",
+      "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
+      "campaign_website_status": "live"
     },
     {
       "slug": "edwards",
@@ -99,7 +102,7 @@
       "photo": "images/edwards.jpg",
       "position": 1,
       "position_label": "Position 1",
-      "seat_context": "Yu seat \u2014 challenging Melody",
+      "seat_context": "Yu seat — challenging Melody",
       "current_role": "Partner at Ballard Spahr; UW Law affiliate faculty",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -120,7 +123,7 @@
         },
         {
           "type": "His academic role",
-          "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out \u2014 this isn't theoretical for him."
+          "text": "Teaches state and local tax at UW Law. He knows Article VII and Culliton inside and out — this isn't theoretical for him."
         },
         {
           "type": "What he has said about Culliton",
@@ -185,7 +188,10 @@
           "label": "Scott Edwards campaign site: About",
           "url": "https://votescottedwards.com/about-scott-edwards/"
         }
-      ]
+      ],
+      "campaign_website": "https://votescottedwards.com",
+      "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
+      "campaign_website_status": "live"
     },
     {
       "slug": "diaz",
@@ -276,7 +282,10 @@
           "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
           "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
         }
-      ]
+      ],
+      "campaign_website": "https://www.diazforjustice.com",
+      "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
+      "campaign_website_status": "live"
     },
     {
       "slug": "stevens",
@@ -285,7 +294,7 @@
       "photo": "images/stevens.jpg",
       "position": 3,
       "position_label": "Position 3",
-      "seat_context": "Montoya-Lewis seat \u2014 challenging Diaz",
+      "seat_context": "Montoya-Lewis seat — challenging Diaz",
       "current_role": "Judge, Mason County Superior Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -371,7 +380,10 @@
           "label": "Columbia Basin Herald: WA Supreme Court races could decide fate of income tax",
           "url": "https://columbiabasinherald.com/news/2026/apr/27/washington-supreme-court-races-could-decide-fate-of-controversial-income-tax/"
         }
-      ]
+      ],
+      "campaign_website": "https://www.judgestevensforwa.com",
+      "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
+      "campaign_website_status": "live"
     },
     {
       "slug": "birk",
@@ -380,12 +392,12 @@
       "photo": "images/birk.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat \u2014 open",
+      "seat_context": "Charles Johnson seat — open",
       "current_role": "Judge, WA Court of Appeals",
       "lean": "scrap",
       "lean_short": "Leans toward scrapping the rule",
       "lean_confidence": "Medium",
-      "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax \u2014 but his own record on this is thin.",
+      "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax — but his own record on this is thin.",
       "appointed_by": "Gov. Jay Inslee (to the Court of Appeals)",
       "prior_practice": "Civil rights and constitutional litigation in Seattle, on the plaintiffs' side.",
       "endorsements": "Heavy slate of progressive elected officials and labor unions.",
@@ -393,7 +405,7 @@
       "signals": [
         {
           "type": "Who put him on the bench",
-          "text": "Inslee appointed him to the Court of Appeals \u2014 same governor who signed the capital gains tax."
+          "text": "Inslee appointed him to the Court of Appeals — same governor who signed the capital gains tax."
         },
         {
           "type": "His background",
@@ -462,7 +474,10 @@
           "label": "Lynnwood Times: Ian Birk candidacy profile (Feb. 2026)",
           "url": "https://lynnwoodtimes.com/2026/02/05/ian-birk/"
         }
-      ]
+      ],
+      "campaign_website": "https://ianbirk.com",
+      "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
+      "campaign_website_status": "live"
     },
     {
       "slug": "odonnell",
@@ -471,7 +486,7 @@
       "photo": "images/odonnell.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat \u2014 open",
+      "seat_context": "Charles Johnson seat — open",
       "current_role": "Judge, King County Superior Court",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -549,7 +564,10 @@
           "label": "KOMO News: Big money pours into state Supreme Court races",
           "url": "https://komonews.com/news/local/big-money-pours-into-state-supreme-court-races-as-millionaires-tax-debate-raises-stakes-advocacy-groups-senator-jamie-pederson-endorsements-of-appeals-judge-ian-birk-position-4"
         }
-      ]
+      ],
+      "campaign_website": "https://www.odonnellforjustice.com",
+      "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
+      "campaign_website_status": "live"
     },
     {
       "slug": "shelvey",
@@ -558,7 +576,7 @@
       "photo": "images/shelvey.jpg",
       "position": 4,
       "position_label": "Position 4",
-      "seat_context": "Charles Johnson seat \u2014 open",
+      "seat_context": "Charles Johnson seat — open",
       "current_role": "Solo practitioner",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -631,7 +649,11 @@
           "label": "Wikipedia: 2026 Washington Supreme Court election",
           "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
-      ]
+      ],
+      "campaign_website": null,
+      "campaign_donate": null,
+      "campaign_website_status": "none",
+      "campaign_website_note": "Filed as a mini-reporting candidate. The 2024 davidshelvey.com domain no longer loads."
     },
     {
       "slug": "angelis",
@@ -640,7 +662,7 @@
       "photo": "images/angelis.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat \u2014 special election",
+      "seat_context": "Madsen seat — special election",
       "current_role": "Justice, WA Supreme Court",
       "lean": "scrap",
       "lean_short": "Leans toward scrapping the rule",
@@ -722,7 +744,10 @@
           "label": "Governor Ferguson appointment announcement (March 2026)",
           "url": "https://www.klgates.com/KL-Gates-Partner-Theo-Angelis-Appointed-to-Washington-State-Supreme-Court-3-12-2026"
         }
-      ]
+      ],
+      "campaign_website": "https://justiceangelis.com",
+      "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
+      "campaign_website_status": "live"
     },
     {
       "slug": "larson",
@@ -731,7 +756,7 @@
       "photo": "images/larson.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat \u2014 challenging Angelis",
+      "seat_context": "Madsen seat — challenging Angelis",
       "current_role": "Judge, Federal Way Municipal Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -813,7 +838,10 @@
           "label": "Federal Way, WA: Judge David Larson bio",
           "url": "https://www.federalwaywa.gov/page/judge-david-larson"
         }
-      ]
+      ],
+      "campaign_website": "https://larsonforwa.org/",
+      "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
+      "campaign_website_status": "live"
     },
     {
       "slug": "amamilo",
@@ -822,7 +850,7 @@
       "photo": "images/amamilo.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat \u2014 three-way race",
+      "seat_context": "Madsen seat — three-way race",
       "current_role": "Judge, Thurston County Superior Court",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
@@ -904,7 +932,10 @@
           "label": "Daily World: WA Supreme Court races shape up as income tax case looms",
           "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
         }
-      ]
+      ],
+      "campaign_website": "https://sharondaforjustice.org",
+      "campaign_donate": "https://secure.anedot.com/sharonda-amamilo-for-justice-a90c877d-f583-4c4f-ae38-8aa18d8c1123/sharonda4supremecourt",
+      "campaign_website_status": "live"
     },
     {
       "slug": "miller",
@@ -913,14 +944,14 @@
       "photo": "images/miller.jpg",
       "position": 5,
       "position_label": "Position 5",
-      "seat_context": "Madsen seat \u2014 special election",
+      "seat_context": "Madsen seat — special election",
       "current_role": "Appellate lawyer, Carney Badley Spellman (Seattle)",
       "lean": "unclear",
       "lean_short": "Not enough to tell",
       "lean_confidence": "Low",
       "one_liner": "Veteran appellate lawyer with 40+ years at the WA bar. Deep institutional ties to the Seattle legal establishment, no judicial record, and nothing public on Article VII.",
       "appointed_by": "Not applicable.",
-      "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman (2008\u2013present). Admitted to the Washington bar in 1984 (WSBA No. 14459). Earlier: judicial law clerk at the WA Court of Appeals Div. I (assisted on 75 appeals), judicial extern at the U.S. District Court, Seattle municipal court prosecutor, and staff counsel to the WA Senate Health and Long-Term Care Committee (1990). Pro tem judge, Seattle Municipal Court.",
+      "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman (2008–present). Admitted to the Washington bar in 1984 (WSBA No. 14459). Earlier: judicial law clerk at the WA Court of Appeals Div. I (assisted on 75 appeals), judicial extern at the U.S. District Court, Seattle municipal court prosecutor, and staff counsel to the WA Senate Health and Long-Term Care Committee (1990). Pro tem judge, Seattle Municipal Court.",
       "endorsements": "None publicly reported as of May 2026.",
       "fundraising": "Not yet reported in PDC filings located.",
       "signals": [
@@ -930,7 +961,7 @@
         },
         {
           "type": "How he talks about the law",
-          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas. Has briefed Washington constitutional questions in practice (e.g., WA Water Jet Workers v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29)."
+          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas. Has briefed Washington constitutional questions in practice (e.g., WA Water Jet Workers v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II § 29)."
         },
         {
           "type": "Who's backing him",
@@ -957,7 +988,7 @@
           "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
       ],
-      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean even though the circumstantial pattern is mildly keep-coded. He is a Carney Badley Spellman shareholder and a founding member of the firm's Appellate Group, admitted to the Washington bar in 1984 (WSBA No. 14459), with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. He clerked at the Washington Court of Appeals Division One, served as a Seattle Municipal Court prosecutor, was staff counsel to the Washington Senate Health and Long-Term Care Committee in 1990, and sits pro tem on the Seattle Municipal Court. His institutional life runs through the King County Bar Association, where he has been a member since 1985, served as a trustee from 2001 to 2004, co-founded the Appellate Law Section in 2005 and chaired it in 2006\u20132007, has chaired and served on the Judicial Evaluation Committee, and has sat on the Martin Luther King Jr. Luncheon Committee for over twenty years. He is also a founding member of the Washington Appellate Lawyers Association. In 2025 he served as a Special Assistant Attorney General for UW Medicine in a Washington Supreme Court amicus filing, showing comfort representing state institutions. At the same time, in Washington State Hospital Association v. Department of Health, 183 Wn.2d 590 (2015), he successfully argued that the Department of Health exceeded its certificate-of-need authority. He has briefed at least one Washington constitutional question of consequence (WA Water Jet Workers v. Yarbrough, art. II \u00a7 29). As of mid-May 2026, Wikipedia lists no endorsements for him, no campaign infrastructure has surfaced, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. The coalition signal points away from the conservative overturn camp (no WSRP, no Future 42, no Federalist Society trail; long KCBA and MLK Committee tenure), but coalition is not doctrine, and without his own statement the case for moving him off 'unclear' is not strong enough.",
+      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean even though the circumstantial pattern is mildly keep-coded. He is a Carney Badley Spellman shareholder and a founding member of the firm's Appellate Group, admitted to the Washington bar in 1984 (WSBA No. 14459), with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. He clerked at the Washington Court of Appeals Division One, served as a Seattle Municipal Court prosecutor, was staff counsel to the Washington Senate Health and Long-Term Care Committee in 1990, and sits pro tem on the Seattle Municipal Court. His institutional life runs through the King County Bar Association, where he has been a member since 1985, served as a trustee from 2001 to 2004, co-founded the Appellate Law Section in 2005 and chaired it in 2006–2007, has chaired and served on the Judicial Evaluation Committee, and has sat on the Martin Luther King Jr. Luncheon Committee for over twenty years. He is also a founding member of the Washington Appellate Lawyers Association. In 2025 he served as a Special Assistant Attorney General for UW Medicine in a Washington Supreme Court amicus filing, showing comfort representing state institutions. At the same time, in Washington State Hospital Association v. Department of Health, 183 Wn.2d 590 (2015), he successfully argued that the Department of Health exceeded its certificate-of-need authority. He has briefed at least one Washington constitutional question of consequence (WA Water Jet Workers v. Yarbrough, art. II § 29). As of mid-May 2026, Wikipedia lists no endorsements for him, no campaign infrastructure has surfaced, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. The coalition signal points away from the conservative overturn camp (no WSRP, no Future 42, no Federalist Society trail; long KCBA and MLK Committee tenure), but coalition is not doctrine, and without his own statement the case for moving him off 'unclear' is not strong enough.",
       "expanded_signals": [
         {
           "type": "Forty-plus years inside the Seattle appellate bar",
@@ -969,7 +1000,7 @@
         },
         {
           "type": "Constitutional questions are in his portfolio, just not Article VII",
-          "text": "Miller has briefed at least one notable Washington constitutional case: WA Water Jet Workers Association v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29. He has filed amicus briefs on charter-school constitutionality, medical malpractice doctrine, parenting plans, and municipal antitrust. Constitutional argument is in his toolkit. Article VII and tax uniformity are not in the located record, which is the issue."
+          "text": "Miller has briefed at least one notable Washington constitutional case: WA Water Jet Workers Association v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II § 29. He has filed amicus briefs on charter-school constitutionality, medical malpractice doctrine, parenting plans, and municipal antitrust. Constitutional argument is in his toolkit. Article VII and tax uniformity are not in the located record, which is the issue."
         },
         {
           "type": "No conservative coalition footprint, no progressive coalition footprint either",
@@ -986,7 +1017,7 @@
           "url": "https://www.linkedin.com/in/gregory-m-miller-630436b7"
         },
         {
-          "label": "Snyder v. Virginia Mason \u2014 UW Medicine amicus joinder (Miller as Special AAG, 2025)",
+          "label": "Snyder v. Virginia Mason — UW Medicine amicus joinder (Miller as Special AAG, 2025)",
           "url": "https://www.courts.wa.gov/content/petitions/1041365%20UW%20Amicus%20Joinder.pdf"
         },
         {
@@ -997,7 +1028,11 @@
           "label": "The Daily World: WA Supreme Court races shape up as income tax case looms (May 2026)",
           "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
         }
-      ]
+      ],
+      "campaign_website": null,
+      "campaign_donate": null,
+      "campaign_website_status": "broken",
+      "campaign_website_note": "The voter pamphlet lists millerforjustice.org but the domain currently times out."
     },
     {
       "slug": "stephens",
@@ -1006,7 +1041,7 @@
       "photo": "images/stephens.jpg",
       "position": 7,
       "position_label": "Position 7",
-      "seat_context": "Chief Justice \u2014 reelection",
+      "seat_context": "Chief Justice — reelection",
       "current_role": "Chief Justice, Washington Supreme Court",
       "lean": "keep",
       "lean_short": "Likely to keep the rule",
@@ -1019,7 +1054,7 @@
       "signals": [
         {
           "type": "On-record opinion",
-          "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax \u2014 but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
+          "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
         },
         {
           "type": "How she talks about the law",
@@ -1031,7 +1066,7 @@
         },
         {
           "type": "What it means",
-          "text": "If a graduated income tax \u2014 clearly framed as a tax on income \u2014 reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
+          "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
         }
       ],
       "questions": [
@@ -1088,7 +1123,11 @@
           "label": "Cascade PBS: WA Supreme Court rules capital gains tax constitutional (2023)",
           "url": "https://www.cascadepbs.org/news/2023/03/wa-supreme-court-rules-capital-gains-tax-constitutional/"
         }
-      ]
+      ],
+      "campaign_website": null,
+      "campaign_donate": null,
+      "campaign_website_status": "broken",
+      "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website."
     }
   ]
 }

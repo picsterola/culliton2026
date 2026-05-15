@@ -25,6 +25,28 @@
 
   document.title = `${c.name} · Culliton 2026`;
 
+  // Campaign website CTA block — sits between header and lean banner
+  let campaignHTML = '';
+  if (c.campaign_website) {
+    campaignHTML = `
+    <aside class="campaign-cta">
+      <div class="campaign-cta__label">Campaign website</div>
+      <div class="campaign-cta__actions">
+        <a class="campaign-cta__btn campaign-cta__btn--primary" href="${escapeAttr(c.campaign_website)}" rel="noopener" target="_blank">
+          Visit ${escapeHTML(c.name)}'s campaign site →
+        </a>
+        ${c.campaign_donate ? `<a class="campaign-cta__btn campaign-cta__btn--ghost" href="${escapeAttr(c.campaign_donate)}" rel="noopener" target="_blank">Donate</a>` : ''}
+      </div>
+      <p class="campaign-cta__disclaimer">External link. We do not endorse any candidate. Listing campaign sites is purely informational.</p>
+    </aside>`;
+  } else if (c.campaign_website_status === 'none' || c.campaign_website_status === 'broken') {
+    campaignHTML = `
+    <aside class="campaign-cta campaign-cta--missing">
+      <div class="campaign-cta__label">Campaign website</div>
+      <p class="campaign-cta__missing-text">No active campaign site found.${c.campaign_website_note ? ' ' + escapeHTML(c.campaign_website_note) : ''}</p>
+    </aside>`;
+  }
+
   const leanBannerHTML = c.lean ? `
     <div class="lean-banner lean-banner--${escapeAttr(c.lean)}">
       <span class="lean-dot lean-dot--${escapeAttr(c.lean)} lean-banner__dot"></span>
@@ -130,6 +152,7 @@
       </div>
     </header>
 
+    ${campaignHTML}
     ${leanBannerHTML}
     ${factHTML}
     ${signalsHTML}
