@@ -35,7 +35,6 @@
         <a class="campaign-cta__btn campaign-cta__btn--primary" href="${escapeAttr(c.campaign_website)}" rel="noopener" target="_blank">
           Visit ${escapeHTML(c.name)}'s campaign site →
         </a>
-        ${c.campaign_donate ? `<a class="campaign-cta__btn campaign-cta__btn--ghost" href="${escapeAttr(c.campaign_donate)}" rel="noopener" target="_blank">Donate</a>` : ''}
       </div>
       <p class="campaign-cta__disclaimer">External link. We do not endorse any candidate. Listing campaign sites is purely informational.</p>
     </aside>`;
