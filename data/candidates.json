@@ -194,6 +194,97 @@
       "campaign_website_status": "live"
     },
     {
+      "slug": "colberg",
+      "name": "Laura Christensen Colberg",
+      "incumbent": false,
+      "photo": "images/colberg.jpg",
+      "position": 1,
+      "position_label": "Position 1",
+      "seat_context": "Yu seat — challenging Melody",
+      "current_role": "Family law attorney; pro tem commissioner, Snohomish County Superior Court",
+      "lean": "unclear",
+      "lean_short": "Not enough to tell",
+      "lean_confidence": "Low",
+      "one_liner": "Family law commissioner running on independence from the Ferguson coalition. Textualist self-description but no public record on tax or Article VII.",
+      "appointed_by": "Not applicable. She's a challenger, not a sitting judge.",
+      "prior_practice": "30 years in family law (dissolution, paternity, parenting plans, child support, protection orders). 18 years as pro tem commissioner in Snohomish County Superior Court. Rigos Bar Review lecturer on Family Law and Community Property.",
+      "endorsements": "None publicly reported as of May 2026. PDC filing shows no contributions or expenditures reported yet.",
+      "fundraising": "No contributions reported to PDC as of May 2026.",
+      "signals": [
+        {
+          "type": "How she frames her candidacy",
+          "text": "Heavily emphasizes that she is not a gubernatorial appointee and 'owes no favors to any governor, legislator, or party.' Specifically names Ferguson when explaining she won't need to recuse from reviewing his signed laws. That framing is a pointed contrast with Melody, the appointee she's challenging."
+        },
+        {
+          "type": "Self-described judicial philosophy",
+          "text": "Calls her commitment 'to the text, not to an ideology.' Textualism cuts both ways on Culliton: the 1933 majority got there with a literal reading of 'property,' but a fresh textualist could also conclude the 1933 court botched the analysis. Without a written record, the label alone tells you little."
+        },
+        {
+          "type": "Practice area",
+          "text": "Thirty years in family law and zero in tax, constitutional, or appellate practice. Nothing in her professional background gives any direct read on how she'd vote on Article VII or Culliton. Her stated rationale for running is that the court has had no family law perspective since 2006, not anything about taxation."
+        },
+        {
+          "type": "What she has said about Culliton",
+          "text": "Nothing public. Her campaign site contains no statement on income tax, Article VII, Culliton, Quinn, or ESSB 6346. Her PDC filing has no contribution data that might signal a donor coalition."
+        }
+      ],
+      "questions": [
+        "Does textualist fidelity to the Washington Constitution mean preserving the 1933 reading of 'property,' or revisiting it?",
+        "Beyond family law expertise, what's her actual view on the court's role in tax policy disputes?",
+        "Which coalitions back her, once PDC reports come in?"
+      ],
+      "sources": [
+        {
+          "label": "Campaign site",
+          "url": "https://laura4position1.com"
+        },
+        {
+          "label": "Avvo profile",
+          "url": "https://www.avvo.com/attorneys/98125-wa-laura-colberg-26571.html"
+        }
+      ],
+      "deep_read": "Laura Christensen Colberg is the third Position 1 candidate, challenging both incumbent Justice Colleen Melody and tax-lawyer Scott Edwards. Her professional record is concentrated almost entirely in one area: 30 years of family law practice and 18 years as a pro tem family law commissioner in Snohomish County Superior Court. She has handled thousands of dissolution, paternity, custody, and protection-order matters, and taught family law and community property at Rigos Bar Review. None of that touches Article VII, tax constitutional law, or appellate practice. Her core campaign rationale is that no sitting Supreme Court justice has brought family law experience to the bench since 2006, and she argues that the trial-level workload she has carried has given her the practical decision-making muscle the appellate court lacks. The secondary theme is political independence. Colberg distinguishes herself from Melody by repeatedly noting that she is not a gubernatorial appointee, owes no favors to any governor or party, and specifically will not need to recuse herself from reviewing laws signed by Governor Ferguson or anyone else. That framing is anti-establishment and is the kind of pitch that tends to attract right-leaning or libertarian voters in a nominally nonpartisan judicial race, even though she does not claim a party label. Her stated judicial philosophy is textualist: 'commitment is to the text, not to an ideology.' On Culliton specifically, textualism cuts both ways. The 1933 majority got to its outcome by reading Article VII's 'property' clause literally. A fresh textualist judge could either (a) preserve that reading on stare decisis and constitutional fidelity grounds, or (b) conclude that the 1933 court conflated 'property' with 'income from property' and reopen the question. Without any published opinions, articles, or campaign statements addressing tax constitutional law, there is no basis to predict which way her textualism cuts on this particular question. The case for assigning her a lean is thin in both directions. Pro-keep: textualism plus stare decisis plus zero ideological motivation to disrupt the rule. Pro-scrap: anti-Ferguson framing, no political debt to the progressive coalition that wants to keep the wall up, and a comfort revisiting precedent that a 30-year practitioner would have built up. The honest answer is that the record is too thin to call.",
+      "expanded_signals": [
+        {
+          "type": "Family law specialization",
+          "text": "Her entire professional identity is built around one practice area. Family law judges spend their days applying statutes to facts under emotional pressure with limited information. That is procedurally adjacent to no part of Article VII or capital gains tax litigation. Whether trial-level decisional volume translates to good appellate reasoning on constitutional questions is the empirical bet voters are being asked to make."
+        },
+        {
+          "type": "Anti-appointee positioning",
+          "text": "She is the only Position 1 candidate making 'I am not a Ferguson appointee' a centerpiece of her pitch. This is a coalition signal more than a policy signal. The voters most likely to find that argument compelling are voters skeptical of the current court's progressive direction, which overlaps with voters who want Culliton revisited. But she has not said she would vote that way."
+        },
+        {
+          "type": "Textualism without a paper trail",
+          "text": "Many candidates call themselves textualists. The label is informative only when paired with actual opinions or writing that shows how they apply it. Colberg has neither. Her textualism could be a careful interpretive method or a campaign label. The record cannot distinguish."
+        },
+        {
+          "type": "Campaign mechanics",
+          "text": "As of mid-May 2026, her PDC report shows no contributions and no expenditures. She is running against a sitting justice with the financial advantages of incumbency and against a challenger (Edwards) with a sophisticated tax-law donor base. That is a difficult financial position three months out from the primary."
+        }
+      ],
+      "additional_sources": [
+        {
+          "label": "PDC candidate filing",
+          "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509"
+        },
+        {
+          "label": "Wikipedia: 2026 Washington Supreme Court election",
+          "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        },
+        {
+          "label": "The Daily World — WA Supreme Court races shape up (May 12, 2026)",
+          "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        },
+        {
+          "label": "Snohomish County Bar Commissioner Bar Poll (2014)",
+          "url": "https://studylib.net/doc/8884412/commissioner-bar-poll---snohomish-county-bar-association"
+        }
+      ],
+      "campaign_website": "https://laura4position1.com",
+      "campaign_donate": "https://laura4position1.com",
+      "campaign_website_status": "live"
+    },
+    {
       "slug": "diaz",
       "name": "J. Michael Diaz",
       "incumbent": true,
