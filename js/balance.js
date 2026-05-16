@@ -1,6 +1,12 @@
 // balance.js — renders the Balance of Power graphic.
-// Used on both index.html and (optionally) other pages. Runs only if a
-// .balance__seats element is present in the DOM.
+//
+// Model:
+//   - The four off-ballot justices keep their leans (from data/justices.json).
+//   - Each of the five ballot seats (Pos 1, 3, 4, 5, 7) has a per-seat pick.
+//   - Two preset tabs ("Incumbents all win" / "Challengers sweep") set all
+//     five picks at once.
+//   - Per-seat dropdowns let the user override any individual seat without
+//     leaving the current preset.
 
 (async function () {
   const seatsEl = document.querySelector('.balance__seats');
@@ -19,7 +25,9 @@
     return;
   }
 
-  const currentCourt = justicesData.all_nine_summary.slice().sort((a, b) => a.position - b.position);
+  const currentCourt = justicesData.all_nine_summary
+    .slice()
+    .sort((a, b) => a.position - b.position);
 
   // Group candidates by position
   const candByPos = {};
@@ -28,11 +36,57 @@
     candByPos[c.position].push(c);
   });
 
-  // Position 4 is the only open seat (Johnson retiring). State holds the
-  // user's pick from the Pos 4 selector. Default is O'Donnell as the most
-  // plausible front-runner; user can switch to Birk or Shelvey.
-  // Values: candidate.name (must match data/candidates.json)
-  let pos4Pick = "Sean O'Donnell";
+  // Ballot positions (in display order).
+  const BALLOT_POSITIONS = [1, 3, 4, 5, 7];
+
+  // Confidence rank for "top challenger" picks.
+  const CONFIDENCE_ORDER = {
+    'High': 3,
+    'Medium-High': 2.5,
+    'Medium': 2,
+    'Medium-Low': 1.5,
+    'Low': 1
+  };
+
+  function topChallenger(pos) {
+    const cands = (candByPos[pos] || []).filter(c => !c.incumbent);
+    if (!cands.length) return null;
+    return cands
+      .slice()
+      .sort((a, b) =>
+        (CONFIDENCE_ORDER[b.lean_confidence] || 0) -
+        (CONFIDENCE_ORDER[a.lean_confidence] || 0)
+      )[0];
+  }
+
+  function incumbent(pos) {
+    return (candByPos[pos] || []).find(c => c.incumbent) || null;
+  }
+
+  function frontRunner(pos) {
+    return (candByPos[pos] || []).find(c => c.front_runner) || null;
+  }
+
+  // Preset defaults: returns a candidate object for the given position.
+  function presetPick(scenario, pos) {
+    if (scenario === 'challengers') return topChallenger(pos);
+    // 'incumbents' / status-quo preset: incumbent if present; for open seats,
+    // the establishment-coalition front-runner; else fall back to confidence.
+    return incumbent(pos) || frontRunner(pos) || topChallenger(pos);
+  }
+
+  // Per-seat picks: { 1: candidateName, 3: ..., 4: ..., 5: ..., 7: ... }
+  let activeScenario = 'incumbents';
+  const picks = {};
+
+  function applyPreset(scenario) {
+    BALLOT_POSITIONS.forEach(pos => {
+      const c = presetPick(scenario, pos);
+      picks[pos] = c ? c.name : null;
+    });
+  }
+
+  applyPreset(activeScenario);
 
   const labelForLean = lean => {
     if (lean === 'keep') return 'Keep Culliton';
@@ -40,73 +94,69 @@
     return 'Unclear';
   };
 
-  // Resolve the Position 4 seat object based on current pos4Pick.
-  function pos4Seat() {
-    const base = currentCourt.find(s => s.position === 4);
-    const cands = candByPos[4] || [];
-    const pick = cands.find(c => c.name === pos4Pick);
-    if (!pick) return { ...base, lean: 'unclear', name: 'Position 4 (TBD)' };
+  function pickedCandidate(pos) {
+    const name = picks[pos];
+    if (!name) return null;
+    return (candByPos[pos] || []).find(c => c.name === name) || null;
+  }
+
+  function seatFor(pos) {
+    const base = currentCourt.find(s => s.position === pos);
+    if (!base) return null;
+    if (!base.on_ballot_2026) return { ...base };
+    const pick = pickedCandidate(pos);
+    if (!pick) return { ...base, lean: 'unclear', name: `Position ${pos} (TBD)` };
     return { ...base, lean: pick.lean, name: pick.name };
   }
 
-  function scenarioIncumbents() {
-    // Four ballot incumbents (Pos 1, 3, 5, 7) keep their seats. Pos 4 uses
-    // the user's pick because there is no incumbent.
-    return currentCourt.map(seat => {
-      if (seat.position === 4) return pos4Seat();
-      if (!seat.on_ballot_2026) return { ...seat };
-      const cands = candByPos[seat.position] || [];
-      const inc = cands.find(c => c.incumbent);
-      if (inc) return { ...seat, lean: inc.lean, name: inc.name };
-      return { ...seat };
-    });
+  function currentSeats() {
+    return currentCourt.map(s => seatFor(s.position));
   }
 
-  function scenarioChallengers() {
-    // Top-confidence non-incumbent wins each of Pos 1, 3, 5, 7. Pos 4 uses
-    // the user's pick because every Pos 4 candidate is a non-incumbent.
-    return currentCourt.map(seat => {
-      if (seat.position === 4) return pos4Seat();
-      if (!seat.on_ballot_2026) return { ...seat };
-      const cands = (candByPos[seat.position] || []).filter(c => !c.incumbent);
-      if (!cands.length) return { ...seat };
-      const order = { 'High': 3, 'Medium-High': 2.5, 'Medium': 2, 'Medium-Low': 1.5, 'Low': 1 };
-      cands.sort((a, b) => (order[b.lean_confidence] || 0) - (order[a.lean_confidence] || 0));
-      const top = cands[0];
-      return { ...seat, lean: top.lean, name: top.name };
-    });
-  }
+  // Caption is computed from the live counts, not hardcoded names.
+  function buildCaption() {
+    const seats = currentSeats();
+    const counts = { keep: 0, scrap: 0, unclear: 0 };
+    seats.forEach(s => { counts[s.lean] = (counts[s.lean] || 0) + 1; });
 
-  // Captions are dynamic based on Pos 4 pick.
-  function captionFor(name) {
-    const pos4 = pos4Seat();
-    const pos4Lean = pos4.lean;
+    const scrap = counts.scrap;
+    const keep = counts.keep;
+    const unclear = counts.unclear;
 
-    if (name === 'incumbents') {
-      const ftip = pos4Lean === 'scrap' ? 'pushes scrap to seven' : pos4Lean === 'keep' ? 'adds a third keep vote (still short of five)' : 'leaves Position 4 in the unclear column';
-      return `Four contested ballot incumbents return (Melody, Diaz, Angelis, Stephens). Position 4 has no incumbent — Justice Johnson is retiring, so the seat is open by default and goes to whichever non-incumbent wins. With ${pos4.name} taking it (lean: ${labelForLean(pos4Lean)}), the math ${ftip}. The scrap side already has a six-vote majority (Melody, Diaz, Angelis, Mungia, Whitener, González) regardless of who wins Position 4.`;
+    const ballotPickNames = BALLOT_POSITIONS
+      .map(pos => {
+        const c = pickedCandidate(pos);
+        return c ? `Pos ${pos}: ${c.name.split(' ').slice(-1)[0]}` : null;
+      })
+      .filter(Boolean)
+      .join(', ');
+
+    let math;
+    if (scrap >= 5) {
+      math = `Scrap has ${scrap} votes — enough to overturn Culliton or uphold ESSB 6346.`;
+    } else if (keep >= 5) {
+      math = `Keep has ${keep} votes — Culliton holds and ESSB 6346 falls.`;
+    } else if (scrap > keep) {
+      math = `Scrap leads ${scrap}–${keep} with ${unclear} unclear. Short of the 5 needed to overturn.`;
+    } else if (keep > scrap) {
+      math = `Keep leads ${keep}–${scrap} with ${unclear} unclear. Short of the 5 needed to strike 6346 down outright.`;
+    } else {
+      math = `Tied ${scrap}–${keep} with ${unclear} unclear. Neither side has the 5 votes.`;
     }
 
-    if (name === 'challengers') {
-      const ctip = pos4Lean === 'keep' ? 'pushes the keep side to six' : pos4Lean === 'scrap' ? 'gives scrap a fourth vote (still short of five)' : 'leaves Position 4 in the unclear column';
-      return `Challengers sweep the contested seats: Edwards (Pos 1), Stevens (Pos 3), and Larson (Pos 5) unseat the incumbents. Stephens runs unopposed at Pos 7. With ${pos4.name} winning Position 4 (lean: ${labelForLean(pos4Lean)}), the math ${ctip}. The keep side has its five votes (Edwards, Stevens, Larson, Stephens, McCloud) regardless of who wins Position 4. The wall holds.`;
-    }
-    return '';
+    return `${ballotPickNames}. ${math}`;
   }
 
-  function seatsForScenario(name) {
-    if (name === 'challengers') return scenarioChallengers();
-    return scenarioIncumbents();
-  }
+  // -----------------------------------------------------------------
+  // Render
+  // -----------------------------------------------------------------
 
   const countsEl = document.querySelectorAll('[data-count]');
   const captionEl = document.querySelector('[data-caption]');
+  const seatPickerRow = document.querySelector('[data-seat-pickers]');
 
-  let activeScenario = 'incumbents';
-
-  function renderScenario(name) {
-    activeScenario = name;
-    const seats = seatsForScenario(name);
+  function renderBoard() {
+    const seats = currentSeats();
     seatsEl.innerHTML = seats.map(seat => {
       const isBallot = seat.on_ballot_2026;
       return `
@@ -120,40 +170,61 @@
     }).join('');
 
     const counts = { keep: 0, scrap: 0, unclear: 0 };
-    seats.forEach(seat => { counts[seat.lean] = (counts[seat.lean] || 0) + 1; });
+    seats.forEach(s => { counts[s.lean] = (counts[s.lean] || 0) + 1; });
     countsEl.forEach(el => {
       const k = el.dataset.count;
       el.textContent = counts[k] || 0;
     });
 
-    if (captionEl) captionEl.textContent = captionFor(name);
+    if (captionEl) captionEl.textContent = buildCaption();
+  }
+
+  function renderSeatPickers() {
+    if (!seatPickerRow) return;
+    seatPickerRow.innerHTML = BALLOT_POSITIONS.map(pos => {
+      const cands = candByPos[pos] || [];
+      const selected = picks[pos] || '';
+      const options = cands.map(c => {
+        const tag = c.incumbent ? ' (incumbent)' : '';
+        const sel = c.name === selected ? ' selected' : '';
+        return `<option value="${c.name}"${sel}>${c.name}${tag}</option>`;
+      }).join('');
+      return `
+        <label class="seat-picker__item">
+          <span class="seat-picker__pos">Pos ${pos}</span>
+          <select class="seat-picker__select" data-pos="${pos}" aria-label="Winner for Position ${pos}">
+            ${options}
+          </select>
+        </label>
+      `;
+    }).join('');
+
+    seatPickerRow.querySelectorAll('select').forEach(sel => {
+      sel.addEventListener('change', e => {
+        const pos = Number(e.target.dataset.pos);
+        picks[pos] = e.target.value;
+        renderBoard();
+      });
+    });
+  }
+
+  function setScenario(name) {
+    activeScenario = name;
+    document.querySelectorAll('.balance__tab').forEach(b => {
+      const active = b.dataset.scenario === name;
+      b.classList.toggle('is-active', active);
+      b.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    applyPreset(name);
+    renderSeatPickers();
+    renderBoard();
   }
 
   document.querySelectorAll('.balance__tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.balance__tab').forEach(b => {
-        b.classList.remove('is-active');
-        b.setAttribute('aria-selected', 'false');
-      });
-      btn.classList.add('is-active');
-      btn.setAttribute('aria-selected', 'true');
-      renderScenario(btn.dataset.scenario);
-    });
+    btn.addEventListener('click', () => setScenario(btn.dataset.scenario));
   });
 
-  // Position 4 picker
-  document.querySelectorAll('.pos4-pick').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.pos4-pick').forEach(b => {
-        b.classList.remove('is-active');
-        b.setAttribute('aria-pressed', 'false');
-      });
-      btn.classList.add('is-active');
-      btn.setAttribute('aria-pressed', 'true');
-      pos4Pick = btn.dataset.pos4;
-      renderScenario(activeScenario);
-    });
-  });
-
-  renderScenario('incumbents');
+  // Initial render
+  renderSeatPickers();
+  renderBoard();
 })();

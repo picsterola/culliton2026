@@ -113,20 +113,20 @@
       <header class="section-header">
         <div class="section-eyebrow">Balance of power · May 2026</div>
         <h2 class="section-headline">How the five races move the court.</h2>
-        <p class="section-deck">Each circle is a seat on the Washington Supreme Court, colored by how that justice is likely to rule on a labeled income tax. Circles with a halo are the five seats up for election this November. Toggle between the two realistic outcomes for the four contested seats, and pick a winner for Position 4 (no incumbent).</p>
+        <p class="section-deck">Each circle is a seat on the Washington Supreme Court, colored by how that justice is likely to rule on a labeled income tax. Circles with a halo are the five seats up for election this November. Pick a preset, or override any seat individually to see how the math moves.</p>
       </header>
 
       <div class="balance">
         <div class="balance__tabs" role="tablist">
-          <button class="balance__tab is-active" data-scenario="incumbents" role="tab" aria-selected="true">Incumbents all win</button>
-          <button class="balance__tab" data-scenario="challengers" role="tab" aria-selected="false">Challengers sweep</button>
+          <button class="balance__tab is-active" data-scenario="incumbents" role="tab" aria-selected="true" title="Sitting justices win their races; for open seats, the establishment-coalition front-runner wins.">Status quo holds</button>
+          <button class="balance__tab" data-scenario="challengers" role="tab" aria-selected="false" title="Top challenger by lean confidence wins every ballot seat.">Challengers sweep</button>
         </div>
 
-        <div class="pos4-picker" role="group" aria-label="Who wins the open Position 4 seat?">
-          <span class="pos4-picker__label">Pos 4 has no incumbent (Johnson retiring). Who wins?</span>
-          <button class="pos4-pick" data-pos4="Ian Birk" aria-pressed="false">Birk</button>
-          <button class="pos4-pick is-active" data-pos4="Sean O'Donnell" aria-pressed="true">O'Donnell</button>
-          <button class="pos4-pick" data-pos4="David Shelvey" aria-pressed="false">Shelvey</button>
+        <div class="seat-picker" role="group" aria-label="Pick a winner for each ballot seat">
+          <span class="seat-picker__label">Override any seat:</span>
+          <div class="seat-picker__row" data-seat-pickers>
+            <!-- Per-seat dropdowns rendered by JS -->
+          </div>
         </div>
 
         <div class="balance__board">
