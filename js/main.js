@@ -42,3 +42,61 @@
     window.addEventListener('scroll', update, { passive: true });
   }
 })();
+
+// ============================================================
+// Candidate count injector
+// ============================================================
+// Any element with data-candidate-count gets the count from candidates.json
+// at runtime. Variant attribute controls form:
+//   data-candidate-count           -> integer ("13")
+//   data-candidate-count="word"    -> lowercase word ("thirteen")
+//   data-candidate-count="Word"    -> capitalized word ("Thirteen")
+//
+// Usage:
+//   <strong data-candidate-count></strong> candidates
+//   <h2><span data-candidate-count="Word"></span> candidates. Five seats.</h2>
+//
+// If JSON fetch fails, elements keep whatever fallback text they contain so
+// the page never shows an empty number.
+(function () {
+  const targets = document.querySelectorAll("[data-candidate-count]");
+  if (!targets.length) return;
+
+  const numberToWord = (n, capitalize = false) => {
+    const ones = ["zero","one","two","three","four","five","six","seven","eight","nine"];
+    const teens = ["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
+    const tens = ["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
+    let word;
+    if (n < 10) word = ones[n];
+    else if (n < 20) word = teens[n - 10];
+    else if (n < 100) {
+      const t = Math.floor(n / 10);
+      const o = n % 10;
+      word = o === 0 ? tens[t] : `${tens[t]}-${ones[o]}`;
+    } else {
+      // Past 99, fall back to numeric. (Hopefully we never have 100 candidates.)
+      word = String(n);
+    }
+    return capitalize ? word.charAt(0).toUpperCase() + word.slice(1) : word;
+  };
+
+  fetch("data/candidates.json")
+    .then((r) => r.ok ? r.json() : Promise.reject())
+    .then((data) => {
+      const n = Array.isArray(data.candidates) ? data.candidates.length : null;
+      if (n === null) return;
+      targets.forEach((el) => {
+        const variant = el.getAttribute("data-candidate-count");
+        if (variant === "word") {
+          el.textContent = numberToWord(n, false);
+        } else if (variant === "Word") {
+          el.textContent = numberToWord(n, true);
+        } else {
+          el.textContent = String(n);
+        }
+      });
+    })
+    .catch(() => {
+      // Silent fail. Fallback text in the HTML stays visible.
+    });
+})();
