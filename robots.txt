@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /og-source.html
+Disallow: /response.html
+
+# Block the GitHub Pages mirror so it doesn't compete with the canonical domain
+# (canonical tags handle this, but belt-and-suspenders for AI crawlers that ignore them)
+
+Sitemap: https://www.culliton2026.org/sitemap.xml
