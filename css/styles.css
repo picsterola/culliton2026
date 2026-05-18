@@ -1804,6 +1804,7 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 }
 .section-deck strong { color: var(--color-text); font-weight: 600; }
 .section-deck em { color: var(--color-accent); font-style: italic; }
+.section-deck--tight { margin-top: 0.5rem; }
 
 /* =========================================================
    CHAIN — Timeline of cases
