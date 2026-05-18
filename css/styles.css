@@ -1806,6 +1806,43 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 .section-deck em { color: var(--color-accent); font-style: italic; }
 .section-deck--tight { margin-top: 0.5rem; }
 
+.deck-callout {
+  margin-top: 1.25rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-divider);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 6px;
+  max-width: 65ch;
+  font-size: clamp(0.95rem, 0.9rem + 0.25vw, 1.0625rem);
+  line-height: 1.5;
+  color: var(--color-text);
+}
+.deck-callout p {
+  margin: 0;
+  text-indent: -1.25rem;
+  padding-left: 1.25rem;
+}
+.deck-callout p + p { margin-top: 0.4rem; }
+.deck-callout strong { font-weight: 600; }
+.deck-callout em { color: var(--color-accent); font-style: italic; }
+.deck-callout__dot {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  margin-right: 0.55rem;
+  vertical-align: 0.05rem;
+}
+.deck-callout__dot--amber {
+  background: var(--lean-scrap);
+  box-shadow: 0 0 0 2px oklch(from var(--lean-scrap) l c h / 0.22);
+}
+.deck-callout__dot--blue {
+  background: var(--lean-keep);
+  box-shadow: 0 0 0 2px oklch(from var(--lean-keep) l c h / 0.22);
+}
+
 /* =========================================================
    CHAIN — Timeline of cases
    ========================================================= */
