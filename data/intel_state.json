@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "last_scan": null,
+  "open_questions": [
+    {
+      "id": "odonnell_lean",
+      "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
+      "candidate_id": "odonnell",
+      "position": 4,
+      "opened": "2026-05-19",
+      "status": "open",
+      "priority": "high",
+      "research_angles": [
+        "King County Superior Court bench record on tax-related rulings",
+        "Article VII property-tax doctrine in his published opinions",
+        "Public statements on revenue measures",
+        "Endorsement signals (BIAW, Realtors, WEA, AFSCME)",
+        "Campaign coalition makeup"
+      ],
+      "weeks_open": 0
+    },
+    {
+      "id": "bloom_pdc_filing",
+      "question": "Has Todd Bloom filed his initial PDC C-1 / C-4 reports for Position 7?",
+      "candidate_id": "bloom",
+      "position": 7,
+      "opened": "2026-05-19",
+      "status": "open",
+      "priority": "medium",
+      "research_angles": [
+        "PDC.wa.gov search for Bloom 2026 committee filings",
+        "Candidate registration with Secretary of State"
+      ],
+      "weeks_open": 0
+    },
+    {
+      "id": "stephens_fundraising",
+      "question": "Is Debra Stephens fundraising in earnest, or is her $26.5K total the ceiling?",
+      "candidate_id": "stephens",
+      "position": 7,
+      "opened": "2026-05-19",
+      "status": "open",
+      "priority": "medium",
+      "research_angles": [
+        "PDC weekly C-4 filings for Stephens committee",
+        "Major endorsement announcements",
+        "Public events / fundraising calendar"
+      ],
+      "weeks_open": 0
+    },
+    {
+      "id": "colberg_filing",
+      "question": "Will Laura Colberg formally file for Position 1, and what is her lean?",
+      "candidate_id": "colberg",
+      "position": 1,
+      "opened": "2026-05-19",
+      "status": "open",
+      "priority": "low",
+      "research_angles": [
+        "Secretary of State candidate filing list",
+        "PDC registration",
+        "Background and prior public statements"
+      ],
+      "weeks_open": 0
+    },
+    {
+      "id": "amamilo_miller_lean",
+      "question": "What are the leans of Sharonda Amamilo and Greg Miller (Position 5)?",
+      "candidate_id": "amamilo,miller",
+      "position": 5,
+      "opened": "2026-05-19",
+      "status": "open",
+      "priority": "low",
+      "research_angles": [
+        "Bar association profiles",
+        "Prior judicial or attorney activity",
+        "Endorsements"
+      ],
+      "weeks_open": 0
+    }
+  ],
+  "recent_findings_hashes": [],
+  "auto_applied_changes_log": [],
+  "pending_review_changes": [],
+  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday."
+}
