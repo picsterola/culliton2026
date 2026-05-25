@@ -1,0 +1,507 @@
+#!/usr/bin/env python3
+"""
+Generate static candidate detail pages from data/candidates.json.
+
+For each candidate, writes a fully server-side rendered HTML file to
+/candidate/{slug}.html with:
+- Unique <title>, meta description, Open Graph, Twitter Card tags
+- Person + WebPage JSON-LD structured data
+- Full rendered content (no JS dependency for content visibility)
+- Canonical URLs pointing to https://www.culliton2026.org/candidate/{slug}.html
+- Internal links to explainer anchors and back to index
+- Outbound links to campaign sites and primary sources
+
+Also updates sitemap.xml to include every candidate page.
+
+Run with: python3 scripts/generate_candidate_pages.py
+"""
+
+import json
+import os
+import re
+import sys
+from datetime import date
+from html import escape as html_escape
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_PATH = os.path.join(ROOT, "data", "candidates.json")
+OUT_DIR = os.path.join(ROOT, "candidate")
+SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
+BASE_URL = "https://www.culliton2026.org"
+
+
+def esc(s):
+    """HTML-escape a string, returning '' for None."""
+    if s is None:
+        return ""
+    return html_escape(str(s), quote=True)
+
+
+def lean_label(lean):
+    return {
+        "scrap": "Likely to scrap Culliton (clear the way for an income tax)",
+        "keep": "Likely to keep Culliton (defeat the income tax)",
+        "unclear": "Position not yet clear from public record",
+    }.get(lean, "")
+
+
+def lean_short_label(lean):
+    return {
+        "scrap": "Scrap the rule",
+        "keep": "Keep the rule",
+        "unclear": "Position not yet clear",
+    }.get(lean, "")
+
+
+def render_signals(signals):
+    if not signals:
+        return ""
+    items = "".join(
+        f"""
+            <li class="signal">
+              <span class="signal__type">{esc(s.get('type'))}</span>
+              <span class="signal__text">{esc(s.get('text'))}</span>
+            </li>"""
+        for s in signals
+    )
+    return f"""
+    <section class="signals">
+      <h2 class="signals__heading">What the record actually shows</h2>
+      <p class="signals__intro">
+        Facts pulled from public sources: who appointed them, what they did before, what they've said or written, who's backing them. We're not predicting any vote. <a href="../explainer.html">Why these categories?</a>
+      </p>
+      <ul class="signal-list">{items}
+      </ul>
+    </section>"""
+
+
+def render_deep_read(c):
+    deep = c.get("deep_read")
+    expanded = c.get("expanded_signals") or []
+    if not deep and not expanded:
+        return ""
+
+    expanded_html = ""
+    if expanded:
+        items = "".join(
+            f"""
+            <li class="deep-read__signal">
+              <div class="deep-read__signal-type">{esc(s.get('type'))}</div>
+              <p class="deep-read__signal-text">{esc(s.get('text'))}</p>
+            </li>"""
+            for s in expanded
+        )
+        expanded_html = f"""
+        <ul class="deep-read__signals">{items}
+        </ul>"""
+
+    deep_html = f'<p class="deep-read__lede">{esc(deep)}</p>' if deep else ""
+
+    return f"""
+    <section class="deep-read deep-read--{esc(c.get('lean') or 'unclear')}">
+      <div class="deep-read__eyebrow">Deep read</div>
+      <h2 class="deep-read__heading">How this candidate is likely to rule, and why.</h2>
+      {deep_html}{expanded_html}
+      <p class="deep-read__footnote">An analytical read on public signals. Not a prediction of any individual vote.</p>
+    </section>"""
+
+
+def render_questions(questions):
+    if not questions:
+        return ""
+    items = "".join(f"<li>{esc(q)}</li>" for q in questions)
+    return f"""
+    <section class="questions-block">
+      <h3>Questions a voter might ask this candidate</h3>
+      <ol>{items}</ol>
+      <p class="questions-block__caveat">
+        Phrased to comply with Washington's Code of Judicial Conduct, which prohibits
+        candidates from pledging votes on specific cases or issues likely to come before
+        the court. Methodology questions are permitted.
+      </p>
+    </section>"""
+
+
+def render_sources(c):
+    sources = list(c.get("sources") or []) + list(c.get("additional_sources") or [])
+    if not sources:
+        return ""
+    items = "".join(
+        f'<li><a href="{esc(s.get("url"))}" rel="noopener" target="_blank">{esc(s.get("label"))}</a></li>'
+        for s in sources
+    )
+    response_url = f"../response.html?c={c['slug']}"
+    return f"""
+    <section class="sources-block">
+      <h3>Sources</h3>
+      <ul>
+        {items}
+        <li><a href="{response_url}">Are you {esc(c['name'])} or their campaign? Submit a response →</a></li>
+      </ul>
+    </section>"""
+
+
+def render_campaign_cta(c):
+    site = c.get("campaign_website")
+    if site:
+        return f"""
+    <aside class="campaign-cta">
+      <div class="campaign-cta__label">Campaign website</div>
+      <div class="campaign-cta__actions">
+        <a class="campaign-cta__btn campaign-cta__btn--primary" href="{esc(site)}" rel="noopener" target="_blank">
+          Visit {esc(c['name'])}'s campaign site →
+        </a>
+      </div>
+      <p class="campaign-cta__disclaimer">External link. We do not endorse any candidate. Listing campaign sites is purely informational.</p>
+    </aside>"""
+
+    status = c.get("campaign_website_status")
+    if status in ("none", "broken"):
+        note = c.get("campaign_website_note", "")
+        note_text = f" {esc(note)}" if note else ""
+        return f"""
+    <aside class="campaign-cta campaign-cta--missing">
+      <div class="campaign-cta__label">Campaign website</div>
+      <p class="campaign-cta__missing-text">No active campaign site found.{note_text}</p>
+    </aside>"""
+    return ""
+
+
+def render_lean_banner(c):
+    lean = c.get("lean")
+    if not lean:
+        return ""
+    confidence = c.get("lean_confidence")
+    one_liner = c.get("one_liner")
+    confidence_html = (
+        f'<span class="lean-banner__confidence">Confidence: {esc(confidence)}</span>'
+        if confidence
+        else ""
+    )
+    one_liner_html = (
+        f'<p class="lean-banner__one-liner">{esc(one_liner)}</p>'
+        if one_liner
+        else ""
+    )
+    return f"""
+    <div class="lean-banner lean-banner--{esc(lean)}">
+      <span class="lean-dot lean-dot--{esc(lean)} lean-banner__dot"></span>
+      <div class="lean-banner__content">
+        <div class="lean-banner__label">Our read on this candidate</div>
+        <div class="lean-banner__short">{esc(c.get('lean_short') or '')}</div>
+        {confidence_html}
+        {one_liner_html}
+      </div>
+    </div>"""
+
+
+def render_badges(c):
+    badges = []
+    if c.get("incumbent"):
+        badges.append('<span class="badge badge--incumbent">Currently sitting</span>')
+    appointed_by = (c.get("appointed_by") or "").lower()
+    if "ferguson" in appointed_by:
+        badges.append('<span class="badge">Ferguson appointee</span>')
+    elif "inslee" in appointed_by:
+        badges.append('<span class="badge">Inslee appointee</span>')
+    return "".join(badges)
+
+
+def render_fact_strip(c):
+    return f"""
+    <dl class="fact-strip">
+      <div class="fact-strip__item"><dt>Seat</dt><dd>{esc(c.get('position_label'))} — {esc(c.get('seat_context'))}</dd></div>
+      <div class="fact-strip__item"><dt>Appointing authority</dt><dd>{esc(c.get('appointed_by'))}</dd></div>
+      <div class="fact-strip__item"><dt>Background</dt><dd>{esc(c.get('prior_practice'))}</dd></div>
+      <div class="fact-strip__item"><dt>Reported endorsements</dt><dd>{esc(c.get('endorsements'))}</dd></div>
+      <div class="fact-strip__item"><dt>Fundraising</dt><dd>{esc(c.get('fundraising'))}</dd></div>
+    </dl>"""
+
+
+def build_meta_description(c):
+    """Build a 150-160 char meta description that includes the candidate name,
+    position, lean signal, and key fact."""
+    parts = [
+        c["name"],
+        "is running for",
+        c.get("position_label", "the Washington Supreme Court"),
+    ]
+    if c.get("seat_context"):
+        parts.append(f"({c['seat_context']})")
+    parts.append("in the 2026 election.")
+
+    one_liner = c.get("one_liner")
+    if one_liner:
+        # Truncate one_liner to fit
+        desc = " ".join(parts) + " " + one_liner
+    else:
+        lean = c.get("lean_short")
+        if lean:
+            desc = " ".join(parts) + f" Read: {lean}."
+        else:
+            desc = " ".join(parts)
+
+    # Trim to ~160 chars
+    if len(desc) > 160:
+        desc = desc[:157].rstrip() + "..."
+    return desc
+
+
+def build_person_jsonld(c):
+    """Build Person + WebPage JSON-LD for this candidate."""
+    page_url = f"{BASE_URL}/candidate/{c['slug']}.html"
+
+    person = {
+        "@type": "Person",
+        "@id": f"{page_url}#person",
+        "name": c["name"],
+        "jobTitle": c.get("current_role", "Candidate, Washington Supreme Court"),
+        "description": c.get("one_liner", ""),
+    }
+    if c.get("photo"):
+        person["image"] = f"{BASE_URL}/{c['photo']}"
+    if c.get("campaign_website"):
+        person["url"] = c["campaign_website"]
+    person["affiliation"] = {
+        "@type": "Organization",
+        "name": "Washington Supreme Court",
+        "url": "https://www.courts.wa.gov/",
+    }
+
+    webpage = {
+        "@type": "WebPage",
+        "@id": f"{page_url}#webpage",
+        "url": page_url,
+        "name": f"{c['name']} — 2026 Washington Supreme Court candidate",
+        "isPartOf": {"@id": f"{BASE_URL}/#website"},
+        "about": {"@id": f"{page_url}#person"},
+        "breadcrumb": {"@id": f"{page_url}#breadcrumb"},
+    }
+
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "@id": f"{page_url}#breadcrumb",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Candidates",
+                "item": f"{BASE_URL}/#candidates",
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": c.get("position_label", "Position"),
+            },
+            {"@type": "ListItem", "position": 3, "name": c["name"]},
+        ],
+    }
+
+    graph = {
+        "@context": "https://schema.org",
+        "@graph": [person, webpage, breadcrumb],
+    }
+    return json.dumps(graph, ensure_ascii=False, indent=2)
+
+
+def render_page(c):
+    """Render one candidate's static HTML page."""
+    slug = c["slug"]
+    name = c["name"]
+    page_url = f"{BASE_URL}/candidate/{slug}.html"
+    title = f"{name} — {c.get('position_label', 'Position')} candidate, 2026 WA Supreme Court · Culliton 2026"
+    description = build_meta_description(c)
+    photo_path = c.get("photo", "images/og-card.png")
+    og_image = f"{BASE_URL}/{photo_path}" if photo_path else f"{BASE_URL}/images/og-card.png"
+
+    jsonld = build_person_jsonld(c)
+
+    badges_html = render_badges(c)
+    campaign_html = render_campaign_cta(c)
+    lean_banner_html = render_lean_banner(c)
+    fact_html = render_fact_strip(c)
+    signals_html = render_signals(c.get("signals"))
+    deep_read_html = render_deep_read(c)
+    questions_html = render_questions(c.get("questions"))
+    sources_html = render_sources(c)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{esc(title)}</title>
+  <meta name="description" content="{esc(description)}">
+
+  <link rel="canonical" href="{page_url}">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Culliton 2026">
+  <meta property="og:title" content="{esc(name)} — {esc(c.get('position_label', 'Position'))} candidate, 2026 WA Supreme Court">
+  <meta property="og:description" content="{esc(description)}">
+  <meta property="og:url" content="{page_url}">
+  <meta property="og:image" content="{esc(og_image)}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="profile:first_name" content="{esc(name.split(' ')[0])}">
+  <meta property="profile:last_name" content="{esc(' '.join(name.split(' ')[1:]))}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{esc(name)} — {esc(c.get('position_label', 'Position'))} candidate, 2026 WA Supreme Court">
+  <meta name="twitter:description" content="{esc(description)}">
+  <meta name="twitter:image" content="{esc(og_image)}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f3d2b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-style='italic' fill='%23fbf8f1' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+{jsonld}
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="../index.html" class="site-header__brand">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect width="32" height="32" rx="4" fill="var(--color-primary)"/>
+        <text x="16" y="22" font-family="Source Serif 4, Georgia, serif" font-size="18" font-style="italic" fill="var(--color-text-inverse)" text-anchor="middle" font-weight="500">C</text>
+      </svg>
+      <span><span class="site-header__brand-text-full">Culliton</span> <span class="brand-year">2026</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="../index.html">Candidates</a>
+      <a href="../explainer.html">The cases</a>
+      <a href="../bench.html">The bench</a>
+      <a href="../about.html">About</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"></button>
+    </nav>
+  </div>
+</header>
+
+<main class="candidate-detail">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="../index.html">All candidates</a>
+      <span class="breadcrumb__sep">/</span>
+      <span>{esc(c.get('position_label'))} — {esc(c.get('seat_context'))}</span>
+    </nav>
+
+    <header class="candidate-header">
+      <div class="candidate-header__photo">
+        <img src="../{esc(photo_path)}" alt="Portrait of {esc(name)}">
+      </div>
+      <div>
+        <div class="candidate-header__meta">{esc(c.get('position_label'))} · {esc(c.get('seat_context'))}</div>
+        <h1 class="candidate-header__name">{esc(name)}</h1>
+        <p class="candidate-header__role">{esc(c.get('current_role'))}</p>
+        <div class="candidate-badges">{badges_html}</div>
+      </div>
+    </header>
+
+    {campaign_html}
+    {lean_banner_html}
+    {fact_html}
+    {signals_html}
+    {deep_read_html}
+    {questions_html}
+    {sources_html}
+
+    <aside class="related-cases" aria-labelledby="rc-heading-{esc(slug)}">
+      <header class="section-header section-header--compact">
+        <div class="section-eyebrow">The legal context</div>
+        <h2 id="rc-heading-{esc(slug)}" class="section-headline">The precedents this seat will rule on.</h2>
+      </header>
+      <ul class="related-cases__list">
+        <li><a href="../explainer.html#culliton"><strong>Culliton v. Chase (1933)</strong> — the keystone ruling. Income is property; a graduated income tax violates the uniformity clause.</a></li>
+        <li><a href="../explainer.html#jensen"><strong>Jensen v. Henneford (1936)</strong> — the precedent doing the most direct work against ESSB 6346.</a></li>
+        <li><a href="../explainer.html#quinn"><strong>Quinn v. State (2023)</strong> — capital gains upheld 7–2. The most recent test of the wall.</a></li>
+        <li><a href="../explainer.html#essb-6346"><strong>ESSB 6346 (2026)</strong> — the 9.9% tax on income over $1M now pending before the court.</a></li>
+      </ul>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <div class="site-footer__brand">Culliton 2026</div>
+      <p class="site-footer__disclaimer">
+        Nonpartisan, noncommercial civic publication. Signals are drawn from public records.
+        Candidates and their campaigns may submit responses or corrections via the response form.
+      </p>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="../explainer.html">The cases</a>
+      <a href="../bench.html">The bench</a>
+      <a href="../about.html">About</a>
+      <a href="../response.html">Submit a response</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
+"""
+
+
+def update_sitemap(candidates, today_iso):
+    """Rewrite sitemap.xml to include all candidate pages."""
+    main_urls = [
+        ("https://www.culliton2026.org/", "weekly", "1.0"),
+        ("https://www.culliton2026.org/explainer.html", "monthly", "0.9"),
+        ("https://www.culliton2026.org/bench.html", "weekly", "0.8"),
+        ("https://www.culliton2026.org/about.html", "monthly", "0.5"),
+    ]
+    candidate_urls = [
+        (f"https://www.culliton2026.org/candidate/{c['slug']}.html", "weekly", "0.8")
+        for c in candidates
+    ]
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url, freq, prio in main_urls + candidate_urls:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{url}</loc>")
+        lines.append(f"    <lastmod>{today_iso}</lastmod>")
+        lines.append(f"    <changefreq>{freq}</changefreq>")
+        lines.append(f"    <priority>{prio}</priority>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n"
+
+
+def main():
+    with open(DATA_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    candidates = data["candidates"]
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    written = []
+    for c in candidates:
+        slug = c.get("slug")
+        if not slug or not re.match(r"^[a-z0-9-]+$", slug):
+            print(f"SKIP: bad slug {slug!r} for {c.get('name')}", file=sys.stderr)
+            continue
+        path = os.path.join(OUT_DIR, f"{slug}.html")
+        html = render_page(c)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(html)
+        written.append(slug)
+
+    today_iso = date.today().isoformat()
+    sitemap = update_sitemap(candidates, today_iso)
+    with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
+        f.write(sitemap)
+
+    print(f"Wrote {len(written)} candidate pages and updated sitemap.")
+    print("Pages:", ", ".join(written))
+
+
+if __name__ == "__main__":
+    main()

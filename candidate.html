@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    // Redirect legacy /candidate.html?c=slug URLs to the static /candidate/{slug}.html pages
+    (function(){
+      var m = location.search.match(/[?&]c=([^&]+)/);
+      if (m && m[1]) {
+        var slug = decodeURIComponent(m[1]).replace(/[^a-z0-9_-]/gi, '');
+        if (slug) { location.replace('/candidate/' + slug + '.html'); }
+      }
+    })();
+  </script>
   <title>Candidate · Culliton 2026</title>
   <meta name="description" content="Public-record signals on a 2026 Washington Supreme Court candidate.">
   <link rel="canonical" href="https://www.culliton2026.org/candidate.html">

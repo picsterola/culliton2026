@@ -49,7 +49,7 @@
         ${g.candidates
           .map(
             (c) => `
-          <a href="candidate.html?c=${encodeURIComponent(c.slug)}" class="candidate-card">
+          <a href="candidate/${encodeURIComponent(c.slug)}.html" class="candidate-card">
             <img src="${escapeAttr(c.photo)}" alt="Portrait of ${escapeAttr(c.name)}" class="candidate-card__photo" loading="lazy">
             <div class="candidate-card__lean candidate-card__lean--${escapeAttr(c.lean || 'unclear')}">
               <span class="lean-dot lean-dot--${escapeAttr(c.lean || 'unclear')}"></span>
