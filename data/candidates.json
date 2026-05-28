@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15",
+  "updated": "2026-05-28",
   "candidates": [
     {
       "slug": "melody",
@@ -969,27 +969,31 @@
       "lean": "unclear",
       "lean_short": "Not enough to tell",
       "lean_confidence": "Low",
-      "one_liner": "Veteran appellate lawyer with 40+ years at the WA bar. Deep institutional ties to the Seattle legal establishment, no judicial record, and nothing public on Article VII.",
+      "one_liner": "Veteran appellate lawyer, 40+ years at the WA bar. Running on pure credentials with a deliberately policy-free platform. No endorsements, $0 PDC.",
       "appointed_by": "Not applicable.",
       "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman (2008\u2013present). Admitted to the Washington bar in 1984 (WSBA No. 14459). Earlier: judicial law clerk at the WA Court of Appeals Div. I (assisted on 75 appeals), judicial extern at the U.S. District Court, Seattle municipal court prosecutor, and staff counsel to the WA Senate Health and Long-Term Care Committee (1990). Pro tem judge, Seattle Municipal Court.",
-      "endorsements": "None publicly reported as of May 2026.",
-      "fundraising": "Not yet reported in PDC filings located.",
+      "endorsements": "None publicly reported as of May 28, 2026. Campaign website (millerforjustice.org) has no endorsements page and no listed endorsers; the site asks supporters to 'endorse Greg publicly' via a form.",
+      "fundraising": "PDC: $0.00 raised, $0.00 spent, $0.00 debt, $0.00 outside money for/against (as of May 28, 2026). Declared candidate but no contributions filed. Campaign accepts donations on millerforjustice.org/donate (max $4,800).",
       "signals": [
         {
           "type": "His background",
-          "text": "WSBA No. 14459 since 1984. 125+ merits appeals briefed, 75+ argued in Washington appellate courts and the Ninth Circuit. 20+ amicus submissions, concentrated in health law. Pure appellate practitioner, no trial bench experience. Harvard cum laude, J.D. Northeastern."
+          "text": "WSBA No. 14459 since 1984. Campaign now claims 145+ merits appeals briefed, 85+ argued, and 27+ amicus filings across the Washington appellate courts, Ninth Circuit, and U.S. Supreme Court. Pure appellate practitioner, no full-time bench experience. Harvard cum laude, J.D. Northeastern."
         },
         {
           "type": "How he talks about the law",
-          "text": "No public judicial philosophy statement located. Firm bio emphasizes statutory construction, appellate procedure, and constitutional law as practice areas. Has briefed Washington constitutional questions in practice (e.g., WA Water Jet Workers v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29)."
+          "text": "Campaign site is deliberately policy-free. Says 'justices don't run on policy.' No mention of originalism, textualism, judicial restraint, or stare decisis as concepts. Taglines: 'Fair. Independent. For Washington' and 'No favors owed.' He highlights Keene v. Edie, where he successfully argued the court should overturn a 107-year-old precedent \u2014 so he is comfortable moving off long-settled law when he thinks it is wrong."
         },
         {
           "type": "Who's backing him",
-          "text": "No endorsements located. None of the institutional patterns visible for the other three Pos 5 candidates (Angelis has the Democratic establishment, Larson has the conservative coalition, Amamilo has Whitener) appear here. UW law professor Hugh Spitzer told the Columbia Basin Herald in April 2026 that 'there are few conservative candidates running' in this cycle, implicitly bucketing Miller outside the overturn camp."
+          "text": "No endorsements located as of May 28, 2026. Campaign site has no endorsement page. Wikipedia's race table shows zero endorsers. None of the institutional patterns visible for the other three Pos 5 candidates (Angelis: Democratic establishment, Larson: WSRP + Future 42, Amamilo: Justice Whitener) appear here. He is the only Pos 5 candidate without an identifiable coalition."
         },
         {
           "type": "His tax record",
-          "text": "Nothing public on Article VII, Culliton, Quinn, or ESSB 6346. Health-law specialty doesn't intersect the tax uniformity question directly. His appellate record shows comfort with both pro-state (UW Medicine) and anti-agency (DOH overreach) postures, depending on the doctrine."
+          "text": "Nothing public on Article VII, Culliton, Quinn, or ESSB 6346. The campaign site doesn't touch any of it. His featured cases are health-law, workers-comp, jail accountability, and a sex-abuse civil claim. Tax uniformity is not in his located record."
+        },
+        {
+          "type": "His money",
+          "text": "PDC: $0 raised, $0 spent as of May 28, 2026, two months before the August primary. Donation page exists but no contributions filed. By contrast Angelis has ~$143K and Larson ~$136K. Without money he is unlikely to make the top two."
         }
       ],
       "questions": [
@@ -1008,23 +1012,27 @@
           "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
       ],
-      "deep_read": "Greg Miller is the fourth and least-defined candidate in the Position 5 field, and the honest assessment is that the public record is too thin to support an income-tax lean even though the circumstantial pattern is mildly keep-coded. He is a Carney Badley Spellman shareholder and a founding member of the firm's Appellate Group, admitted to the Washington bar in 1984 (WSBA No. 14459), with more than a hundred merits appeals briefed and seventy-five-plus argued in the Washington appellate courts and the Ninth Circuit. He clerked at the Washington Court of Appeals Division One, served as a Seattle Municipal Court prosecutor, was staff counsel to the Washington Senate Health and Long-Term Care Committee in 1990, and sits pro tem on the Seattle Municipal Court. His institutional life runs through the King County Bar Association, where he has been a member since 1985, served as a trustee from 2001 to 2004, co-founded the Appellate Law Section in 2005 and chaired it in 2006\u20132007, has chaired and served on the Judicial Evaluation Committee, and has sat on the Martin Luther King Jr. Luncheon Committee for over twenty years. He is also a founding member of the Washington Appellate Lawyers Association. In 2025 he served as a Special Assistant Attorney General for UW Medicine in a Washington Supreme Court amicus filing, showing comfort representing state institutions. At the same time, in Washington State Hospital Association v. Department of Health, 183 Wn.2d 590 (2015), he successfully argued that the Department of Health exceeded its certificate-of-need authority. He has briefed at least one Washington constitutional question of consequence (WA Water Jet Workers v. Yarbrough, art. II \u00a7 29). As of mid-May 2026, Wikipedia lists no endorsements for him, no campaign infrastructure has surfaced, and he has made no located public statement on Article VII, Culliton, the capital gains tax, or ESSB 6346. The coalition signal points away from the conservative overturn camp (no WSRP, no Future 42, no Federalist Society trail; long KCBA and MLK Committee tenure), but coalition is not doctrine, and without his own statement the case for moving him off 'unclear' is not strong enough.",
+      "deep_read": "Greg Miller now has a live campaign site at millerforjustice.org and a clearer self-presentation, but on the question that matters here, Article VII and the income tax, the record is still empty by design. The site's explicit pitch is that 'justices don't run on policy, they run on the work they have done and the way they think about doing it.' That is the entire judicial philosophy section. No mention of Culliton, Quinn, ESSB 6346, the uniformity clause, originalism, textualism, judicial restraint, or stare decisis as a concept. The taglines are 'Fair. Independent. For Washington' and 'No favors owed,' which read as a mild jab at the Ferguson appointment network without taking any substantive position. What the site does add is detail on his cases and his bar work. Forty years at the Washington bar, 145+ briefed appeals, 85+ oral arguments, 27+ amicus briefs. Twenty years on the King County Bar Judicial Evaluation Committee including a term as chair. Pro tem on Seattle Municipal Court. Featured cases include Iva Jennings (working-class L&I win), Keene v. Edie (where he successfully argued to overturn a 107-year-old precedent to compensate a sex-abuse victim), Anderson v. Grant County (jail accountability amicus the court adopted), and Beard v. Everett Clinic (9-0 affirmance for the medical-association amicus). The Keene v. Edie framing is the most interesting tell: he is openly proud of having moved the court off long-settled precedent when he thought it was wrong. That cuts both ways on Culliton. It rules out a stare-decisis-uber-alles defense of the 1933 ruling, but it also doesn't tell you which direction he'd push. Coalition signals remain neutral-to-mildly-keep. PDC still shows $0 raised, $0 spent. No party endorsement, no sitting judges or justices on board, no bar association picks, no Federalist Society or Future 42 footprint, no progressive movement framing either. He is the only Position 5 candidate without an identifiable patronage network. With no money and no endorsement infrastructure behind him, he is unlikely to be a finalist, but if he advances he is a genuine wild card. Recommendation: hold at unclear, low confidence.",
       "expanded_signals": [
         {
           "type": "Forty-plus years inside the Seattle appellate bar",
-          "text": "Miller has been a Washington lawyer since 1984. He clerked at the Court of Appeals Division I, externed in U.S. District Court, and has practiced appeals continuously for over four decades. He co-founded the King County Bar Association's Appellate Law Section in 2005 and chaired it. He is a founding member of the Washington Appellate Lawyers Association (2000), chaired its judicial CJE programs in 2003 and 2006, and has chaired or served on the KCBA Judicial Evaluation Committee across multiple terms. That is the resume of a career institutionalist embedded in the Seattle legal establishment, not a movement-aligned candidate."
+          "text": "Miller has been a Washington lawyer since 1984. He clerked at the Court of Appeals Division I for Judge Ken Grosse (~75 appeals), externed in U.S. District Court, and has practiced appeals continuously for over four decades. He co-founded the King County Bar Association's Appellate Law Section in 2005 and chaired it. He is a founding member of the Washington Appellate Lawyers Association (2000), chaired its judicial CJE programs, and has spent twenty years on the KCBA Judicial Evaluation Committee, including a term as chair. That is the resume of a career institutionalist embedded in the Seattle legal establishment, not a movement-aligned candidate."
         },
         {
           "type": "Has worked both sides of the state",
-          "text": "In 2025 Miller was retained as a Special Assistant Attorney General representing UW Medicine in a Washington Supreme Court amicus filing (Snyder v. Virginia Mason). In 2015 he argued and won Washington State Hospital Association v. Department of Health, 183 Wn.2d 590, where the court held DOH exceeded its certificate-of-need authority. The pattern is a lawyer who will work for state institutions when retained and challenge them when the doctrine says so. That cuts against any clean ideological read in either direction."
+          "text": "In 2025 Miller was retained as a Special Assistant Attorney General representing UW Medicine in a Washington Supreme Court amicus filing (Snyder v. Virginia Mason). In 2015 he argued and won Washington State Hospital Association v. Department of Health, 183 Wn.2d 590, where the court held DOH exceeded its certificate-of-need authority. The campaign site now leans into this duality, listing both institutional clients (medical associations, hospitals, UW Medicine) and working-class clients (Iva Jennings's L&I claim). Either he is genuinely cross-ideological or he is selling that framing for tactical reasons. The record supports the first read more than the second."
         },
         {
-          "type": "Constitutional questions are in his portfolio, just not Article VII",
-          "text": "Miller has briefed at least one notable Washington constitutional case: WA Water Jet Workers Association v. Yarbrough, 151 Wn.2d 470 (2004), challenging a prisoner labor program under Wash. Const. art. II \u00a7 29. He has filed amicus briefs on charter-school constitutionality, medical malpractice doctrine, parenting plans, and municipal antitrust. Constitutional argument is in his toolkit. Article VII and tax uniformity are not in the located record, which is the issue."
+          "type": "He has overturned long precedent before",
+          "text": "The campaign's flagship case story is Keene v. Edie, where Miller successfully argued the Washington Supreme Court should overturn a 107-year-old precedent to protect a sex-abuse victim while sparing the innocent spouse from liability. He volunteers that example. That tells you he is not a stare-decisis-uber-alles defender of old rulings as a matter of principle. It does not tell you which direction he would push on Culliton, but it rules out the cleanest 'defend the 1933 ruling because it is old' posture."
         },
         {
           "type": "No conservative coalition footprint, no progressive coalition footprint either",
-          "text": "Angelis carries the Democratic establishment, sitting justices, and the governor. Larson carries the Washington State Republican Party, Future 42, and Federalist Society-adjacent training. Amamilo has Justice Whitener and Thurston County. Miller has long-running KCBA leadership and MLK Luncheon Committee tenure, which code mildly center-left in Seattle terms, but no party endorsement, no movement training, no surfaced fundraising. Hugh Spitzer's April 2026 comment that 'there are few conservative candidates running' implicitly excludes him from the overturn coalition. That is suggestive, not dispositive."
+          "text": "Angelis carries the Democratic establishment, sitting justices, and the governor. Larson carries the Washington State Republican Party, Future 42, and Federalist Society-adjacent training. Amamilo has Justice Whitener and Thurston County. Miller has long-running KCBA leadership, MLK Luncheon Committee tenure, and a 'no favors owed, doesn't fit a partisan box' campaign framing. No party endorsement, no movement training, no surfaced fundraising. Hugh Spitzer's April 2026 comment that 'there are few conservative candidates running' implicitly excludes him from the overturn coalition. Suggestive, not dispositive."
+        },
+        {
+          "type": "No money is its own signal",
+          "text": "Eight weeks before the August 4 primary, Miller has filed $0 with the PDC. His three Pos 5 opponents have raised between $97K and $143K. A 40-year appellate veteran with deep KCBA ties who cannot or will not pull $20K in two months is either running a vanity campaign, running purely to raise his profile, or genuinely uninterested in the money mechanics. Whatever the reason, voters are unlikely to know who he is by August."
         }
       ],
       "additional_sources": [
@@ -1047,12 +1055,24 @@
         {
           "label": "The Daily World: WA Supreme Court races shape up as income tax case looms (May 2026)",
           "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        },
+        {
+          "label": "Greg Miller for Justice (campaign website)",
+          "url": "https://millerforjustice.org"
+        },
+        {
+          "label": "Why Greg \u2014 campaign rationale and cases",
+          "url": "https://millerforjustice.org/why-greg"
+        },
+        {
+          "label": "WA Public Disclosure Commission \u2014 Gregory M. Miller candidate record",
+          "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?filer_name=Greg+Miller&election_year=2026"
         }
       ],
-      "campaign_website": null,
-      "campaign_donate": null,
-      "campaign_website_status": "broken",
-      "campaign_website_note": "The voter pamphlet lists millerforjustice.org but the domain currently times out."
+      "campaign_website": "https://millerforjustice.org",
+      "campaign_donate": "https://millerforjustice.org/donate",
+      "campaign_website_status": "live",
+      "campaign_website_note": "Voter pamphlet originally listed millerforjustice.org. Live as of May 28, 2026. The gregmillerforjustice.com domain does not resolve."
     },
     {
       "slug": "amamilo",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_scan": null,
+  "last_scan": "2026-05-28",
   "open_questions": [
     {
       "id": "odonnell_lean",
@@ -8,7 +8,7 @@
       "candidate_id": "odonnell",
       "position": 4,
       "opened": "2026-05-19",
-      "status": "open",
+      "status": "progressing",
       "priority": "high",
       "research_angles": [
         "King County Superior Court bench record on tax-related rulings",
@@ -17,7 +17,14 @@
         "Endorsement signals (BIAW, Realtors, WEA, AFSCME)",
         "Campaign coalition makeup"
       ],
-      "weeks_open": 0
+      "weeks_open": 1,
+      "progress_log": [
+        {
+          "date": "2026-05-28",
+          "note": "Campaign announced expanded endorsements list (names not visible in LinkedIn post). Potential signal but insufficient for lean resolution.",
+          "evidence_url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
+        }
+      ]
     },
     {
       "id": "bloom_pdc_filing",
@@ -31,7 +38,7 @@
         "PDC.wa.gov search for Bloom 2026 committee filings",
         "Candidate registration with Secretary of State"
       ],
-      "weeks_open": 0
+      "weeks_open": 1
     },
     {
       "id": "stephens_fundraising",
@@ -46,7 +53,7 @@
         "Major endorsement announcements",
         "Public events / fundraising calendar"
       ],
-      "weeks_open": 0
+      "weeks_open": 1
     },
     {
       "id": "colberg_filing",
@@ -61,7 +68,7 @@
         "PDC registration",
         "Background and prior public statements"
       ],
-      "weeks_open": 0
+      "weeks_open": 1
     },
     {
       "id": "amamilo_miller_lean",
@@ -76,11 +83,46 @@
         "Prior judicial or attorney activity",
         "Endorsements"
       ],
-      "weeks_open": 0
+      "weeks_open": 1
     }
   ],
-  "recent_findings_hashes": [],
-  "auto_applied_changes_log": [],
-  "pending_review_changes": [],
+  "recent_findings_hashes": [
+    {
+      "hash": "a1dd8df9f1d6cdf0b0a917a3177d9e8c313fb07e27ede4122176dc3954fcda1a",
+      "date": "2026-05-28",
+      "headline": "O'Donnell campaign posts a May 22 press release teaser about 'expanded list of major endorsements'",
+      "url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
+    }
+  ],
+  "auto_applied_changes_log": [
+    {
+      "date": "2026-05-28",
+      "candidate": "miller",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "source_urls": [
+        "https://millerforjustice.org",
+        "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?filer_name=Greg+Miller&election_year=2026"
+      ],
+      "applied_by": "manual (user-initiated review)"
+    }
+  ],
+  "pending_review_changes": [
+    {
+      "id": "review_a1dd8df9f1",
+      "candidate": "Sean O'Donnell",
+      "current_state": {
+        "endorsements_note": "No new endorsements recorded"
+      },
+      "proposed_state": {
+        "endorsements_note": "Investigate endorsements claimed in May 22 press release; do not update until primary list is obtained"
+      },
+      "evidence_urls": [
+        "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
+      ],
+      "reasoning": "Campaign claims expanded endorsements list, but the LinkedIn post text does not include the names; requires opening the linked press release and confirming endorsers from primary source before updating.",
+      "confidence": "medium",
+      "opened_date": "2026-05-28"
+    }
+  ],
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday."
 }
