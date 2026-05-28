@@ -700,7 +700,13 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   font-size: var(--text-sm);
   line-height: 1.6;
   color: var(--color-text);
+  margin: 0 0 0.6rem;
 }
+.signal__text:last-child { margin-bottom: 0; }
+.deep-read__lede:last-child { margin-bottom: 0; }
+.deep-read__signal-text:last-child { margin-bottom: 0; }
+.deep-read__lede + .deep-read__lede,
+.deep-read__signal-text + .deep-read__signal-text { margin-top: 0; }
 @media (max-width: 640px) {
   .signal { grid-template-columns: 1fr; gap: var(--space-2); }
 }
@@ -744,7 +750,7 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   font-size: 1.08rem;
   line-height: 1.65;
   color: var(--color-text);
-  margin: 0 0 1.75rem;
+  margin: 0 0 1rem;
 }
 .deep-read__signals {
   list-style: none;
@@ -773,7 +779,7 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   font-size: 1rem;
   line-height: 1.6;
   color: var(--color-text);
-  margin: 0;
+  margin: 0 0 0.75rem;
 }
 .deep-read__footnote {
   font-family: 'Inter', sans-serif;

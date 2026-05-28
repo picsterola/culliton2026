@@ -37,6 +37,55 @@ def esc(s):
     return html_escape(str(s), quote=True)
 
 
+_SENT_SPLIT = re.compile(r'(?<=[.!?])\s+(?=[A-Z"\'“‘(])')
+
+
+def paragraphize(text, css_class="", target_words=55, max_words=85):
+    """Split a long single-block string into multiple <p> tags.
+
+    Strategy: split into sentences, then greedily group sentences into
+    paragraphs of roughly `target_words` words. Start a new paragraph
+    once the running word count exceeds `target_words`. Never let a
+    single paragraph exceed `max_words` unless one sentence is itself
+    longer. If the input already contains blank-line paragraph breaks,
+    honor them and split each chunk further if needed.
+    """
+    if not text:
+        return ""
+    text = str(text).strip()
+    cls_attr = f' class="{html_escape(css_class, quote=True)}"' if css_class else ""
+
+    # Honor any existing blank-line paragraph breaks first.
+    pre_chunks = [p.strip() for p in re.split(r'\n\s*\n', text) if p.strip()]
+
+    out_paras = []
+    for chunk in pre_chunks:
+        # Collapse single newlines to spaces inside a chunk.
+        chunk = re.sub(r'\s+', ' ', chunk).strip()
+        sentences = _SENT_SPLIT.split(chunk)
+        if not sentences:
+            continue
+        # If the whole chunk is short, keep it as one paragraph.
+        if sum(len(s.split()) for s in sentences) <= max_words:
+            out_paras.append(chunk)
+            continue
+        cur = []
+        cur_words = 0
+        for s in sentences:
+            sw = len(s.split())
+            if cur and (cur_words + sw > target_words):
+                out_paras.append(' '.join(cur).strip())
+                cur = [s]
+                cur_words = sw
+            else:
+                cur.append(s)
+                cur_words += sw
+        if cur:
+            out_paras.append(' '.join(cur).strip())
+
+    return "\n      ".join(f"<p{cls_attr}>{html_escape(p, quote=True)}</p>" for p in out_paras)
+
+
 def lean_label(lean):
     return {
         "scrap": "Likely to scrap Culliton (clear the way for an income tax)",
@@ -56,11 +105,15 @@ def lean_short_label(lean):
 def render_signals(signals):
     if not signals:
         return ""
+    def signal_text(t):
+        # Use paragraphize but with wider thresholds — most signals are
+        # short enough to stay as one block.
+        return paragraphize(t, css_class='signal__text', target_words=70, max_words=110)
     items = "".join(
         f"""
             <li class="signal">
               <span class="signal__type">{esc(s.get('type'))}</span>
-              <span class="signal__text">{esc(s.get('text'))}</span>
+              {signal_text(s.get('text'))}
             </li>"""
         for s in signals
     )
@@ -87,7 +140,7 @@ def render_deep_read(c):
             f"""
             <li class="deep-read__signal">
               <div class="deep-read__signal-type">{esc(s.get('type'))}</div>
-              <p class="deep-read__signal-text">{esc(s.get('text'))}</p>
+              {paragraphize(s.get('text'), css_class='deep-read__signal-text')}
             </li>"""
             for s in expanded
         )
@@ -95,7 +148,7 @@ def render_deep_read(c):
         <ul class="deep-read__signals">{items}
         </ul>"""
 
-    deep_html = f'<p class="deep-read__lede">{esc(deep)}</p>' if deep else ""
+    deep_html = paragraphize(deep, css_class='deep-read__lede') if deep else ""
 
     return f"""
     <section class="deep-read deep-read--{esc(c.get('lean') or 'unclear')}">

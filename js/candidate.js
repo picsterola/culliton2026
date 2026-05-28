@@ -17,6 +17,31 @@
     return;
   }
 
+  // Split a long text into <p> blocks at sentence boundaries.
+  function paragraphize(text, cssClass, targetWords = 55, maxWords = 85) {
+    if (!text) return '';
+    const t = String(text).trim();
+    const cls = cssClass ? ` class="${cssClass}"` : '';
+    const preChunks = t.split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
+    const out = [];
+    for (const chunk of preChunks) {
+      const flat = chunk.replace(/\s+/g, ' ').trim();
+      const sentences = flat.split(/(?<=[.!?])\s+(?=[A-Z"'“‘(])/);
+      const totalWords = sentences.reduce((a, s) => a + s.split(/\s+/).length, 0);
+      if (totalWords <= maxWords) { out.push(flat); continue; }
+      let cur = [], curWords = 0;
+      for (const s of sentences) {
+        const sw = s.split(/\s+/).length;
+        if (cur.length && curWords + sw > targetWords) {
+          out.push(cur.join(' ').trim());
+          cur = [s]; curWords = sw;
+        } else { cur.push(s); curWords += sw; }
+      }
+      if (cur.length) out.push(cur.join(' ').trim());
+    }
+    return out.map((p) => `<p${cls}>${escapeHTML(p)}</p>`).join('\n      ');
+  }
+
   const c = data.candidates.find((x) => x.slug === slug);
   if (!c) {
     root.innerHTML = `<p>Candidate not found. <a href="index.html">Back to index</a>.</p>`;
@@ -78,7 +103,7 @@
             (s) => `
           <li class="signal">
             <span class="signal__type">${escapeHTML(s.type)}</span>
-            <span class="signal__text">${escapeHTML(s.text)}</span>
+            ${paragraphize(s.text, 'signal__text', 70, 110)}
           </li>`
           )
           .join("")}
@@ -90,13 +115,13 @@
     <section class="deep-read deep-read--${escapeAttr(c.lean || 'unclear')}">
       <div class="deep-read__eyebrow">Deep read</div>
       <h2 class="deep-read__heading">How this candidate is likely to rule, and why.</h2>
-      ${c.deep_read ? `<p class="deep-read__lede">${escapeHTML(c.deep_read)}</p>` : ''}
+      ${c.deep_read ? paragraphize(c.deep_read, 'deep-read__lede') : ''}
       ${(c.expanded_signals && c.expanded_signals.length) ? `
         <ul class="deep-read__signals">
           ${c.expanded_signals.map((s) => `
             <li class="deep-read__signal">
               <div class="deep-read__signal-type">${escapeHTML(s.type)}</div>
-              <p class="deep-read__signal-text">${escapeHTML(s.text)}</p>
+              ${paragraphize(s.text, 'deep-read__signal-text')}
             </li>`).join('')}
         </ul>` : ''}
       <p class="deep-read__footnote">An analytical read on public signals. Not a prediction of any individual vote.</p>
