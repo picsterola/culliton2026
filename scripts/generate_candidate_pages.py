@@ -345,8 +345,14 @@ def build_person_jsonld(c):
                 "@type": "ListItem",
                 "position": 2,
                 "name": c.get("position_label", "Position"),
+                "item": f"{BASE_URL}/#candidates",
             },
-            {"@type": "ListItem", "position": 3, "name": c["name"]},
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": c["name"],
+                "item": page_url,
+            },
         ],
     }
 
