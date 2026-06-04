@@ -3,7 +3,7 @@
 **Site:** culliton2026.org
 **Owner:** Viet Nguyen
 **Cadence:** Thursdays 7:00 AM PT
-**Last manually updated:** 2026-05-21
+**Last manually updated:** 2026-06-04
 
 ## Purpose
 
@@ -46,11 +46,13 @@ Read `intel_state.json`. Update `last_scan` to today. Increment `weeks_open` on 
 
 ### Step 2 — Per-candidate lightweight scan (~5 min each)
 
-For each candidate above, run web search and fetch covering the **last 7 days**:
+For each candidate above, run web search covering the **last 7 days**:
 
-- `pplx search web "{candidate name} Washington Supreme Court 2026"` with `--recency week`
-- `pplx search web "{candidate name} endorsement OR ruling OR statement"` with `--recency week`
-- Quick PDC.wa.gov check for new C-3 / C-4 filings
+- `search_web` with `queries=["{candidate name} Washington Supreme Court 2026"]` and `recency_filter="week"`
+- `search_web` with `queries=["{candidate name} endorsement", "{candidate name} ruling", "{candidate name} statement"]` and `recency_filter="week"`
+- Quick PDC.wa.gov check for new C-3 / C-4 filings via `fetch_url`
+
+**Note:** The previous version of this runbook called `pplx search web` with `--recency week`. That CLI is not available in this sandbox. Use the agent's native `search_web` tool with `recency_filter="week"` instead. If `search_web` itself is ever unavailable, fall back to `fetch_url` on the candidate's campaign site, voter pamphlet URL, and PDC profile, but do NOT block the scan.
 
 Look for:
 - **Endorsements** (BIAW, Realtors PAC, WEA-PAC, AFSCME, FOP, newspapers, bar associations)
@@ -163,4 +165,4 @@ If a candidate withdraws, this is auto-apply: set `withdrawn: true` on the candi
 
 ---
 
-*Runbook version 1.0 — created 2026-05-21. Update when scope changes (e.g., after July 21 PDC filing deadline, new candidates enter, etc.)*
+*Runbook version 1.1 — created 2026-05-21, updated 2026-06-04 (switched search tooling from `pplx search web --recency week` to native `search_web` with `recency_filter="week"` after the pplx CLI was found unavailable in the sandbox). Update when scope changes (e.g., after July 21 PDC filing deadline, new candidates enter, etc.)*
