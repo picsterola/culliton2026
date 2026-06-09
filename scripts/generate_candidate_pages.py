@@ -27,6 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(ROOT, "data", "candidates.json")
 OUT_DIR = os.path.join(ROOT, "candidate")
 SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
+INDEX_PATH = os.path.join(ROOT, "index.html")
 BASE_URL = "https://www.culliton2026.org"
 
 
@@ -260,6 +261,56 @@ def render_badges(c):
     return "".join(badges)
 
 
+def _fmt_money(n):
+    """Format a number as $X,XXX with no cents. None / non-numeric -> ''."""
+    try:
+        return f"${int(round(float(n))):,}"
+    except (TypeError, ValueError):
+        return ""
+
+
+def _fmt_date_friendly(s):
+    """Turn '2026-05-12' into 'May 12, 2026'. Leave anything else as-is."""
+    if not s:
+        return ""
+    try:
+        from datetime import datetime
+        return datetime.strptime(str(s), "%Y-%m-%d").strftime("%b %-d, %Y")
+    except Exception:
+        return str(s)
+
+
+def render_fundraising_dd(c):
+    """Render the Fundraising cell. Prefer the structured `pdc` object
+    (clickable dollar amount + 'as of' date + PDC link). Fall back to the
+    free-text `fundraising` field if no `pdc` block exists."""
+    pdc = c.get("pdc") or {}
+    url = pdc.get("pdc_url")
+    raised = pdc.get("raised")
+    as_of = _fmt_date_friendly(pdc.get("as_of"))
+
+    if url and raised is not None:
+        amount = _fmt_money(raised)
+        url_esc = html_escape(url, quote=True)
+        return (
+            f'<a class="fact-strip__money" href="{url_esc}" '
+            f'target="_blank" rel="noopener" '
+            f'aria-label="View latest PDC filing for {esc(c.get("name"))} (raised {amount})">'
+            f'{amount}</a>'
+            f'<span class="fact-strip__as-of"> raised as of {esc(as_of)}</span>'
+        )
+    if url and raised is None:
+        # Not filed yet, but we have a PDC profile URL
+        url_esc = html_escape(url, quote=True)
+        return (
+            f'<a class="fact-strip__money fact-strip__money--unfiled" href="{url_esc}" '
+            f'target="_blank" rel="noopener">No filing yet</a>'
+            + (f'<span class="fact-strip__as-of"> as of {esc(as_of)}</span>' if as_of else '')
+        )
+    # Fall back to free-text fundraising note
+    return esc(c.get("fundraising"))
+
+
 def render_fact_strip(c):
     return f"""
     <dl class="fact-strip">
@@ -267,7 +318,7 @@ def render_fact_strip(c):
       <div class="fact-strip__item"><dt>Appointing authority</dt><dd>{esc(c.get('appointed_by'))}</dd></div>
       <div class="fact-strip__item"><dt>Background</dt><dd>{esc(c.get('prior_practice'))}</dd></div>
       <div class="fact-strip__item"><dt>Reported endorsements</dt><dd>{esc(c.get('endorsements'))}</dd></div>
-      <div class="fact-strip__item"><dt>Fundraising</dt><dd>{esc(c.get('fundraising'))}</dd></div>
+      <div class="fact-strip__item"><dt>Fundraising</dt><dd>{render_fundraising_dd(c)}</dd></div>
     </dl>"""
 
 
@@ -508,6 +559,111 @@ def render_page(c):
 """
 
 
+def _fmt_money_compact(n):
+    """Format a dollar amount compactly: $1.2M, $820k, or $9,500."""
+    try:
+        n = float(n)
+    except (TypeError, ValueError):
+        return ""
+    if n >= 1_000_000:
+        return f"${n/1_000_000:.2f}M".replace(".00M", "M")
+    if n >= 10_000:
+        return f"${int(round(n/1000)):,}k"
+    return f"${int(round(n)):,}"
+
+
+def build_pdc_aggregate_sentence(candidates):
+    """Build the homepage PDC aggregate sentence. Returns the HTML fragment
+    to live between PDC_AGGREGATE_START and PDC_AGGREGATE_END markers, or '' if
+    we lack the data to say anything useful."""
+    buckets = {"scrap": 0.0, "keep": 0.0, "unclear": 0.0}
+    filers = {"scrap": 0, "keep": 0, "unclear": 0}
+    totals = {"scrap": 0, "keep": 0, "unclear": 0}
+    latest_as_of = None
+    any_money = False
+    for c in candidates:
+        if c.get("withdrawn"):
+            continue
+        lean = c.get("lean", "unclear")
+        if lean not in buckets:
+            lean = "unclear"
+        totals[lean] += 1
+        pdc = c.get("pdc") or {}
+        raised = pdc.get("raised")
+        as_of = pdc.get("as_of")
+        if raised is not None:
+            try:
+                buckets[lean] += float(raised)
+                filers[lean] += 1
+                any_money = True
+            except (TypeError, ValueError):
+                pass
+        if as_of and (latest_as_of is None or as_of > latest_as_of):
+            latest_as_of = as_of
+
+    if not any_money:
+        return ""
+
+    scrap_amt = _fmt_money_compact(buckets["scrap"])
+    keep_amt = _fmt_money_compact(buckets["keep"])
+    unclear_amt = _fmt_money_compact(buckets["unclear"])
+    as_of_friendly = _fmt_date_friendly(latest_as_of) if latest_as_of else ""
+
+    # Ratio framing if scrap dwarfs keep (or vice versa)
+    ratio_phrase = ""
+    if buckets["keep"] > 0 and buckets["scrap"] > 0:
+        ratio = buckets["scrap"] / buckets["keep"]
+        if ratio >= 2:
+            ratio_phrase = f", roughly {ratio:.1f}x more than the keep-coalition field"
+        elif ratio <= 0.5:
+            ratio_phrase = f", roughly {1/ratio:.1f}x less than the keep-coalition field"
+
+    def _cnt(lean):
+        # 'N of M' if some haven't filed, else just 'M'
+        if filers[lean] < totals[lean]:
+            return f'{filers[lean]} of {totals[lean]}'
+        return str(totals[lean])
+
+    sentence = (
+        f'<p class="pdc-aggregate">'
+        f'<strong>Money on the field.</strong> '
+        f'The <em>scrap-the-rule</em> field ({_cnt("scrap")} candidates reporting) '
+        f'has raised <strong>{scrap_amt}</strong>{ratio_phrase}. '
+        f'The <em>keep-the-rule</em> field ({_cnt("keep")} reporting) has raised <strong>{keep_amt}</strong>. '
+        f'The <em>not-enough-to-tell</em> field ({_cnt("unclear")} reporting) has raised <strong>{unclear_amt}</strong>. '
+    )
+    if as_of_friendly:
+        sentence += f'PDC totals current as of <strong>{esc(as_of_friendly)}</strong>. '
+    sentence += (
+        'Click any dollar amount on a candidate\u2019s page to see the underlying filing.'
+        '</p>'
+    )
+    return sentence
+
+
+def update_index_aggregate(candidates, index_path):
+    """Rewrite the PDC_AGGREGATE marker block in index.html."""
+    if not os.path.exists(index_path):
+        return False
+    fragment = build_pdc_aggregate_sentence(candidates)
+    with open(index_path, "r", encoding="utf-8") as f:
+        html = f.read()
+    start = "<!-- PDC_AGGREGATE_START -->"
+    end = "<!-- PDC_AGGREGATE_END -->"
+    if start not in html or end not in html:
+        print("WARN: PDC_AGGREGATE markers not found in index.html", file=sys.stderr)
+        return False
+    pre, _, rest = html.partition(start)
+    _, _, post = rest.partition(end)
+    new_block = f"{start}\n      {fragment}\n      {end}" if fragment else f"{start}\n      {end}"
+    new_html = pre + new_block + post
+    if new_html != html:
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(new_html)
+        return True
+    return False
+
+
 def update_sitemap(candidates, today_iso):
     """Rewrite sitemap.xml to include all candidate pages."""
     main_urls = [
@@ -558,7 +714,10 @@ def main():
     with open(SITEMAP_PATH, "w", encoding="utf-8") as f:
         f.write(sitemap)
 
+    updated_index = update_index_aggregate(candidates, INDEX_PATH)
+
     print(f"Wrote {len(written)} candidate pages and updated sitemap.")
+    print(f"Homepage PDC aggregate: {'updated' if updated_index else 'unchanged or missing markers'}")
     print("Pages:", ", ".join(written))
 
 

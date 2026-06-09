@@ -44,7 +44,22 @@ Maintain currency of candidate signals on culliton2026.org by scanning for new d
 
 Read `intel_state.json`. Update `last_scan` to today. Increment `weeks_open` on each open question.
 
-### Step 2 — Per-candidate lightweight scan (~5 min each)
+### Step 2A — Refresh PDC fundraising totals (deterministic, ~30 sec)
+
+Run the standalone refresh script BEFORE the per-candidate scan:
+
+```bash
+cd /home/user/workspace/culliton2026
+python3 scripts/refresh_pdc.py
+```
+
+This script queries the Washington PDC's open-data endpoint on data.wa.gov (Socrata dataset `kv7h-kjye`) and sums each candidate's 2026 cash contributions by `filer_id`. It updates `c.pdc.raised` and `c.pdc.as_of` in `candidates.json` for all 13 candidates that have filer IDs registered. Three candidates (Shelvey, Merchant, Bloom) have no filer_id yet because they haven't filed any contributions; the script silently skips them.
+
+**Treat any candidate whose `raised` value moved as a MECHANICAL update** (auto-apply per Step 5). The script's stdout lists each change for inclusion in the commit message. If the refresh script fails entirely (network down, Socrata 5xx), proceed with the rest of the scan and report the failure in the digest. Do NOT block on it.
+
+Note: if a new candidate has filed and now has contributions in PDC, their row will still skip (no `filer_id` set). Use Step 9's handling to queue the new filer_id for Viet's review.
+
+### Step 2B — Per-candidate lightweight scan (~5 min each)
 
 For each candidate above, run web search covering the **last 7 days**:
 
@@ -70,7 +85,7 @@ Hash each finding (SHA-256 of headline + URL). Skip anything in `recent_findings
 ### Step 4 — Categorize each finding
 
 - **MECHANICAL (auto-apply):**
-  - New PDC fundraising totals → update notes field on candidate
+  - **PDC fundraising totals** — handled by Step 2A's `refresh_pdc.py`. Every `raised`/`as_of` change goes straight to commit, no review.
   - Filing status change (filed / withdrew) → update PDC link or front_runner flag
   - Confirmed endorsement from a recognized organization with a primary source → append to notes
   - Minor notes additions and link updates
@@ -93,10 +108,12 @@ For each MECHANICAL change:
 Git workflow:
 ```
 cd /home/user/workspace/culliton2026
-git stash && git pull --rebase origin main && git stash pop
-git add data/candidates.json data/intel_state.json
-git commit -m "Weekly intel update YYYY-MM-DD: {brief summary}"
-git push
+# Regenerate candidate pages + homepage aggregate to reflect any PDC or content changes
+python3 scripts/generate_candidate_pages.py
+git stash -u && git pull --rebase origin main && git stash pop
+git add data/candidates.json data/intel_state.json candidate/ index.html sitemap.xml
+git -c user.email="agent@perplexity.ai" -c user.name="Culliton Agent" commit -m "Weekly intel update YYYY-MM-DD: {brief summary}"
+git push origin main
 ```
 Use `api_credentials=["github"]`.
 
