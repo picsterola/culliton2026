@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_scan": "2026-06-04",
+  "last_scan": "2026-06-11",
   "open_questions": [
     {
       "id": "odonnell_lean",
@@ -17,7 +17,7 @@
         "Endorsement signals (BIAW, Realtors, WEA, AFSCME)",
         "Campaign coalition makeup"
       ],
-      "weeks_open": 2,
+      "weeks_open": 3,
       "progress_log": [
         {
           "date": "2026-05-28",
@@ -38,7 +38,7 @@
         "PDC.wa.gov search for Bloom 2026 committee filings",
         "Candidate registration with Secretary of State"
       ],
-      "weeks_open": 2
+      "weeks_open": 3
     },
     {
       "id": "stephens_fundraising",
@@ -53,7 +53,7 @@
         "Major endorsement announcements",
         "Public events / fundraising calendar"
       ],
-      "weeks_open": 2
+      "weeks_open": 3
     },
     {
       "id": "colberg_filing",
@@ -68,7 +68,7 @@
         "PDC registration",
         "Background and prior public statements"
       ],
-      "weeks_open": 2
+      "weeks_open": 3
     },
     {
       "id": "amamilo_miller_lean",
@@ -83,7 +83,7 @@
         "Prior judicial or attorney activity",
         "Endorsements"
       ],
-      "weeks_open": 2
+      "weeks_open": 3
     }
   ],
   "recent_findings_hashes": [
@@ -98,7 +98,7 @@
     {
       "date": "2026-05-28",
       "candidate": "miller",
-      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
       "source_urls": [
         "https://millerforjustice.org",
         "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?filer_name=Greg+Miller&election_year=2026"
