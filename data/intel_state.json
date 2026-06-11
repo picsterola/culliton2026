@@ -24,6 +24,12 @@
           "note": "Campaign announced expanded endorsements list (names not visible in LinkedIn post). Potential signal but insufficient for lean resolution.",
           "evidence_url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
         }
+      ],
+      "notes": [
+        {
+          "date": "2026-06-11",
+          "note": "Endorsement list now primary-confirmed: mainstream-Dem with bipartisan municipal/LE reach. Tells us about his coalition, not about how he reads Article VII. Lean remains unclear/Low."
+        }
       ]
     },
     {
@@ -98,12 +104,22 @@
     {
       "date": "2026-05-28",
       "candidate": "miller",
-      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
       "source_urls": [
         "https://millerforjustice.org",
         "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?filer_name=Greg+Miller&election_year=2026"
       ],
       "applied_by": "manual (user-initiated review)"
+    },
+    {
+      "timestamp": "2026-06-11T21:00:05Z",
+      "candidate": "Sean O'Donnell",
+      "change": "Updated endorsements field with primary-source confirmed list from odonnellforjustice.com/endorsements (Gregoire, Smith, Strickland, Upthegrove, Harrell, Satterberg, Robnett, Brown + bipartisan slate).",
+      "source_urls": [
+        "https://www.odonnellforjustice.com/endorsements",
+        "https://www.postalley.org/2026/06/05/why-this-years-supreme-court-elections-are-going-big-money/"
+      ],
+      "approved_by": "user (blanket review approval 2026-06-11)"
     }
   ],
   "pending_review_changes": [
