@@ -1,9 +1,16 @@
 {
-  "updated": "2026-06-11",
+  "updated": "2026-06-18",
   "candidates": [
     {
       "slug": "melody",
       "name": "Colleen Melody",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      }
+    ],
       "incumbent": true,
       "photo": "images/melody.jpg",
       "position": 1,
@@ -95,8 +102,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 175519.81,
-        "as_of": "2026-06-04",
+        "raised": 182596.77,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       }
@@ -192,7 +199,7 @@
       "campaign_donate": "https://laura4position1.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 12353.7,
+        "raised": 12601.4,
         "as_of": "2026-05-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509",
         "filer_id": "COLBL--436"
@@ -296,8 +303,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 26750.0,
-        "as_of": "2026-06-05",
+        "raised": 27420.0,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       }
@@ -305,6 +312,18 @@
     {
       "slug": "diaz",
       "name": "J. Michael Diaz",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats (dual endorsement)",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      },
+      {
+        "org": "31st LD Democrats",
+        "date": "2026-05-27",
+        "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
+      }
+    ],
       "incumbent": false,
       "front_runner": true,
       "photo": "images/diaz.jpg",
@@ -397,8 +416,8 @@
       "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 202092.75,
-        "as_of": "2026-06-08",
+        "raised": 207442.75,
+        "as_of": "2026-06-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
         "filer_id": "DIAZJ  105"
       }
@@ -501,8 +520,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 20755.0,
-        "as_of": "2026-06-05",
+        "raised": 21555.0,
+        "as_of": "2026-06-11",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       }
@@ -510,6 +529,13 @@
     {
       "slug": "hawk",
       "name": "Jaime Hawk",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats (dual endorsement)",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      }
+    ],
       "incumbent": false,
       "photo": "images/hawk.jpg",
       "position": 3,
@@ -614,8 +640,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 142661.47,
-        "as_of": "2026-06-08",
+        "raised": 147531.63,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       }
@@ -623,6 +649,18 @@
     {
       "slug": "birk",
       "name": "Ian Birk",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      },
+      {
+        "org": "31st LD Democrats",
+        "date": "2026-05-27",
+        "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
+      }
+    ],
       "incumbent": false,
       "front_runner": true,
       "photo": "images/birk.jpg",
@@ -715,8 +753,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 279315.0,
-        "as_of": "2026-05-30",
+        "raised": 293565.0,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       }
@@ -811,8 +849,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 188512.39,
-        "as_of": "2026-06-05",
+        "raised": 202205.42,
+        "as_of": "2026-06-11",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       }
@@ -820,6 +858,13 @@
     {
       "slug": "angelis",
       "name": "Theo Angelis",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      }
+    ],
       "incumbent": true,
       "photo": "images/angelis.jpg",
       "position": 5,
@@ -911,8 +956,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 190435.25,
-        "as_of": "2026-06-09",
+        "raised": 206760.25,
+        "as_of": "2026-06-11",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       }
@@ -1011,8 +1056,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 176288.32,
-        "as_of": "2026-06-05",
+        "raised": 199271.32,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       }
@@ -1134,8 +1179,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "Voter pamphlet originally listed millerforjustice.org. Live as of May 28, 2026. The gregmillerforjustice.com domain does not resolve.",
       "pdc": {
-        "raised": 5300.0,
-        "as_of": "2026-06-07",
+        "raised": 11550.0,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3394415",
         "filer_id": "MILLG--917"
       }
@@ -1234,8 +1279,8 @@
       "campaign_donate": "https://secure.anedot.com/sharonda-amamilo-for-justice-a90c877d-f583-4c4f-ae38-8aa18d8c1123/sharonda4supremecourt",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 20426.0,
-        "as_of": "2026-06-07",
+        "raised": 25603.0,
+        "as_of": "2026-06-14",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391132",
         "filer_id": "AMAMS--327"
       }
@@ -1243,6 +1288,13 @@
     {
       "slug": "stephens",
       "name": "Debra Stephens",
+    "endorsements": [
+      {
+        "org": "32nd District Democrats",
+        "date": "2026-06-12",
+        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+      }
+    ],
       "incumbent": true,
       "photo": "images/stephens.jpg",
       "position": 7,
@@ -1335,8 +1387,8 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 18450.0,
-        "as_of": "2026-06-03",
+        "raised": 41175.0,
+        "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       }

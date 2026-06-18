@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_scan": "2026-06-11",
+  "last_scan": "2026-06-18",
   "open_questions": [
     {
       "id": "odonnell_lean",
@@ -17,7 +17,7 @@
         "Endorsement signals (BIAW, Realtors, WEA, AFSCME)",
         "Campaign coalition makeup"
       ],
-      "weeks_open": 3,
+      "weeks_open": 4,
       "progress_log": [
         {
           "date": "2026-05-28",
@@ -44,7 +44,7 @@
         "PDC.wa.gov search for Bloom 2026 committee filings",
         "Candidate registration with Secretary of State"
       ],
-      "weeks_open": 3
+      "weeks_open": 4
     },
     {
       "id": "stephens_fundraising",
@@ -59,7 +59,7 @@
         "Major endorsement announcements",
         "Public events / fundraising calendar"
       ],
-      "weeks_open": 3
+      "weeks_open": 4
     },
     {
       "id": "colberg_filing",
@@ -74,7 +74,7 @@
         "PDC registration",
         "Background and prior public statements"
       ],
-      "weeks_open": 3
+      "weeks_open": 4
     },
     {
       "id": "amamilo_miller_lean",
@@ -89,7 +89,7 @@
         "Prior judicial or attorney activity",
         "Endorsements"
       ],
-      "weeks_open": 3
+      "weeks_open": 4
     }
   ],
   "recent_findings_hashes": [
@@ -98,13 +98,25 @@
       "date": "2026-05-28",
       "headline": "O'Donnell campaign posts a May 22 press release teaser about 'expanded list of major endorsements'",
       "url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
+    },
+    {
+      "hash": "cf9670cbbc2322c66b5fc283a115a3527d9369d428aead1d7129b1e7971dd163",
+      "date": "2026-06-12",
+      "headline": "32nd District Democrats endorse Melody (Pos 1), Diaz/Hawk dual (Pos 3), Birk (Pos 4), Angelis (Pos 5), Stephens (Pos 7) for Aug 4 primary",
+      "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
+    },
+    {
+      "hash": "fa9e70f304d815599e5e9b6c1fc5e53874ca6fbc394214164fc63b6b8de87bc4",
+      "date": "2026-06-17",
+      "headline": "31st LD Democrats meeting minutes show endorsements for Mike Diaz (Pos 3) and Ian Birk (Pos 4)",
+      "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
     }
   ],
   "auto_applied_changes_log": [
     {
       "date": "2026-05-28",
       "candidate": "miller",
-      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
       "source_urls": [
         "https://millerforjustice.org",
         "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates?filer_name=Greg+Miller&election_year=2026"
@@ -120,25 +132,27 @@
         "https://www.postalley.org/2026/06/05/why-this-years-supreme-court-elections-are-going-big-money/"
       ],
       "approved_by": "user (blanket review approval 2026-06-11)"
-    }
-  ],
-  "pending_review_changes": [
+    },
     {
-      "id": "review_a1dd8df9f1",
-      "candidate": "Sean O'Donnell",
-      "current_state": {
-        "endorsements_note": "No new endorsements recorded"
-      },
-      "proposed_state": {
-        "endorsements_note": "Investigate endorsements claimed in May 22 press release; do not update until primary list is obtained"
-      },
-      "evidence_urls": [
-        "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
+      "timestamp": "2026-06-18T14:06:00Z",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 13 candidates with filer_id.",
+      "source_urls": [
+        "https://data.wa.gov/"
       ],
-      "reasoning": "Campaign claims expanded endorsements list, but the LinkedIn post text does not include the names; requires opening the linked press release and confirming endorsers from primary source before updating.",
-      "confidence": "medium",
-      "opened_date": "2026-05-28"
+      "applied_by": "cron"
+    },
+    {
+      "timestamp": "2026-06-18T14:06:00Z",
+      "candidate": "Multiple (endorsements)",
+      "change": "Added Democratic LD organization endorsements: 32nd District Democrats slate endorsements (Melody Pos1; Diaz/Hawk dual Pos3; Birk Pos4; Angelis Pos5; Stephens Pos7) and 31st LD Democrats endorsements (Diaz Pos3; Birk Pos4) with primary URLs.",
+      "source_urls": [
+        "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165",
+        "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
+      ],
+      "applied_by": "cron"
     }
   ],
+  "pending_review_changes": [],
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday."
 }
