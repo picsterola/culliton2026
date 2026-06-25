@@ -1,16 +1,10 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-06-25",
   "candidates": [
     {
       "slug": "melody",
       "name": "Colleen Melody",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      }
-    ],
+      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; King County Bar.",
       "incumbent": true,
       "photo": "images/melody.jpg",
       "position": 1,
@@ -23,7 +17,6 @@
       "one_liner": "Career civil rights lawyer appointed by Gov. Ferguson, who defended the capital gains tax as Attorney General. Her side has the strongest reasons to want a state income tax.",
       "appointed_by": "Gov. Bob Ferguson (November 2025)",
       "prior_practice": "Civil Rights Division Chief at the WA Attorney General's Office. About 20 years in civil rights enforcement.",
-      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; King County Bar.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -102,8 +95,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 182596.77,
-        "as_of": "2026-06-12",
+        "raised": 188146.77,
+        "as_of": "2026-06-18",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       }
@@ -199,8 +192,8 @@
       "campaign_donate": "https://laura4position1.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 12601.4,
-        "as_of": "2026-05-30",
+        "raised": 12701.4,
+        "as_of": "2026-06-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509",
         "filer_id": "COLBL--436"
       }
@@ -303,8 +296,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 27420.0,
-        "as_of": "2026-06-12",
+        "raised": 33120.0,
+        "as_of": "2026-06-18",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       }
@@ -312,18 +305,7 @@
     {
       "slug": "diaz",
       "name": "J. Michael Diaz",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats (dual endorsement)",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      },
-      {
-        "org": "31st LD Democrats",
-        "date": "2026-05-27",
-        "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
-      }
-    ],
+      "endorsements": "Sitting WA Supreme Court justices; bar association ratings strong.",
       "incumbent": false,
       "front_runner": true,
       "photo": "images/diaz.jpg",
@@ -337,7 +319,6 @@
       "one_liner": "Former federal prosecutor appointed by Gov. Inslee, who signed Washington's capital gains tax. Less direct signal than other appointees, but he's in the same coalition.",
       "appointed_by": "Gov. Jay Inslee",
       "prior_practice": "Judge on the WA Court of Appeals. Before that, federal prosecutor and US Department of Justice Civil Rights Division.",
-      "endorsements": "Sitting WA Supreme Court justices; bar association ratings strong.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -416,8 +397,8 @@
       "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 207442.75,
-        "as_of": "2026-06-15",
+        "raised": 216267.75,
+        "as_of": "2026-06-22",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
         "filer_id": "DIAZJ  105"
       }
@@ -520,8 +501,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 21555.0,
-        "as_of": "2026-06-11",
+        "raised": 22740.0,
+        "as_of": "2026-06-17",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       }
@@ -529,13 +510,7 @@
     {
       "slug": "hawk",
       "name": "Jaime Hawk",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats (dual endorsement)",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      }
-    ],
+      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement). State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed.",
       "incumbent": false,
       "photo": "images/hawk.jpg",
       "position": 3,
@@ -548,7 +523,6 @@
       "one_liner": "Inslee-appointed King County judge with an ACLU and federal public defender background. The endorser list — Ferguson, Treasurer Pellicciotti, Sen. Noel Frame — is the most income-tax-aligned coalition any 2026 candidate has assembled.",
       "appointed_by": "Gov. Jay Inslee (D), July 2022, to King County Superior Court (replacing retired Judge Regina Cahan). Subsequently retained by uncontested elections in 2023 and 2024.",
       "prior_practice": "25 years across criminal defense and civil rights. ACLU of Washington Legal Strategy Director for Smart Justice (2015–2022), federal public defender (Eastern WA and Idaho), juvenile public defender. Earlier: attorney fellow on the U.S. Senate Judiciary Committee under Sen. Ted Kennedy, worked with then-professor Elizabeth Warren on bankruptcy legislation. Adjunct law professor, Gonzaga Law (juvenile law).",
-      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement). State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed.",
       "fundraising": "Approximately $102,250 raised, $5,117 spent, no debt, no outside expenditures (PDC, late April 2026). Max-out donations from State Treasurer Pellicciotti and other progressive elected officials.",
       "signals": [
         {
@@ -640,8 +614,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 147531.63,
-        "as_of": "2026-06-12",
+        "raised": 152306.63,
+        "as_of": "2026-06-18",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       }
@@ -649,18 +623,7 @@
     {
       "slug": "birk",
       "name": "Ian Birk",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      },
-      {
-        "org": "31st LD Democrats",
-        "date": "2026-05-27",
-        "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
-      }
-    ],
+      "endorsements": "Heavy slate of progressive elected officials and labor unions.",
       "incumbent": false,
       "front_runner": true,
       "photo": "images/birk.jpg",
@@ -674,7 +637,6 @@
       "one_liner": "Plaintiff-side lawyer turned judge. Strong progressive endorsement slate. Same coalition that wants a graduated income tax — but his own record on this is thin.",
       "appointed_by": "Gov. Jay Inslee (to the Court of Appeals)",
       "prior_practice": "Civil rights and constitutional litigation in Seattle, on the plaintiffs' side.",
-      "endorsements": "Heavy slate of progressive elected officials and labor unions.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -753,8 +715,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 293565.0,
-        "as_of": "2026-06-12",
+        "raised": 308690.0,
+        "as_of": "2026-06-17",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       }
@@ -849,8 +811,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 202205.42,
-        "as_of": "2026-06-11",
+        "raised": 210562.31,
+        "as_of": "2026-06-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       }
@@ -858,13 +820,7 @@
     {
       "slug": "angelis",
       "name": "Theo Angelis",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      }
-    ],
+      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials.",
       "incumbent": true,
       "photo": "images/angelis.jpg",
       "position": 5,
@@ -877,7 +833,6 @@
       "one_liner": "Long-time appellate lawyer appointed by Gov. Ferguson. Institutional and careful. Same coalition as Melody but without the direct civil rights signal.",
       "appointed_by": "Gov. Bob Ferguson (March 2026)",
       "prior_practice": "Partner at K&L Gates in Seattle for 26 years. Led appellate practice, then global IP. Constitutional, appellate, tribal, real property, and IP litigation.",
-      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials.",
       "fundraising": "$143,610 (PDC, May 2026)",
       "signals": [
         {
@@ -956,8 +911,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 206760.25,
-        "as_of": "2026-06-11",
+        "raised": 224590.25,
+        "as_of": "2026-06-18",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       }
@@ -1056,8 +1011,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 199271.32,
-        "as_of": "2026-06-12",
+        "raised": 206794.32,
+        "as_of": "2026-06-18",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       }
@@ -1179,8 +1134,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "Voter pamphlet originally listed millerforjustice.org. Live as of May 28, 2026. The gregmillerforjustice.com domain does not resolve.",
       "pdc": {
-        "raised": 11550.0,
-        "as_of": "2026-06-12",
+        "raised": 18350.03,
+        "as_of": "2026-06-17",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3394415",
         "filer_id": "MILLG--917"
       }
@@ -1279,8 +1234,8 @@
       "campaign_donate": "https://secure.anedot.com/sharonda-amamilo-for-justice-a90c877d-f583-4c4f-ae38-8aa18d8c1123/sharonda4supremecourt",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 25603.0,
-        "as_of": "2026-06-14",
+        "raised": 29023.0,
+        "as_of": "2026-06-21",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391132",
         "filer_id": "AMAMS--327"
       }
@@ -1288,13 +1243,7 @@
     {
       "slug": "stephens",
       "name": "Debra Stephens",
-    "endorsements": [
-      {
-        "org": "32nd District Democrats",
-        "date": "2026-06-12",
-        "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-      }
-    ],
+      "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice.",
       "incumbent": true,
       "photo": "images/stephens.jpg",
       "position": 7,
@@ -1307,7 +1256,6 @@
       "one_liner": "She literally wrote the opinion that upheld the capital gains tax without touching Culliton. She had the chance to revisit the 1933 ruling and chose not to.",
       "appointed_by": "Gov. Christine Gregoire (2008); elected since.",
       "prior_practice": "Court of Appeals (Division Three); academic and appellate-litigation background.",
-      "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice.",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -1387,7 +1335,7 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 41175.0,
+        "raised": 43843.0,
         "as_of": "2026-06-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
