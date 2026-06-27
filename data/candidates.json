@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "candidates": [
     {
       "slug": "melody",
@@ -110,14 +110,14 @@
       "position_label": "Position 1",
       "seat_context": "Yu seat — challenging Melody",
       "current_role": "Family law attorney; pro tem commissioner, Snohomish County Superior Court",
-      "lean": "unclear",
-      "lean_short": "Not enough to tell",
+      "lean": "keep",
+      "lean_short": "Leans keep",
       "lean_confidence": "Low",
-      "one_liner": "Family law commissioner running on independence from the Ferguson coalition. Textualist self-description but no public record on tax or Article VII.",
+      "one_liner": "Family law commissioner now running explicitly as the recusal-free anti-Melody candidate, with WAGOP backing as of June 24, 2026. Still no on-record statement on Culliton or Article VII, but the coalition signal is clear.",
       "appointed_by": "Not applicable. She's a challenger, not a sitting judge.",
       "prior_practice": "30 years in family law (dissolution, paternity, parenting plans, child support, protection orders). 18 years as pro tem commissioner in Snohomish County Superior Court. Rigos Bar Review lecturer on Family Law and Community Property.",
-      "endorsements": "None publicly reported as of May 2026. PDC filing shows no contributions or expenditures reported yet.",
-      "fundraising": "No contributions reported to PDC as of May 2026.",
+      "endorsements": "Washington State Republican Party recommendation (June 24, 2026). No bar, judicial, union, or elected-official endorsements located beyond the WAGOP recommendation.",
+      "fundraising": "PDC: $17,561 raised, $12,028 spent as of late June 2026. Roughly $10,000 of the total is self-funded per the Black Chronicle's reporting on donor breakdowns in the race.",
       "signals": [
         {
           "type": "How she frames her candidacy",
@@ -134,6 +134,14 @@
         {
           "type": "What she has said about Culliton",
           "text": "Nothing public. Her campaign site contains no statement on income tax, Article VII, Culliton, Quinn, or ESSB 6346. Her PDC filing has no contribution data that might signal a donor coalition."
+        },
+        {
+          "type": "Recusal-free framing on the TVW guide",
+          "text": "TVW Video Voters' Guide statement: 'You don't have to wonder or worry about my decisions and legal analysis being influenced. I won't need to consider recusing myself on legislation that might be challenged because I was an employee of the governor.' That's a direct contrast with Melody, who worked in Ferguson's AG office. She is running as the recusal-free anti-Melody."
+        },
+        {
+          "type": "WAGOP recommendation",
+          "text": "Added to the Washington State Republican Party's June 24, 2026 additional recommendations for Supreme Court races, alongside Larson, Stevens, and Bloom. First institutional backing she has picked up in the race."
         }
       ],
       "questions": [
@@ -186,16 +194,29 @@
         {
           "label": "Snohomish County Bar Commissioner Bar Poll (2014)",
           "url": "https://studylib.net/doc/8884412/commissioner-bar-poll---snohomish-county-bar-association"
+        },
+        {
+          "label": "WAGOP: Additional recommendations for WA Supreme Court races (June 24, 2026)",
+          "url": "https://wagop.org/wagop-renders-additional-recommendations-for-wa-state-supreme-court-races/"
+        },
+        {
+          "label": "Black Chronicle: WA Supreme Court races reveal donor divide ahead of income tax case",
+          "url": "https://blackchronicle.com/politics/washington-supreme-court-races-reveal-donor-divide-ahead-of-income-tax-case/"
+        },
+        {
+          "label": "NewsTalk KIT: WA Supreme Court primary (TVW statements roundup)",
+          "url": "https://newstalkkit.com/ixp/1130/p/washington-supreme-court-primary/"
         }
       ],
       "campaign_website": "https://laura4position1.com",
       "campaign_donate": "https://laura4position1.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 12701.4,
-        "as_of": "2026-06-15",
+        "raised": 17561.0,
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509",
-        "filer_id": "COLBL--436"
+        "filer_id": "COLBL--436",
+        "spent": 12028.0
       }
     },
     {
@@ -305,7 +326,7 @@
     {
       "slug": "diaz",
       "name": "J. Michael Diaz",
-      "endorsements": "Sitting WA Supreme Court justices; bar association ratings strong.",
+      "endorsements": "Three former Washington governors (Inslee, Gregoire, Locke), AG Nick Brown, six sitting WA Supreme Court Justices (Montoya-Lewis, McCloud, Gonzalez, Melody, Mungia, Yu), 30+ trial-court judges, and 'Exceptionally Well Qualified' ratings from the Asian Bar Association judicial evaluation, Latina/o Bar Association, Washington Women Lawyers, and QLaw. The current court's progressive wing has lined up almost wholesale behind him.",
       "incumbent": false,
       "front_runner": true,
       "photo": "images/diaz.jpg",
@@ -315,11 +336,11 @@
       "current_role": "Judge, WA Court of Appeals (Div. I)",
       "lean": "scrap",
       "lean_short": "Leans toward scrapping the rule",
-      "lean_confidence": "Medium",
+      "lean_confidence": "Medium-High",
       "one_liner": "Former federal prosecutor appointed by Gov. Inslee, who signed Washington's capital gains tax. Less direct signal than other appointees, but he's in the same coalition.",
       "appointed_by": "Gov. Jay Inslee",
       "prior_practice": "Judge on the WA Court of Appeals. Before that, federal prosecutor and US Department of Justice Civil Rights Division.",
-      "fundraising": "PDC data still rolling in.",
+      "fundraising": "PDC: $219,187 raised, $45,320 spent as of late June 2026. Among the best-funded candidates in the field, in line with Birk, Angelis, and O'Donnell.",
       "signals": [
         {
           "type": "Who put him on the court",
@@ -336,6 +357,14 @@
         {
           "type": "What he has said about Culliton",
           "text": "Nothing direct. His Court of Appeals record doesn't include cases squarely on this topic."
+        },
+        {
+          "type": "Endorsement coalition is the same scrap-Culliton bloc",
+          "text": "Inslee signed the capital gains tax, Locke and Gregoire are part of the same Democratic governing tradition, McCloud dissented in Quinn arguing the court should have addressed Culliton head-on, and Montoya-Lewis joined her. Six sitting justices, including Melody (also on the 2026 ballot), have publicly endorsed him. That is the same bloc that decided Quinn and would supply the votes to revisit Culliton if a clean income-tax challenge arrived. Coalition-as-signal is now strong."
+        },
+        {
+          "type": "June 3, 2026 TVW Video Voters' Guide",
+          "text": "Recorded a Video Voters' Guide statement on June 3, 2026. Like Stephens, he stays inside generic judicial framing and does not pre-commit on Culliton or Article VII."
         }
       ],
       "questions": [
@@ -391,16 +420,25 @@
         {
           "label": "Clark County Today: WA Supreme Court cases could decide fate of income tax",
           "url": "https://www.clarkcountytoday.com/news/washington-supreme-court-cases-could-decide-fate-of-controversial-income-tax/"
+        },
+        {
+          "label": "Diaz for Justice: Endorsements page",
+          "url": "https://www.diazforjustice.com/endorsements"
+        },
+        {
+          "label": "TVW 2026 Video Voters' Guide: J. Michael Diaz (YouTube, June 3, 2026)",
+          "url": "https://www.youtube.com/watch?v=33mI6cbuA4E"
         }
       ],
       "campaign_website": "https://www.diazforjustice.com",
       "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 216267.75,
-        "as_of": "2026-06-22",
+        "raised": 219187.0,
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
-        "filer_id": "DIAZJ  105"
+        "filer_id": "DIAZJ  105",
+        "spent": 45320.0
       }
     },
     {
@@ -1032,8 +1070,8 @@
       "one_liner": "Veteran appellate lawyer, 40+ years at the WA bar. Running on pure credentials with a deliberately policy-free platform. No endorsements, $0 PDC.",
       "appointed_by": "Not applicable.",
       "prior_practice": "Shareholder and founding member of the Appellate Group at Carney Badley Spellman (2008–present). Admitted to the Washington bar in 1984 (WSBA No. 14459). Earlier: judicial law clerk at the WA Court of Appeals Div. I (assisted on 75 appeals), judicial extern at the U.S. District Court, Seattle municipal court prosecutor, and staff counsel to the WA Senate Health and Long-Term Care Committee (1990). Pro tem judge, Seattle Municipal Court.",
-      "endorsements": "None publicly reported as of May 28, 2026. Campaign website (millerforjustice.org) has no endorsements page and no listed endorsers; the site asks supporters to 'endorse Greg publicly' via a form.",
-      "fundraising": "PDC: $0.00 raised, $0.00 spent, $0.00 debt, $0.00 outside money for/against (as of May 28, 2026). Declared candidate but no contributions filed. Campaign accepts donations on millerforjustice.org/donate (max $4,800).",
+      "endorsements": "None publicly reported as of June 26, 2026. Campaign site still asks supporters to 'endorse Greg publicly' via form rather than listing endorsers.",
+      "fundraising": "PDC: $18,350 raised as of June 26, 2026. Modest but no longer the $0 from the May filing. Still no public endorsements listed on millerforjustice.org.",
       "signals": [
         {
           "type": "His background",
@@ -1256,7 +1294,7 @@
       "one_liner": "She literally wrote the opinion that upheld the capital gains tax without touching Culliton. She had the chance to revisit the 1933 ruling and chose not to.",
       "appointed_by": "Gov. Christine Gregoire (2008); elected since.",
       "prior_practice": "Court of Appeals (Division Three); academic and appellate-litigation background.",
-      "fundraising": "PDC data still rolling in.",
+      "fundraising": "PDC: $43,843 raised as of June 26, 2026, much of it carryover from her 2020 reelection account per the Columbia Basin Herald. No 2026-cycle blowout.",
       "signals": [
         {
           "type": "On-record opinion",
@@ -1273,6 +1311,10 @@
         {
           "type": "What it means",
           "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
+        },
+        {
+          "type": "June 3, 2026 TVW Video Voters' Guide",
+          "text": "Stephens recorded a Video Voters' Guide statement on June 3, 2026. She frames herself around her judicial record, 'fair and impartial justice,' and 'decisions based on facts and the law.' She says nothing about Culliton, Article VII, Quinn, or the income tax. Consistent with her institutionalist posture: don't telegraph, don't pre-commit."
         }
       ],
       "questions": [
@@ -1328,6 +1370,14 @@
         {
           "label": "Cascade PBS: WA Supreme Court rules capital gains tax constitutional (2023)",
           "url": "https://www.cascadepbs.org/news/2023/03/wa-supreme-court-rules-capital-gains-tax-constitutional/"
+        },
+        {
+          "label": "TVW 2026 Video Voters' Guide: Debra Stephens (YouTube, June 3, 2026)",
+          "url": "https://www.youtube.com/watch?v=XJSYIbCt6YE"
+        },
+        {
+          "label": "Columbia Basin Herald: WA Supreme Court races could decide income tax fate (Apr 27, 2026)",
+          "url": "https://columbiabasinherald.com/news/2026/apr/27/washington-supreme-court-races-could-decide-fate-of-controversial-income-tax/"
         }
       ],
       "campaign_website": null,
@@ -1336,7 +1386,7 @@
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
         "raised": 43843.0,
-        "as_of": "2026-06-12",
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       }
@@ -1357,19 +1407,23 @@
       "appointed_by": "Not applicable.",
       "prior_practice": "Solo private practice.",
       "endorsements": "None reported.",
-      "fundraising": "PDC reports $0 raised as of latest filing.",
+      "fundraising": "PDC: $0 raised, $2,847 spent (self-funded), as of late June 2026. Mini-reporting status.",
       "signals": [
         {
           "type": "Campaign status",
-          "text": "No campaign infrastructure, no fundraising, no public endorsements located. May not be a serious contender."
+          "text": "Site at davidshelvey.com is live with multi-page content on wrongful convictions, judicial accountability, term limits, and antitrust. Mini-reporting status with $0 raised and ~$2,847 spent self-funded. Not a fundraising operation, but no longer a non-existent campaign."
+        },
+        {
+          "type": "Refuses endorsements by choice",
+          "text": "Site explicitly states he is not soliciting endorsements as a matter of judicial-impartiality posture. That's a stated stance, not a vacuum."
         },
         {
           "type": "His background",
-          "text": "Solo private practice. No published opinions or articles found."
+          "text": "Solo private practice. No published opinions or appellate record located."
         },
         {
           "type": "His tax record",
-          "text": "Nothing located."
+          "text": "Nothing located on Article VII, Culliton, or the income-tax question."
         }
       ],
       "questions": [
@@ -1381,7 +1435,7 @@
           "url": "https://www.justia.com"
         }
       ],
-      "deep_read": "The public record on David Shelvey is thin to the point of near-absence, and the honest assessment is that he is not a serious contender for the seat. He raised exactly $0 in campaign contributions as of late April 2026, has no reported endorsements, and his campaign website includes content on skeletal similarities between T. rexes and kangaroos, which led journalists covering the race to describe it as a curiosity rather than a candidacy. Shelvey is a solo practitioner based in Sumner, Washington, practicing family law, estate planning, and tax law; he earned his law degree from Western Michigan University Cooley Law School and is licensed in both Washington and North Dakota. He ran for the Position 2 seat in the 2024 primary and received 3.7% of the vote in a four-candidate field. His stated campaign platform focuses on term limits, judicial accountability surveys, and open-mindedness. He obtained an LL.M. in IP, tax, and economics through online coursework at Antonin Scalia Law School at George Mason University, which is a Federalist Society-affiliated institution, but there is no evidence he holds a Federalist Society membership or has made any public statement about Culliton, income taxes, or Article VII. Without a campaign, endorsements, or any substantive legal record, assigning a lean is not analytically defensible.",
+      "deep_read": "David Shelvey filed for Position 7 and now runs a live campaign site at davidshelvey.com with content on wrongful convictions, judicial accountability, term limits, and antitrust. PDC shows $0 raised against ~$2,847 in self-funded spending, so the operation is real but unfunded. The site explicitly says he is not soliciting endorsements, framing that as a judicial-impartiality posture. Shelvey is a solo practitioner based in Sumner, Washington, practicing family law, estate planning, and tax law; he earned his law degree from Western Michigan University Cooley Law School and is licensed in both Washington and North Dakota. He ran for the Position 2 seat in the 2024 primary and received 3.7% of the vote in a four-candidate field. He obtained an LL.M. in IP, tax, and economics through online coursework at Antonin Scalia Law School at George Mason University, but there is no evidence he holds a Federalist Society membership or has made any public statement about Culliton, income taxes, or Article VII. Without an appellate record or any tax-doctrine writing, assigning a lean is not analytically defensible, but the campaign is no longer a phantom.",
       "expanded_signals": [
         {
           "type": "2024 primary performance: 3.7% of the vote",
@@ -1422,15 +1476,16 @@
           "url": "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         }
       ],
-      "campaign_website": null,
+      "campaign_website": "https://davidshelvey.com",
       "campaign_donate": null,
-      "campaign_website_status": "none",
-      "campaign_website_note": "Filed as a mini-reporting candidate. The 2024 davidshelvey.com domain no longer loads.",
+      "campaign_website_status": "live",
+      "campaign_website_note": "davidshelvey.com is live (verified June 26, 2026). Substantial content on wrongful convictions, judicial campaigning, term limits, and antitrust. The site states he is not seeking endorsements as a matter of judicial-impartiality posture, branded 'David Robert Shelvey for Justice' with the slogan 'Because David Shelvey Loves Washington State.'",
       "pdc": {
-        "raised": null,
-        "as_of": "2026-05-19",
+        "raised": 0.0,
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3377725",
-        "filer_id": null
+        "filer_id": null,
+        "spent": 2847.0
       }
     },
     {
@@ -1449,7 +1504,7 @@
       "appointed_by": "Not applicable. Challenger, not a sitting judge.",
       "prior_practice": "Criminal defense for 18+ years, with 300+ bench and jury trials. Practice spans felony and misdemeanor defense, constitutional rights litigation (Fourth Amendment and Article I § 7), domestic violence defense, drug trafficking, felony firearm offenses, and government misconduct cases. Solo at K. Merchant Law PLLC in Renton, with concurrent listing at the King County Department of Public Defense (since 2008).",
       "endorsements": "None located. No bar, judicial, union, or elected-official endorsements identified as of June 26, 2026.",
-      "fundraising": "Still mini-reporting status (PDC filer 39594). Registered December 11, 2023. Campaign infrastructure now visible — active site at karim4wa.com, YouTube channel with substantive constitutional commentary, TVW Video Voters' Guide statement (June 3, 2026) — but no PDC dollar filing yet.",
+      "fundraising": "PDC: $7,386 raised as of late June 2026. Crossed mini-reporting threshold and is now showing live contributions, though the operation is still small.",
       "signals": [
         {
           "type": "On Culliton itself (June 15, 2026 video)",
@@ -1558,8 +1613,8 @@
       "campaign_website_status": "active",
       "campaign_website_note": "karim4wa.com replaces the prior merchantforjustice.com URL, which never resolved. The campaign also publishes on YouTube and Instagram at @karim4wa, and the candidate notes that the substantial majority of his legal writing lives on Facebook.",
       "pdc": {
-        "raised": null,
-        "as_of": "2026-05-19",
+        "raised": 7386.0,
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395477",
         "filer_id": "39594"
       }
@@ -1579,8 +1634,8 @@
       "one_liner": "Tax attorney with a UW LL.M. in taxation, twice-Republican congressional candidate, perennial Supreme Court challenger. Every dimension of his record points one direction.",
       "appointed_by": "Not applicable. Challenger, not a sitting judge.",
       "prior_practice": "20+ years as a tax attorney, CPA, CFA, and CFP advising high-net-worth families, executives of publicly traded companies, and privately held businesses. Prior decade as Big Four senior manager (tax) and in-house counsel/controller for a financial services firm. U.S. Tax Court bar. Retired Navy LCDR (Reserve, 2018), recalled to active duty after 9/11. Former FINRA arbitrator. Adjunct faculty teaching tax courses.",
-      "endorsements": "None publicly identified for the 2026 race. The Washington State Republican Party is not listing him among recommended candidates, though it has backed Stevens and Larson elsewhere. No bar, union, or elected-official endorsements located.",
-      "fundraising": "$0 raised, $0 spent for 2026 (PDC, as of mid-May 2026). 2024 Position 2 campaign raised only $2,539 and finished third in the primary at 16.9%.",
+      "endorsements": "Washington State Republican Party recommendation (June 24, 2026). No bar, union, or elected-official endorsements located beyond the WAGOP recommendation.",
+      "fundraising": "PDC: $3,007 raised as of late June 2026. Still effectively a self-funded shoestring operation, in line with his 2024 Position 2 run.",
       "signals": [
         {
           "type": "Professional client base",
@@ -1597,6 +1652,10 @@
         {
           "type": "Who he is challenging",
           "text": "He filed against Chief Justice Stephens, the author of the 7-2 Quinn v. State majority that upheld the capital gains tax as an excise. Challenging her at all is itself a directional signal."
+        },
+        {
+          "type": "WAGOP recommendation",
+          "text": "Added to the Washington State Republican Party's June 24, 2026 additional recommendations for Supreme Court races. Confirms the keep-Culliton coalition is consolidating around him in the Stephens-seat race."
         }
       ],
       "questions": [
@@ -1665,6 +1724,10 @@
         {
           "label": "The Daily World — WA Supreme Court races (May 12, 2026)",
           "url": "https://www.thedailyworld.com/2026/05/12/wa-supreme-court-races-shape-up-as-income-tax-case-looms/"
+        },
+        {
+          "label": "WAGOP: Additional recommendations for WA Supreme Court races (June 24, 2026)",
+          "url": "https://wagop.org/wagop-renders-additional-recommendations-for-wa-state-supreme-court-races/"
         }
       ],
       "campaign_website": null,
@@ -1672,8 +1735,8 @@
       "campaign_website_status": "none",
       "campaign_website_note": "No dedicated 2026 campaign website located. Common URL variants (bloomforjustice.com, toddbloom.org, bloomforwa.com/.org) do not resolve. PDC committee email is bloomforwa@gmail.com.",
       "pdc": {
-        "raised": null,
-        "as_of": "2026-05-08",
+        "raised": 3007.0,
+        "as_of": "2026-06-26",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": null
       }
