@@ -3,7 +3,26 @@
 **Site:** culliton2026.org
 **Owner:** Viet Nguyen
 **Cadence:** Thursdays 7:00 AM PT
-**Last manually updated:** 2026-06-04
+**Last manually updated:** 2026-07-03
+
+## 🚨 Do NOT escalate to the user
+
+Under ANY tool failure, missing file, unexpected candidate count, or other
+disruption, DO NOT escalate. Proceed with the documented fallback and log the
+issue in the digest. If you cannot proceed at all, send an in-app notification
+noting what blocked you and leave state untouched. The one exception is a
+catastrophic filesystem or auth failure where NO fallback path exists.
+
+Sanity-check before assuming the file is corrupt:
+
+```bash
+python3 -c "import json; d=json.load(open('data/candidates.json')); print(len(d['candidates']))"
+```
+
+If this prints anything other than 16, THEN AND ONLY THEN investigate. A wrong
+variable name in a scratch script is not evidence that the input file is
+broken. On 2026-07-02 a cron falsely escalated with 'only 2 candidates in
+file' — the file was intact. Don't repeat that.
 
 ## Purpose
 
