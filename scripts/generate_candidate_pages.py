@@ -593,13 +593,18 @@ def build_pdc_aggregate_sentence(candidates):
         as_of = pdc.get("as_of")
         if raised is not None:
             try:
-                buckets[lean] += float(raised)
-                filers[lean] += 1
-                any_money = True
+                r_float = float(raised)
+                # Count as a "filer" only when they have real cash raised.
+                # A 0.0 value means "filed but no cash contributions yet" and
+                # shouldn't inflate the reporting count in the aggregate line.
+                if r_float > 0:
+                    buckets[lean] += r_float
+                    filers[lean] += 1
+                    any_money = True
+                    if as_of and (latest_as_of is None or as_of > latest_as_of):
+                        latest_as_of = as_of
             except (TypeError, ValueError):
                 pass
-        if as_of and (latest_as_of is None or as_of > latest_as_of):
-            latest_as_of = as_of
 
     if not any_money:
         return ""
