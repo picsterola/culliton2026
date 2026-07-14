@@ -3,7 +3,7 @@
     {
       "applied_by": "manual (user-initiated review)",
       "candidate": "miller",
-      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
       "date": "2026-05-28",
       "source_urls": [
         "https://millerforjustice.org",
@@ -47,6 +47,16 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "timestamp": "2026-07-03T15:38:34Z"
+    },
+    {
+      "timestamp": "2026-07-14T22:51:36Z",
+      "candidate": "Karim Merchant",
+      "change": "Added July 1, 2026 Center Square interview as primary source. Merchant states on camera that Quinn was decided wrongly and McCloud dissent is 'so logical' — his 'capital gains are income, incomes are property' framing is the classic keep-Culliton predicate, so lean stays keep. Confidence upgraded Low -> Medium (direct stated position, not neutral commentary). Also verified he IS in the position 7 dropdown; his email claim on that was incorrect.",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=-Gx8lv4RImw",
+        "https://www.facebook.com/share/p/1BQakjtCq9/"
+      ],
+      "approved_by": "user (2026-07-14, in response to candidate contact form submission)"
     }
   ],
   "last_run_new_finding_entries": [
@@ -224,7 +234,7 @@
       "opened_date": "2026-06-25",
       "proposed_state": {
         "notes_review_add": [
-          "New Influencing Olympia video interview published this week \u2014 check for quotable positions / endorsements / conflicts."
+          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
         ]
       },
       "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
@@ -242,7 +252,7 @@
       "opened_date": "2026-06-25",
       "proposed_state": {
         "notes_review_add": [
-          "New Influencing Olympia video interview published this week \u2014 check for quotable positions / endorsements / conflicts."
+          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
         ]
       },
       "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
