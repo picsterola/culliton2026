@@ -1,6 +1,61 @@
 {
   "auto_applied_changes_log": [
     {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 14 candidates (including Bloom now filing cash).",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Colleen Melody",
+      "change": "Added Seattle Times editorial board endorsement (Position 1) and expanded endorsement list to include retired justices explicitly named by the Times.",
+      "source_urls": [
+        "https://www.seattletimes.com/opinion/editorials/the-times-recommends-colleen-melody-for-washington-state-supreme-court-position-1/"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Scott Edwards",
+      "change": "Added NFIB Small Business PAC endorsement (and WAGOP recommendation note) as endorsements; updated fundraising blurb to reflect latest PDC cash total.",
+      "source_urls": [
+        "https://www.nfib.com/news/press-release/small-business-pac-announces-primary-election-endorsements/",
+        "https://wagop.org/wagop-completes-official-recommendations-of-candidates-for-the-state-supreme-by-recommending-scott-edwards/"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Todd Bloom",
+      "change": "Updated fundraising blurb because Bloom now has cash contributions filed (PDC cash raised $624 as of 2026-07-13).",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Dave Larson",
+      "change": "Logged NFIB Small Business PAC endorsement as new signal (site content unchanged this run; will update endorsements after confirming existing endorsements field format).",
+      "source_urls": [
+        "https://www.nfib.com/news/press-release/small-business-pac-announces-primary-election-endorsements/"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Sean O'Donnell",
+      "change": "Logged NFIB Small Business PAC endorsement as new signal (site content unchanged this run; will update endorsements after confirming existing endorsements field format).",
+      "source_urls": [
+        "https://www.nfib.com/news/press-release/small-business-pac-announces-primary-election-endorsements/"
+      ],
+      "timestamp": "2026-07-16T14:06:00Z"
+    },
+    {
       "applied_by": "manual (user-initiated review)",
       "candidate": "miller",
       "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
@@ -86,7 +141,7 @@
     }
   ],
   "last_run_timestamp": "2026-06-25T07:04:00",
-  "last_scan": "2026-07-09",
+  "last_scan": "2026-07-16",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -117,7 +172,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 6
+      "weeks_open": 7
     },
     {
       "candidate_id": "bloom",
@@ -131,7 +186,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "open",
-      "weeks_open": 6
+      "weeks_open": 7
     },
     {
       "candidate_id": "stephens",
@@ -146,7 +201,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "open",
-      "weeks_open": 6
+      "weeks_open": 7
     },
     {
       "candidate_id": "colberg",
@@ -161,7 +216,7 @@
         "Background and prior public statements"
       ],
       "status": "open",
-      "weeks_open": 6
+      "weeks_open": 7
     },
     {
       "candidate_id": "amamilo,miller",
@@ -176,7 +231,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 6
+      "weeks_open": 7
     }
   ],
   "pending_review_changes": [

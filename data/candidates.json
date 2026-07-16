@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-09",
+  "updated": "2026-07-16",
   "candidates": [
     {
       "slug": "melody",
       "name": "Colleen Melody",
-      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; King County Bar.",
+      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; retired justices Mary Yu, Barbara Madsen, Gerry Alexander, Bobbe Bridge; King County Bar; Seattle Times editorial board (July 2026 endorsement).",
       "incumbent": true,
       "photo": "images/melody.jpg",
       "position": 1,
@@ -95,8 +95,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 205947.9,
-        "as_of": "2026-07-03",
+        "raised": 209522.9,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       }
@@ -212,8 +212,8 @@
       "campaign_donate": "https://laura4position1.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 16865.45,
-        "as_of": "2026-06-29",
+        "raised": 25062.55,
+        "as_of": "2026-07-11",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509",
         "filer_id": "COLBL--436",
         "spent": 12028.0
@@ -234,8 +234,9 @@
       "one_liner": "Tax lawyer who has spent his career fighting the Department of Revenue on behalf of taxpayers. People in his world tend to like the rule that blocks an income tax.",
       "appointed_by": "Not applicable. He's a challenger, not a sitting judge.",
       "prior_practice": "Tax lawyer. Represents companies and individuals in disputes with the Washington Department of Revenue.",
-      "endorsements": "Campaign-disclosed endorsements still being filed.",
-      "fundraising": "PDC data still rolling in.",
+      "endorsements": "NFIB Small Business PAC (July 15, 2026) and Washington State Republican Party recommendation (Position 1; July 2026).",
+      "endorsements_note": "WAGOP also listed Laura Christensen Colberg as a Position 1 recommendation alongside Edwards; treat as recommendation (not necessarily exclusive endorsement).",
+      "fundraising": "PDC cash contributions total $58,270 as of 2026-07-13 (cash-only headline).",
       "signals": [
         {
           "type": "His day job",
@@ -317,8 +318,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 50170.0,
-        "as_of": "2026-07-02",
+        "raised": 58270.0,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       }
@@ -434,8 +435,8 @@
       "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 225267.75,
-        "as_of": "2026-07-06",
+        "raised": 234317.75,
+        "as_of": "2026-07-12",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
         "filer_id": "DIAZJ  105",
         "spent": 45320.0
@@ -539,8 +540,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 27290.0,
-        "as_of": "2026-07-03",
+        "raised": 28965.0,
+        "as_of": "2026-07-09",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       }
@@ -652,8 +653,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 161183.63,
-        "as_of": "2026-07-05",
+        "raised": 180122.7,
+        "as_of": "2026-07-14",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       }
@@ -753,8 +754,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 335143.25,
-        "as_of": "2026-07-02",
+        "raised": 348944.18,
+        "as_of": "2026-07-10",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       }
@@ -849,8 +850,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 232145.99,
-        "as_of": "2026-07-02",
+        "raised": 235061.52,
+        "as_of": "2026-07-09",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       }
@@ -949,8 +950,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 273385.2,
-        "as_of": "2026-07-02",
+        "raised": 303030.2,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       }
@@ -1049,8 +1050,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 230745.32,
-        "as_of": "2026-07-03",
+        "raised": 257605.32,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       }
@@ -1272,8 +1273,8 @@
       "campaign_donate": "https://secure.anedot.com/sharonda-amamilo-for-justice-a90c877d-f583-4c4f-ae38-8aa18d8c1123/sharonda4supremecourt",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 32408.0,
-        "as_of": "2026-07-01",
+        "raised": 43748.0,
+        "as_of": "2026-07-11",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391132",
         "filer_id": "AMAMS--327"
       }
@@ -1385,8 +1386,8 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 78693.0,
-        "as_of": "2026-06-28",
+        "raised": 81293.0,
+        "as_of": "2026-07-07",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       }
@@ -1621,8 +1622,8 @@
       "campaign_website_status": "active",
       "campaign_website_note": "karim4wa.com replaces the prior merchantforjustice.com URL, which never resolved. The campaign also publishes on YouTube and Instagram at @karim4wa, and the candidate notes that the substantial majority of his legal writing lives on Facebook.",
       "pdc": {
-        "raised": 1175.0,
-        "as_of": "2026-06-26",
+        "raised": 2425.0,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395477",
         "filer_id": "MERCK--910"
       },
@@ -1649,8 +1650,8 @@
       "one_liner": "Tax attorney with a UW LL.M. in taxation, twice-Republican congressional candidate, perennial Supreme Court challenger. Every dimension of his record points one direction.",
       "appointed_by": "Not applicable. Challenger, not a sitting judge.",
       "prior_practice": "20+ years as a tax attorney, CPA, CFA, and CFP advising high-net-worth families, executives of publicly traded companies, and privately held businesses. Prior decade as Big Four senior manager (tax) and in-house counsel/controller for a financial services firm. U.S. Tax Court bar. Retired Navy LCDR (Reserve, 2018), recalled to active duty after 9/11. Former FINRA arbitrator. Adjunct faculty teaching tax courses.",
-      "endorsements": "Washington State Republican Party recommendation (June 24, 2026). No bar, union, or elected-official endorsements located beyond the WAGOP recommendation.",
-      "fundraising": "PDC: no cash contributions yet, though about $3,000 in in-kind support was reported through late May. Cash raised of $0 reflects that in-kind is not counted in the cash-only headline.",
+      "endorsements": "Washington State Republican Party recommendation (June 24, 2026) and NFIB Small Business PAC endorsement (July 15, 2026). No bar, union, or elected-official endorsements located beyond these.",
+      "fundraising": "PDC: cash contributions now filed (cash raised $624 as of 2026-07-13). Earlier reporting showed only in-kind support; cash raised of $0 reflected that in-kind is not counted in the cash-only headline.",
       "signals": [
         {
           "type": "Professional client base",
@@ -1750,8 +1751,8 @@
       "campaign_website_status": "none",
       "campaign_website_note": "No dedicated 2026 campaign website located. Common URL variants (bloomforjustice.com, toddbloom.org, bloomforwa.com/.org) do not resolve. PDC committee email is bloomforwa@gmail.com.",
       "pdc": {
-        "raised": null,
-        "as_of": "2026-07-09",
+        "raised": 624.08,
+        "as_of": "2026-07-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": "BLOOT--060"
       }
