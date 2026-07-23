@@ -114,7 +114,7 @@ def render_signals(signals):
         f"""
             <li class="signal">
               <span class="signal__type">{esc(s.get('type'))}</span>
-              {signal_text(s.get('text'))}
+              <div class="signal__body">{signal_text(s.get('text'))}</div>
             </li>"""
         for s in signals
     )
