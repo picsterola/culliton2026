@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-22",
   "candidates": [
     {
       "slug": "melody",
@@ -1302,6 +1302,10 @@
           "text": "Wrote the lead opinion in Quinn v. State (2023), which upheld the capital gains tax — but she did it by calling it an excise tax, not by overturning the 1933 ruling. She explicitly declined to revisit Culliton."
         },
         {
+          "type": "Keep-Culliton does not necessarily mean strike-ESSB-6346",
+          "text": "The 'keep Culliton' framing this site uses to categorize justices is not a prediction that every keep-lean justice would strike down every labeled income tax. Stephens is the clearest example of why the two questions can come apart. Her Quinn majority preserved Culliton by classifying the capital gains tax as an excise on transactions rather than a tax on property, upholding the tax without touching the 1933 ruling. If she applied the same analytical move to ESSB 6346, she could keep Culliton intact and still uphold the new tax. Whether that move is available is a separate doctrinal question. The bill's measurement from federal AGI rather than a discrete transaction is harder to fit inside Quinn's transactional framing, and McCloud's dissent flagged exactly that distinction. But the analytical space clearly exists, and Stephens is the candidate most likely to occupy it."
+        },
+        {
           "type": "How she talks about the law",
           "text": "Institutionalist. Her approach in Quinn was to work around the old precedent rather than confront it."
         },
@@ -1311,7 +1315,7 @@
         },
         {
           "type": "What it means",
-          "text": "If a graduated income tax — clearly framed as a tax on income — reached the court, Stephens has signaled she would not be the vote to overturn Culliton. She might find a workaround instead."
+          "text": "If a graduated income tax squarely framed as a tax on income reached the court, Stephens has signaled she would not be the vote to overturn Culliton. Her Quinn playbook — upholding the tax by relabeling it rather than by touching the 1933 ruling — remains available for ESSB 6346 if the court concludes the excise framing extends that far, so a keep-Culliton vote from her is not automatically a vote to strike the new tax down."
         },
         {
           "type": "June 3, 2026 TVW Video Voters' Guide",
@@ -1332,7 +1336,7 @@
           "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
         }
       ],
-      "deep_read": "Debra Stephens is the author of the majority opinion in Quinn v. State, the 7-2 March 2023 ruling that upheld the capital gains tax by classifying it as an excise tax on transactions rather than a property tax on income. Her opinion explicitly declined to revisit Culliton, stating: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That choice was deliberate. She had the votes, the case, and the doctrinal opportunity to confront Culliton head-on in 2023, and she chose the narrower path. That choice defines the analytical baseline for ESSB 6346: the new bill's label as an excise tax is much weaker than Quinn's transactional framing, because it is measured from federal AGI rather than from a discrete sale or exchange event, and McCloud's dissent in Quinn made exactly this distinction explicit. Stephens could uphold ESSB 6346 only by extending Quinn in a way that her own 2023 opinion did not anticipate, or by overruling Culliton directly, which she declined to do when she had the chance. Her Gonzaga undergraduate and law school education, 18 years on the Washington Supreme Court, tenure as Chief Justice twice, and teaching background in state and federal constitutional law at Gonzaga Law all reinforce an institutionalist, careful, stare-decisis-oriented judicial style. The most accurate read of her record is not that she is a conservative in the Culliton-preserve sense, but that she is a cautious institutionalist who will look for the narrowest path, and on ESSB 6346 the narrowest path is significantly harder to find than it was in Quinn.",
+      "deep_read": "Debra Stephens is the author of the majority opinion in Quinn v. State, the 7-2 March 2023 ruling that upheld the capital gains tax by classifying it as an excise tax on transactions rather than a property tax on income. Her opinion explicitly declined to revisit Culliton, stating: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That choice was deliberate. She had the votes, the case, and the doctrinal opportunity to confront Culliton head-on in 2023, and she chose the narrower path. That choice defines the analytical baseline for ESSB 6346: the new bill's label as an excise tax is much weaker than Quinn's transactional framing, because it is measured from federal AGI rather than from a discrete sale or exchange event, and McCloud's dissent in Quinn made exactly this distinction explicit. Stephens could uphold ESSB 6346 only by extending Quinn in a way that her own 2023 opinion did not anticipate, or by overruling Culliton directly, which she declined to do when she had the chance. Her Gonzaga undergraduate and law school education, 18 years on the Washington Supreme Court, tenure as Chief Justice twice, and teaching background in state and federal constitutional law at Gonzaga Law all reinforce an institutionalist, careful, stare-decisis-oriented judicial style. The most accurate read of her record is not that she is a conservative in the Culliton-preserve sense, but that she is a cautious institutionalist who will look for the narrowest path, and on ESSB 6346 the narrowest path is significantly harder to find than it was in Quinn.\n\nOne final analytical caveat: this site groups justices by whether they are likely to keep or scrap Culliton, but for Stephens specifically those two questions are separable. Her Quinn opinion is proof of concept that a justice can preserve Culliton and simultaneously uphold a labeled tax by classifying it outside Article VII's property-tax reach. Whether that same move works for ESSB 6346 depends on how the court reads the AGI-based measurement, and reasonable readers can disagree. The keep lean here reflects her Culliton posture, not a prediction on the specific ESSB 6346 outcome.",
       "expanded_signals": [
         {
           "type": "Quinn majority language on Culliton: an explicit choice not to act",
@@ -1647,12 +1651,16 @@
       "lean": "keep",
       "lean_short": "Likely keep",
       "lean_confidence": "High",
-      "one_liner": "Tax attorney with a UW LL.M. in taxation, twice-Republican congressional candidate, perennial Supreme Court challenger. Every dimension of his record points one direction.",
+      "one_liner": "Tax attorney with a UW LL.M. in taxation and a twice-Republican congressional candidate now on his second Supreme Court run. Has now said publicly that Quinn was 'wrongly decided' and he would have sided with the dissent.",
       "appointed_by": "Not applicable. Challenger, not a sitting judge.",
       "prior_practice": "20+ years as a tax attorney, CPA, CFA, and CFP advising high-net-worth families, executives of publicly traded companies, and privately held businesses. Prior decade as Big Four senior manager (tax) and in-house counsel/controller for a financial services firm. U.S. Tax Court bar. Retired Navy LCDR (Reserve, 2018), recalled to active duty after 9/11. Former FINRA arbitrator. Adjunct faculty teaching tax courses.",
       "endorsements": "Washington State Republican Party recommendation (June 24, 2026) and NFIB Small Business PAC endorsement (July 15, 2026). No bar, union, or elected-official endorsements located beyond these.",
-      "fundraising": "PDC: cash contributions now filed (cash raised $624 as of 2026-07-13). Earlier reporting showed only in-kind support; cash raised of $0 reflected that in-kind is not counted in the cash-only headline.",
+      "fundraising": "PDC: $624.08 cash raised plus $4,093.38 in in-kind contributions as of July 13, 2026. RANGE Media reported total campaign fundraising of $5,553 as of July 17. Late start on infrastructure with a spike after the mid-July WAGOP and NFIB endorsements.",
       "signals": [
+        {
+          "type": "Campaign live at electtoddbloom.com",
+          "text": "Campaign site electtoddbloom.com is live as of July 2026. Frames his pitch around faithful application of the law, constitutional rights, and fairness for every person in the courtroom. Does not editorialize on tax cases directly, consistent with judicial canons."
+        },
         {
           "type": "Professional client base",
           "text": "Entire 20-year practice has been built advising high-net-worth families and privately held businesses on tax minimization. Those are exactly the clients who lose if Culliton is overturned and Washington adopts a graduated income tax. UW LL.M. in taxation. U.S. Tax Court bar. A vote to scrap Culliton would be professionally and reputationally incongruous with the entire arc of his career."
@@ -1672,12 +1680,16 @@
         {
           "type": "WAGOP recommendation",
           "text": "Added to the Washington State Republican Party's June 24, 2026 additional recommendations for Supreme Court races. Confirms the keep-Culliton coalition is consolidating around him in the Stephens-seat race."
+        },
+        {
+          "type": "On-record: Quinn was 'wrongly decided'",
+          "text": "In a July 6, 2026 Center Square Q&A, Bloom said: 'I do believe the decision was wrongly decided. I would have sided with the dissent.' He specifically praised Justice Gordon McCloud's Quinn dissent as 'better reasoned,' 'eloquent in its simplicity and directness, and incredibly well-reasoned,' while calling the Stephens majority's excise-tax reasoning a 'circuitous route' comparable to the U.S. Supreme Court's 'mental gymnastics' in the Obamacare tax/fee case. On Culliton itself: 'It is a constitutional precedent. The Constitution says what it says, and the case has an interpretation.' This is the most explicit on-record income-tax signal any 2026 Supreme Court candidate has offered."
         }
       ],
       "questions": [
-        "Will any organized conservative legal or anti-tax group surface to fund him, given his $0 PDC report?",
+        "Will any organized conservative legal or anti-tax group surface to fund him at scale, or does the campaign stay a low-budget operation despite the mid-July endorsement wave?",
         "Does his constitutional textualism extend to other Article VII cases beyond Culliton, like the 1% property tax cap?",
-        "Why a third Supreme Court bid after a 16.9% finish in 2024 and a $2,500 budget?"
+        "Why a second Supreme Court bid after a 16.9% finish in 2024, and does the on-record Quinn critique change the media coverage for a candidate previously written off as an ideological long shot?"
       ],
       "sources": [
         {
@@ -1693,7 +1705,7 @@
           "url": "https://justfacts.votesmart.org/candidate/political-courage-test/171022/todd-bloom"
         }
       ],
-      "deep_read": "Todd Bloom is the candidate with the cleanest paper trail in the entire field. He is a tax attorney with a UW LL.M. in taxation whose 20-year practice has been built on advising high-net-worth families and closely held businesses on tax structure. He represents clients before the IRS and state taxing authorities. His professional identity and his client base are exactly the constituency that would lose if Culliton were overturned and Washington adopted a graduated income tax. On top of that career, he has an explicit prior record. His 2016 Vote Smart survey, completed during his first run for Congress, supported decreasing income taxes at every bracket, greatly decreasing small business taxes, eliminating inheritance taxes, and explicitly opposing income tax increases. His own quote: 'Tax rates DO affect economic activity.' He has twice been a Republican nominee for U.S. House (2016 general, 2022 primary), running as a 'fiscal conservative' calling for tax cuts to stimulate growth. He is also the only 2026 challenger who has chosen to run directly against the sitting Chief Justice who wrote the Quinn v. State majority upholding the capital gains tax. Challenging Stephens at all is a directional signal. He has not, of course, said outright 'I would vote to overturn Culliton.' Judicial canons do not permit that. But the convergence of professional identity, written tax record, partisan history, and the specific choice of opponent is as close to overdetermined as a judicial lean can be. The only caveat is fundraising. He raised $2,539 for his 2024 campaign and $0 so far for 2026. He is running on a minimal infrastructure that may never gain traction. A high-confidence keep lean does not translate to a high probability of winning. It is a confidence about how he would vote if seated, not a prediction about whether he gets seated.",
+      "deep_read": "Todd Bloom is the candidate with the cleanest paper trail in the entire field. He is a tax attorney with a UW LL.M. in taxation whose 20-year practice has been built on advising high-net-worth families and closely held businesses on tax structure. He represents clients before the IRS and state taxing authorities. His professional identity and his client base are exactly the constituency that would lose if Culliton were overturned and Washington adopted a graduated income tax.\n\nOn top of that career, he has an explicit prior record. His 2016 Vote Smart survey, completed during his first run for Congress, supported decreasing income taxes at every bracket, greatly decreasing small business taxes, eliminating inheritance taxes, and explicitly opposing income tax increases. His own quote: 'Tax rates DO affect economic activity.' He has twice been a Republican nominee for U.S. House (2016 general, 2022 primary), running as a 'fiscal conservative' calling for tax cuts to stimulate growth.\n\nHe is also the only 2026 challenger who has chosen to run directly against the sitting Chief Justice who wrote the Quinn v. State majority upholding the capital gains tax. Challenging Stephens at all is a directional signal. And in July 2026 he made it explicit: in a Center Square Q&A he stated that Quinn was 'wrongly decided,' aligned himself with McCloud's dissent, and characterized the majority's excise-tax reasoning as 'mental gymnastics.' That is the strongest on-record income-tax signal any candidate in the field has offered.\n\nThe convergence of professional identity, written tax record, partisan history, choice of opponent, and now explicit on-record disagreement with Quinn is as close to overdetermined as a judicial lean can be. Fundraising remains modest ($624 cash plus $4,093 in-kind as of mid-July, $5,553 total per RANGE Media) but has finally picked up, with WAGOP and NFIB endorsements in June and July and a live campaign site at electtoddbloom.com. A high-confidence keep lean does not translate to a high probability of winning, but the analytical picture on how he would vote is now unusually clear.",
       "expanded_signals": [
         {
           "type": "He is challenging Stephens, not Melody or Diaz",
@@ -1701,7 +1713,7 @@
         },
         {
           "type": "The 2024 reset",
-          "text": "He ran for Position 2 in 2024 and finished third at 16.9% with $2,539 raised. He is back for 2026 with no apparent fundraising and no website. That is the profile of an ideological candidate, not a strategic one."
+          "text": "He ran for Position 2 in 2024 and finished third at 16.9% with $2,539 raised. His 2026 campaign started slow but has picked up momentum: WAGOP recommendation on June 24, NFIB Small Business PAC endorsement on July 15, a Center Square Q&A on July 6 with the strongest on-record tax signal in the field, and a live campaign site at electtoddbloom.com."
         },
         {
           "type": "WSBA Board service",
@@ -1744,12 +1756,32 @@
         {
           "label": "WAGOP: Additional recommendations for WA Supreme Court races (June 24, 2026)",
           "url": "https://wagop.org/wagop-renders-additional-recommendations-for-wa-state-supreme-court-races/"
+        },
+        {
+          "label": "Todd Bloom for Justice — Official 2026 campaign site",
+          "url": "https://www.electtoddbloom.com"
+        },
+        {
+          "label": "The Center Square Q&A: Bloom says justices owe loyalty to Constitution (July 6, 2026)",
+          "url": "https://www.brushwoodmedianetwork.com/washington/news-washington/qa-supreme-court-candidate-bloom-says-justices-owe-loyalty-to-constitution/"
+        },
+        {
+          "label": "Four Questions: Todd Bloom, Position 7 WA Supreme Court (YouTube, July 16, 2026)",
+          "url": "https://www.youtube.com/watch?v=ru2nliw8QAg"
+        },
+        {
+          "label": "Seattle Times endorsements — WA primary 2026, Supreme Court Position 7",
+          "url": "https://www.seattletimes.com/opinion/editorials/the-seattle-times-endorsements-wa-primary-2026-supreme-court-position-7/"
+        },
+        {
+          "label": "RANGE Media: 2026 WA Supreme Court election overview (July 22, 2026)",
+          "url": "https://www.rangemedia.co/wa-state-supreme-court-election-2026/"
         }
       ],
-      "campaign_website": null,
+      "campaign_website": "https://www.electtoddbloom.com",
       "campaign_donate": null,
-      "campaign_website_status": "none",
-      "campaign_website_note": "No dedicated 2026 campaign website located. Common URL variants (bloomforjustice.com, toddbloom.org, bloomforwa.com/.org) do not resolve. PDC committee email is bloomforwa@gmail.com.",
+      "campaign_website_status": "live",
+      "campaign_website_note": "electtoddbloom.com is live (verified July 22, 2026). Site emphasizes faithful application of the law, constitutional rights, and fairness. No direct statement on Culliton, Article VII, or ESSB 6346 on the site itself, though Bloom has spoken to those questions in press interviews.",
       "pdc": {
         "raised": 624.08,
         "as_of": "2026-07-13",
