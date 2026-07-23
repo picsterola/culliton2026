@@ -112,6 +112,24 @@
         "https://www.facebook.com/share/p/1BQakjtCq9/"
       ],
       "approved_by": "user (2026-07-14, in response to candidate contact form submission)"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 15 candidates with filer_id.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-07-23T14:00:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (endorsements)",
+      "change": "Added Clark County Democrats endorsements (Melody Pos1; Diaz/Hawk dual Pos3; Birk Pos4; Angelis/Amamilo dual Pos5; Stephens Pos7) to endorsements fields.",
+      "source_urls": [
+        "https://clarkcountydems.com/endorsements/"
+      ],
+      "timestamp": "2026-07-23T14:00:00Z"
     }
   ],
   "last_run_new_finding_entries": [
@@ -140,8 +158,8 @@
       "url": "https://www.pdc.wa.gov/news-events"
     }
   ],
-  "last_run_timestamp": "2026-06-25T07:04:00",
-  "last_scan": "2026-07-16",
+  "last_run_timestamp": "2026-07-23T07:00:00",
+  "last_scan": "2026-07-23",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -172,7 +190,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 7
+      "weeks_open": 8
     },
     {
       "candidate_id": "bloom",
@@ -186,7 +204,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "open",
-      "weeks_open": 7
+      "weeks_open": 8
     },
     {
       "candidate_id": "stephens",
@@ -201,7 +219,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "open",
-      "weeks_open": 7
+      "weeks_open": 8
     },
     {
       "candidate_id": "colberg",
@@ -216,7 +234,7 @@
         "Background and prior public statements"
       ],
       "status": "open",
-      "weeks_open": 7
+      "weeks_open": 8
     },
     {
       "candidate_id": "amamilo,miller",
@@ -231,7 +249,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 7
+      "weeks_open": 8
     }
   ],
   "pending_review_changes": [
