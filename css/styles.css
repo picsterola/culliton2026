@@ -1492,6 +1492,34 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
 }
 
 /* =========================================================
+   Foundations note (quiet inline aside on the explainer)
+   ========================================================= */
+.foundations-note {
+  margin: var(--space-6) 0;
+  padding: 0 0 0 var(--space-4);
+  border-left: 2px solid var(--color-divider);
+  color: var(--color-text-muted);
+}
+.foundations-note__label {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2) 0;
+}
+.foundations-note p {
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin: 0;
+  color: var(--color-text-muted);
+}
+.foundations-note em {
+  color: inherit;
+}
+
+/* =========================================================
    Lean banner (candidate detail page)
    ========================================================= */
 .lean-banner {
