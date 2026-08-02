@@ -139,6 +139,15 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "approved_by": "automatic (weekly cron / manual completion)"
+    },
+    {
+      "timestamp": "2026-08-02T01:04:12Z",
+      "candidate": "Voter guide review (all 14 primary-ballot candidates)",
+      "change": "Reviewed every candidate's official state voter statement. Three lean/confidence moves: Shelvey unclear/Low -> keep/Medium-High (statement explicitly says 'I oppose a state income tax'; combined with his Antonin Scalia Law School LL.M., this is a clear keep signal despite no fundraising or endorsements). Edwards Medium-High -> High (self-identifies in the statement as 'tax and constitutional attorney' with Council on State Taxation membership; textualist framing repeated three times). Diaz Medium-High -> High (endorsement slate in his own statement names nine sitting Supreme Court Justices plus three governors plus AG plus WEA plus WSLC — the entire Quinn coalition). Added voter-guide primary-source signals to Bloom, Stevens, Colberg. Added the voter-guide URL as a source citation to Melody, Hawk, Angelis, Stephens, Merchant, Larson, Miller, Amamilo (no signal changes; existing reads confirmed by the statements).",
+      "source_urls": [
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=898&c=17#/"
+      ],
+      "approved_by": "user (2026-08-01, in response to voter guide review request)"
     }
   ],
   "last_run_new_finding_entries": [
@@ -168,7 +177,7 @@
     }
   ],
   "last_run_timestamp": "2026-07-23T07:00:00",
-  "last_scan": "2026-07-30T14:02:29Z",
+  "last_scan": "2026-08-02T01:04:12Z",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
