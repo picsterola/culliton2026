@@ -148,36 +148,60 @@
         "https://voter.votewa.gov/GenericVoterGuide.aspx?e=898&c=17#/"
       ],
       "approved_by": "user (2026-08-01, in response to voter guide review request)"
+    },
+    {
+      "timestamp": "2026-08-06T14:07:50Z",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 13 candidates with filer_id. Net delta +$105,552; top movers O'Donnell, Diaz, Larson.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "applied_by": "cron"
+    },
+    {
+      "timestamp": "2026-08-06T14:07:50Z",
+      "candidate": "Colleen Melody; Jaime Hawk; Ian Birk",
+      "change": "Added U.S. Rep. Pramila Jayapal as a confirmed endorser for Melody, Hawk, and Birk based on her public primary-source endorsement post.",
+      "source_urls": [
+        "https://www.facebook.com/pramila.jayapal/posts/its-voting-time-join-me-by-filling-out-a-ball/1601291041353401/"
+      ],
+      "applied_by": "cron"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "date": "2026-06-25",
-      "hash": "70e15cb4ea9c85552e3e2bcd13608329db00c026c22226ec204341786b9c0e12",
-      "headline": "Influencing Olympia interview: Justice Colleen Melody (Position 1)",
-      "url": "https://influencingolympia.substack.com/p/supreme-court-interviews-justice"
+      "date": "2026-08-06",
+      "hash": "c5712d799e74524f562f027c26fa167c338c2c9bd58e7f83feab0588af0b3e05",
+      "headline": "Washington Supreme Court 2026 primary results (live statewide results)",
+      "url": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html"
     },
     {
-      "date": "2026-06-25",
-      "hash": "075bcc72154379e0888cf1ad29569d21d8d1d03842f3d4faba0f79ea542f0f4b",
-      "headline": "Influencing Olympia interview: Scott Edwards (Position 1)",
-      "url": "https://influencingolympia.substack.com/p/supreme-court-interviews-scott-edwards"
+      "date": "2026-08-06",
+      "hash": "621207e53587ff2b0c4daa84f8adbbd97d7fe05742b5e2359dd75d371564e34b",
+      "headline": "WA Supreme Court elections make for momentous primary",
+      "url": "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-elections-make-for-a-momentous-primary/"
     },
     {
-      "date": "2026-06-25",
-      "hash": "18909c39e94cf96bde7ef953c01afa2aa60e82fed548836762f2897984dc3965",
-      "headline": "Gorge News Center: Position 3 race endorsements mentioned at WA Dem convention",
-      "url": "https://gorgenewscenter.com/2026/06/23/4-takeaways-from-the-wa-democratic-party-convention/"
+      "date": "2026-08-06",
+      "hash": "64103d9c28c6c42f4aa6fedb1d3612f59217f83af90e9e7540a274372ea50351",
+      "headline": "Primary narrows state Supreme Court candidate field as income tax lawsuit looms",
+      "url": "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
     },
     {
-      "date": "2026-06-25",
-      "hash": "b08e25d327fe47c0e70215ba585c2a32878425f90955f4cb335f39f342468a03",
-      "headline": "PDC News: updated independent expenditure (C-6) system + weekly C-3 cadence reminder",
-      "url": "https://www.pdc.wa.gov/news-events"
+      "date": "2026-08-06",
+      "hash": "94c895d336682ab4aec9bb29ab78e3a42a911546410769b88e9fa61c3cfd0034",
+      "headline": "Rep. Pramila Jayapal endorses Melody, Hawk, and Birk for Washington Supreme Court",
+      "url": "https://www.facebook.com/pramila.jayapal/posts/its-voting-time-join-me-by-filling-out-a-ball/1601291041353401/"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "1c9f4b1f3e769eab541442a725dc522dcd835ad0f169c4503a6c4d4dd5f230c8",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
-  "last_run_timestamp": "2026-07-23T07:00:00",
-  "last_scan": "2026-08-02T01:04:12Z",
+  "last_run_timestamp": "2026-08-06T14:07:50Z",
+  "last_scan": "2026-08-06T14:07:50Z",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -197,6 +221,11 @@
           "date": "2026-05-28",
           "evidence_url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq",
           "note": "Campaign announced expanded endorsements list (names not visible in LinkedIn post). Potential signal but insufficient for lean resolution."
+        },
+        {
+          "date": "2026-08-06",
+          "evidence_url": "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+          "note": "Position 4 automatically advances to the general; The Center Square reports WAGOP chair Jim Walsh is leaning toward O'Donnell. That is a directional coalition signal, not a direct Culliton or Article VII statement, so the lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -208,7 +237,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 8
+      "weeks_open": 9
     },
     {
       "candidate_id": "bloom",
@@ -221,8 +250,15 @@
         "PDC.wa.gov search for Bloom 2026 committee filings",
         "Candidate registration with Secretary of State"
       ],
-      "status": "open",
-      "weeks_open": 8
+      "status": "progressing",
+      "weeks_open": 9,
+      "progress_log": [
+        {
+          "date": "2026-08-06",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "Deterministic PDC refresh now shows Bloom at $7,274.08 cash raised as of 2026-07-31, confirming active contribution reporting; the cached profile extraction did not expose report rows, so the exact C-1/C-4 filing sequence remains unresolved."
+        }
+      ]
     },
     {
       "candidate_id": "stephens",
@@ -236,8 +272,15 @@
         "Major endorsement announcements",
         "Public events / fundraising calendar"
       ],
-      "status": "open",
-      "weeks_open": 8
+      "status": "progressing",
+      "weeks_open": 9,
+      "progress_log": [
+        {
+          "date": "2026-08-06",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh shows Stephens at $96,768 cash as of 2026-07-29, and Seattle Times reports a substantial fundraising advantage in the primary. This moves the question toward active/in-earnest fundraising, but the full weekly filing record is not yet extracted."
+        }
+      ]
     },
     {
       "candidate_id": "colberg",
@@ -251,8 +294,15 @@
         "PDC registration",
         "Background and prior public statements"
       ],
-      "status": "open",
-      "weeks_open": 8
+      "status": "progressing",
+      "weeks_open": 9,
+      "progress_log": [
+        {
+          "date": "2026-08-06",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "Colberg is registered in the PDC data and raised $27,205.25 as of 2026-07-20, confirming she formally filed; the primary result eliminated her from the general pending certification, while her doctrinal lean remains unresolved."
+        }
+      ]
     },
     {
       "candidate_id": "amamilo,miller",
@@ -267,7 +317,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 8
+      "weeks_open": 9
     }
   ],
   "pending_review_changes": [
@@ -347,6 +397,99 @@
         ]
       },
       "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
+    },
+    {
+      "id": "primary_pos1_2026",
+      "candidate": "Position 1 race (Melody / Edwards / Colberg)",
+      "current_state": {
+        "primary_status": "all three candidates active in pre-primary file",
+        "front_runner": "none"
+      },
+      "proposed_state": {
+        "primary_status": "Melody and Edwards advance to general; Colberg eliminated pending certification",
+        "front_runner": "Melody"
+      },
+      "reasoning": "Initial statewide results show Melody 51.4%, Edwards 30.4%, Colberg 18.2%. The race status is a material update and any front-runner flag change requires review; results remain subject to certification.",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+      ],
+      "opened_date": "2026-08-06"
+    },
+    {
+      "id": "primary_pos3_2026",
+      "candidate": "Position 3 race (Stevens / Hawk / Diaz)",
+      "current_state": {
+        "primary_status": "all three candidates active in pre-primary file",
+        "front_runner": "Diaz"
+      },
+      "proposed_state": {
+        "primary_status": "Stevens and Hawk advance to general; Diaz eliminated pending certification",
+        "front_runner": "Stevens"
+      },
+      "reasoning": "Initial statewide results show Stevens 35.9%, Hawk 33.0%, Diaz 31.0%. This reverses the current Diaz front-runner framing and should be reviewed before changing the site.",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+      ],
+      "opened_date": "2026-08-06"
+    },
+    {
+      "id": "primary_pos5_2026",
+      "candidate": "Position 5 race (Angelis / Larson / Amamilo / Miller)",
+      "current_state": {
+        "primary_status": "all four candidates active in pre-primary file",
+        "front_runner": "none"
+      },
+      "proposed_state": {
+        "primary_status": "Angelis and Larson advance to general; Amamilo and Miller eliminated pending certification",
+        "front_runner": "Angelis"
+      },
+      "reasoning": "Initial statewide results show Angelis 34.3%, Larson 32.7%, Amamilo 21.3%, Miller 11.7%. Both race status and any front-runner designation need review; results remain subject to certification.",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+      ],
+      "opened_date": "2026-08-06"
+    },
+    {
+      "id": "primary_pos7_2026",
+      "candidate": "Position 7 race (Stephens / Bloom / Merchant / Shelvey)",
+      "current_state": {
+        "primary_status": "all four candidates active in pre-primary file",
+        "front_runner": "none"
+      },
+      "proposed_state": {
+        "primary_status": "Stephens and Bloom advance to general; Merchant and Shelvey eliminated pending certification",
+        "front_runner": "Stephens"
+      },
+      "reasoning": "Initial statewide results show Stephens 54.7%, Bloom 27.6%, Merchant 11.0%, Shelvey 6.7%. Review is needed before updating race status or front-runner framing.",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+      ],
+      "opened_date": "2026-08-06"
+    },
+    {
+      "id": "primary_pos4_2026",
+      "candidate": "Position 4 race (Birk / O'Donnell)",
+      "current_state": {
+        "primary_status": "two-candidate race in pre-primary file"
+      },
+      "proposed_state": {
+        "primary_status": "Birk and O'Donnell automatically advance to general; no August primary"
+      },
+      "reasoning": "The two-candidate Position 4 race did not appear on the August primary ballot and both candidates advance automatically. This is a factual status update but should be reviewed alongside the other post-primary site changes.",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+      ],
+      "opened_date": "2026-08-06"
     }
   ],
   "recent_findings_hashes": [
@@ -391,6 +534,36 @@
       "hash": "b08e25d327fe47c0e70215ba585c2a32878425f90955f4cb335f39f342468a03",
       "headline": "PDC News: updated independent expenditure (C-6) system + weekly C-3 cadence reminder",
       "url": "https://www.pdc.wa.gov/news-events"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "c5712d799e74524f562f027c26fa167c338c2c9bd58e7f83feab0588af0b3e05",
+      "headline": "Washington Supreme Court 2026 primary results (live statewide results)",
+      "url": "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "621207e53587ff2b0c4daa84f8adbbd97d7fe05742b5e2359dd75d371564e34b",
+      "headline": "WA Supreme Court elections make for momentous primary",
+      "url": "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-elections-make-for-a-momentous-primary/"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "64103d9c28c6c42f4aa6fedb1d3612f59217f83af90e9e7540a274372ea50351",
+      "headline": "Primary narrows state Supreme Court candidate field as income tax lawsuit looms",
+      "url": "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "94c895d336682ab4aec9bb29ab78e3a42a911546410769b88e9fa61c3cfd0034",
+      "headline": "Rep. Pramila Jayapal endorses Melody, Hawk, and Birk for Washington Supreme Court",
+      "url": "https://www.facebook.com/pramila.jayapal/posts/its-voting-time-join-me-by-filling-out-a-ball/1601291041353401/"
+    },
+    {
+      "date": "2026-08-06",
+      "hash": "1c9f4b1f3e769eab541442a725dc522dcd835ad0f169c4503a6c4d4dd5f230c8",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "schema_version": 1

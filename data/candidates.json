@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-08-06",
   "candidates": [
     {
       "slug": "melody",
       "name": "Colleen Melody",
-      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; retired justices Mary Yu, Barbara Madsen, Gerry Alexander, Bobbe Bridge; King County Bar; Seattle Times editorial board (July 2026 endorsement). Clark County Democrats.",
+      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; retired justices Mary Yu, Barbara Madsen, Gerry Alexander, Bobbe Bridge; King County Bar; Seattle Times editorial board (July 2026 endorsement); U.S. Rep. Pramila Jayapal. Clark County Democrats.",
       "incumbent": true,
       "photo": "images/melody.jpg",
       "position": 1,
@@ -99,8 +99,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 227823.63,
-        "as_of": "2026-07-27",
+        "raised": 229480.44,
+        "as_of": "2026-07-31",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       }
@@ -338,8 +338,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 83830.0,
-        "as_of": "2026-07-27",
+        "raised": 88230.0,
+        "as_of": "2026-07-31",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       }
@@ -463,8 +463,8 @@
       "campaign_donate": "https://secure.ngpvan.com/Q2mK33La6kChkM2fDcG2qQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 255457.75,
-        "as_of": "2026-07-26",
+        "raised": 271132.75,
+        "as_of": "2026-08-02",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
         "filer_id": "DIAZJ  105",
         "spent": 45320.0
@@ -576,8 +576,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 36790.0,
-        "as_of": "2026-07-23",
+        "raised": 38240.0,
+        "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       }
@@ -585,7 +585,7 @@
     {
       "slug": "hawk",
       "name": "Jaime Hawk",
-      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement). State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed. Clark County Democrats (dual endorsement).",
+      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement); U.S. Rep. Pramila Jayapal. State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed. Clark County Democrats (dual endorsement).",
       "incumbent": false,
       "photo": "images/hawk.jpg",
       "position": 3,
@@ -693,8 +693,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 202128.88,
-        "as_of": "2026-07-27",
+        "raised": 213383.88,
+        "as_of": "2026-07-31",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       }
@@ -702,7 +702,7 @@
     {
       "slug": "birk",
       "name": "Ian Birk",
-      "endorsements": "Heavy slate of progressive elected officials and labor unions. Clark County Democrats.",
+      "endorsements": "Heavy slate of progressive elected officials and labor unions; U.S. Rep. Pramila Jayapal. Clark County Democrats.",
       "incumbent": false,
       "front_runner": true,
       "photo": "images/birk.jpg",
@@ -794,8 +794,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 357416.2,
-        "as_of": "2026-07-24",
+        "raised": 364616.2,
+        "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       }
@@ -890,8 +890,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 259789.45,
-        "as_of": "2026-07-22",
+        "raised": 276374.81,
+        "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       }
@@ -994,8 +994,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 336495.49,
-        "as_of": "2026-07-26",
+        "raised": 342995.49,
+        "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       }
@@ -1098,8 +1098,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 280990.32,
-        "as_of": "2026-07-27",
+        "raised": 296250.32,
+        "as_of": "2026-08-04",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       }
@@ -1225,8 +1225,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "Voter pamphlet originally listed millerforjustice.org. Live as of May 28, 2026. The gregmillerforjustice.com domain does not resolve.",
       "pdc": {
-        "raised": 24520.03,
-        "as_of": "2026-07-23",
+        "raised": 24870.03,
+        "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3394415",
         "filer_id": "MILLG--917"
       }
@@ -1329,8 +1329,8 @@
       "campaign_donate": "https://secure.anedot.com/sharonda-amamilo-for-justice-a90c877d-f583-4c4f-ae38-8aa18d8c1123/sharonda4supremecourt",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 48033.0,
-        "as_of": "2026-07-25",
+        "raised": 61278.0,
+        "as_of": "2026-08-02",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391132",
         "filer_id": "AMAMS--327"
       }
@@ -1450,8 +1450,8 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 89593.0,
-        "as_of": "2026-07-21",
+        "raised": 96768.0,
+        "as_of": "2026-07-29",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       }
@@ -1867,8 +1867,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "electtoddbloom.com is live (verified July 22, 2026). Site emphasizes faithful application of the law, constitutional rights, and fairness. No direct statement on Culliton, Article VII, or ESSB 6346 on the site itself, though Bloom has spoken to those questions in press interviews.",
       "pdc": {
-        "raised": 2474.08,
-        "as_of": "2026-07-27",
+        "raised": 7274.08,
+        "as_of": "2026-07-31",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": "BLOOT--060"
       }
