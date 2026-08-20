@@ -58,7 +58,7 @@
     {
       "applied_by": "manual (user-initiated review)",
       "candidate": "miller",
-      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low \u2014 site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
+      "change": "Updated campaign website (gregmillerforjustice.com -> millerforjustice.org, now live), refreshed endorsements (still none, site has no endorsement page), fundraising ($0 PDC), one_liner, deep_read, signals, and expanded_signals based on direct review of millerforjustice.org. Lean held at 'unclear' / Low — site is deliberately policy-free, no Article VII or Culliton content. Keene v. Edie noted as stare decisis signal (cuts both ways).",
       "date": "2026-05-28",
       "source_urls": [
         "https://millerforjustice.org",
@@ -106,7 +106,7 @@
     {
       "timestamp": "2026-07-14T22:51:36Z",
       "candidate": "Karim Merchant",
-      "change": "Added July 1, 2026 Center Square interview as primary source. Merchant states on camera that Quinn was decided wrongly and McCloud dissent is 'so logical' \u2014 his 'capital gains are income, incomes are property' framing is the classic keep-Culliton predicate, so lean stays keep. Confidence upgraded Low -> Medium (direct stated position, not neutral commentary). Also verified he IS in the position 7 dropdown; his email claim on that was incorrect.",
+      "change": "Added July 1, 2026 Center Square interview as primary source. Merchant states on camera that Quinn was decided wrongly and McCloud dissent is 'so logical' — his 'capital gains are income, incomes are property' framing is the classic keep-Culliton predicate, so lean stays keep. Confidence upgraded Low -> Medium (direct stated position, not neutral commentary). Also verified he IS in the position 7 dropdown; his email claim on that was incorrect.",
       "source_urls": [
         "https://www.youtube.com/watch?v=-Gx8lv4RImw",
         "https://www.facebook.com/share/p/1BQakjtCq9/"
@@ -143,7 +143,7 @@
     {
       "timestamp": "2026-08-02T01:04:12Z",
       "candidate": "Voter guide review (all 14 primary-ballot candidates)",
-      "change": "Reviewed every candidate's official state voter statement. Three lean/confidence moves: Shelvey unclear/Low -> keep/Medium-High (statement explicitly says 'I oppose a state income tax'; combined with his Antonin Scalia Law School LL.M., this is a clear keep signal despite no fundraising or endorsements). Edwards Medium-High -> High (self-identifies in the statement as 'tax and constitutional attorney' with Council on State Taxation membership; textualist framing repeated three times). Diaz Medium-High -> High (endorsement slate in his own statement names nine sitting Supreme Court Justices plus three governors plus AG plus WEA plus WSLC \u2014 the entire Quinn coalition). Added voter-guide primary-source signals to Bloom, Stevens, Colberg. Added the voter-guide URL as a source citation to Melody, Hawk, Angelis, Stephens, Merchant, Larson, Miller, Amamilo (no signal changes; existing reads confirmed by the statements).",
+      "change": "Reviewed every candidate's official state voter statement. Three lean/confidence moves: Shelvey unclear/Low -> keep/Medium-High (statement explicitly says 'I oppose a state income tax'; combined with his Antonin Scalia Law School LL.M., this is a clear keep signal despite no fundraising or endorsements). Edwards Medium-High -> High (self-identifies in the statement as 'tax and constitutional attorney' with Council on State Taxation membership; textualist framing repeated three times). Diaz Medium-High -> High (endorsement slate in his own statement names nine sitting Supreme Court Justices plus three governors plus AG plus WEA plus WSLC — the entire Quinn coalition). Added voter-guide primary-source signals to Bloom, Stevens, Colberg. Added the voter-guide URL as a source citation to Melody, Hawk, Angelis, Stephens, Merchant, Larson, Miller, Amamilo (no signal changes; existing reads confirmed by the statements).",
       "source_urls": [
         "https://voter.votewa.gov/GenericVoterGuide.aspx?e=898&c=17#/"
       ],
@@ -175,30 +175,33 @@
       "source_urls": [
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ]
+    },
+    {
+      "timestamp": "2026-08-20T14:02:00Z",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated 11 candidates with filer_id. Net delta +$24,277.73. Top movers: Edwards +$5,600; Larson +$5,460; Stephens +$2,500. Two transient refresh errors occurred for Edwards and Stevens on a follow-up attempt; final working-tree values reflect successful first-pass updates, and Bloom subsequently updated +$300 to $10,249.08 as of 2026-08-14.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "applied_by": "cron"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "date": "2026-08-13",
-      "hash": "1150f20b14f94dba8c0de0e5b46cb4ea31749edace5272b3931de489cb4f9da1",
-      "headline": "Leading Washington Supreme Court candidate calls court's recent moves disturbing",
-      "url": "https://www.kuow.org/elections/2026-08-06/leading-washington-supreme-court-candidate-calls-courts-recent-moves-disturbing"
+      "date": "2026-08-20",
+      "hash": "c5fa60cda81c3818bbe197928e4323ee545f3d4ae919b56078f1413f97bc286d",
+      "headline": "Autumn Washington State Supreme Court matchups look set",
+      "url": "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
     },
     {
-      "date": "2026-08-13",
-      "hash": "e8d476e85f2cb667a897111574017c3edf9668da39b1b1447210a0db98e33aff",
-      "headline": "Preliminary primary results set stage for November races across Columbia Basin",
-      "url": "https://columbiabasinherald.com/news/2026/aug/06/preliminary-primary-results-set-stage-for-november-races-across-columbia-basin/"
-    },
-    {
-      "date": "2026-08-13",
-      "hash": "0062ec233e3707f2239aa22534138704716f68ebbeb4b6562d4af05da642c5fb",
-      "headline": "2026 Washington State Supreme Court Elections \u2014 Voter Guide (results as of Aug. 6)",
-      "url": "https://wasupremecourt.org/"
+      "date": "2026-08-20",
+      "hash": "ecebebfe0ed1715e49c7a1815c26dcc1abac7553301c563c19c1847b4b5983f9",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Aug. 20)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
-  "last_run_timestamp": "2026-08-13T14:05:00Z",
-  "last_scan": "2026-08-13T14:05:00Z",
+  "last_run_timestamp": "2026-08-20T14:02:00Z",
+  "last_scan": "2026-08-20T14:02:00Z",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -228,6 +231,11 @@
           "date": "2026-08-13",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh moved O'Donnell's 2026 cash total up $12,864.99 to $289,239.80 as of 2026-08-06. The funding signal strengthens viability but provides no direct Culliton/Article VII statement, so lean remains unclear/Low."
+        },
+        {
+          "date": "2026-08-20",
+          "evidence_url": "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html",
+          "note": "The Aug. 11 matchup report confirms O'Donnell and Birk advance automatically to the general; it adds no direct Culliton, Article VII, or ESSB 6346 statement. PDC cash rose to $291,079.59 as of 2026-08-14, a viability signal only; lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -239,7 +247,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 10
+      "weeks_open": 11
     },
     {
       "candidate_id": "bloom",
@@ -253,7 +261,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "progressing",
-      "weeks_open": 10,
+      "weeks_open": 11,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -264,6 +272,11 @@
           "date": "2026-08-13",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh moved Bloom's 2026 cash total up $2,675.00 to $9,949.08 as of 2026-08-04, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
+        },
+        {
+          "date": "2026-08-20",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "The refresh now shows Bloom at $10,249.08 cash as of 2026-08-14, confirming continued contribution reporting. Direct profile extraction still did not expose the exact C-1/C-4 filing sequence."
         }
       ]
     },
@@ -280,7 +293,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "progressing",
-      "weeks_open": 10,
+      "weeks_open": 11,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -291,6 +304,11 @@
           "date": "2026-08-13",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh moved Stephens's 2026 cash total up $1,260.00 to $98,028.00 as of 2026-08-04, reinforcing that fundraising is active; the full weekly filing record remains unextracted."
+        },
+        {
+          "date": "2026-08-20",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "The refresh now shows Stephens at $100,528 cash as of 2026-08-09, reinforcing that fundraising is active/in earnest; the exact weekly filing record remains unextracted."
         }
       ]
     },
@@ -307,12 +325,17 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 10,
+      "weeks_open": 11,
       "progress_log": [
         {
           "date": "2026-08-06",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "Colberg is registered in the PDC data and raised $27,205.25 as of 2026-07-20, confirming she formally filed; the primary result eliminated her from the general pending certification, while her doctrinal lean remains unresolved."
+        },
+        {
+          "date": "2026-08-20",
+          "evidence_url": "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html",
+          "note": "The Aug. 11 matchup report confirms Colberg is out of the general-election field after the primary count; her formal filing is established, but her doctrinal lean remains unresolved and the status change remains queued for review."
         }
       ]
     },
@@ -329,7 +352,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 10
+      "weeks_open": 11
     }
   ],
   "pending_review_changes": [
@@ -387,7 +410,7 @@
       "opened_date": "2026-06-25",
       "proposed_state": {
         "notes_review_add": [
-          "New Influencing Olympia video interview published this week \u2014 check for quotable positions / endorsements / conflicts."
+          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
         ]
       },
       "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
@@ -405,7 +428,7 @@
       "opened_date": "2026-06-25",
       "proposed_state": {
         "notes_review_add": [
-          "New Influencing Olympia video interview published this week \u2014 check for quotable positions / endorsements / conflicts."
+          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
         ]
       },
       "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
@@ -425,7 +448,8 @@
       "confidence": "high",
       "evidence_urls": [
         "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
       ],
       "opened_date": "2026-08-06"
     },
@@ -444,7 +468,8 @@
       "confidence": "high",
       "evidence_urls": [
         "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
       ],
       "opened_date": "2026-08-06"
     },
@@ -463,7 +488,8 @@
       "confidence": "high",
       "evidence_urls": [
         "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
       ],
       "opened_date": "2026-08-06"
     },
@@ -482,7 +508,8 @@
       "confidence": "high",
       "evidence_urls": [
         "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
       ],
       "opened_date": "2026-08-06"
     },
@@ -499,7 +526,8 @@
       "confidence": "high",
       "evidence_urls": [
         "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html"
+        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
+        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
       ],
       "opened_date": "2026-08-06"
     }
@@ -592,8 +620,20 @@
     {
       "date": "2026-08-13",
       "hash": "0062ec233e3707f2239aa22534138704716f68ebbeb4b6562d4af05da642c5fb",
-      "headline": "2026 Washington State Supreme Court Elections \u2014 Voter Guide (results as of Aug. 6)",
+      "headline": "2026 Washington State Supreme Court Elections — Voter Guide (results as of Aug. 6)",
       "url": "https://wasupremecourt.org/"
+    },
+    {
+      "date": "2026-08-20",
+      "hash": "c5fa60cda81c3818bbe197928e4323ee545f3d4ae919b56078f1413f97bc286d",
+      "headline": "Autumn Washington State Supreme Court matchups look set",
+      "url": "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
+    },
+    {
+      "date": "2026-08-20",
+      "hash": "ecebebfe0ed1715e49c7a1815c26dcc1abac7553301c563c19c1847b4b5983f9",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Aug. 20)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "schema_version": 1
