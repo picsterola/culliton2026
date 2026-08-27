@@ -184,6 +184,15 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "applied_by": "cron"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 9 candidates with filer_id. Net delta +$77,472.09.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-08-27T14:02:00Z"
     }
   ],
   "last_run_new_finding_entries": [
@@ -201,7 +210,7 @@
     }
   ],
   "last_run_timestamp": "2026-08-20T14:02:00Z",
-  "last_scan": "2026-08-20T14:02:00Z",
+  "last_scan": "2026-08-27T14:02:00Z",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -236,6 +245,11 @@
           "date": "2026-08-20",
           "evidence_url": "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html",
           "note": "The Aug. 11 matchup report confirms O'Donnell and Birk advance automatically to the general; it adds no direct Culliton, Article VII, or ESSB 6346 statement. PDC cash rose to $291,079.59 as of 2026-08-14, a viability signal only; lean remains unclear/Low."
+        },
+        {
+          "date": "2026-08-27",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $9,782.41 to O'Donnell's 2026 cash total, now $300,862 as of 2026-08-21. This improves the viability signal only; the weekly scan found no direct Culliton, Article VII, or ESSB 6346 statement, so lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -247,7 +261,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 11
+      "weeks_open": 12
     },
     {
       "candidate_id": "bloom",
@@ -261,7 +275,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "progressing",
-      "weeks_open": 11,
+      "weeks_open": 12,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -293,7 +307,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "progressing",
-      "weeks_open": 11,
+      "weeks_open": 12,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -309,6 +323,11 @@
           "date": "2026-08-20",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "The refresh now shows Stephens at $100,528 cash as of 2026-08-09, reinforcing that fundraising is active/in earnest; the exact weekly filing record remains unextracted."
+        },
+        {
+          "date": "2026-08-27",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $100.00 to Stephens's 2026 cash total, now $100,628 as of 2026-08-14. This is consistent with continued activity but is not a material surge; the question remains progressing and the full weekly filing record remains unextracted."
         }
       ]
     },
@@ -325,7 +344,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 11,
+      "weeks_open": 12,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -352,7 +371,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 11
+      "weeks_open": 12
     }
   ],
   "pending_review_changes": [
@@ -534,12 +553,6 @@
   ],
   "recent_findings_hashes": [
     {
-      "date": "2026-05-28",
-      "hash": "a1dd8df9f1d6cdf0b0a917a3177d9e8c313fb07e27ede4122176dc3954fcda1a",
-      "headline": "O'Donnell campaign posts a May 22 press release teaser about 'expanded list of major endorsements'",
-      "url": "https://www.linkedin.com/posts/sean-p-o%E2%80%99donnell-418a20b_press-release-may-22-2026-odonnell-for-activity-7463722328036753408-VlKq"
-    },
-    {
       "date": "2026-06-12",
       "hash": "cf9670cbbc2322c66b5fc283a115a3527d9369d428aead1d7129b1e7971dd163",
       "headline": "32nd District Democrats endorse Melody (Pos 1), Diaz/Hawk dual (Pos 3), Birk (Pos 4), Angelis (Pos 5), Stephens (Pos 7) for Aug 4 primary",
@@ -633,6 +646,12 @@
       "date": "2026-08-20",
       "hash": "ecebebfe0ed1715e49c7a1815c26dcc1abac7553301c563c19c1847b4b5983f9",
       "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Aug. 20)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "date": "2026-08-27",
+      "hash": "1a4db18c9d5182844c0b1c19ecd83bdbb8b75894e0e11cfaf36d8de3c6ab322e",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Aug. 27)",
       "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
