@@ -52,6 +52,10 @@
 //   data-candidate-count="word"    -> lowercase word ("thirteen")
 //   data-candidate-count="Word"    -> capitalized word ("Thirteen")
 //
+// Post-primary behavior: once any candidate has a primary_result field, the
+// count switches to counting only those with advanced_to_general === true.
+// Before primary results are recorded, all candidates are counted.
+//
 // Usage:
 //   <strong data-candidate-count></strong> candidates
 //   <h2><span data-candidate-count="Word"></span> candidates. Five seats.</h2>
@@ -83,7 +87,15 @@
   fetch("data/candidates.json")
     .then((r) => r.ok ? r.json() : Promise.reject())
     .then((data) => {
-      const n = Array.isArray(data.candidates) ? data.candidates.length : null;
+      if (!Array.isArray(data.candidates)) return;
+      const hasPrimaryResults = data.candidates.some(
+        (c) => c && c.primary_result && typeof c.primary_result.advanced_to_general === "boolean"
+      );
+      const n = hasPrimaryResults
+        ? data.candidates.filter(
+            (c) => c && c.primary_result && c.primary_result.advanced_to_general === true
+          ).length
+        : data.candidates.length;
       if (n === null) return;
       targets.forEach((el) => {
         const variant = el.getAttribute("data-candidate-count");
