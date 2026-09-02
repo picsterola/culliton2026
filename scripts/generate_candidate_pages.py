@@ -593,13 +593,32 @@ def _fmt_money_compact(n):
 def build_pdc_aggregate_sentence(candidates):
     """Build the homepage PDC aggregate sentence. Returns the HTML fragment
     to live between PDC_AGGREGATE_START and PDC_AGGREGATE_END markers, or '' if
-    we lack the data to say anything useful."""
+    we lack the data to say anything useful.
+
+    Post-primary: if any candidate has a primary_result field, restrict the
+    aggregate to candidates who advanced to the general election. Eliminated
+    candidates' PDC totals are historical, not 'money on the field.'
+    """
+    has_primary_results = any(
+        isinstance(c.get("primary_result"), dict)
+        and isinstance(c["primary_result"].get("advanced_to_general"), bool)
+        for c in candidates
+    )
+    if has_primary_results:
+        eligible = [
+            c for c in candidates
+            if isinstance(c.get("primary_result"), dict)
+            and c["primary_result"].get("advanced_to_general") is True
+        ]
+    else:
+        eligible = list(candidates)
+
     buckets = {"scrap": 0.0, "keep": 0.0, "unclear": 0.0}
     filers = {"scrap": 0, "keep": 0, "unclear": 0}
     totals = {"scrap": 0, "keep": 0, "unclear": 0}
     latest_as_of = None
     any_money = False
-    for c in candidates:
+    for c in eligible:
         if c.get("withdrawn"):
             continue
         lean = c.get("lean", "unclear")
