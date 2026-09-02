@@ -193,6 +193,18 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "timestamp": "2026-08-27T14:02:00Z"
+    },
+    {
+      "timestamp": "2026-09-02T02:48:54Z",
+      "candidate": "Review queue resolution (9 items)",
+      "change": "Resolved all 9 pending_review_changes: 5 primary-result items applied to each candidate as primary_result field (SOS certified Aug 21, 2026); Diaz front_runner flag cleared (he lost, finished 3rd in Position 3); Diaz endorsement addition closed as moot (candidate eliminated); Hawk endorsement addition already reflected; both Influencing Olympia interview review items closed as stale (10 weeks with no downstream signal, both candidates advanced anyway).",
+      "source_urls": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election",
+        "https://www.diazforjustice.com/endorsements",
+        "https://www.judgehawk.com/endorsements"
+      ],
+      "approved_by": "user (2026-09-01, \"Can we resolve the 9 pending review items?\")"
     }
   ],
   "last_run_new_finding_entries": [
@@ -210,7 +222,7 @@
     }
   ],
   "last_run_timestamp": "2026-08-20T14:02:00Z",
-  "last_scan": "2026-08-27T14:02:00Z",
+  "last_scan": "2026-09-02T02:48:54Z",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday.",
   "open_questions": [
     {
@@ -374,183 +386,7 @@
       "weeks_open": 12
     }
   ],
-  "pending_review_changes": [
-    {
-      "candidate": "diaz",
-      "confidence": "medium",
-      "current_state": {
-        "endorsements": null
-      },
-      "evidence_urls": [
-        "https://gorgenewscenter.com/2026/06/23/4-takeaways-from-the-wa-democratic-party-convention/"
-      ],
-      "id": "01078d0b",
-      "opened_date": "2026-06-25",
-      "proposed_state": {
-        "endorsements_add": [
-          "Nick Brown",
-          "Jay Inslee",
-          "Christine Gregoire",
-          "Gary Locke",
-          "Raquel Montoya-Lewis"
-        ]
-      },
-      "reasoning": "Article states Diaz has support from Montoya-Lewis, AG Nick Brown, and former governors; needs primary endorsement pages/press releases before adding to site."
-    },
-    {
-      "candidate": "hawk",
-      "confidence": "medium",
-      "current_state": {
-        "endorsements": null
-      },
-      "evidence_urls": [
-        "https://gorgenewscenter.com/2026/06/23/4-takeaways-from-the-wa-democratic-party-convention/"
-      ],
-      "id": "03091de4",
-      "opened_date": "2026-06-25",
-      "proposed_state": {
-        "endorsements_add": [
-          "Bob Ferguson",
-          "G. Helen Whitener"
-        ]
-      },
-      "reasoning": "Article states Hawk endorsements include Ferguson and Justice G. Helen Whitener; needs primary endorsement pages/press releases before adding to site."
-    },
-    {
-      "candidate": "melody",
-      "confidence": "low",
-      "current_state": {
-        "notes": null
-      },
-      "evidence_urls": [
-        "https://influencingolympia.substack.com/p/supreme-court-interviews-justice"
-      ],
-      "id": "20d2f314",
-      "opened_date": "2026-06-25",
-      "proposed_state": {
-        "notes_review_add": [
-          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
-        ]
-      },
-      "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
-    },
-    {
-      "candidate": "edwards",
-      "confidence": "low",
-      "current_state": {
-        "notes": null
-      },
-      "evidence_urls": [
-        "https://influencingolympia.substack.com/p/supreme-court-interviews-scott-edwards"
-      ],
-      "id": "fc895835",
-      "opened_date": "2026-06-25",
-      "proposed_state": {
-        "notes_review_add": [
-          "New Influencing Olympia video interview published this week — check for quotable positions / endorsements / conflicts."
-        ]
-      },
-      "reasoning": "Longform interview likely contains candidate statements not captured in snippet extraction; requires review for any actionable content."
-    },
-    {
-      "id": "primary_pos1_2026",
-      "candidate": "Position 1 race (Melody / Edwards / Colberg)",
-      "current_state": {
-        "primary_status": "all three candidates active in pre-primary file",
-        "front_runner": "none"
-      },
-      "proposed_state": {
-        "primary_status": "Melody and Edwards advance to general; Colberg eliminated pending certification",
-        "front_runner": "Melody"
-      },
-      "reasoning": "Initial statewide results show Melody 51.4%, Edwards 30.4%, Colberg 18.2%. The race status is a material update and any front-runner flag change requires review; results remain subject to certification.",
-      "confidence": "high",
-      "evidence_urls": [
-        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
-        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
-      ],
-      "opened_date": "2026-08-06"
-    },
-    {
-      "id": "primary_pos3_2026",
-      "candidate": "Position 3 race (Stevens / Hawk / Diaz)",
-      "current_state": {
-        "primary_status": "all three candidates active in pre-primary file",
-        "front_runner": "Diaz"
-      },
-      "proposed_state": {
-        "primary_status": "Stevens and Hawk advance to general; Diaz eliminated pending certification",
-        "front_runner": "Stevens"
-      },
-      "reasoning": "Initial statewide results show Stevens 35.9%, Hawk 33.0%, Diaz 31.0%. This reverses the current Diaz front-runner framing and should be reviewed before changing the site.",
-      "confidence": "high",
-      "evidence_urls": [
-        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
-        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
-      ],
-      "opened_date": "2026-08-06"
-    },
-    {
-      "id": "primary_pos5_2026",
-      "candidate": "Position 5 race (Angelis / Larson / Amamilo / Miller)",
-      "current_state": {
-        "primary_status": "all four candidates active in pre-primary file",
-        "front_runner": "none"
-      },
-      "proposed_state": {
-        "primary_status": "Angelis and Larson advance to general; Amamilo and Miller eliminated pending certification",
-        "front_runner": "Angelis"
-      },
-      "reasoning": "Initial statewide results show Angelis 34.3%, Larson 32.7%, Amamilo 21.3%, Miller 11.7%. Both race status and any front-runner designation need review; results remain subject to certification.",
-      "confidence": "high",
-      "evidence_urls": [
-        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
-        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
-      ],
-      "opened_date": "2026-08-06"
-    },
-    {
-      "id": "primary_pos7_2026",
-      "candidate": "Position 7 race (Stephens / Bloom / Merchant / Shelvey)",
-      "current_state": {
-        "primary_status": "all four candidates active in pre-primary file",
-        "front_runner": "none"
-      },
-      "proposed_state": {
-        "primary_status": "Stephens and Bloom advance to general; Merchant and Shelvey eliminated pending certification",
-        "front_runner": "Stephens"
-      },
-      "reasoning": "Initial statewide results show Stephens 54.7%, Bloom 27.6%, Merchant 11.0%, Shelvey 6.7%. Review is needed before updating race status or front-runner framing.",
-      "confidence": "high",
-      "evidence_urls": [
-        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
-        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
-      ],
-      "opened_date": "2026-08-06"
-    },
-    {
-      "id": "primary_pos4_2026",
-      "candidate": "Position 4 race (Birk / O'Donnell)",
-      "current_state": {
-        "primary_status": "two-candidate race in pre-primary file"
-      },
-      "proposed_state": {
-        "primary_status": "Birk and O'Donnell automatically advance to general; no August primary"
-      },
-      "reasoning": "The two-candidate Position 4 race did not appear on the August primary ballot and both candidates advance automatically. This is a factual status update but should be reviewed alongside the other post-primary site changes.",
-      "confidence": "high",
-      "evidence_urls": [
-        "https://www.nytimes.com/interactive/2026/08/04/us/elections/results-washington-supreme-court.html",
-        "https://www.thecentersquare.com/washington/article_987aa917-0b66-4a8f-a342-8fb0d1bf558c.html",
-        "https://www.nwprogressive.org/weblog/2026/08/autumn-washington-state-supreme-court-matchups-look-set-mike-diaz-tells-supporters-that-he-doesnt-expect-to-move-on.html"
-      ],
-      "opened_date": "2026-08-06"
-    }
-  ],
+  "pending_review_changes": [],
   "recent_findings_hashes": [
     {
       "date": "2026-06-12",
@@ -655,5 +491,103 @@
       "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
-  "schema_version": 1
+  "schema_version": 1,
+  "resolved_review_changes": [
+    {
+      "id": "01078d0b",
+      "candidate": "diaz",
+      "action": "closed_moot",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Diaz eliminated in the August 4 primary (finished 3rd, 31.25%). Endorsement additions verified against primary source (diazforjustice.com/endorsements) but not applied to page copy because he is no longer a general-election candidate. The existing endorsements paragraph on his page is preserved as historical record.",
+      "evidence": [
+        "https://www.diazforjustice.com/endorsements",
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election"
+      ]
+    },
+    {
+      "id": "03091de4",
+      "candidate": "hawk",
+      "action": "closed_already_reflected",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Ferguson and Whitener are already present in the endorsements paragraph on Hawk's candidate page. Verified against judgehawk.com/endorsements; no delta to apply.",
+      "evidence": [
+        "https://www.judgehawk.com/endorsements"
+      ]
+    },
+    {
+      "id": "20d2f314",
+      "candidate": "melody",
+      "action": "closed_stale",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "June 25 Influencing Olympia interview flagged for possible quotable positions. Ten weeks later, no downstream coverage has surfaced material Culliton-relevant content beyond what her voter-guide statement and existing profile already capture. Melody advanced from the primary at 52.90%. Closing as stale; existing scrap/Medium read stands.",
+      "evidence": [
+        "https://influencingolympia.substack.com/p/supreme-court-interviews-justice"
+      ]
+    },
+    {
+      "id": "fc895835",
+      "candidate": "edwards",
+      "action": "closed_stale",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "June 25 Influencing Olympia interview flagged for possible quotable positions. Ten weeks later, no downstream coverage has surfaced material Culliton-relevant content beyond what his voter-guide statement (self-identifying as \"tax and constitutional attorney\") and existing profile already capture. Edwards advanced from the primary at 29.39%. Closing as stale; existing keep/High read stands.",
+      "evidence": [
+        "https://influencingolympia.substack.com/p/supreme-court-interviews-scott-edwards"
+      ]
+    },
+    {
+      "id": "primary_pos1_2026",
+      "candidate": "Position 1 race (Melody / Edwards / Colberg)",
+      "action": "applied",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Applied certified primary results (SOS certification Aug 21, 2026) to primary_result field on each candidate. Diaz front_runner flag cleared (finished 3rd in Position 3). Homepage copy updated to reflect post-primary matchups.",
+      "evidence": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+      ]
+    },
+    {
+      "id": "primary_pos3_2026",
+      "candidate": "Position 3 race (Stevens / Hawk / Diaz)",
+      "action": "applied",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Applied certified primary results (SOS certification Aug 21, 2026) to primary_result field on each candidate. Diaz front_runner flag cleared (finished 3rd in Position 3). Homepage copy updated to reflect post-primary matchups.",
+      "evidence": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+      ]
+    },
+    {
+      "id": "primary_pos5_2026",
+      "candidate": "Position 5 race (Angelis / Larson / Amamilo / Miller)",
+      "action": "applied",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Applied certified primary results (SOS certification Aug 21, 2026) to primary_result field on each candidate. Diaz front_runner flag cleared (finished 3rd in Position 3). Homepage copy updated to reflect post-primary matchups.",
+      "evidence": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+      ]
+    },
+    {
+      "id": "primary_pos7_2026",
+      "candidate": "Position 7 race (Stephens / Bloom / Merchant / Shelvey)",
+      "action": "applied",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Applied certified primary results (SOS certification Aug 21, 2026) to primary_result field on each candidate. Diaz front_runner flag cleared (finished 3rd in Position 3). Homepage copy updated to reflect post-primary matchups.",
+      "evidence": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+      ]
+    },
+    {
+      "id": "primary_pos4_2026",
+      "candidate": "Position 4 race (Birk / O'Donnell)",
+      "action": "applied",
+      "resolved_at": "2026-09-02T02:48:54Z",
+      "note": "Applied certified primary results (SOS certification Aug 21, 2026) to primary_result field on each candidate. Diaz front_runner flag cleared (finished 3rd in Position 3). Homepage copy updated to reflect post-primary matchups.",
+      "evidence": [
+        "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+        "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+      ]
+    }
+  ]
 }

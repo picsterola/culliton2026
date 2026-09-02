@@ -258,6 +258,24 @@ def render_badges(c):
         badges.append('<span class="badge">Ferguson appointee</span>')
     elif "inslee" in appointed_by:
         badges.append('<span class="badge">Inslee appointee</span>')
+    pr = c.get("primary_result") or {}
+    if pr:
+        if pr.get("advanced_to_general") is True:
+            pct = pr.get("pct")
+            rank = pr.get("rank")
+            if pct is not None and rank:
+                ordinal = {1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}.get(rank, f"{rank}th")
+                badges.append(f'<span class="badge badge--advanced">Advanced to Nov 3 ({ordinal}, {pct:.2f}%)</span>')
+            else:
+                badges.append('<span class="badge badge--advanced">Advanced to Nov 3 (no primary)</span>')
+        elif pr.get("advanced_to_general") is False:
+            pct = pr.get("pct")
+            rank = pr.get("rank")
+            if pct is not None and rank:
+                ordinal = {1: "1st", 2: "2nd", 3: "3rd", 4: "4th"}.get(rank, f"{rank}th")
+                badges.append(f'<span class="badge badge--eliminated">Eliminated in primary ({ordinal}, {pct:.2f}%)</span>')
+            else:
+                badges.append('<span class="badge badge--eliminated">Eliminated in primary</span>')
     return "".join(badges)
 
 

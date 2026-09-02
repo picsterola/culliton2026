@@ -622,6 +622,8 @@ section { padding-block: clamp(var(--space-10), 7vw, var(--space-20)); }
   background: var(--color-surface-offset);
 }
 .badge--incumbent { color: var(--color-primary); background: var(--color-primary-highlight); border-color: transparent; }
+.badge--advanced { color: var(--color-primary); border-color: var(--color-primary); background: transparent; }
+.badge--eliminated { color: var(--color-text-muted); background: transparent; border-color: var(--color-border); opacity: 0.75; }
 
 @media (max-width: 640px) {
   .candidate-header { grid-template-columns: 1fr; gap: var(--space-5); }

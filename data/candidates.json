@@ -103,6 +103,21 @@
         "as_of": "2026-08-21",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 1,
+        "pct": 52.9,
+        "votes": 923965,
+        "rank": 1,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -229,6 +244,21 @@
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3393509",
         "filer_id": "COLBL--436",
         "spent": 12028.0
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 1,
+        "pct": 17.47,
+        "votes": 305110,
+        "rank": 3,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -342,6 +372,21 @@
         "as_of": "2026-08-20",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 1,
+        "pct": 29.39,
+        "votes": 513394,
+        "rank": 2,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -349,7 +394,7 @@
       "name": "J. Michael Diaz",
       "endorsements": "Three former Washington governors (Inslee, Gregoire, Locke), AG Nick Brown, six sitting WA Supreme Court Justices (Montoya-Lewis, McCloud, Gonzalez, Melody, Mungia, Yu), 30+ trial-court judges, and 'Exceptionally Well Qualified' ratings from the Asian Bar Association judicial evaluation, Latina/o Bar Association, Washington Women Lawyers, and QLaw. The current court's progressive wing has lined up almost wholesale behind him. Clark County Democrats (dual endorsement).",
       "incumbent": false,
-      "front_runner": true,
+      "front_runner": false,
       "photo": "images/diaz.jpg",
       "position": 3,
       "position_label": "Position 3",
@@ -468,6 +513,21 @@
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391093",
         "filer_id": "DIAZJ  105",
         "spent": 45320.0
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 3,
+        "pct": 31.25,
+        "votes": 543721,
+        "rank": 3,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -580,6 +640,21 @@
         "as_of": "2026-08-20",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 3,
+        "pct": 35.19,
+        "votes": 612267,
+        "rank": 1,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -697,6 +772,21 @@
         "as_of": "2026-08-25",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 3,
+        "pct": 33.27,
+        "votes": 578979,
+        "rank": 2,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -798,6 +888,21 @@
         "as_of": "2026-08-25",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 4,
+        "pct": null,
+        "votes": null,
+        "rank": null,
+        "advanced_to_general": true,
+        "note": "auto-advanced (only two candidates filed for Position 4; no August primary)",
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -894,6 +999,21 @@
         "as_of": "2026-08-21",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 4,
+        "pct": null,
+        "votes": null,
+        "rank": null,
+        "advanced_to_general": true,
+        "note": "auto-advanced (only two candidates filed for Position 4; no August primary)",
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -998,6 +1118,21 @@
         "as_of": "2026-08-25",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 5,
+        "pct": 35.84,
+        "votes": 623396,
+        "rank": 1,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1102,6 +1237,21 @@
         "as_of": "2026-08-21",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 5,
+        "pct": 32.17,
+        "votes": 559629,
+        "rank": 2,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1229,6 +1379,21 @@
         "as_of": "2026-07-30",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3394415",
         "filer_id": "MILLG--917"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 5,
+        "pct": 10.44,
+        "votes": 181542,
+        "rank": 4,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1333,6 +1498,21 @@
         "as_of": "2026-08-04",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391132",
         "filer_id": "AMAMS--327"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 5,
+        "pct": 21.33,
+        "votes": 371059,
+        "rank": 3,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1454,6 +1634,21 @@
         "as_of": "2026-08-14",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 7,
+        "pct": 54.37,
+        "votes": 938584,
+        "rank": 1,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1563,6 +1758,21 @@
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3377725",
         "filer_id": null,
         "spent": 2847.0
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 7,
+        "pct": 6.24,
+        "votes": 107635,
+        "rank": 4,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     },
     {
@@ -1713,7 +1923,22 @@
           "via": "contact form",
           "summary": "Candidate emailed to say he told the Seattle Times Editorial Board and has made public statements that he believes Quinn was incorrectly decided and sides with the McCloud dissent. Cited a Facebook post as evidence. That post is behind a Facebook login wall, so we could not verify it directly. However, his July 1, 2026 Center Square interview (public, on camera) makes the same substantive claim — Quinn decided wrongly, McCloud dissent 'so logical.' That interview is the primary source we cite. He also claimed he was missing from the position 7 dropdown; verified live that he is in the dropdown alongside Stephens, Shelvey, and Bloom."
         }
-      ]
+      ],
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 7,
+        "pct": 12.03,
+        "votes": 207603,
+        "rank": 3,
+        "advanced_to_general": false,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
+      }
     },
     {
       "slug": "bloom",
@@ -1871,6 +2096,21 @@
         "as_of": "2026-08-14",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": "BLOOT--060"
+      },
+      "primary_result": {
+        "election_date": "2026-08-04",
+        "certified_date": "2026-08-21",
+        "certified_by": "Washington Secretary of State",
+        "position": 7,
+        "pct": 27.13,
+        "votes": 468347,
+        "rank": 2,
+        "advanced_to_general": true,
+        "note": null,
+        "sources": [
+          "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
+          "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
+        ]
       }
     }
   ]
