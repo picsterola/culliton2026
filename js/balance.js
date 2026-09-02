@@ -29,9 +29,21 @@
     .slice()
     .sort((a, b) => a.position - b.position);
 
+  // Post-primary: if any candidate has a primary_result field, restrict the
+  // widget to candidates who advanced to the general election. Pre-primary,
+  // include everyone who filed.
+  const hasPrimaryResults = candidatesData.candidates.some(
+    c => c && c.primary_result && typeof c.primary_result.advanced_to_general === 'boolean'
+  );
+  const ballotEligible = hasPrimaryResults
+    ? candidatesData.candidates.filter(
+        c => c && c.primary_result && c.primary_result.advanced_to_general === true
+      )
+    : candidatesData.candidates;
+
   // Group candidates by position
   const candByPos = {};
-  candidatesData.candidates.forEach(c => {
+  ballotEligible.forEach(c => {
     if (!candByPos[c.position]) candByPos[c.position] = [];
     candByPos[c.position].push(c);
   });
