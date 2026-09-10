@@ -214,25 +214,29 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "timestamp": "2026-09-03T14:13:38Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye); updated raised + as_of for 11 candidates (10 advancing, 1 eliminated). Net signed delta +$65,565.28; eliminated Amamilo moved -$2,499.97.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-09-10T14:09:17Z"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "date": "2026-09-03",
-      "hash": "8e23ef2fd4855c89c3ae839622f1aaf6da4b23b8a4a1c1bc1948dd2e7196d951",
-      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 3)",
-      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
-    },
-    {
-      "date": "2026-09-03",
-      "hash": "79e76b1c2f39e77c05faf9a72b6897bfdb8d256205e081f35a972fcb3598fafb",
-      "headline": "Justice of the Supreme Court, Seat 3 - David Stevens - iVoterGuide",
-      "url": "https://ivoterguide.com/candidate/93172/race/32586/election/1435"
+      "type": "MECHANICAL",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 10)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json",
+      "candidate_count": 11,
+      "net_delta": 65565.28
     }
   ],
-  "last_run_timestamp": "2026-09-03T14:13:38Z",
-  "last_scan": "2026-09-03T14:13:38Z",
-  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday. 2026-09-03: Phase A scan completed; PDC refresh succeeded; one ambiguous Stevens endorsement listing queued for review.",
+  "last_run_timestamp": "2026-09-10T14:09:17Z",
+  "last_scan": "2026-09-10T14:09:17Z",
+  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday. 2026-09-10: Phase A scan completed; PDC refresh succeeded (+$65,565.28 net across 11 candidates); no new non-PDC signals; existing Stevens review item retained.",
   "open_questions": [
     {
       "candidate_id": "odonnell",
@@ -276,6 +280,11 @@
           "date": "2026-09-03",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $12,954.92 to O'Donnell's 2026 cash total, now $313,816.49 as of 2026-08-31. This strengthens viability only; the weekly search found no direct Culliton, Article VII, or ESSB 6346 statement, so lean remains unclear/Low."
+        },
+        {
+          "date": "2026-09-10",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $15,663.96 to O'Donnell's 2026 cash total, now $329,480.45 as of 2026-09-04. This strengthens viability only; the weekly search found no direct Culliton, Article VII, or ESSB 6346 statement, so lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -287,7 +296,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 13
+      "weeks_open": 14
     },
     {
       "candidate_id": "bloom",
@@ -301,7 +310,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "progressing",
-      "weeks_open": 13,
+      "weeks_open": 14,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -322,6 +331,11 @@
           "date": "2026-09-03",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $2,800.00 to Bloom's 2026 cash total, now $13,049.08 as of 2026-08-26, confirming continued contribution reporting. Exact C-1/C-4 filing sequence remains unresolved."
+        },
+        {
+          "date": "2026-09-10",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $700.00 to Bloom's 2026 cash total, now $13,749.08 as of 2026-09-03, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
         }
       ]
     },
@@ -338,7 +352,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "progressing",
-      "weeks_open": 13,
+      "weeks_open": 14,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -364,6 +378,11 @@
           "date": "2026-09-03",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $700.00 to Stephens's 2026 cash total, now $101,328.00 as of 2026-08-25. This supports continued activity but not a material surge; the full weekly filing record remains unextracted."
+        },
+        {
+          "date": "2026-09-10",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $100.00 to Stephens's 2026 cash total, now $101,428.00 as of 2026-08-30. This supports continued activity but not a material surge; the full weekly filing record remains unextracted."
         }
       ]
     },
@@ -380,7 +399,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 13,
+      "weeks_open": 14,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -412,7 +431,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 13
+      "weeks_open": 14
     }
   ],
   "pending_review_changes": [
@@ -545,6 +564,12 @@
       "hash": "79e76b1c2f39e77c05faf9a72b6897bfdb8d256205e081f35a972fcb3598fafb",
       "headline": "Justice of the Supreme Court, Seat 3 - David Stevens - iVoterGuide",
       "url": "https://ivoterguide.com/candidate/93172/race/32586/election/1435"
+    },
+    {
+      "date": "2026-09-10",
+      "hash": "67e1e289291be08001387b33b03ec54ad13c99b4b08577c8c38229581389009c",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 10)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "schema_version": 1,
