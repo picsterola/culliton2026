@@ -223,20 +223,63 @@
         "https://data.wa.gov/resource/kv7h-kjye.json"
       ],
       "timestamp": "2026-09-10T14:09:17Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 12 candidates with filer_id. Net delta +$32,104.74.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-09-17T14:07:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Theo Angelis",
+      "change": "Added Seattle Times editorial board endorsement for the 2026 general election (Position 5), dated September 13, 2026.",
+      "source_urls": [
+        "https://www.seattletimes.com/opinion/editorials/the-times-recommends-theo-angelis-for-state-supreme-court-pos-5/"
+      ],
+      "timestamp": "2026-09-17T14:07:00Z"
     }
   ],
   "last_run_new_finding_entries": [
     {
       "type": "MECHANICAL",
-      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 10)",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 17)",
       "url": "https://data.wa.gov/resource/kv7h-kjye.json",
-      "candidate_count": 11,
-      "net_delta": 65565.28
+      "candidate_count": 12,
+      "net_delta": 32104.74
+    },
+    {
+      "type": "MECHANICAL",
+      "headline": "Seattle Times general-election endorsement of Theo Angelis (Sept. 13)",
+      "url": "https://www.seattletimes.com/opinion/editorials/the-times-recommends-theo-angelis-for-state-supreme-court-pos-5/",
+      "candidate": "angelis"
+    },
+    {
+      "type": "REVIEW",
+      "headline": "Washington Supreme Court 4-4 I-645 ballot-disclosure ruling records candidate votes (Sept. 3)",
+      "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf",
+      "candidates": [
+        "angelis",
+        "melody",
+        "stephens"
+      ]
+    },
+    {
+      "type": "REVIEW",
+      "headline": "62-judge letter defends O'Donnell against Birk campaign attack (September 2026)",
+      "url": "https://www.odonnellforjustice.com/letterfrom62judges",
+      "candidates": [
+        "birk",
+        "odonnell"
+      ]
     }
   ],
-  "last_run_timestamp": "2026-09-10T14:09:17Z",
-  "last_scan": "2026-09-10T14:09:17Z",
-  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet's approval. Updated by the cron each Thursday. 2026-09-10: Phase A scan completed; PDC refresh succeeded (+$65,565.28 net across 11 candidates); no new non-PDC signals; existing Stevens review item retained.",
+  "last_run_timestamp": "2026-09-17T14:07:00Z",
+  "last_scan": "2026-09-17T14:07:00Z",
+  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-09-17: Phase A scan completed; PDC refresh succeeded (+$32,104.74 net across 12 candidates, including eliminated historical records); Angelis Seattle Times general-election endorsement auto-applied; 5 substantive review items queued (3 tax-ballot vote notes, 2 Position 4 dispute notes).",
   "open_questions": [
     {
       "candidate_id": "odonnell",
@@ -285,6 +328,11 @@
           "date": "2026-09-10",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $15,663.96 to O'Donnell's 2026 cash total, now $329,480.45 as of 2026-09-04. This strengthens viability only; the weekly search found no direct Culliton, Article VII, or ESSB 6346 statement, so lean remains unclear/Low."
+        },
+        {
+          "date": "2026-09-17",
+          "evidence_url": "https://www.odonnellforjustice.com/letterfrom62judges",
+          "note": "The September 17 scan found a campaign-hosted letter signed by 62 judges defending O'Donnell against Birk's partisan-attack allegations. It adds coalition/campaign context but no direct Culliton, Article VII, or ESSB 6346 statement; the lean remains unclear/Low. PDC cash rose $9,772.57 to $339,253.02 as of 2026-09-11, a viability signal only."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -296,7 +344,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 14
+      "weeks_open": 15
     },
     {
       "candidate_id": "bloom",
@@ -310,7 +358,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "progressing",
-      "weeks_open": 14,
+      "weeks_open": 15,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -336,6 +384,11 @@
           "date": "2026-09-10",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $700.00 to Bloom's 2026 cash total, now $13,749.08 as of 2026-09-03, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
+        },
+        {
+          "date": "2026-09-17",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $350.00 to Bloom's 2026 cash total, now $14,099.08 as of 2026-09-09, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
         }
       ]
     },
@@ -352,7 +405,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "progressing",
-      "weeks_open": 14,
+      "weeks_open": 15,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -383,6 +436,11 @@
           "date": "2026-09-10",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $100.00 to Stephens's 2026 cash total, now $101,428.00 as of 2026-08-30. This supports continued activity but not a material surge; the full weekly filing record remains unextracted."
+        },
+        {
+          "date": "2026-09-17",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $4,950.00 to Stephens's 2026 cash total, now $106,378.00 as of 2026-09-10. This shows continued activity but does not by itself establish a broader fundraising surge."
         }
       ]
     },
@@ -399,7 +457,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 14,
+      "weeks_open": 15,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -431,7 +489,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 14
+      "weeks_open": 15
     }
   ],
   "pending_review_changes": [
@@ -448,21 +506,76 @@
       "reasoning": "The iVoterGuide page dated 2026-08-30 lists Republican Women's Club of Mason County under Conservative endorsements. The July 5 Spokesman-Review result also mentioned the club among contributors, but no official endorsement statement was located; the organization's official site could not be fetched because of robots restrictions. This is an ambiguous, non-primary-source signal and is queued rather than auto-applied.",
       "confidence": "Low",
       "opened_date": "2026-09-03"
+    },
+    {
+      "id": "angelis_i645_ballot_disclosure_vote_20260917",
+      "candidate": "angelis",
+      "current_state": "Current profile describes a Ferguson-appointed incumbent and coalition alignment; it does not note the September 2026 I-645 ballot-disclosure vote.",
+      "proposed_state": "Review adding a court-ruling signal: on September 3, Angelis voted with Johnson, Gordon McCloud, and Whitener to grant an injunction keeping the I-645 public-investment impact disclosure off ballots; the 4-4 split left the disclosure in place. Do not change lean automatically.",
+      "evidence_urls": [
+        "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf",
+        "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
+      ],
+      "reasoning": "The official Washington Supreme Court order identifies Angelis as voting to grant the motion. This is a material Culliton/ESSB 6346-adjacent court signal, but translating it into a candidate-page framing or lean requires review.",
+      "confidence": "High",
+      "opened_date": "2026-09-17"
+    },
+    {
+      "id": "melody_i645_ballot_disclosure_vote_20260917",
+      "candidate": "melody",
+      "current_state": "Current profile notes no direct Culliton/Article VII statement and does not note the September 2026 I-645 ballot-disclosure vote.",
+      "proposed_state": "Review adding a court-ruling signal: on September 3, Melody voted with Stephens, González, and Mungia to deny the motion seeking to keep the I-645 public-investment impact disclosure off ballots; the 4-4 split left the disclosure in place. Do not change lean automatically.",
+      "evidence_urls": [
+        "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf",
+        "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
+      ],
+      "reasoning": "The official Washington Supreme Court order identifies Melody as voting to deny the motion. This is a material Culliton/ESSB 6346-adjacent court signal, but it does not by itself establish a Culliton lean.",
+      "confidence": "High",
+      "opened_date": "2026-09-17"
+    },
+    {
+      "id": "stephens_i645_ballot_disclosure_vote_20260917",
+      "candidate": "stephens",
+      "current_state": "Current profile describes Stephens as an institutionalist incumbent and does not note the September 2026 I-645 ballot-disclosure vote.",
+      "proposed_state": "Review adding a court-ruling signal: on September 3, Stephens voted with González, Mungia, and Melody to deny the motion seeking to keep the I-645 public-investment impact disclosure off ballots; the 4-4 split left the disclosure in place. Do not change lean automatically.",
+      "evidence_urls": [
+        "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf",
+        "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
+      ],
+      "reasoning": "The official Washington Supreme Court order identifies Stephens as voting to deny the motion. It is a material tax-adjacent court signal, but no lean change is being applied.",
+      "confidence": "High",
+      "opened_date": "2026-09-17"
+    },
+    {
+      "id": "birk_odonnell_campaign_dispute_20260917",
+      "candidate": "birk",
+      "current_state": "Birk profile describes a progressive coalition and scrap lean; no current note addresses the September Position 4 campaign dispute.",
+      "proposed_state": "Review a neutral note that Birk’s campaign demanded O’Donnell disavow WAGOP support, while an O’Donnell campaign-hosted letter signed by 62 judges called the accusations false and invoked judicial-campaign honesty standards. Do not characterize the allegation as adjudicated and do not change lean automatically.",
+      "evidence_urls": [
+        "https://www.odonnellforjustice.com/letterfrom62judges",
+        "https://www.courts.wa.gov/court_rules/pdf/CJC/GA_CJC_canon4.pdf",
+        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/"
+      ],
+      "reasoning": "This is a live, material campaign and judicial-ethics dispute. The primary letter is hosted by the O’Donnell campaign; the official CJC text supplies context, but no misconduct finding was located. Queue for review rather than auto-applying an allegation.",
+      "confidence": "Medium",
+      "opened_date": "2026-09-17"
+    },
+    {
+      "id": "odonnell_birk_campaign_dispute_20260917",
+      "candidate": "odonnell",
+      "current_state": "O’Donnell lean remains unclear/Low; current profile records bipartisan endorsements but not the September Position 4 campaign dispute.",
+      "proposed_state": "Review a neutral note that Birk’s campaign challenged O’Donnell’s WAGOP support and that an O’Donnell campaign-hosted letter signed by 62 judges defended him. Do not change lean automatically.",
+      "evidence_urls": [
+        "https://www.odonnellforjustice.com/letterfrom62judges",
+        "https://www.courts.wa.gov/court_rules/pdf/CJC/GA_CJC_canon4.pdf",
+        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/"
+      ],
+      "reasoning": "The dispute is relevant to O’Donnell’s coalition and the high-priority odonnell_lean question, but it contains competing campaign claims and no direct statement on Culliton/Article VII doctrine. Queue for review.",
+      "confidence": "Medium",
+      "opened_date": "2026-09-17"
     }
   ],
   "recent_findings_hashes": [
-    {
-      "date": "2026-06-12",
-      "hash": "cf9670cbbc2322c66b5fc283a115a3527d9369d428aead1d7129b1e7971dd163",
-      "headline": "32nd District Democrats endorse Melody (Pos 1), Diaz/Hawk dual (Pos 3), Birk (Pos 4), Angelis (Pos 5), Stephens (Pos 7) for Aug 4 primary",
-      "url": "https://32democrats.org/page/2/?_nonce=4af11723c8&id=165"
-    },
-    {
-      "date": "2026-06-17",
-      "hash": "fa9e70f304d815599e5e9b6c1fc5e53874ca6fbc394214164fc63b6b8de87bc4",
-      "headline": "31st LD Democrats meeting minutes show endorsements for Mike Diaz (Pos 3) and Ian Birk (Pos 4)",
-      "url": "https://31stdistrictdemocrats.org/meeting-minutes-may-27-2026/"
-    },
     {
       "date": "2026-06-25",
       "hash": "70e15cb4ea9c85552e3e2bcd13608329db00c026c22226ec204341786b9c0e12",
@@ -570,6 +683,30 @@
       "hash": "67e1e289291be08001387b33b03ec54ad13c99b4b08577c8c38229581389009c",
       "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 10)",
       "url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "date": "2026-09-17",
+      "hash": "3d0c4513d23b3af431d3814ac437ccd09486398ded77442eef4b089bbcf9af72",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 17)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "date": "2026-09-17",
+      "hash": "dc8a8c631ffd741b8e719cf8675510e0a3b1a0edd2d6ae06e07f34992f039b9a",
+      "headline": "Seattle Times endorses Theo Angelis for Washington Supreme Court Position 5 in 2026 general election (Sept. 13)",
+      "url": "https://www.seattletimes.com/opinion/editorials/the-times-recommends-theo-angelis-for-state-supreme-court-pos-5/"
+    },
+    {
+      "date": "2026-09-17",
+      "hash": "ddfecdc0687538fe0e545fbf80e5a5b0615b1e767a7fcb9adac90e58c0805d34",
+      "headline": "Washington Supreme Court 4-4 I-645 ballot-disclosure ruling records Angelis, Melody, and Stephens votes (Sept. 3)",
+      "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf"
+    },
+    {
+      "date": "2026-09-17",
+      "hash": "9845b9dd6f33e9a475e9b8f2fb6050968ab1d8ee30d933ff519e8530613cc1b7",
+      "headline": "62 Washington judges defend Sean O'Donnell against Ian Birk campaign attack (September 2026)",
+      "url": "https://www.odonnellforjustice.com/letterfrom62judges"
     }
   ],
   "schema_version": 1,
