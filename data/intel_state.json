@@ -241,30 +241,69 @@
         "https://www.seattletimes.com/opinion/editorials/the-times-recommends-theo-angelis-for-state-supreme-court-pos-5/"
       ],
       "timestamp": "2026-09-17T14:07:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contribution totals via data.wa.gov PDC open-data (kv7h-kjye) using scripts/refresh_pdc.py; updated raised + as_of for 10 advancing candidates. Net delta +$110,176.17; top movers Birk +$35,715.78, Hawk +$21,890.00, Angelis +$18,535.00.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-09-24T14:09:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Colleen Melody; Jaime Hawk; Ian Birk; Theo Angelis; Debra Stephens",
+      "change": "Added Washington Conservation Action as a confirmed September 22, 2026 general-election endorser.",
+      "source_urls": [
+        "https://waconservationaction.org/our-work/areas-of-work/endorsements/"
+      ],
+      "timestamp": "2026-09-24T14:09:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Jaime Hawk",
+      "change": "Added Seattle Times editorial board general-election endorsement for Position 3; the editorial board concluded voters ought to choose Hawk.",
+      "source_urls": [
+        "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-general-election-2026-state-supreme-court-position-3/"
+      ],
+      "timestamp": "2026-09-24T14:09:00Z"
     }
   ],
   "last_run_new_finding_entries": [
     {
       "type": "MECHANICAL",
-      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 17)",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 24)",
       "url": "https://data.wa.gov/resource/kv7h-kjye.json",
-      "candidate_count": 12,
-      "net_delta": 32104.74
+      "candidate_count": 10,
+      "net_delta": 110176.17
     },
     {
       "type": "MECHANICAL",
-      "headline": "Seattle Times general-election endorsement of Theo Angelis (Sept. 13)",
-      "url": "https://www.seattletimes.com/opinion/editorials/the-times-recommends-theo-angelis-for-state-supreme-court-pos-5/",
-      "candidate": "angelis"
+      "headline": "Washington Conservation Action general-election endorsements (Sept. 22)",
+      "url": "https://waconservationaction.org/our-work/areas-of-work/endorsements/",
+      "candidates": [
+        "melody",
+        "hawk",
+        "birk",
+        "angelis",
+        "stephens"
+      ]
+    },
+    {
+      "type": "MECHANICAL",
+      "headline": "Seattle Times general-election endorsement of Jaime Hawk (September 2026)",
+      "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-general-election-2026-state-supreme-court-position-3/",
+      "candidate": "hawk"
     },
     {
       "type": "REVIEW",
-      "headline": "Washington Supreme Court 4-4 I-645 ballot-disclosure ruling records candidate votes (Sept. 3)",
-      "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf",
+      "headline": "Association of Washington Business endorsement report for Edwards, O'Donnell, and Larson lacks a primary announcement URL (September 2026)",
+      "url": "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax",
       "candidates": [
-        "angelis",
-        "melody",
-        "stephens"
+        "edwards",
+        "odonnell",
+        "larson"
       ]
     },
     {
@@ -277,9 +316,9 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-09-17T14:07:00Z",
-  "last_scan": "2026-09-17T14:07:00Z",
-  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-09-17: Phase A scan completed; PDC refresh succeeded (+$32,104.74 net across 12 candidates, including eliminated historical records); Angelis Seattle Times general-election endorsement auto-applied; 5 substantive review items queued (3 tax-ballot vote notes, 2 Position 4 dispute notes).",
+  "last_run_timestamp": "2026-09-24T14:09:00Z",
+  "last_scan": "2026-09-24T14:09:00Z",
+  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-09-24: Phase B scan completed; PDC refresh succeeded (+$110,176.17 net across 10 advancing candidates); Washington Conservation Action endorsements for five advancing candidates and Seattle Times general-election endorsement of Jaime Hawk auto-applied; one ambiguous Association of Washington Business endorsement report queued for review.",
   "open_questions": [
     {
       "candidate_id": "odonnell",
@@ -333,6 +372,11 @@
           "date": "2026-09-17",
           "evidence_url": "https://www.odonnellforjustice.com/letterfrom62judges",
           "note": "The September 17 scan found a campaign-hosted letter signed by 62 judges defending O'Donnell against Birk's partisan-attack allegations. It adds coalition/campaign context but no direct Culliton, Article VII, or ESSB 6346 statement; the lean remains unclear/Low. PDC cash rose $9,772.57 to $339,253.02 as of 2026-09-11, a viability signal only."
+        },
+        {
+          "date": "2026-09-24",
+          "evidence_url": "https://waconservationaction.org/our-work/areas-of-work/endorsements/",
+          "note": "Washington Conservation Action endorsed five general-election candidates, not O'Donnell. The weekly search found no direct Culliton, Article VII, or ESSB 6346 statement from O'Donnell; his lean remains unclear/Low. PDC cash rose $15,709.71 to $354,962.73 as of 2026-09-17, a viability signal only."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -344,7 +388,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 15
+      "weeks_open": 16
     },
     {
       "candidate_id": "bloom",
@@ -358,7 +402,7 @@
         "Candidate registration with Secretary of State"
       ],
       "status": "progressing",
-      "weeks_open": 15,
+      "weeks_open": 16,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -389,6 +433,11 @@
           "date": "2026-09-17",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $350.00 to Bloom's 2026 cash total, now $14,099.08 as of 2026-09-09, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
+        },
+        {
+          "date": "2026-09-24",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $60.00 to Bloom's 2026 cash total, now $14,159.08 as of 2026-09-14, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
         }
       ]
     },
@@ -405,7 +454,7 @@
         "Public events / fundraising calendar"
       ],
       "status": "progressing",
-      "weeks_open": 15,
+      "weeks_open": 16,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -441,6 +490,11 @@
           "date": "2026-09-17",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $4,950.00 to Stephens's 2026 cash total, now $106,378.00 as of 2026-09-10. This shows continued activity but does not by itself establish a broader fundraising surge."
+        },
+        {
+          "date": "2026-09-24",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $825.20 to Stephens's 2026 cash total, now $107,203.20 as of 2026-09-17. This supports continued activity but does not establish a broader fundraising surge; the full weekly filing record remains unextracted."
         }
       ]
     },
@@ -457,7 +511,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 15,
+      "weeks_open": 16,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -489,7 +543,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 15
+      "weeks_open": 16
     }
   ],
   "pending_review_changes": [
@@ -573,33 +627,21 @@
       "reasoning": "The dispute is relevant to O’Donnell’s coalition and the high-priority odonnell_lean question, but it contains competing campaign claims and no direct statement on Culliton/Article VII doctrine. Queue for review.",
       "confidence": "Medium",
       "opened_date": "2026-09-17"
+    },
+    {
+      "id": "awb_endorsements_20260924",
+      "candidate": "edwards,odonnell,larson",
+      "current_state": "Current profiles do not list an Association of Washington Business endorsement.",
+      "proposed_state": "Review whether to add Association of Washington Business general-election endorsements for Scott Edwards, Sean O'Donnell, and Dave Larson. Do not apply until the original AWB announcement or candidate confirmation is located.",
+      "evidence_urls": [
+        "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax"
+      ],
+      "reasoning": "Ground News reports that AWB announced endorsements for these three candidates on September 16, but the aggregator does not provide an original AWB announcement URL and the scan could not locate one. This is an ambiguous endorsement signal and is queued rather than auto-applied.",
+      "confidence": "Medium",
+      "opened_date": "2026-09-24"
     }
   ],
   "recent_findings_hashes": [
-    {
-      "date": "2026-06-25",
-      "hash": "70e15cb4ea9c85552e3e2bcd13608329db00c026c22226ec204341786b9c0e12",
-      "headline": "Influencing Olympia interview: Justice Colleen Melody (Position 1)",
-      "url": "https://influencingolympia.substack.com/p/supreme-court-interviews-justice"
-    },
-    {
-      "date": "2026-06-25",
-      "hash": "075bcc72154379e0888cf1ad29569d21d8d1d03842f3d4faba0f79ea542f0f4b",
-      "headline": "Influencing Olympia interview: Scott Edwards (Position 1)",
-      "url": "https://influencingolympia.substack.com/p/supreme-court-interviews-scott-edwards"
-    },
-    {
-      "date": "2026-06-25",
-      "hash": "18909c39e94cf96bde7ef953c01afa2aa60e82fed548836762f2897984dc3965",
-      "headline": "Gorge News Center: Position 3 race endorsements mentioned at WA Dem convention",
-      "url": "https://gorgenewscenter.com/2026/06/23/4-takeaways-from-the-wa-democratic-party-convention/"
-    },
-    {
-      "date": "2026-06-25",
-      "hash": "b08e25d327fe47c0e70215ba585c2a32878425f90955f4cb335f39f342468a03",
-      "headline": "PDC News: updated independent expenditure (C-6) system + weekly C-3 cadence reminder",
-      "url": "https://www.pdc.wa.gov/news-events"
-    },
     {
       "date": "2026-08-06",
       "hash": "c5712d799e74524f562f027c26fa167c338c2c9bd58e7f83feab0588af0b3e05",
@@ -707,6 +749,48 @@
       "hash": "9845b9dd6f33e9a475e9b8f2fb6050968ab1d8ee30d933ff519e8530613cc1b7",
       "headline": "62 Washington judges defend Sean O'Donnell against Ian Birk campaign attack (September 2026)",
       "url": "https://www.odonnellforjustice.com/letterfrom62judges"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "9a26f47a8cd5daca5e7ed2ac912d53112cedd86e5ced41d0b9e7ec3f851dfd77",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 24)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "50085cb8cde95136da3ec718653a417008ba295f5b8370d85eb59d688fbac907",
+      "headline": "Washington Conservation Action endorses five Washington Supreme Court general-election candidates (Sept. 22)",
+      "url": "https://waconservationaction.org/our-work/areas-of-work/endorsements/"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "18921208b42228f0bde7cb4ed6e5c8e1ae4b207e12409164d08b4d7cceefbe45",
+      "headline": "Seattle Times endorses Jaime Hawk for Washington Supreme Court Position 3 in 2026 general election",
+      "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-general-election-2026-state-supreme-court-position-3/"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "fd1bd7aac944f315404065104c99b1f26bd51547d70893549158aa1772e32fd9",
+      "headline": "Association of Washington Business endorses Edwards, O'Donnell, and Larson (reported Sept. 16)",
+      "url": "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "b19d3ab81464d9f5652256033d9737c1400fb4075ee09012cb8b95ea9bcb2c46",
+      "headline": "Judicial independence, role of state courts a focus in race for state Supreme Court",
+      "url": "https://www.spokesman.com/stories/2026/sep/23/judicial-independence-role-of-state-courts-a-focus/"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "9c8fd59d60f8b04a1ce0e03b8a799d7df2818decad855a11d48fb03afcf279a3",
+      "headline": "2 judges with Spokane ties vie for seat on Washington Supreme Court",
+      "url": "https://www.spokesman.com/stories/2026/sep/16/2-judges-with-spokane-ties-vie-for-seat-on-washing/"
+    },
+    {
+      "date": "2026-09-24",
+      "hash": "78385236b5fc4cbafb2659158ed110fe452ad5003163a0e6125d007c82142fbc",
+      "headline": "Trial judge, appellate judge battle for open Washington Supreme Court seat",
+      "url": "https://www.spokesman.com/stories/2026/sep/15/trial-judge-appellate-judge-battle-for-open-washin/"
     }
   ],
   "schema_version": 1,
@@ -808,6 +892,6 @@
       ]
     }
   ],
-  "phase": "A_post_primary_lull",
-  "phase_entered_date": "2026-08-21"
+  "phase": "B_awareness_ramp",
+  "phase_entered_date": "2026-09-18"
 }
