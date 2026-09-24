@@ -34,6 +34,10 @@
         {
           "type": "What she has said about Culliton",
           "text": "Nothing directly. No published opinions, articles, or campaign statements on the 1933 ruling."
+        },
+        {
+          "type": "September 3, 2026 I-645 ballot-disclosure vote",
+          "text": "On a motion to keep the I-645 public-investment impact statement off the ballot, she voted to deny the injunction alongside Stephens, González, and Mungia. The court split 4-4, so the statement stayed on the ballot. This is a procedural ballot-disclosure ruling, not a decision on Culliton or the income tax itself."
         }
       ],
       "questions": [
@@ -52,6 +56,14 @@
         {
           "label": "Washington Courts justice bio",
           "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
+        },
+        {
+          "label": "WA Supreme Court order, No. 105644-3 (Sept. 3, 2026)",
+          "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf"
+        },
+        {
+          "label": "Washington State Standard (Sept. 3, 2026)",
+          "url": "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
         }
       ],
       "deep_read": "Colleen Melody's path to the bench runs straight through the office that fought hardest to keep the capital gains tax alive. She spent a decade leading the Wing Luke Civil Rights Division of the Attorney General's office, the same office that defended the capital gains tax in Quinn all the way to the state Supreme Court, and she was Gov. Ferguson's first judicial appointment in November 2025. That appointment coalition is the clearest available signal: Ferguson signed ESSB 6346 and his administration treated the millionaires' tax as a constitutional project, not just a legislative one. Melody herself has described her judicial approach as one of curiosity and openness, beginning each case 'brand new,' and has cited structural analysis and deep doctrinal reading as her methods. She graduated first in her class at UW Law, clerked, and spent roughly 20 years in enforcement litigation rather than tax or appellate doctrine work, which means her ESSB 6346 ruling is more likely to be shaped by institutional coalition and general constitutional orientation than by independent Article VII analysis. On a court asked to scrap or preserve Culliton, she is firmly in the coalition that brought the case to that moment.",
@@ -823,6 +835,10 @@
         {
           "type": "His tax record",
           "text": "No Court of Appeals opinion directly on Article VII or Culliton. He hasn't had a chance to show his hand on this."
+        },
+        {
+          "type": "September 2026 Position 4 campaign dispute",
+          "text": "Birk's campaign demanded O'Donnell disavow Washington State Republican Party support. An O'Donnell campaign-hosted letter signed by 62 judges called the accusations false. No judicial-conduct finding has been made either way."
         }
       ],
       "questions": [
@@ -837,6 +853,14 @@
         {
           "label": "Campaign site",
           "url": "https://ianbirk.com"
+        },
+        {
+          "label": "Seattle Times: Supreme Court race heats up over alleged partisan attack",
+          "url": "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/"
+        },
+        {
+          "label": "Letter from 62 judges (O'Donnell campaign)",
+          "url": "https://www.odonnellforjustice.com/letterfrom62judges"
         }
       ],
       "deep_read": "Ian Birk is the best-resourced progressive candidate in the 2026 field, having raised over $200,000 by May and drawing the most money of any candidate across all five races. His endorsement list is dense with progressive institutional weight: five current Supreme Court justices, former Justice Mary Yu, State Senate Majority Leader Jamie Pedersen (the lead architect of the millionaires' tax), a WEA-affiliated PAC, and a slate of progressive state legislators. Birk is a fifth-generation Washingtonian who graduated from UW undergrad at 19, clerked at the Washington Supreme Court after law school, spent two decades as a plaintiff-side civil litigator at Keller Rohrback representing individuals against insurance companies and corporate interests, and was appointed to the Court of Appeals by Gov. Inslee in 2022, where he has now authored over 200 opinions. His public philosophy emphasizes fairness, access to justice, and equal treatment regardless of circumstance, framed in terms of civic duty rather than doctrine. No Court of Appeals opinion he has authored directly engages Article VII or Culliton. The inference to a scrap position is strong given the coalition, but it rests on endorsement pattern and appointment lineage rather than on any public commitment on the tax question itself.",
@@ -938,6 +962,10 @@
         {
           "type": "His tax record",
           "text": "Nothing public on Article VII or Culliton. Genuine uncertainty."
+        },
+        {
+          "type": "September 2026 Position 4 campaign dispute",
+          "text": "Birk's campaign challenged O'Donnell's Washington State Republican Party support. O'Donnell's campaign published a letter signed by 62 judges calling the accusations false. The dispute is about coalition, not his reading of Culliton or Article VII."
         }
       ],
       "questions": [
@@ -948,6 +976,14 @@
         {
           "label": "King County Superior Court",
           "url": "https://kingcounty.gov/en/court/superior-court"
+        },
+        {
+          "label": "Seattle Times: Supreme Court race heats up over alleged partisan attack",
+          "url": "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/"
+        },
+        {
+          "label": "Letter from 62 judges (O'Donnell campaign)",
+          "url": "https://www.odonnellforjustice.com/letterfrom62judges"
         }
       ],
       "deep_read": "Sean O'Donnell is the most genuinely cross-partisan candidate in the 2026 field, and his cross-partisan profile is the source of both his electoral strength and the genuine uncertainty about how he would rule on ESSB 6346. He was a legislative aide to Republican Senator Slade Gorton in 1995, interned in Democrat Christine Gregoire's Attorney General office, worked under Republican Norm Maleng at the King County Prosecutor's office, and served as a Special Assistant U.S. Attorney under the Obama administration. He has been a King County Superior Court judge since 2013, serving as chief judge of the Family Law Division and the Criminal Division, and has led multiple statewide task forces on courthouse security, pre-trial release, and court interpreter funding. His endorser list runs to more than 200 judicial officers across the state, former Governor Christine Gregoire, and elected officials from both parties. He has also received a $500 contribution from Rob McKenna, the former Republican AG who filed the lawsuit challenging ESSB 6346. O'Donnell has specifically denied any affiliation with the Federalist Society and has not associated himself with Full Court Press despite appearing on a now-deleted version of that organization's 'prospects' page. His judicial questionnaire frames the law through a lens of impact on people, procedural justice, and constitutional fidelity, not through any partisan ideological commitment. The record on Article VII is genuinely empty, and the cross-partisan donor and endorser pattern adds to rather than resolves the uncertainty.",
@@ -1049,6 +1085,10 @@
         {
           "type": "What he has said about Culliton",
           "text": "Nothing directly. No public tax or Article VII record."
+        },
+        {
+          "type": "September 3, 2026 I-645 ballot-disclosure vote",
+          "text": "On a motion to keep the I-645 public-investment impact statement off the ballot, he voted to grant the injunction alongside Johnson, Gordon McCloud, and Whitener. The court split 4-4, so the statement stayed on the ballot. This is a procedural ballot-disclosure ruling, not a decision on Culliton or the income tax itself."
         }
       ],
       "questions": [
@@ -1067,6 +1107,14 @@
         {
           "label": "Campaign site",
           "url": "https://justiceangelis.com"
+        },
+        {
+          "label": "WA Supreme Court order, No. 105644-3 (Sept. 3, 2026)",
+          "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf"
+        },
+        {
+          "label": "Washington State Standard (Sept. 3, 2026)",
+          "url": "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
         }
       ],
       "deep_read": "Theo Angelis is the least legible of the three Ferguson-appointed incumbents on the ballot, but his coalition is unmistakably clear. He spent 25 years at K&L Gates in Seattle, leading the firm's appellate practice and then its global IP litigation group, and clerked for Judge Stephen F. Williams on the D.C. Circuit after graduating from Yale Law School. Williams was a Reagan appointee known for rigorous economic analysis, which gives Angelis's professional formation a slightly more institutionalist character than the typical progressive-appointed judge. But his endorsement list maps perfectly onto the Ferguson-Inslee network: he is endorsed by Governor Ferguson, former Governors Gregoire and Heck, five sitting Supreme Court justices, Senate Majority Leader Pedersen (the ESSB 6346 architect), the WEA-linked PAC, and a dense roster of Democratic state legislators. His pro bono work for unrepresented minors in immigration proceedings won him ACLU Humanitarian Award and the NWIRP Amicus Award. He is also, notably, the first justice of Middle Eastern descent on the Washington Supreme Court. None of his K&L Gates work involved Washington tax uniformity law, and his published statements emphasize independence, access to justice, and the rule of law in general terms. His ESSB 6346 position is almost entirely an inference from coalition and appointment; the doctrinal record that would sharpen that inference does not yet exist.",
@@ -1556,6 +1604,10 @@
         {
           "type": "June 3, 2026 TVW Video Voters' Guide",
           "text": "Stephens recorded a Video Voters' Guide statement on June 3, 2026. She frames herself around her judicial record, 'fair and impartial justice,' and 'decisions based on facts and the law.' She says nothing about Culliton, Article VII, Quinn, or the income tax. Consistent with her institutionalist posture: don't telegraph, don't pre-commit."
+        },
+        {
+          "type": "September 3, 2026 I-645 ballot-disclosure vote",
+          "text": "On a motion to keep the I-645 public-investment impact statement off the ballot, she voted to deny the injunction alongside González, Mungia, and Melody. The court split 4-4, so the statement stayed on the ballot. This is a procedural ballot-disclosure ruling, not a decision on Culliton or the income tax itself."
         }
       ],
       "questions": [
@@ -1574,6 +1626,14 @@
         {
           "label": "Washington Courts justice bio",
           "url": "https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremeCourt.bios"
+        },
+        {
+          "label": "WA Supreme Court order, No. 105644-3 (Sept. 3, 2026)",
+          "url": "https://www.courts.wa.gov/content/publicUpload/Supreme%20Court%20Orders/1056443%20Public%20Order%20Denying%20Motion%20to%20Modify%20090326.pdf"
+        },
+        {
+          "label": "Washington State Standard (Sept. 3, 2026)",
+          "url": "https://washingtonstatestandard.com/2026/09/03/voters-will-see-statement-on-wa-income-tax-measures-budget-effects/"
         }
       ],
       "deep_read": "Debra Stephens is the author of the majority opinion in Quinn v. State, the 7-2 March 2023 ruling that upheld the capital gains tax by classifying it as an excise tax on transactions rather than a property tax on income. Her opinion explicitly declined to revisit Culliton, stating: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That choice was deliberate. She had the votes, the case, and the doctrinal opportunity to confront Culliton head-on in 2023, and she chose the narrower path. That choice defines the analytical baseline for ESSB 6346: the new bill's label as an excise tax is much weaker than Quinn's transactional framing, because it is measured from federal AGI rather than from a discrete sale or exchange event, and McCloud's dissent in Quinn made exactly this distinction explicit. Stephens could uphold ESSB 6346 only by extending Quinn in a way that her own 2023 opinion did not anticipate, or by overruling Culliton directly, which she declined to do when she had the chance. Her Gonzaga undergraduate and law school education, 18 years on the Washington Supreme Court, tenure as Chief Justice twice, and teaching background in state and federal constitutional law at Gonzaga Law all reinforce an institutionalist, careful, stare-decisis-oriented judicial style. The most accurate read of her record is not that she is a conservative in the Culliton-preserve sense, but that she is a cautious institutionalist who will look for the narrowest path, and on ESSB 6346 the narrowest path is significantly harder to find than it was in Quinn.\n\nOne final analytical caveat: this site groups justices by whether they are likely to keep or scrap Culliton, but for Stephens specifically those two questions are separable. Her Quinn opinion is proof of concept that a justice can preserve Culliton and simultaneously uphold a labeled tax by classifying it outside Article VII's property-tax reach. Whether that same move works for ESSB 6346 depends on how the court reads the AGI-based measurement, and reasonable readers can disagree. The keep lean here reflects her Culliton posture, not a prediction on the specific ESSB 6346 outcome.",
