@@ -4,7 +4,7 @@
 **Owner:** Viet Nguyen
 **Cadence:** Thursdays 7:00 AM PT (with dynamic cadence changes in the ballot-return window — see "General-election phase calendar")
 **Last manually updated:** 2026-09-01
-**Version:** 1.5
+**Version:** 1.6
 
 ## 🚨 Do NOT escalate to the user
 
@@ -66,15 +66,22 @@ else:                              phase = "E_archive"
 
 Persist `phase` and `phase_entered_date` to `intel_state.json` on transition. Include the current phase in every digest header (e.g., "Culliton 2026 intel — Phase C (ballot-return), Day 5 of 19"). This gives Viet an instant read on where in the campaign the cron thinks it is.
 
-### Adding the Monday scan in Phase C
+### Cadence is pre-built (v1.6, replaces v1.5 self-scheduling)
 
-When the Thursday scan on **Oct 15** detects the transition into Phase C, it should:
+Runs can no longer create or delete sibling automations, so the phase cadence is set up in advance as two automations:
 
-1. Schedule a new cron using `pplx-tool schedule_cron` with cron expression `0 14 * * 1` (Monday 7am PT = 14:00 UTC), same task text as the Thursday cron, name "Culliton 2026 Monday ballot-return scan." Store the returned `cron_id` in `intel_state.json` as `monday_scan_cron_id`.
-2. When the Monday scan on **Nov 9** (first Monday after Nov 3) runs and detects the transition into Phase D, it should delete the Monday cron using the stored ID.
-3. Similarly, when the Thursday scan on **Nov 26** detects the transition into Phase E, downgrade the primary Thursday cron to monthly using `pplx-tool schedule_cron update` with cron `0 14 1-7 * 4` (first Thursday of the month, 14:00 UTC).
+1. **"Culliton 2026 weekly candidate intel scan"**: Thursdays 7:00 AM PT, ongoing.
+2. **"Culliton 2026 Monday ballot-return scan"**: Mondays 7:00 AM PT, Oct 19 through Nov 23 only (covers Phase C Mondays and Phase D Mondays). It ends itself; no cleanup needed.
 
-If `pplx-tool schedule_cron` calls fail, log in the digest and continue on the existing cadence — do NOT escalate to user.
+The Thursday automation manages only its own schedule, and only to back off:
+
+- On the **Oct 29** run (last Thursday of Phase C), after finishing the scan, defer its next run to Nov 26: `pplx automation edit <own id> --start-at '2026-11-26T07:00:00'`. Phase D Thursdays are skipped; the Monday automation covers Phase D.
+- On the **Nov 26** run (first Phase E run), after finishing, switch to monthly: `pplx automation edit <own id> --rrule 'FREQ=MONTHLY;BYDAY=1TH;BYHOUR=7;BYMINUTE=0'`.
+- Get `<own id>` from `pplx automation current` (act only on `match: "exact"`).
+
+If an edit is rejected, report it in the digest and keep the existing cadence. Do NOT escalate to the user.
+
+The Monday scan follows the same runbook steps. In Phase C it prioritizes IE money and late hits; in Phase D it does results tracking.
 
 ## Post-primary scope (as of Aug 21, 2026 certification)
 
@@ -187,7 +194,7 @@ Look for (all phases):
 - **Head-to-head polling** (if any surfaces — rare for WA judicial races): REVIEW.
 
 **Phase C addenda (Oct 16 → Nov 3) — ballot-return window (Monday + Thursday):**
-- **IE money is priority #1**. Query PDC's C-6 independent expenditure endpoint (Socrata `mvw3-b9tk`) for any new filings mentioning our 10 candidates' names or seat numbers. Late-cycle IE dumps are the highest-leverage last-minute signal.
+- **IE money is priority #1**. Query PDC's C-6 dataset "Independent Campaign Expenditures and Electioneering Communications" (Socrata `67cp-h962`; v1.5's `mvw3-b9tk` was wrong and 404s). Filter `election_year='2026'` and match `upper(candidate_name)` against our 10 candidates' last names, e.g. `https://data.wa.gov/resource/67cp-h962.json?$where=election_year='2026' AND upper(candidate_name) like '%BIRK%'`. Sum `expenditure_amount` by candidate and sponsor; link each filing via its `url` field. Late-cycle IE dumps are the highest-leverage last-minute signal.
 - **Late-hit watch**: any negative attack ad, mailer, or media hit landing in the last 2 weeks. These are the highest bad-faith risk and the highest chance of moving a race. Log the source, the funder, and the claim. If the claim is defamatory or factually testable, run one search to confirm/deny and note in `late_hit_log` in `intel_state.json`.
 - **Debate coverage**: TVW, Seattle CityClub, WSBA candidate forums typically schedule in this window. Log any that occurred, with links to recordings if available.
 - **Ballot-drop-rate coverage**: county elections offices publish daily return rates. Not per-candidate signal, but relevant context. One-line note in the digest.
@@ -266,7 +273,7 @@ For each entry in `open_questions`:
 
 ### Step 8 — Send digest
 
-Use the `custom-notifications` skill and `pplx-tool send_notification` (see the skill's guide for arguments — `send_notification` is no longer a direct connector). Digest title format:
+The run's final response IS the digest. The automation's automatic completion notification delivers it, so do not send a separate notification (that would duplicate it). Deploy, if needed, through `deploy_website` via code mode (`exec`); the `pplx-tool` CLI is retired. Digest title (first line of the response):
 
 > `Culliton 2026 intel — Phase {X} ({phase_name}), {N} new signals, {M} pending review`
 
@@ -346,4 +353,4 @@ If a general-election candidate later withdraws or is DQ'd, they move to the sam
 
 ---
 
-*Runbook version 1.5 — created 2026-05-21. v1.1 (2026-06-04): switched search tooling. v1.2 (2026-07-03): 16-candidate roster locked. v1.3 (2026-08-06): post-primary interim notes. v1.4 (2026-09-01): full post-primary rewrite, added stale-review sweep (Guardrail 7), eliminated-front-runner correction (Guardrail 8), scan-only-advancing policy (Guardrail 9), primary-result immutability (Guardrail 10), CDN cache-bust note, and the eliminated-candidate handling recommendation. v1.5 (2026-09-01): general-election phase calendar (A–E), phase-detection code, dynamic cadence including twice-weekly Monday+Thursday in Phase C ballot-return window, phase-specific scan addenda (voter pamphlet cross-check, IE money priority, late-hit watch, close-race and recount tracking, `general_result_progress` schema), phase-dependent token budgets, general-result immutability (Guardrail 11), no-GOTV-content policy (Guardrail 12), late-hit factual-claim discipline (Guardrail 13). Next expected rewrite: v2.0 for Phase E archive.*
+*Runbook version 1.5 — created 2026-05-21. v1.1 (2026-06-04): switched search tooling. v1.2 (2026-07-03): 16-candidate roster locked. v1.3 (2026-08-06): post-primary interim notes. v1.4 (2026-09-01): full post-primary rewrite, added stale-review sweep (Guardrail 7), eliminated-front-runner correction (Guardrail 8), scan-only-advancing policy (Guardrail 9), primary-result immutability (Guardrail 10), CDN cache-bust note, and the eliminated-candidate handling recommendation. v1.5 (2026-09-01): general-election phase calendar (A–E), phase-detection code, dynamic cadence including twice-weekly Monday+Thursday in Phase C ballot-return window, phase-specific scan addenda (voter pamphlet cross-check, IE money priority, late-hit watch, close-race and recount tracking, `general_result_progress` schema), phase-dependent token budgets, general-result immutability (Guardrail 11), no-GOTV-content policy (Guardrail 12), late-hit factual-claim discipline (Guardrail 13). v1.6 (2026-10-01): migrated to the new automation system. Phase cadence is now pre-built as a Thursday automation plus a Monday automation (Oct 19 to Nov 23), and the Thursday run only defers or downshifts itself. Fixed the C-6 IE dataset ID (`67cp-h962`). The digest is now the run's final response. Next expected rewrite: v2.0 for Phase E archive.*
