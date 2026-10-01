@@ -268,57 +268,88 @@
         "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-general-election-2026-state-supreme-court-position-3/"
       ],
       "timestamp": "2026-09-24T14:09:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Multiple (PDC refresh)",
+      "change": "Refreshed 2026 cash contributions via scripts/refresh_pdc.py; all 10 advancing candidates updated with a net increase of $178,561.08. Top movers: O'Donnell +$37,060.77, Birk +$33,675.77, Angelis +$28,860.51.",
+      "source_urls": [
+        "https://data.wa.gov/resource/kv7h-kjye.json"
+      ],
+      "timestamp": "2026-10-01T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "All 10 advancing candidates",
+      "change": "Added direct links to each candidate's official 2026 general-election Voters' Guide statement. Eight were identical to their primary statements; Birk and O'Donnell auto-advanced and had no primary statement to compare. No material Culliton, Quinn, ESSB 6346, or income-tax position shift was found.",
+      "source_urls": [
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602132",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602133",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602134",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602135",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602270",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602271",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187082/1602136",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187082/1602137",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187083/1602139",
+        "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187083/1602138"
+      ],
+      "timestamp": "2026-10-01T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Todd Bloom",
+      "change": "Resolved PDC-filing open question: the official profile confirms candidate registration/full reporting, multiple C4 filings, and a C3 report covering Sept. 21 filed Sept. 25.",
+      "source_urls": [
+        "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177"
+      ],
+      "timestamp": "2026-10-01T14:06:00Z"
+    },
+    {
+      "applied_by": "cron",
+      "candidate": "Theo Angelis; Dave Larson",
+      "change": "Logged the Sept. 27 Spokesman-Review race profile as new media coverage. It discusses judicial independence and appointments but includes no direct Culliton, Quinn, ESSB 6346, or income-tax position; no lean/confidence or page-copy change.",
+      "source_urls": [
+        "https://www.spokesman.com/stories/2026/sep/27/perception-or-reality-suggested-partisanship-a-key/"
+      ],
+      "timestamp": "2026-10-01T14:06:00Z"
     }
   ],
   "last_run_new_finding_entries": [
     {
       "type": "MECHANICAL",
-      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Sept. 24)",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Oct. 1)",
       "url": "https://data.wa.gov/resource/kv7h-kjye.json",
       "candidate_count": 10,
-      "net_delta": 110176.17
+      "net_delta": 178561.08
     },
     {
       "type": "MECHANICAL",
-      "headline": "Washington Conservation Action general-election endorsements (Sept. 22)",
-      "url": "https://waconservationaction.org/our-work/areas-of-work/endorsements/",
+      "headline": "Official 2026 general-election Voters' Guide statements cross-linked for all 10 advancing candidates; eight unchanged from primary, Birk and O'Donnell auto-advanced",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/",
+      "candidate_count": 10,
+      "primary_statement_comparison": "Eight advancing candidates reused their primary statement; Birk and O'Donnell had no primary statement because they auto-advanced. No material Culliton/Quinn/ESSB 6346 or tax-position shift found."
+    },
+    {
+      "type": "MECHANICAL",
+      "headline": "Todd Bloom C3 report covering September 21, 2026 filed September 25, 2026",
+      "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
+      "candidate": "bloom",
+      "resolved_question": "bloom_pdc_filing"
+    },
+    {
+      "type": "MECHANICAL",
+      "headline": "Perception or reality? Suggested partisanship a key issue in race for state Supreme Court race between Larson and Angelis",
+      "url": "https://www.spokesman.com/stories/2026/sep/27/perception-or-reality-suggested-partisanship-a-key/",
       "candidates": [
-        "melody",
-        "hawk",
-        "birk",
         "angelis",
-        "stephens"
-      ]
-    },
-    {
-      "type": "MECHANICAL",
-      "headline": "Seattle Times general-election endorsement of Jaime Hawk (September 2026)",
-      "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-general-election-2026-state-supreme-court-position-3/",
-      "candidate": "hawk"
-    },
-    {
-      "type": "REVIEW",
-      "headline": "Association of Washington Business endorsement report for Edwards, O'Donnell, and Larson lacks a primary announcement URL (September 2026)",
-      "url": "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax",
-      "candidates": [
-        "edwards",
-        "odonnell",
         "larson"
-      ]
-    },
-    {
-      "type": "REVIEW",
-      "headline": "62-judge letter defends O'Donnell against Birk campaign attack (September 2026)",
-      "url": "https://www.odonnellforjustice.com/letterfrom62judges",
-      "candidates": [
-        "birk",
-        "odonnell"
       ]
     }
   ],
-  "last_run_timestamp": "2026-09-24T14:09:00Z",
-  "last_scan": "2026-09-24T14:09:00Z",
-  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-09-24: Phase B scan completed; PDC refresh succeeded (+$110,176.17 net across 10 advancing candidates); Washington Conservation Action endorsements for five advancing candidates and Seattle Times general-election endorsement of Jaime Hawk auto-applied; one ambiguous Association of Washington Business endorsement report queued for review.",
+  "last_run_timestamp": "2026-10-01T14:06:00Z",
+  "last_scan": "2026-10-01T14:06:00Z",
+  "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
       "candidate_id": "odonnell",
@@ -377,6 +408,16 @@
           "date": "2026-09-24",
           "evidence_url": "https://waconservationaction.org/our-work/areas-of-work/endorsements/",
           "note": "Washington Conservation Action endorsed five general-election candidates, not O'Donnell. The weekly search found no direct Culliton, Article VII, or ESSB 6346 statement from O'Donnell; his lean remains unclear/Low. PDC cash rose $15,709.71 to $354,962.73 as of 2026-09-17, a viability signal only."
+        },
+        {
+          "date": "2026-10-01",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "PDC refresh added $37,060.77 to O'Donnell's 2026 cash total, now $392,023.50 as of 2026-09-23. This strengthens viability only and does not resolve his Culliton/Article VII lean."
+        },
+        {
+          "date": "2026-10-01",
+          "evidence_url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602271",
+          "note": "O'Donnell's official general-election statement emphasizes legal rights, rule of law, and impartiality, but makes no direct Culliton, Article VII, or ESSB 6346 position statement. Lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -388,7 +429,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 16
+      "weeks_open": 17
     },
     {
       "candidate_id": "bloom",
@@ -401,8 +442,8 @@
         "PDC.wa.gov search for Bloom 2026 committee filings",
         "Candidate registration with Secretary of State"
       ],
-      "status": "progressing",
-      "weeks_open": 16,
+      "status": "resolved",
+      "weeks_open": 17,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -438,8 +479,14 @@
           "date": "2026-09-24",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $60.00 to Bloom's 2026 cash total, now $14,159.08 as of 2026-09-14, confirming continued contribution reporting; exact C-1/C-4 filing sequence remains unresolved."
+        },
+        {
+          "date": "2026-10-01",
+          "evidence_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
+          "note": "Official PDC candidate profile confirms registration/full reporting, multiple C4 reports, and a C3 report covering September 21 filed September 25. The question about initial filing status is resolved."
         }
-      ]
+      ],
+      "resolution_note": "The official PDC profile confirms the candidate is registered and fully reporting, with multiple C4 reports and a C3 report covering September 21 filed September 25."
     },
     {
       "candidate_id": "stephens",
@@ -453,8 +500,8 @@
         "Major endorsement announcements",
         "Public events / fundraising calendar"
       ],
-      "status": "progressing",
-      "weeks_open": 16,
+      "status": "resolved",
+      "weeks_open": 17,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -495,8 +542,14 @@
           "date": "2026-09-24",
           "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
           "note": "PDC refresh added $825.20 to Stephens's 2026 cash total, now $107,203.20 as of 2026-09-17. This supports continued activity but does not establish a broader fundraising surge; the full weekly filing record remains unextracted."
+        },
+        {
+          "date": "2026-10-01",
+          "evidence_url": "https://data.wa.gov/resource/kv7h-kjye.json",
+          "note": "The current PDC cash total is $122,703.20 through September 24, far above the question's $26,500 starting figure. That definitively establishes the starting total was not her fundraising ceiling; the question is resolved."
         }
-      ]
+      ],
+      "resolution_note": "PDC cash contributions reached $122,703.20 through September 24, confirming the earlier $26,500 total was not a ceiling."
     },
     {
       "candidate_id": "colberg",
@@ -511,7 +564,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 16,
+      "weeks_open": 17,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -543,7 +596,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 16
+      "weeks_open": 17
     }
   ],
   "pending_review_changes": [
@@ -710,6 +763,84 @@
       "hash": "78385236b5fc4cbafb2659158ed110fe452ad5003163a0e6125d007c82142fbc",
       "headline": "Trial judge, appellate judge battle for open Washington Supreme Court seat",
       "url": "https://www.spokesman.com/stories/2026/sep/15/trial-judge-appellate-judge-battle-for-open-washin/"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "006041be8dfccef500ec3372e35b9ec954efa6c03ab5b38e02b23f14e07afa4f",
+      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Oct. 1)",
+      "url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "9dcbcc35e8592fa5908f53cc3b43c0e3d64be113c1edafb7fadb5f60bd888531",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Colleen Melody",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602132"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "cca2d6b33079281223032dbe104f05863375218c20004e2612fb387675f49544",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Scott Edwards",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602133"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "1ffaa4bec1b53784e8ed57cc439d08eba105027aa3309ffb07189b6d11338588",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — David Stevens",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602134"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "bf7924b0527d5ee58337559deb1c654aa551d63d9f992a66242064d890dab019",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Jaime Hawk",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602135"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "763cef442b743322aef53299dfee589c9a4a7cb420f60943fe19381b6fcb0e4e",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Ian Birk",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602270"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "3bfde41469d6a4ecc52cbc1c65e6f5db4753e26a309726cf635d2c217129cccb",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Sean O'Donnell",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602271"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "070f16e4b5f4c21956047b6cdc51c057c13b26f1840397183bc0c3096a4862ea",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Theo Angelis",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187082/1602136"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "b38cd040184bf8c1c8d8e13156bf5372b0dbc9f76485a92b7c377b3aa4b0ad3b",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Dave Larson",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187082/1602137"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "131781a2bed82c7f1f6840760869736d343b283f3c0c653091fa4b92383f74e9",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Debra Stephens",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187083/1602139"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "edb5244f69061283dba458e4325285edf42f1576785f594009624a6882566f39",
+      "headline": "Washington State Voters' Guide 2026 General Election candidate statement — Todd Bloom",
+      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187083/1602138"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "65a624ec383772b2719a2b7db5297c648d1670d9d33db447a4b141abd0628a82",
+      "headline": "Perception or reality? Suggested partisanship a key issue in race for state Supreme Court race between Larson and Angelis",
+      "url": "https://www.spokesman.com/stories/2026/sep/27/perception-or-reality-suggested-partisanship-a-key/"
+    },
+    {
+      "date": "2026-10-01",
+      "hash": "77b4c3ca06cd4db51bc9d6e15d47c0785f6ef529eecc03574a4526c2dbc94e26",
+      "headline": "Todd Bloom C3 report covering September 21, 2026 filed September 25, 2026",
+      "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177"
     }
   ],
   "schema_version": 1,
