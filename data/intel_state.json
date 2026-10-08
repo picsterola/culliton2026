@@ -313,6 +313,36 @@
         "https://www.spokesman.com/stories/2026/sep/27/perception-or-reality-suggested-partisanship-a-key/"
       ],
       "timestamp": "2026-10-01T14:06:00Z"
+    },
+    {
+      "timestamp": "2026-10-08T14:05:05Z",
+      "candidate": "edwards",
+      "change": "Updated \"What he has said about Culliton\" with Oct. 6, 2026 on-record quotes (no lean change)",
+      "source_url": "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
+    },
+    {
+      "timestamp": "2026-10-08T14:05:05Z",
+      "candidate": "melody",
+      "change": "Updated \"What she has said about Culliton\" with Oct. 6, 2026 on-record quotes (no lean change; confidence queued for review)",
+      "source_url": "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
+    },
+    {
+      "timestamp": "2026-10-08T14:05:05Z",
+      "candidate": "stevens",
+      "change": "Added \"What he has said about Culliton\" signal from Oct. 8, 2026 Seattle Times profile (no lean change; confidence queued for review)",
+      "source_url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
+    },
+    {
+      "timestamp": "2026-10-08T14:05:05Z",
+      "candidate": "hawk",
+      "change": "Appended Oct. 8, 2026 decline-to-comment note to \"What she has not said\"",
+      "source_url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
+    },
+    {
+      "timestamp": "2026-10-08T14:05:05Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh: 10 candidates, net +$141,267.87",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "last_run_new_finding_entries": [
@@ -347,8 +377,8 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-10-01T14:06:00Z",
-  "last_scan": "2026-10-01T14:06:00Z",
+  "last_run_timestamp": "2026-10-08T14:05:05Z",
+  "last_scan": "2026-10-08",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -429,7 +459,14 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 17
+      "weeks_open": 18,
+      "progress": [
+        {
+          "date": "2026-10-08",
+          "note": "TVW will air a Position 4 Birk vs O'Donnell debate on Oct 9, 2026 (Ruckelshaus Center + Washington Policy Center). Highest-odds venue yet for a tax or precedent answer. Review the recording on the Oct 15 scan.",
+          "source": "https://tvw.org/video/wa-supreme-court-justice-position-4-debate-2026101099/"
+        }
+      ]
     },
     {
       "candidate_id": "bloom",
@@ -564,7 +601,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 17,
+      "weeks_open": 18,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -596,7 +633,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 17
+      "weeks_open": 18
     }
   ],
   "pending_review_changes": [
@@ -606,11 +643,36 @@
       "current_state": "Current profiles do not list an Association of Washington Business endorsement.",
       "proposed_state": "Review whether to add Association of Washington Business general-election endorsements for Scott Edwards, Sean O'Donnell, and Dave Larson. Do not apply until the original AWB announcement or candidate confirmation is located.",
       "evidence_urls": [
-        "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax"
+        "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax",
+        "https://memberships.cwhba.org/news-updates"
       ],
-      "reasoning": "Ground News reports that AWB announced endorsements for these three candidates on September 16, but the aggregator does not provide an original AWB announcement URL and the scan could not locate one. This is an ambiguous endorsement signal and is queued rather than auto-applied.",
+      "reasoning": "Ground News reports that AWB announced endorsements for these three candidates on September 16, but the aggregator does not provide an original AWB announcement URL and the scan could not locate one. This is an ambiguous endorsement signal and is queued rather than auto-applied. Oct 8 update: the Central Washington Home Builders Association newsletter (Sept 17) confirms AWB endorsed I-645 and three Supreme Court candidates but does not name them; AWB site search found only a 2024 post.",
       "confidence": "Medium",
       "opened_date": "2026-09-24"
+    },
+    {
+      "id": "melody_culliton_confidence_20261008",
+      "candidate": "melody",
+      "current_state": "lean scrap, confidence Medium",
+      "proposed_state": "Consider lowering confidence (Medium to Low) or moving to unclear. Her first on-record comment calls the ruling 'an important precedent' while pointing to later case law; that is hedged, not a scrap signal.",
+      "evidence_urls": [
+        "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
+      ],
+      "reasoning": "Her only direct statement neither signals willingness to overturn nor commits to keep. The scrap lean rests on appointer and coalition, which this quote does not reinforce.",
+      "confidence": "Medium",
+      "opened_date": "2026-10-08"
+    },
+    {
+      "id": "stevens_confidence_up_20261008",
+      "candidate": "stevens",
+      "current_state": "lean keep, confidence Medium-High",
+      "proposed_state": "Raise confidence to High. He called the 1933 ruling 'precedent', stressed uniformity, and criticized the capital gains decision as a 'clever way of getting around' it.",
+      "evidence_urls": [
+        "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
+      ],
+      "reasoning": "First direct statement, and it lines up with the existing methodology-based keep read. He said he did not know how he would rule, so not a commitment.",
+      "confidence": "High",
+      "opened_date": "2026-10-08"
     }
   ],
   "recent_findings_hashes": [
@@ -841,6 +903,22 @@
       "hash": "77b4c3ca06cd4db51bc9d6e15d47c0785f6ef529eecc03574a4526c2dbc94e26",
       "headline": "Todd Bloom C3 report covering September 21, 2026 filed September 25, 2026",
       "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177"
+    },
+    {
+      "hash": "342658f3293a04248fe5bf514c40a05db7e5017df81d02c823a44d807c945aaa",
+      "date": "2026-10-08"
+    },
+    {
+      "hash": "bac775f6e47cbd509d85fa058aecb6b1b7e212a6542cac6e03beac97c0b039d0",
+      "date": "2026-10-08"
+    },
+    {
+      "hash": "2524891624103da1aab8b6731076d78d28417c5d685570c6a3842e772d9c94b8",
+      "date": "2026-10-08"
+    },
+    {
+      "hash": "be6e3a0a08adcc05c533266a878919bf7308458dc2c22b99163613df66a9e579",
+      "date": "2026-10-08"
     }
   ],
   "schema_version": 1,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-08",
   "candidates": [
     {
       "slug": "melody",
@@ -33,7 +33,7 @@
         },
         {
           "type": "What she has said about Culliton",
-          "text": "Nothing directly. No published opinions, articles, or campaign statements on the 1933 ruling."
+          "text": "Asked about the court's nearly century-old ruling against a graduated income tax, she called it \"an important precedent\" but said the court should also consider \"the body of law that has post-dated it,\" citing later cases distinguishing property and excise taxes. The reporter described her as \"purposefully vague\" because the issue may come before the court."
         },
         {
           "type": "September 3, 2026 I-645 ballot-disclosure vote",
@@ -68,6 +68,10 @@
         {
           "label": "Washington State Voters' Guide — 2026 General Election: Colleen Melody candidate statement",
           "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602132"
+        },
+        {
+          "label": "Washington State Standard via Yakima Herald-Republic (Oct. 6, 2026)",
+          "url": "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
         }
       ],
       "deep_read": "Colleen Melody's path to the bench runs straight through the office that fought hardest to keep the capital gains tax alive. She spent a decade leading the Wing Luke Civil Rights Division of the Attorney General's office, the same office that defended the capital gains tax in Quinn all the way to the state Supreme Court, and she was Gov. Ferguson's first judicial appointment in November 2025. That appointment coalition is the clearest available signal: Ferguson signed ESSB 6346 and his administration treated the millionaires' tax as a constitutional project, not just a legislative one. Melody herself has described her judicial approach as one of curiosity and openness, beginning each case 'brand new,' and has cited structural analysis and deep doctrinal reading as her methods. She graduated first in her class at UW Law, clerked, and spent roughly 20 years in enforcement litigation rather than tax or appellate doctrine work, which means her ESSB 6346 ruling is more likely to be shaped by institutional coalition and general constitutional orientation than by independent Article VII analysis. On a court asked to scrap or preserve Culliton, she is firmly in the coalition that brought the case to that moment.",
@@ -115,8 +119,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 256850.98,
-        "as_of": "2026-09-25",
+        "raised": 264348.49,
+        "as_of": "2026-10-02",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       },
@@ -314,7 +318,7 @@
         },
         {
           "type": "What he has said about Culliton",
-          "text": "No public position on overturning it specifically. His professional incentives strongly suggest he'd preserve it."
+          "text": "In an October 2026 interview he said: \"Income clearly meets the definition of property in the state constitution. You either own your income or nobody does,\" and, of the court's nearly century-old ruling, \"I don't think there's any question that the court got it right.\" He has sued, unsuccessfully, to block the state capital gains tax and Seattle's payroll tax on high salaries."
         }
       ],
       "questions": [
@@ -341,6 +345,10 @@
         {
           "label": "Washington State Voters' Guide — 2026 General Election: Scott Edwards candidate statement",
           "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187079/1602133"
+        },
+        {
+          "label": "Washington State Standard via Yakima Herald-Republic (Oct. 6, 2026)",
+          "url": "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
         }
       ],
       "deep_read": "Scott Edwards is the most directly relevant professional challenger on the ballot for understanding where Culliton fits in 2026 litigation politics. He is a tax specialist who has spent nearly two decades teaching state and local tax at UW Law and representing clients before the Washington Department of Revenue at Ballard Spahr, and Ballard Spahr itself tracked the capital gains tax through every stage of Quinn litigation and the subsequent SCOTUS cert denial. Edwards was a party to client-side commentary on the Douglas County superior court ruling that found the capital gains tax unconstitutional in 2022, and the firm's client advisory position has consistently noted that Quinn's excise-tax framing makes a broad income tax harder to implement, not easier. His campaign materials emphasize constitution, statutes, and precedent as the trifecta of decision-making, and he holds out analytical discipline and rule-of-law framing as distinct from the sitting court's orientation. The record is thin enough that specific public positions on Culliton overruling are absent, but the combination of practice area, client base, and professional commentary leaves the inference clear: he represents the taxpayer side of the revenue argument, and that side has a structural interest in keeping Culliton in place.",
@@ -388,8 +396,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 150625.0,
-        "as_of": "2026-09-24",
+        "raised": 161295.0,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       },
@@ -587,6 +595,10 @@
         {
           "type": "His tax record",
           "text": "Trial court judges don't write Article VII opinions. The signal here is methodology and coalition, not case record."
+        },
+        {
+          "type": "What he has said about Culliton",
+          "text": "He told the Seattle Times he did not know how he would rule, but called the 1933 decision \"precedent,\" said the state constitution is very clear that taxes must be \"uniform,\" and said he disagreed with the court's decision letting the capital gains tax stand, calling it a \"clever way of getting around\" the uniformity requirement."
         }
       ],
       "questions": [
@@ -613,6 +625,10 @@
         {
           "label": "Washington State Voters' Guide — 2026 General Election: David Stevens candidate statement",
           "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602134"
+        },
+        {
+          "label": "Seattle Times: Hawk and Stevens present stark contrast (Oct. 8, 2026)",
+          "url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
         }
       ],
       "deep_read": "David Stevens is one of the two WAGOP-recommended candidates in 2026, and the philosophical logic of that recommendation is direct: he explicitly cites Antonin Scalia and Samuel Alito as his judicial heroes, argues that the Washington State Constitution must be interpreted based on 'its text and original meaning,' and has stated publicly that the current court engages in 'ideological rulings and judicial overreach.' Stevens has served as a Mason County Superior Court judge for several years and spent most of his earlier career as a county prosecutor, so his record is entirely in criminal law and local bench work, not in constitutional doctrine or tax law. The methodological point matters here: a textualist reading of Article VII as it was understood in 1889 and as the 1933 Culliton court applied it, with income defined broadly as property, is the approach most likely to preserve Culliton rather than overturn it. His coalition also has every political incentive to maintain the 1933 rule; the anti-income-tax funding network built its entire electoral project around that constitutional barrier. Stevens would likely reach the same result as a Keep vote by a different doctrinal path than McCloud, but the destination is the same.",
@@ -660,8 +676,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 61425.0,
-        "as_of": "2026-09-25",
+        "raised": 72645.0,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       },
@@ -713,7 +729,7 @@
         },
         {
           "type": "What she has not said",
-          "text": "She has made no direct statement on Culliton, Article VII, the millionaires tax, or Quinn v. State. Judicial canons constrain candidates from pre-committing, so the absence is normal. The lean is built on coalition and career signals, not testimony."
+          "text": "She has made no direct statement on Culliton, Article VII, the millionaires tax, or Quinn v. State. Judicial canons constrain candidates from pre-committing, so the absence is normal. The lean is built on coalition and career signals, not testimony. In an Oct. 8, 2026 Seattle Times profile she again declined to comment on the income tax, citing judicial rules on discussing litigation likely to come before the court."
         }
       ],
       "questions": [
@@ -741,6 +757,10 @@
         {
           "label": "Washington State Voters' Guide — 2026 General Election: Jaime Hawk candidate statement",
           "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187080/1602135"
+        },
+        {
+          "label": "Seattle Times: Hawk and Stevens present stark contrast (Oct. 8, 2026)",
+          "url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
         }
       ],
       "deep_read": "Jaime Hawk is the closest thing the 2026 field has to a transparent progressive proxy on the Culliton question, and her endorser list is the reason. Sen. Noel Frame is the lead Senate sponsor of the income tax legislation that is on track to test the limits of Article VII. State Treasurer Mike Pellicciotti, who has spent his political career arguing for a more progressive Washington tax structure, donated the $4,800 individual cap to her campaign. Gov. Ferguson chose her as his only Position 3 endorsement. None of those signals individually is dispositive, but in combination they form the most income-tax-aligned coalition any candidate in any 2026 Supreme Court race has assembled. Her career arc reinforces that read. Federal public defense, juvenile public defense, ACLU Smart Justice, and civil rights class action work form the standard progressive legal pipeline. She voluntarily cites working with Elizabeth Warren on bankruptcy legislation as an 'economic justice' formation moment. The Urbanist and the Washington Observer independently slot her as the progressive in the Position 3 race, opposite Diaz (moderate) and Stevens (conservative). On stare decisis, her 36th LD interview answer was carefully balanced but unmistakably opened the door to overturning precedent that is 'clearly wrong or unworkable' or has produced 'harmful outcomes.' She cited the court's recent overturning of racially harmful precedents as the model. That is precisely the analytical frame income tax advocates would use to attack the 1933 Culliton court's reasoning. The reason this is Medium and not High is the same reason every judicial lean call has limits: she has made no direct statement on Culliton, Article VII, the millionaires tax, or Quinn. Judicial canons restrict pre-commitment on issues likely to come before the court. It is genuinely possible she holds a stronger procedural commitment to stare decisis than her coalition would imply, and that she would surprise her endorsers from the bench. That is the honest hedge. The base rate, though, is that judges supported by the income-tax architect, the income-tax-friendly Treasurer, and the income-tax-friendly Governor tend to vote in directions those backers expect.",
@@ -796,8 +816,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 288521.46,
-        "as_of": "2026-09-24",
+        "raised": 304816.46,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       },
@@ -928,8 +948,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 479771.52,
-        "as_of": "2026-09-27",
+        "raised": 499391.52,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       },
@@ -1055,8 +1075,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 392023.5,
-        "as_of": "2026-09-23",
+        "raised": 417566.36,
+        "as_of": "2026-10-03",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       },
@@ -1190,8 +1210,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 413257.02,
-        "as_of": "2026-09-25",
+        "raised": 428502.02,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       },
@@ -1313,8 +1333,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 382797.32,
-        "as_of": "2026-09-25",
+        "raised": 397022.32,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       },
@@ -1726,8 +1746,8 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 122703.2,
-        "as_of": "2026-09-24",
+        "raised": 134460.7,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       },
@@ -2192,8 +2212,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "electtoddbloom.com is live (verified July 22, 2026). Site emphasizes faithful application of the law, constitutional rights, and fairness. No direct statement on Culliton, Article VII, or ESSB 6346 on the site itself, though Bloom has spoken to those questions in press interviews.",
       "pdc": {
-        "raised": 15109.08,
-        "as_of": "2026-09-24",
+        "raised": 24304.08,
+        "as_of": "2026-10-01",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": "BLOOT--060"
       },
