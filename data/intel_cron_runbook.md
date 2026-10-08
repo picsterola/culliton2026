@@ -112,15 +112,15 @@ Use `primary_result.advanced_to_general === true` as the filter for "in scope."
 
 | Pos | Candidate | Current lean | Confidence | Primary rank |
 |---|---|---|---|---|
-| 1 | Colleen Melody | Scrap | High | 1st (52.90%) |
+| 1 | Colleen Melody | Scrap | Low | 1st (52.90%) |
 | 1 | Scott Edwards | Keep | High | 2nd (29.39%) |
 | 3 | David Stevens | Keep | High | 1st (35.19%) |
-| 3 | Jaime Hawk | Scrap | Medium-High | 2nd (33.27%) |
-| 4 | Ian Birk | Scrap | High | Auto-advanced (no primary) |
-| 4 | Sean O'Donnell | Unclear | Medium-Low | Auto-advanced (no primary) |
-| 5 | Theo Angelis | Scrap | High | 1st (35.84%) |
+| 3 | Jaime Hawk | Scrap | Medium | 2nd (33.27%) |
+| 4 | Ian Birk | Scrap | Medium | Auto-advanced (no primary) |
+| 4 | Sean O'Donnell | Unclear | Low | Auto-advanced (no primary) |
+| 5 | Theo Angelis | Scrap | Medium | 1st (35.84%) |
 | 5 | David Larson | Keep | High | 2nd (32.17%) |
-| 7 | Debra Stephens | Keep | Medium-High | 1st (54.37%) |
+| 7 | Debra Stephens | Keep | High | 1st (54.37%) |
 | 7 | Todd Bloom | Keep | High | 2nd (27.13%) |
 
 ### The 6 eliminated candidates (historical, no weekly scan)

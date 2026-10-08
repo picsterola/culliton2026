@@ -343,6 +343,24 @@
       "candidate": "all advancing",
       "change": "PDC refresh: 10 candidates, net +$141,267.87",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-08T14:55:22Z",
+      "candidate": "edwards,odonnell,larson",
+      "change": "Approved by Viet 2026-10-08 on secondary sourcing (Ground News names the three; CWHBA confirms AWB endorsed three). Labeled as reported. Swap in AWB primary URL if found.",
+      "source_url": "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax"
+    },
+    {
+      "timestamp": "2026-10-08T14:55:22Z",
+      "candidate": "melody",
+      "change": "Approved by Viet 2026-10-08. Confidence Medium -> Low; lean stays scrap.",
+      "source_url": "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
+    },
+    {
+      "timestamp": "2026-10-08T14:55:22Z",
+      "candidate": "stevens",
+      "change": "Approved by Viet 2026-10-08. Confidence Medium-High -> High.",
+      "source_url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
     }
   ],
   "last_run_new_finding_entries": [
@@ -636,45 +654,7 @@
       "weeks_open": 18
     }
   ],
-  "pending_review_changes": [
-    {
-      "id": "awb_endorsements_20260924",
-      "candidate": "edwards,odonnell,larson",
-      "current_state": "Current profiles do not list an Association of Washington Business endorsement.",
-      "proposed_state": "Review whether to add Association of Washington Business general-election endorsements for Scott Edwards, Sean O'Donnell, and Dave Larson. Do not apply until the original AWB announcement or candidate confirmation is located.",
-      "evidence_urls": [
-        "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax",
-        "https://memberships.cwhba.org/news-updates"
-      ],
-      "reasoning": "Ground News reports that AWB announced endorsements for these three candidates on September 16, but the aggregator does not provide an original AWB announcement URL and the scan could not locate one. This is an ambiguous endorsement signal and is queued rather than auto-applied. Oct 8 update: the Central Washington Home Builders Association newsletter (Sept 17) confirms AWB endorsed I-645 and three Supreme Court candidates but does not name them; AWB site search found only a 2024 post.",
-      "confidence": "Medium",
-      "opened_date": "2026-09-24"
-    },
-    {
-      "id": "melody_culliton_confidence_20261008",
-      "candidate": "melody",
-      "current_state": "lean scrap, confidence Medium",
-      "proposed_state": "Consider lowering confidence (Medium to Low) or moving to unclear. Her first on-record comment calls the ruling 'an important precedent' while pointing to later case law; that is hedged, not a scrap signal.",
-      "evidence_urls": [
-        "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
-      ],
-      "reasoning": "Her only direct statement neither signals willingness to overturn nor commits to keep. The scrap lean rests on appointer and coalition, which this quote does not reinforce.",
-      "confidence": "Medium",
-      "opened_date": "2026-10-08"
-    },
-    {
-      "id": "stevens_confidence_up_20261008",
-      "candidate": "stevens",
-      "current_state": "lean keep, confidence Medium-High",
-      "proposed_state": "Raise confidence to High. He called the 1933 ruling 'precedent', stressed uniformity, and criticized the capital gains decision as a 'clever way of getting around' it.",
-      "evidence_urls": [
-        "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
-      ],
-      "reasoning": "First direct statement, and it lines up with the existing methodology-based keep read. He said he did not know how he would rule, so not a commitment.",
-      "confidence": "High",
-      "opened_date": "2026-10-08"
-    }
-  ],
+  "pending_review_changes": [],
   "recent_findings_hashes": [
     {
       "date": "2026-08-06",
@@ -1084,6 +1064,37 @@
         "https://www.odonnellforjustice.com/letterfrom62judges",
         "https://www.courts.wa.gov/court_rules/pdf/CJC/GA_CJC_canon4.pdf",
         "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/"
+      ]
+    },
+    {
+      "id": "awb_endorsements_20260924",
+      "candidate": "edwards,odonnell,larson",
+      "action": "applied",
+      "resolved_at": "2026-10-08T14:55:22Z",
+      "note": "Approved by Viet 2026-10-08 on secondary sourcing (Ground News names the three; CWHBA confirms AWB endorsed three). Labeled as reported. Swap in AWB primary URL if found.",
+      "evidence": [
+        "https://ground.news/article/association-of-washington-business-announces-support-for-repeal-of-income-tax",
+        "https://memberships.cwhba.org/news-updates"
+      ]
+    },
+    {
+      "id": "melody_culliton_confidence_20261008",
+      "candidate": "melody",
+      "action": "applied",
+      "resolved_at": "2026-10-08T14:55:22Z",
+      "note": "Approved by Viet 2026-10-08. Confidence Medium -> Low; lean stays scrap.",
+      "evidence": [
+        "https://www.yakimaherald.com/news/northwest/washington-supreme-court-race-pits-ferguson-appointee-against-tax-foe/article_783bb0e3-f999-5b66-80db-92fa714094c7.html"
+      ]
+    },
+    {
+      "id": "stevens_confidence_up_20261008",
+      "candidate": "stevens",
+      "action": "applied",
+      "resolved_at": "2026-10-08T14:55:22Z",
+      "note": "Approved by Viet 2026-10-08. Confidence Medium-High -> High.",
+      "evidence": [
+        "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
       ]
     }
   ],
