@@ -361,6 +361,60 @@
       "candidate": "stevens",
       "change": "Approved by Viet 2026-10-08. Confidence Medium-High -> High.",
       "source_url": "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "melody",
+      "change": "Endorsement added: The Stranger (October 9, 2026 general-election endorsement)",
+      "source_url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "hawk",
+      "change": "Endorsement added: The Stranger (October 9, 2026 general-election endorsement)",
+      "source_url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "birk",
+      "change": "Endorsement added: The Stranger (October 9, 2026 general-election endorsement)",
+      "source_url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "angelis",
+      "change": "Endorsement added: The Stranger (October 9, 2026 general-election endorsement)",
+      "source_url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "stephens",
+      "change": "Endorsement added: The Stranger (October 9, 2026 general-election endorsement)",
+      "source_url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "birk",
+      "change": "Endorsement added: Gov. Bob Ferguson (announced October 10, 2026)",
+      "source_url": "https://lynnwoodtimes.com/2026/10/10/ian-birk-2/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "odonnell",
+      "change": "Endorsement added: Balance Washington (independent-expenditure committee; October 2026)",
+      "source_url": "https://balancewa.com/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "larson",
+      "change": "Endorsement added: Balance Washington (independent-expenditure committee; October 2026)",
+      "source_url": "https://balancewa.com/"
+    },
+    {
+      "timestamp": "2026-10-15T14:12:10Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh: 10 candidates, net +$129,806.11",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "last_run_new_finding_entries": [
@@ -395,8 +449,8 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-10-08T14:05:05Z",
-  "last_scan": "2026-10-08",
+  "last_run_timestamp": "2026-10-15T14:12:10Z",
+  "last_scan": "2026-10-15",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -477,12 +531,17 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 18,
+      "weeks_open": 19,
       "progress": [
         {
           "date": "2026-10-08",
           "note": "TVW will air a Position 4 Birk vs O'Donnell debate on Oct 9, 2026 (Ruckelshaus Center + Washington Policy Center). Highest-odds venue yet for a tax or precedent answer. Review the recording on the Oct 15 scan.",
           "source": "https://tvw.org/video/wa-supreme-court-justice-position-4-debate-2026101099/"
+        },
+        {
+          "date": "2026-10-15",
+          "note": "Oct 9 debate: no tax or Culliton question was asked; he answered on partisanship, I-2066 and public-defender caseload rules. New signal: about $125k in outside spending for him from tax-skeptic committees (Concerned Taxpayers, Balance WA, 21st LD GOP). Review item queued.",
+          "source": "https://www.opb.org/article/2026/10/14/washington-supreme-court-watchers-law-election/"
         }
       ]
     },
@@ -619,7 +678,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 18,
+      "weeks_open": 19,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -651,10 +710,26 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 18
+      "weeks_open": 19
     }
   ],
-  "pending_review_changes": [],
+  "pending_review_changes": [
+    {
+      "id": "odonnell_lean_ie_money_20261015",
+      "candidate": "odonnell",
+      "current_state": "lean unclear, confidence Low",
+      "proposed_state": "Option A: move to keep, confidence Low, citing who is spending for him. Option B: stay unclear/Low and add a neutral signal noting the outside spending. Recommend B unless you want coalition evidence weighted the same way it is for Melody and Birk.",
+      "evidence_urls": [
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14083",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14065",
+        "https://www.concernedtaxpayerswa.com/resources",
+        "https://balancewa.com/"
+      ],
+      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label.",
+      "confidence": "Medium",
+      "opened_date": "2026-10-15"
+    }
+  ],
   "recent_findings_hashes": [
     {
       "date": "2026-08-06",
@@ -899,6 +974,30 @@
     {
       "hash": "be6e3a0a08adcc05c533266a878919bf7308458dc2c22b99163613df66a9e579",
       "date": "2026-10-08"
+    },
+    {
+      "hash": "b58ee9cbf04c67a5d39d6ea480f4f3162916874ede97b5c6af63f3f354c4265b",
+      "date": "2026-10-15"
+    },
+    {
+      "hash": "b309506a397a67a8c4ff1904f3290ff3da3092fa86d80656d312f414a6eab6d0",
+      "date": "2026-10-15"
+    },
+    {
+      "hash": "2eea27223a9773a740fc091a85c67b02e2e99d65e10bc4dbc16759a507e3d3ac",
+      "date": "2026-10-15"
+    },
+    {
+      "hash": "9495c9326b7b95d70e9947da18a7eb64acba2a5015a366c23ab4c77d509a13f7",
+      "date": "2026-10-15"
+    },
+    {
+      "hash": "f5b20ef485be0517db75aa4229b86e156c97fdeb2b8ef967f3c99f78efb65a58",
+      "date": "2026-10-15"
+    },
+    {
+      "hash": "f18ab868300a6e670d325c40d921eccb7ed6c505ecaf73af7db1e75e4eac372a",
+      "date": "2026-10-15"
     }
   ],
   "schema_version": 1,
