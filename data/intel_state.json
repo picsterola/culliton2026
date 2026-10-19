@@ -415,6 +415,72 @@
       "candidate": "all advancing",
       "change": "PDC refresh: 10 candidates, net +$129,806.11",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "odonnell",
+      "change": "Endorsement added: Seattle Times editorial board (July 26, 2026; reaffirmed in Oct. 15 general-election list)",
+      "source_url": "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-primary-2026-wa-state-supreme-court-position-4/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "odonnell",
+      "change": "Endorsement added: The Chronicle (Centralia) editorial board (October 2026)",
+      "source_url": "https://www.chronline.com/stories/our-views-sean-odonnell-is-the-right-nonpartisan-choice-for-washington-supreme-court,409505"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "odonnell",
+      "change": "Endorsement added: Washington State Republican Party chair urged votes for O'Donnell (September 23, 2026); O'Donnell has said he did not seek party support",
+      "source_url": "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "larson",
+      "change": "Endorsement added: Washington State Republican Party recommendation (April 2026)",
+      "source_url": "https://wagop.org/wagop-breaks-with-precedent-to-officially-recommend-two-candidates-for-open-seats-on-was-high-court/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "birk",
+      "change": "Endorsement added: The Columbian editorial board (October 13, 2026)",
+      "source_url": "https://www.columbian.com/news/2026/oct/13/in-our-view-birk-recommended-for-state-supreme-court/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "melody",
+      "change": "Endorsement added: The Urbanist (October 14, 2026 general-election endorsement)",
+      "source_url": "https://www.theurbanist.org/2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "hawk",
+      "change": "Endorsement added: The Urbanist (October 14, 2026 general-election endorsement)",
+      "source_url": "https://www.theurbanist.org/2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "birk",
+      "change": "Endorsement added: The Urbanist (October 14, 2026 general-election endorsement)",
+      "source_url": "https://www.theurbanist.org/2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "angelis",
+      "change": "Endorsement added: The Urbanist (October 14, 2026 general-election endorsement)",
+      "source_url": "https://www.theurbanist.org/2026-general-election-endorsements/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "stephens",
+      "change": "Endorsement added: Seattle Times editorial board (Oct. 15, 2026 general-election list)",
+      "source_url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
+    },
+    {
+      "timestamp": "2026-10-19T14:04:06Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh: 8 candidates moved",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "last_run_new_finding_entries": [
@@ -449,8 +515,8 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-10-15T14:12:10Z",
-  "last_scan": "2026-10-15",
+  "last_run_timestamp": "2026-10-19T14:04:06Z",
+  "last_scan": "2026-10-19",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -531,7 +597,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 19,
+      "weeks_open": 20,
       "progress": [
         {
           "date": "2026-10-08",
@@ -542,6 +608,11 @@
           "date": "2026-10-15",
           "note": "Oct 9 debate: no tax or Culliton question was asked; he answered on partisanship, I-2066 and public-defender caseload rules. New signal: about $125k in outside spending for him from tax-skeptic committees (Concerned Taxpayers, Balance WA, 21st LD GOP). Review item queued.",
           "source": "https://www.opb.org/article/2026/10/14/washington-supreme-court-watchers-law-election/"
+        },
+        {
+          "date": "2026-10-19",
+          "note": "More tax-skeptic IE money (CTWA +$43.9k, Balance WA +$6.4k); WAGOP chair's Sept 23 statement confirmed on wagop.org; still no statement from O'Donnell on Culliton.",
+          "source": "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
         }
       ]
     },
@@ -678,7 +749,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 19,
+      "weeks_open": 20,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -710,7 +781,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 19
+      "weeks_open": 20
     }
   ],
   "pending_review_changes": [
@@ -723,11 +794,42 @@
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14083",
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14065",
         "https://www.concernedtaxpayerswa.com/resources",
-        "https://balancewa.com/"
+        "https://balancewa.com/",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14131",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14129",
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
       ],
-      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label.",
+      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label. UPDATE Oct 19: Concerned Taxpayers added $43,884.59 (report 14131) and Balance WA $6,435 (report 14129). O'Donnell outside money is now $178,967.58 for vs $75,270.58 against. WAGOP chair urged votes for him on Sept 23. Seattle Times and The Chronicle endorsed him; The Columbian, Stranger and Urbanist endorsed Birk.",
       "confidence": "Medium",
       "opened_date": "2026-10-15"
+    },
+    {
+      "id": "beware_ie_over_50k_20261019",
+      "candidate": "edwards, stevens, odonnell, larson, bloom",
+      "current_state": "No outside-spending information shown on candidate pages.",
+      "proposed_state": "Runbook trigger: outside spending over $50k against a single candidate. No lean change proposed. Option A: no site change, digest only. Option B: approve a neutral 'Outside spending' line (for/against totals, with C-6 links) on all 10 pages. That needs a generator change, so it can't be done in a scan without your approval.",
+      "evidence_urls": [
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14089",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14127",
+        "https://www.protectwacourts.com/our-candidates"
+      ],
+      "reasoning": "Beware the Attack on Our Courts reported $75,270.57-58 against each of the five (Oct 15 + Oct 17) and $71,270.58 for each of the five candidates it supports, out of $732,705.78 in total reported spending. Recommend A unless you want both sides' outside money on the site; showing one side would be lopsided.",
+      "confidence": "High",
+      "opened_date": "2026-10-19"
+    },
+    {
+      "id": "birk_odonnell_gop_late_hit_20261019",
+      "candidate": "birk, odonnell",
+      "current_state": "Not on site.",
+      "proposed_state": "No site change (Guardrail 13: descriptive, not reactive). Logged in late_hit_log for your awareness.",
+      "evidence_urls": [
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
+        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
+        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan"
+      ],
+      "reasoning": "Testable part of Birk's attack (WAGOP backing O'Donnell) checks out against wagop.org. The rest is characterization. Close as 'no action' unless you want it reflected somewhere.",
+      "confidence": "High",
+      "opened_date": "2026-10-19"
     }
   ],
   "recent_findings_hashes": [
@@ -998,6 +1100,58 @@
     {
       "hash": "f18ab868300a6e670d325c40d921eccb7ed6c505ecaf73af7db1e75e4eac372a",
       "date": "2026-10-15"
+    },
+    {
+      "hash": "f59c7211f6f786ca3b5e43f85ad5d3808fe92e8fc0af2edc4666992732d53b33",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "59ebfd58d4f43bf1da8bec05e0ea3a342ab35700360e7160f1f1df276e14dcda",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "77c26c7e216cccceab52e19bb22fa1613879ed91fe4c0080a67471fe7a7d7aae",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "7939ce2577d1af357989f2df610b5d3cd65db50b1a989e64c0158ef383fbd2ab",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "2607dbd39a0c1d3fe572871cf27b1fce6c371f200ddcdb1416fd2d069d2c3171",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "98306b7e3869ea95be8747b19bad9752b0166522da2cf4aa715066ff0102ef3e",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "99d6fa28ec934ac9bd655bc2d3f144fd7bc3efe18f958a894641ea8b5eb011ef",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "3f81ea12dc23dd7a2a741b73b31b32a33fb7a7a1e366aa6bb6278391ba2fe1a5",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "9ef06e8275c9e4f4377448a0bce457c57031725a75d2e0e32dc72b9b249601e0",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "9b8a3d334aff1d6e18c86d0c1c2d3d2f6d0b8a0433fe5363c007be45148403da",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "b8663ba3baa60967f9d67f8866ebebc90e23985561fa6062bb0020f0ffe0781e",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "c7186cb50c8a08f71dba22356e66c6cd46ed1911eb186a5192e978652e034a34",
+      "date": "2026-10-19"
+    },
+    {
+      "hash": "b353b8378dbbc64acf5436054bd64e2159c64d2d99fb9f77958a4b5f283014e9",
+      "date": "2026-10-19"
     }
   ],
   "schema_version": 1,
@@ -1197,6 +1351,42 @@
       ]
     }
   ],
-  "phase": "B_awareness_ramp",
-  "phase_entered_date": "2026-09-18"
+  "phase": "C_ballot_return",
+  "phase_entered_date": "2026-10-16",
+  "late_hit_log": [
+    {
+      "date": "2026-10-19",
+      "funder": "Beware the Attack on Our Courts (top contributors: New Direction PAC, WFSE, WEA PAC, Stritmatter Law, SEIU 775)",
+      "targets": [
+        "edwards",
+        "stevens",
+        "odonnell",
+        "larson",
+        "bloom"
+      ],
+      "medium": "Direct mail $552,705.78 + digital $80,000 (report 14089, Oct 15); $100,000 more (report 14127, Oct 17)",
+      "claim": "Website frames opponents as part of a 'coordinated network of far-right donors, dark-money groups, and conservative operatives' trying to 'seize control' of the court. No candidate-specific factual claims on the site; mailer text not located.",
+      "check": "Not testable as stated; no check run.",
+      "sources": [
+        "https://www.protectwacourts.com/",
+        "https://www.protectwacourts.com/our-candidates",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14089"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "funder": "Birk campaign (Aug 24 fundraising email); resurfaced via 62-judge letter published Oct 13",
+      "targets": [
+        "odonnell"
+      ],
+      "medium": "Campaign email / op-ed",
+      "claim": "O'Donnell joined a slate recommended by the state Republican Party and is running with a 'partisan agenda.'",
+      "check": "Factual core is TRUE: WAGOP chair urged votes for O'Donnell on Sept 23 (wagop.org). 'Partisan agenda'/'beholden' is characterization, not testable; O'Donnell says he did not seek GOP support, and 62 judges called the accusations false.",
+      "sources": [
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
+        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
+        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan"
+      ]
+    }
+  ]
 }

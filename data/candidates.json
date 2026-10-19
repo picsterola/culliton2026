@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-19",
   "candidates": [
     {
       "slug": "melody",
       "name": "Colleen Melody",
-      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; retired justices Mary Yu, Barbara Madsen, Gerry Alexander, Bobbe Bridge; King County Bar; Seattle Times editorial board (July 2026 endorsement); U.S. Rep. Pramila Jayapal. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement)",
+      "endorsements": "Gov. Ferguson; sitting WA Supreme Court justices; retired justices Mary Yu, Barbara Madsen, Gerry Alexander, Bobbe Bridge; King County Bar; Seattle Times editorial board (July 2026 endorsement); U.S. Rep. Pramila Jayapal. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); The Urbanist (October 14, 2026 general-election endorsement)",
       "incumbent": true,
       "photo": "images/melody.jpg",
       "position": 1,
@@ -76,6 +76,10 @@
         {
           "label": "The Stranger: 2026 general election endorsements (Oct. 9, 2026)",
           "url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+        },
+        {
+          "label": "The Urbanist: 2026 general election endorsements (Oct. 14, 2026)",
+          "url": "https://www.theurbanist.org/2026-general-election-endorsements/"
         }
       ],
       "deep_read": "Colleen Melody's path to the bench runs straight through the office that fought hardest to keep the capital gains tax alive. She spent a decade leading the Wing Luke Civil Rights Division of the Attorney General's office, the same office that defended the capital gains tax in Quinn all the way to the state Supreme Court, and she was Gov. Ferguson's first judicial appointment in November 2025. That appointment coalition is the clearest available signal: Ferguson signed ESSB 6346 and his administration treated the millionaires' tax as a constitutional project, not just a legislative one. Melody herself has described her judicial approach as one of curiosity and openness, beginning each case 'brand new,' and has cited structural analysis and deep doctrinal reading as her methods. She graduated first in her class at UW Law, clerked, and spent roughly 20 years in enforcement litigation rather than tax or appellate doctrine work, which means her ESSB 6346 ruling is more likely to be shaped by institutional coalition and general constitutional orientation than by independent Article VII analysis. On a court asked to scrap or preserve Culliton, she is firmly in the coalition that brought the case to that moment.",
@@ -408,8 +412,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 169235.0,
-        "as_of": "2026-10-08",
+        "raised": 175135.0,
+        "as_of": "2026-10-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       },
@@ -688,8 +692,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 77337.0,
-        "as_of": "2026-10-09",
+        "raised": 82636.68,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       },
@@ -712,7 +716,7 @@
     {
       "slug": "hawk",
       "name": "Jaime Hawk",
-      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement); U.S. Rep. Pramila Jayapal. State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed. Clark County Democrats (dual endorsement); Seattle Times editorial board (September 20, 2026 general-election endorsement). Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement)",
+      "endorsements": "Gov. Bob Ferguson (sole Position 3 gubernatorial endorsement); U.S. Rep. Pramila Jayapal. State Treasurer Mike Pellicciotti, also her single largest donor at the $4,800 PDC cap. State Sen. Noel Frame, chief Senate architect of the income tax legislation. State Sens. Slatter, Orwall, Wellman, Wilson, Liias, Robinson, Peterson, Chapman, A. Cortes, Riccelli. State Reps. Macri, Berg, Farivar, Doglio, Donaghy, J. Cortes, Salahuddin, Simmons, Ormsby, Lekanoff, Thai. Insurance Commissioner Patty Kuderer, State Auditor Pat McCarthy. Current Justice Helen Whitener; retired Justices Mary Yu and Faith Ireland; Court of Appeals Chief Judge Cecily Hazelrigg and Judges Birk, Hunt, Coburn, Bui. Hawk reports 100+ judges in 28 counties endorsed. Clark County Democrats (dual endorsement); Seattle Times editorial board (September 20, 2026 general-election endorsement). Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); The Urbanist (October 14, 2026 general-election endorsement)",
       "incumbent": false,
       "photo": "images/hawk.jpg",
       "position": 3,
@@ -777,6 +781,10 @@
         {
           "label": "The Stranger: 2026 general election endorsements (Oct. 9, 2026)",
           "url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+        },
+        {
+          "label": "The Urbanist: 2026 general election endorsements (Oct. 14, 2026)",
+          "url": "https://www.theurbanist.org/2026-general-election-endorsements/"
         }
       ],
       "deep_read": "Jaime Hawk is the closest thing the 2026 field has to a transparent progressive proxy on the Culliton question, and her endorser list is the reason. Sen. Noel Frame is the lead Senate sponsor of the income tax legislation that is on track to test the limits of Article VII. State Treasurer Mike Pellicciotti, who has spent his political career arguing for a more progressive Washington tax structure, donated the $4,800 individual cap to her campaign. Gov. Ferguson chose her as his only Position 3 endorsement. None of those signals individually is dispositive, but in combination they form the most income-tax-aligned coalition any candidate in any 2026 Supreme Court race has assembled. Her career arc reinforces that read. Federal public defense, juvenile public defense, ACLU Smart Justice, and civil rights class action work form the standard progressive legal pipeline. She voluntarily cites working with Elizabeth Warren on bankruptcy legislation as an 'economic justice' formation moment. The Urbanist and the Washington Observer independently slot her as the progressive in the Position 3 race, opposite Diaz (moderate) and Stevens (conservative). On stare decisis, her 36th LD interview answer was carefully balanced but unmistakably opened the door to overturning precedent that is 'clearly wrong or unworkable' or has produced 'harmful outcomes.' She cited the court's recent overturning of racially harmful precedents as the model. That is precisely the analytical frame income tax advocates would use to attack the 1933 Culliton court's reasoning. The reason this is Medium and not High is the same reason every judicial lean call has limits: she has made no direct statement on Culliton, Article VII, the millionaires tax, or Quinn. Judicial canons restrict pre-commitment on issues likely to come before the court. It is genuinely possible she holds a stronger procedural commitment to stare decisis than her coalition would imply, and that she would surprise her endorsers from the bench. That is the honest hedge. The base rate, though, is that judges supported by the income-tax architect, the income-tax-friendly Treasurer, and the income-tax-friendly Governor tend to vote in directions those backers expect.",
@@ -832,8 +840,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 321199.12,
-        "as_of": "2026-10-09",
+        "raised": 329239.12,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       },
@@ -856,7 +864,7 @@
     {
       "slug": "birk",
       "name": "Ian Birk",
-      "endorsements": "Heavy slate of progressive elected officials and labor unions; U.S. Rep. Pramila Jayapal. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); Gov. Bob Ferguson (announced October 10, 2026)",
+      "endorsements": "Heavy slate of progressive elected officials and labor unions; U.S. Rep. Pramila Jayapal. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); Gov. Bob Ferguson (announced October 10, 2026); The Columbian editorial board (October 13, 2026); The Urbanist (October 14, 2026 general-election endorsement)",
       "incumbent": false,
       "front_runner": true,
       "photo": "images/birk.jpg",
@@ -925,6 +933,14 @@
         {
           "label": "Lynnwood Times: Gov. Ferguson endorses Judge Ian Birk (Oct. 10, 2026)",
           "url": "https://lynnwoodtimes.com/2026/10/10/ian-birk-2/"
+        },
+        {
+          "label": "The Columbian: In Our View, Birk recommended (Oct. 13, 2026)",
+          "url": "https://www.columbian.com/news/2026/oct/13/in-our-view-birk-recommended-for-state-supreme-court/"
+        },
+        {
+          "label": "The Urbanist: 2026 general election endorsements (Oct. 14, 2026)",
+          "url": "https://www.theurbanist.org/2026-general-election-endorsements/"
         }
       ],
       "deep_read": "Ian Birk is the best-resourced progressive candidate in the 2026 field, having raised over $200,000 by May and drawing the most money of any candidate across all five races. His endorsement list is dense with progressive institutional weight: five current Supreme Court justices, former Justice Mary Yu, State Senate Majority Leader Jamie Pedersen (the lead architect of the millionaires' tax), a WEA-affiliated PAC, and a slate of progressive state legislators. Birk is a fifth-generation Washingtonian who graduated from UW undergrad at 19, clerked at the Washington Supreme Court after law school, spent two decades as a plaintiff-side civil litigator at Keller Rohrback representing individuals against insurance companies and corporate interests, and was appointed to the Court of Appeals by Gov. Inslee in 2022, where he has now authored over 200 opinions. His public philosophy emphasizes fairness, access to justice, and equal treatment regardless of circumstance, framed in terms of civic duty rather than doctrine. No Court of Appeals opinion he has authored directly engages Article VII or Culliton. The inference to a scrap position is strong given the coalition, but it rests on endorsement pattern and appointment lineage rather than on any public commitment on the tax question itself.",
@@ -972,8 +988,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 538537.52,
-        "as_of": "2026-10-08",
+        "raised": 575292.52,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       },
@@ -1008,7 +1024,7 @@
       "one_liner": "Career prosecutor turned trial judge. Cross-partisan endorsements. He hasn't said much that would tip his hand either way.",
       "appointed_by": "Elected county judge, not appointed.",
       "prior_practice": "King County Deputy Prosecuting Attorney. Long criminal trial career before the bench.",
-      "endorsements": "Confirmed primary endorsers (per campaign site): Gov. Christine Gregoire (ret.), U.S. Reps. Adam Smith and Marilyn Strickland, Public Lands Commissioner Dave Upthegrove, Seattle Mayor Bruce Harrell, King County Prosecutor Dan Satterberg (ret.), Pierce County Prosecutor Mary Robnett, Spokane Mayor Lisa Brown, plus 14 county prosecutors, 4 sheriffs, and 200+ judicial officers. Mainstream-Democratic with bipartisan municipal and law-enforcement reach.; Association of Washington Business (reported September 2026 general-election endorsement); Balance Washington (independent-expenditure committee; October 2026)",
+      "endorsements": "Confirmed primary endorsers (per campaign site): Gov. Christine Gregoire (ret.), U.S. Reps. Adam Smith and Marilyn Strickland, Public Lands Commissioner Dave Upthegrove, Seattle Mayor Bruce Harrell, King County Prosecutor Dan Satterberg (ret.), Pierce County Prosecutor Mary Robnett, Spokane Mayor Lisa Brown, plus 14 county prosecutors, 4 sheriffs, and 200+ judicial officers. Mainstream-Democratic with bipartisan municipal and law-enforcement reach.; Association of Washington Business (reported September 2026 general-election endorsement); Balance Washington (independent-expenditure committee; October 2026); Seattle Times editorial board (July 26, 2026; reaffirmed in Oct. 15 general-election list); The Chronicle (Centralia) editorial board (October 2026); Washington State Republican Party chair urged votes for O'Donnell (September 23, 2026); O'Donnell has said he did not seek party support",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -1064,6 +1080,18 @@
         {
           "label": "Balance WA endorsements page",
           "url": "https://balancewa.com/"
+        },
+        {
+          "label": "Seattle Times: Position 4 endorsement (July 26, 2026)",
+          "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-endorsements-wa-primary-2026-wa-state-supreme-court-position-4/"
+        },
+        {
+          "label": "The Chronicle: Our Views on O'Donnell (Oct. 2026)",
+          "url": "https://www.chronline.com/stories/our-views-sean-odonnell-is-the-right-nonpartisan-choice-for-washington-supreme-court,409505"
+        },
+        {
+          "label": "WAGOP statement (Sept. 23, 2026)",
+          "url": "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
         }
       ],
       "deep_read": "Sean O'Donnell is the most genuinely cross-partisan candidate in the 2026 field, and his cross-partisan profile is the source of both his electoral strength and the genuine uncertainty about how he would rule on ESSB 6346. He was a legislative aide to Republican Senator Slade Gorton in 1995, interned in Democrat Christine Gregoire's Attorney General office, worked under Republican Norm Maleng at the King County Prosecutor's office, and served as a Special Assistant U.S. Attorney under the Obama administration. He has been a King County Superior Court judge since 2013, serving as chief judge of the Family Law Division and the Criminal Division, and has led multiple statewide task forces on courthouse security, pre-trial release, and court interpreter funding. His endorser list runs to more than 200 judicial officers across the state, former Governor Christine Gregoire, and elected officials from both parties. He has also received a $500 contribution from Rob McKenna, the former Republican AG who filed the lawsuit challenging ESSB 6346. O'Donnell has specifically denied any affiliation with the Federalist Society and has not associated himself with Full Court Press despite appearing on a now-deleted version of that organization's 'prospects' page. His judicial questionnaire frames the law through a lens of impact on people, procedural justice, and constitutional fidelity, not through any partisan ideological commitment. The record on Article VII is genuinely empty, and the cross-partisan donor and endorser pattern adds to rather than resolves the uncertainty.",
@@ -1111,8 +1139,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 440736.08,
-        "as_of": "2026-10-07",
+        "raised": 493769.68,
+        "as_of": "2026-10-16",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       },
@@ -1135,7 +1163,7 @@
     {
       "slug": "angelis",
       "name": "Theo Angelis",
-      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials. Clark County Democrats (dual endorsement); Seattle Times editorial board (September 13, 2026 general-election endorsement); Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement)",
+      "endorsements": "Sitting WA Supreme Court justices; Gov. Ferguson; former Gov. Gregoire; Democratic officials. Clark County Democrats (dual endorsement); Seattle Times editorial board (September 13, 2026 general-election endorsement); Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); The Urbanist (October 14, 2026 general-election endorsement)",
       "incumbent": true,
       "photo": "images/angelis.jpg",
       "position": 5,
@@ -1203,6 +1231,10 @@
         {
           "label": "The Stranger: 2026 general election endorsements (Oct. 9, 2026)",
           "url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+        },
+        {
+          "label": "The Urbanist: 2026 general election endorsements (Oct. 14, 2026)",
+          "url": "https://www.theurbanist.org/2026-general-election-endorsements/"
         }
       ],
       "deep_read": "Theo Angelis is the least legible of the three Ferguson-appointed incumbents on the ballot, but his coalition is unmistakably clear. He spent 25 years at K&L Gates in Seattle, leading the firm's appellate practice and then its global IP litigation group, and clerked for Judge Stephen F. Williams on the D.C. Circuit after graduating from Yale Law School. Williams was a Reagan appointee known for rigorous economic analysis, which gives Angelis's professional formation a slightly more institutionalist character than the typical progressive-appointed judge. But his endorsement list maps perfectly onto the Ferguson-Inslee network: he is endorsed by Governor Ferguson, former Governors Gregoire and Heck, five sitting Supreme Court justices, Senate Majority Leader Pedersen (the ESSB 6346 architect), the WEA-linked PAC, and a dense roster of Democratic state legislators. His pro bono work for unrepresented minors in immigration proceedings won him ACLU Humanitarian Award and the NWIRP Amicus Award. He is also, notably, the first justice of Middle Eastern descent on the Washington Supreme Court. None of his K&L Gates work involved Washington tax uniformity law, and his published statements emphasize independence, access to justice, and the rule of law in general terms. His ESSB 6346 position is almost entirely an inference from coalition and appointment; the doctrinal record that would sharpen that inference does not yet exist.",
@@ -1250,8 +1282,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 436642.02,
-        "as_of": "2026-10-06",
+        "raised": 455850.02,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       },
@@ -1286,7 +1318,7 @@
       "one_liner": "Self-described textualist running with anti-income-tax money behind him. His coalition's whole tax politics depends on the 1933 ruling staying put.",
       "appointed_by": "Elected municipal judge, not appointed.",
       "prior_practice": "Municipal court bench. Private practice before that. Has run for higher judicial office before.",
-      "endorsements": "Conservative-leaning endorsements. Previously backed by Project 42, an anti-income-tax independent expenditure group.; Association of Washington Business (reported September 2026 general-election endorsement); Balance Washington (independent-expenditure committee; October 2026)",
+      "endorsements": "Conservative-leaning endorsements. Previously backed by Project 42, an anti-income-tax independent expenditure group.; Association of Washington Business (reported September 2026 general-election endorsement); Balance Washington (independent-expenditure committee; October 2026); Washington State Republican Party recommendation (April 2026)",
       "fundraising": "PDC data still rolling in.",
       "signals": [
         {
@@ -1338,6 +1370,10 @@
         {
           "label": "Balance WA endorsements page",
           "url": "https://balancewa.com/"
+        },
+        {
+          "label": "WAGOP: early recommendations for Larson and Stevens (Apr. 2026)",
+          "url": "https://wagop.org/wagop-breaks-with-precedent-to-officially-recommend-two-candidates-for-open-seats-on-was-high-court/"
         }
       ],
       "deep_read": "Dave Larson is the clearest anti-income-tax candidate in the 2026 field, and his record makes that reading unusually well-grounded. He has been endorsed by the Washington State Republican Party, received direct financial support in the 2024 cycle from Future 42 and its affiliated Project 42 network, whose stated mission is to maintain Washington as income-tax-free, and appeared in training programs organized by Full Court Press, the conservative judicial infrastructure organization chaired by former Republican AG Rob McKenna. Larson himself has stated publicly that he 'opposed the state Supreme Court decision to uphold the capital gains tax' in Quinn, the most direct candidate statement on the tax question identified in this research. He joined the Federalist Society 41 years ago, though he states he has not renewed membership. His campaign emphasizes applying law as written rather than personal agendas, protecting constitutional principles as written, and restoring balance to a court he views as ideologically captured. He ran in 2024, coming within 0.61 percentage points of Sal Mungia, earning over 1.6 million votes on a thin campaign. Larson brings nearly 18 years of trial court experience as a Federal Way Municipal Court judge and 23 prior years as a trial lawyer, but municipal court generates no Article VII opinions. The inference is about as strong as it can be for a non-incumbent challenger: coalition, funding, stated opposition to Quinn, and Federalist Society formation all point in the same direction.",
@@ -1385,8 +1421,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 416872.32,
-        "as_of": "2026-10-09",
+        "raised": 428707.32,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       },
@@ -1670,7 +1706,7 @@
     {
       "slug": "stephens",
       "name": "Debra Stephens",
-      "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement)",
+      "endorsements": "Broad bipartisan judicial and bar-association endorsements typical of an incumbent Chief Justice. Clark County Democrats. Washington Conservation Action (September 22, 2026 general-election endorsement); The Stranger (October 9, 2026 general-election endorsement); Seattle Times editorial board (Oct. 15, 2026 general-election list)",
       "incumbent": true,
       "photo": "images/stephens.jpg",
       "position": 7,
@@ -1746,6 +1782,10 @@
         {
           "label": "The Stranger: 2026 general election endorsements (Oct. 9, 2026)",
           "url": "https://www.thestranger.com/news/the-strangers-2026-general-election-endorsements/"
+        },
+        {
+          "label": "Seattle Times: general-election endorsements (Oct. 15, 2026)",
+          "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
         }
       ],
       "deep_read": "Debra Stephens is the author of the majority opinion in Quinn v. State, the 7-2 March 2023 ruling that upheld the capital gains tax by classifying it as an excise tax on transactions rather than a property tax on income. Her opinion explicitly declined to revisit Culliton, stating: 'We decline to reexamine Culliton because article VII's uniformity and levy limitations on property taxes do not apply' to the capital gains tax. That choice was deliberate. She had the votes, the case, and the doctrinal opportunity to confront Culliton head-on in 2023, and she chose the narrower path. That choice defines the analytical baseline for ESSB 6346: the new bill's label as an excise tax is much weaker than Quinn's transactional framing, because it is measured from federal AGI rather than from a discrete sale or exchange event, and McCloud's dissent in Quinn made exactly this distinction explicit. Stephens could uphold ESSB 6346 only by extending Quinn in a way that her own 2023 opinion did not anticipate, or by overruling Culliton directly, which she declined to do when she had the chance. Her Gonzaga undergraduate and law school education, 18 years on the Washington Supreme Court, tenure as Chief Justice twice, and teaching background in state and federal constitutional law at Gonzaga Law all reinforce an institutionalist, careful, stare-decisis-oriented judicial style. The most accurate read of her record is not that she is a conservative in the Culliton-preserve sense, but that she is a cautious institutionalist who will look for the narrowest path, and on ESSB 6346 the narrowest path is significantly harder to find than it was in Quinn.\n\nOne final analytical caveat: this site groups justices by whether they are likely to keep or scrap Culliton, but for Stephens specifically those two questions are separable. Her Quinn opinion is proof of concept that a justice can preserve Culliton and simultaneously uphold a labeled tax by classifying it outside Article VII's property-tax reach. Whether that same move works for ESSB 6346 depends on how the court reads the AGI-based measurement, and reasonable readers can disagree. The keep lean here reflects her Culliton posture, not a prediction on the specific ESSB 6346 outcome.",
@@ -2268,8 +2308,8 @@
       "campaign_website_status": "live",
       "campaign_website_note": "electtoddbloom.com is live (verified July 22, 2026). Site emphasizes faithful application of the law, constitutional rights, and fairness. No direct statement on Culliton, Article VII, or ESSB 6346 on the site itself, though Bloom has spoken to those questions in press interviews.",
       "pdc": {
-        "raised": 26154.08,
-        "as_of": "2026-10-08",
+        "raised": 27939.08,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
         "filer_id": "BLOOT--060"
       },
