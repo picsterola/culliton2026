@@ -481,6 +481,12 @@
       "candidate": "all advancing",
       "change": "PDC refresh: 8 candidates moved",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-22T14:12:00Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh (Oct 22)",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "last_run_new_finding_entries": [
@@ -515,8 +521,8 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-10-19T14:04:06Z",
-  "last_scan": "2026-10-19",
+  "last_run_timestamp": "2026-10-22T14:12:00Z",
+  "last_scan": "2026-10-22",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -597,7 +603,7 @@
         "Campaign coalition makeup"
       ],
       "status": "progressing",
-      "weeks_open": 20,
+      "weeks_open": 21,
       "progress": [
         {
           "date": "2026-10-08",
@@ -749,7 +755,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 20,
+      "weeks_open": 21,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -781,7 +787,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 20
+      "weeks_open": 21
     }
   ],
   "pending_review_changes": [
@@ -797,9 +803,10 @@
         "https://balancewa.com/",
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14131",
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14129",
-        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
       ],
-      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label. UPDATE Oct 19: Concerned Taxpayers added $43,884.59 (report 14131) and Balance WA $6,435 (report 14129). O'Donnell outside money is now $178,967.58 for vs $75,270.58 against. WAGOP chair urged votes for him on Sept 23. Seattle Times and The Chronicle endorsed him; The Columbian, Stranger and Urbanist endorsed Birk.",
+      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label. UPDATE Oct 19: Concerned Taxpayers added $43,884.59 (report 14131) and Balance WA $6,435 (report 14129). O'Donnell outside money is now $178,967.58 for vs $75,270.58 against. WAGOP chair urged votes for him on Sept 23. Seattle Times and The Chronicle endorsed him; The Columbian, Stranger and Urbanist endorsed Birk. UPDATE Oct 22: Citizens for Working Courts (Enterprise Washington, the business-community PAC) reported $290,500 for O'Donnell on Oct 20 (CTV, digital, $150k texts). Outside money for him is now $469,467.58 vs $83,270.58 against.",
       "confidence": "Medium",
       "opened_date": "2026-10-15"
     },
@@ -811,9 +818,10 @@
       "evidence_urls": [
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14089",
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14127",
-        "https://www.protectwacourts.com/our-candidates"
+        "https://www.protectwacourts.com/our-candidates",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14146"
       ],
-      "reasoning": "Beware the Attack on Our Courts reported $75,270.57-58 against each of the five (Oct 15 + Oct 17) and $71,270.58 for each of the five candidates it supports, out of $732,705.78 in total reported spending. Recommend A unless you want both sides' outside money on the site; showing one side would be lopsided.",
+      "reasoning": "Beware the Attack on Our Courts reported $75,270.57-58 against each of the five (Oct 15 + Oct 17) and $71,270.58 for each of the five candidates it supports, out of $732,705.78 in total reported spending. Recommend A unless you want both sides' outside money on the site; showing one side would be lopsided. UPDATE Oct 22: Beware added $8,000 against each (report 14146, Oct 19); now $83,270.57-58 against each of the five. Note PDC attributes Beware's Hawk spending to a county-coroner candidate 'Jaime Taylor', so PDC's own Hawk page understates her outside support by $77,770.58.",
       "confidence": "High",
       "opened_date": "2026-10-19"
     },
@@ -825,9 +833,10 @@
       "evidence_urls": [
         "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
         "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
-        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan"
+        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan",
+        "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
       ],
-      "reasoning": "Testable part of Birk's attack (WAGOP backing O'Donnell) checks out against wagop.org. The rest is characterization. Close as 'no action' unless you want it reflected somewhere.",
+      "reasoning": "Testable part of Birk's attack (WAGOP backing O'Donnell) checks out against wagop.org. The rest is characterization. Close as 'no action' unless you want it reflected somewhere. UPDATE Oct 22: Seattle Times (Oct 21) counterattack claims ~80% of Birk's money is from personal-injury sources, per an O'Donnell donor's analysis. Testable but unverified; I can run a PDC employer breakdown if you want it, but the 'personal-injury' classification is a judgment call.",
       "confidence": "High",
       "opened_date": "2026-10-19"
     }
@@ -1152,6 +1161,26 @@
     {
       "hash": "b353b8378dbbc64acf5436054bd64e2159c64d2d99fb9f77958a4b5f283014e9",
       "date": "2026-10-19"
+    },
+    {
+      "hash": "c46b49b76c3f31560befdb6c0e0e51d30038fe9fb8daa9930a04308a0059152a",
+      "date": "2026-10-22"
+    },
+    {
+      "hash": "d9e0f690eabede51650fd69117f34eaa26d44da16a5f0ff8ff3d213bdabc848f",
+      "date": "2026-10-22"
+    },
+    {
+      "hash": "cf5164c82aeff76809e09340d5dbf6c1c747364892b9c93b7cddabe373b18e4f",
+      "date": "2026-10-22"
+    },
+    {
+      "hash": "b03ee25653e25aa39fd38ac36415f00b726eadcf37710399768c606bc2729957",
+      "date": "2026-10-22"
+    },
+    {
+      "hash": "8a9d95b6df7848da4fcd2f50064fb09fbabb0c5d2969800eb6faec305eae856b",
+      "date": "2026-10-22"
     }
   ],
   "schema_version": 1,
@@ -1386,6 +1415,37 @@
         "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
         "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
         "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "funder": "Beware the Attack on Our Courts",
+      "targets": [
+        "edwards",
+        "stevens",
+        "odonnell",
+        "larson",
+        "bloom"
+      ],
+      "medium": "Direct mail (received by Larson)",
+      "claim": "Per Larson's open letter, the mailer says the five would threaten 'reproductive freedom, voting rights, worker protections, environmental safeguards and marriage equality'; Seattle Times says PAC messaging pairs O'Donnell's name with 'Republican' and 'MAGA'.",
+      "check": "Prediction/characterization, not testable. GOP-support element is true (WAGOP Sept 23). No check run.",
+      "sources": [
+        "https://www.ncwlife.com/news/northwest/watch-clash-over-union-backed-mailers-in-washington-supreme-court-races/article_dbc6dffe-682e-5496-93bf-5c15e70bd5e6.html",
+        "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "funder": "Seattle Times editorial board (Oct 21), citing analysis by Scott Lindsay (O'Donnell donor, $1,041.98)",
+      "targets": [
+        "birk"
+      ],
+      "medium": "Editorial",
+      "claim": "About 80% of Birk's contributions come from personal-injury firms, their attorneys and families; under 1% of O'Donnell's.",
+      "check": "Testable but NOT verified this run: requires classifying PDC contributor employers; classification is subjective. Flagged in review item.",
+      "sources": [
+        "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
       ]
     }
   ]

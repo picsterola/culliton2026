@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-22",
   "candidates": [
     {
       "slug": "melody",
@@ -127,8 +127,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 269121.72,
-        "as_of": "2026-10-12",
+        "raised": 272950.05,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       },
@@ -412,8 +412,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 175135.0,
-        "as_of": "2026-10-13",
+        "raised": 177470.0,
+        "as_of": "2026-10-15",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       },
@@ -692,8 +692,8 @@
       "campaign_donate": "https://secure.anedot.com/committee-to-elect-judge-david-stevens/7bc6fcae-17d9-4e5d-a015-4ae8cf512ab9",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 82636.68,
-        "as_of": "2026-10-15",
+        "raised": 89646.68,
+        "as_of": "2026-10-21",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391236",
         "filer_id": "STEVD  205"
       },
@@ -840,8 +840,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 329239.12,
-        "as_of": "2026-10-15",
+        "raised": 341034.12,
+        "as_of": "2026-10-20",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       },
@@ -1282,8 +1282,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 455850.02,
-        "as_of": "2026-10-15",
+        "raised": 468015.02,
+        "as_of": "2026-10-20",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       },
@@ -1421,8 +1421,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 428707.32,
-        "as_of": "2026-10-15",
+        "raised": 433057.32,
+        "as_of": "2026-10-19",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       },
@@ -1842,8 +1842,8 @@
       "campaign_website_status": "broken",
       "campaign_website_note": "The site listed at justicedebrastephens.com fails DNS resolution; her PDC filing does not list a current website.",
       "pdc": {
-        "raised": 138323.2,
-        "as_of": "2026-10-07",
+        "raised": 140460.7,
+        "as_of": "2026-10-13",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/93052",
         "filer_id": "STEPD  210"
       },
