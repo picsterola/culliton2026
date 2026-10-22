@@ -487,6 +487,12 @@
       "candidate": "all advancing",
       "change": "PDC refresh (Oct 22)",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-22T16:46:39Z",
+      "candidate": "odonnell",
+      "change": "Lean unclear/Low -> keep/Low (approved by Viet Oct 22)",
+      "source_url": "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
     }
   ],
   "last_run_new_finding_entries": [
@@ -602,7 +608,7 @@
         "Endorsement signals (BIAW, Realtors, WEA, AFSCME)",
         "Campaign coalition makeup"
       ],
-      "status": "progressing",
+      "status": "resolved",
       "weeks_open": 21,
       "progress": [
         {
@@ -620,7 +626,8 @@
           "note": "More tax-skeptic IE money (CTWA +$43.9k, Balance WA +$6.4k); WAGOP chair's Sept 23 statement confirmed on wagop.org; still no statement from O'Donnell on Culliton.",
           "source": "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
         }
-      ]
+      ],
+      "resolution": "Moved to keep/Low on coalition evidence, Oct 22. Reopen if he says anything on Culliton."
     },
     {
       "candidate_id": "bloom",
@@ -790,57 +797,7 @@
       "weeks_open": 21
     }
   ],
-  "pending_review_changes": [
-    {
-      "id": "odonnell_lean_ie_money_20261015",
-      "candidate": "odonnell",
-      "current_state": "lean unclear, confidence Low",
-      "proposed_state": "Option A: move to keep, confidence Low, citing who is spending for him. Option B: stay unclear/Low and add a neutral signal noting the outside spending. Recommend B unless you want coalition evidence weighted the same way it is for Melody and Birk.",
-      "evidence_urls": [
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14083",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14065",
-        "https://www.concernedtaxpayerswa.com/resources",
-        "https://balancewa.com/",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14131",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14129",
-        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
-      ],
-      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label. UPDATE Oct 19: Concerned Taxpayers added $43,884.59 (report 14131) and Balance WA $6,435 (report 14129). O'Donnell outside money is now $178,967.58 for vs $75,270.58 against. WAGOP chair urged votes for him on Sept 23. Seattle Times and The Chronicle endorsed him; The Columbian, Stranger and Urbanist endorsed Birk. UPDATE Oct 22: Citizens for Working Courts (Enterprise Washington, the business-community PAC) reported $290,500 for O'Donnell on Oct 20 (CTV, digital, $150k texts). Balance WA added $4,084 (report 14144). Outside money for him is now $473,551.58 vs $81,770.58 against.",
-      "confidence": "Medium",
-      "opened_date": "2026-10-15"
-    },
-    {
-      "id": "beware_ie_over_50k_20261019",
-      "candidate": "edwards, stevens, odonnell, larson, bloom",
-      "current_state": "No outside-spending information shown on candidate pages.",
-      "proposed_state": "Runbook trigger: outside spending over $50k against a single candidate. No lean change proposed. Option A: no site change, digest only. Option B: approve a neutral 'Outside spending' line (for/against totals, with C-6 links) on all 10 pages. That needs a generator change, so it can't be done in a scan without your approval.",
-      "evidence_urls": [
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14089",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14127",
-        "https://www.protectwacourts.com/our-candidates",
-        "https://data.wa.gov/resource/67cp-h962.json?report_number=14146"
-      ],
-      "reasoning": "Beware the Attack on Our Courts reported $75,270.57-58 against each of the five (Oct 15 + Oct 17) and $71,270.58 for each of the five candidates it supports, out of $732,705.78 in total reported spending. Recommend A unless you want both sides' outside money on the site; showing one side would be lopsided. UPDATE Oct 22: Beware added $6,500 against each (report 14146, Oct 19). Against totals: Edwards, Stevens, Larson $97,770.57-58 (including earlier filings); O'Donnell, Bloom $81,770.58. Note PDC attributes Beware's Hawk spending to a county-coroner candidate 'Jaime Taylor', so PDC's own Hawk page understates her outside support by $65,770.58 (reports 14089, 14146); true for-total is $106,164.66.",
-      "confidence": "High",
-      "opened_date": "2026-10-19"
-    },
-    {
-      "id": "birk_odonnell_gop_late_hit_20261019",
-      "candidate": "birk, odonnell",
-      "current_state": "Not on site.",
-      "proposed_state": "No site change (Guardrail 13: descriptive, not reactive). Logged in late_hit_log for your awareness.",
-      "evidence_urls": [
-        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
-        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
-        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan",
-        "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
-      ],
-      "reasoning": "Testable part of Birk's attack (WAGOP backing O'Donnell) checks out against wagop.org. The rest is characterization. Close as 'no action' unless you want it reflected somewhere. UPDATE Oct 22: Seattle Times (Oct 21) counterattack claims ~80% of Birk's money is from personal-injury sources, per an O'Donnell donor's analysis. Testable but unverified; I can run a PDC employer breakdown if you want it, but the 'personal-injury' classification is a judgment call.",
-      "confidence": "High",
-      "opened_date": "2026-10-19"
-    }
-  ],
+  "pending_review_changes": [],
   "recent_findings_hashes": [
     {
       "date": "2026-08-06",
@@ -1378,6 +1335,61 @@
       "evidence": [
         "https://www.seattletimes.com/seattle-news/politics/jaime-hawk-and-david-stevens-present-stark-contrast-in-wa-supreme-court-race/"
       ]
+    },
+    {
+      "id": "odonnell_lean_ie_money_20261015",
+      "candidate": "odonnell",
+      "current_state": "lean unclear, confidence Low",
+      "proposed_state": "Option A: move to keep, confidence Low, citing who is spending for him. Option B: stay unclear/Low and add a neutral signal noting the outside spending. Recommend B unless you want coalition evidence weighted the same way it is for Melody and Birk.",
+      "evidence_urls": [
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14083",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14065",
+        "https://www.concernedtaxpayerswa.com/resources",
+        "https://balancewa.com/",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14131",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14129",
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
+      ],
+      "reasoning": "On Oct 14, Concerned Taxpayers of Washington State (top contributors include BIAW and Brian Heywood; it previously spent about $50k each for Edwards, Stevens and Larson) reported $47,834.50 supporting O'Donnell, and Balance Washington reported $77,506.52 supporting him (plus the same amount for Larson). That is anti-income-tax money betting on O'Donnell. It is still not his own statement: in the Oct 9 debate he answered no tax question, and he has rejected the conservative label. UPDATE Oct 19: Concerned Taxpayers added $43,884.59 (report 14131) and Balance WA $6,435 (report 14129). O'Donnell outside money is now $178,967.58 for vs $75,270.58 against. WAGOP chair urged votes for him on Sept 23. Seattle Times and The Chronicle endorsed him; The Columbian, Stranger and Urbanist endorsed Birk. UPDATE Oct 22: Citizens for Working Courts (Enterprise Washington, the business-community PAC) reported $290,500 for O'Donnell on Oct 20 (CTV, digital, $150k texts). Balance WA added $4,084 (report 14144). Outside money for him is now $473,551.58 vs $81,770.58 against.",
+      "confidence": "Medium",
+      "opened_date": "2026-10-15",
+      "resolution": "APPROVED Option A (keep, Low) on Viet's 'make updates you deem necessary' (Oct 22). Applied to lean, lean_short, one_liner, signals.",
+      "resolved_date": "2026-10-22"
+    },
+    {
+      "id": "beware_ie_over_50k_20261019",
+      "candidate": "edwards, stevens, odonnell, larson, bloom",
+      "current_state": "No outside-spending information shown on candidate pages.",
+      "proposed_state": "Runbook trigger: outside spending over $50k against a single candidate. No lean change proposed. Option A: no site change, digest only. Option B: approve a neutral 'Outside spending' line (for/against totals, with C-6 links) on all 10 pages. That needs a generator change, so it can't be done in a scan without your approval.",
+      "evidence_urls": [
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14089",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14127",
+        "https://www.protectwacourts.com/our-candidates",
+        "https://data.wa.gov/resource/67cp-h962.json?report_number=14146"
+      ],
+      "reasoning": "Beware the Attack on Our Courts reported $75,270.57-58 against each of the five (Oct 15 + Oct 17) and $71,270.58 for each of the five candidates it supports, out of $732,705.78 in total reported spending. Recommend A unless you want both sides' outside money on the site; showing one side would be lopsided. UPDATE Oct 22: Beware added $6,500 against each (report 14146, Oct 19). Against totals: Edwards, Stevens, Larson $97,770.57-58 (including earlier filings); O'Donnell, Bloom $81,770.58. Note PDC attributes Beware's Hawk spending to a county-coroner candidate 'Jaime Taylor', so PDC's own Hawk page understates her outside support by $65,770.58 (reports 14089, 14146); true for-total is $106,164.66.",
+      "confidence": "High",
+      "opened_date": "2026-10-19",
+      "resolution": "CLOSED Option A: digest only, no site change. Outside money is now cited in O'Donnell's lean signal; a full per-page IE line would need a generator change and manual correction of the PDC Hawk/Taylor error.",
+      "resolved_date": "2026-10-22"
+    },
+    {
+      "id": "birk_odonnell_gop_late_hit_20261019",
+      "candidate": "birk, odonnell",
+      "current_state": "Not on site.",
+      "proposed_state": "No site change (Guardrail 13: descriptive, not reactive). Logged in late_hit_log for your awareness.",
+      "evidence_urls": [
+        "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/",
+        "https://www.seattletimes.com/seattle-news/politics/wa-supreme-court-race-heats-up-over-alleged-partisan-attack/",
+        "https://clarkcountytoday.com/story/opinion-judges-letter-rebukes-judge-ian-birk-making-partisan",
+        "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
+      ],
+      "reasoning": "Testable part of Birk's attack (WAGOP backing O'Donnell) checks out against wagop.org. The rest is characterization. Close as 'no action' unless you want it reflected somewhere. UPDATE Oct 22: Seattle Times (Oct 21) counterattack claims ~80% of Birk's money is from personal-injury sources, per an O'Donnell donor's analysis. Testable but unverified; I can run a PDC employer breakdown if you want it, but the 'personal-injury' classification is a judgment call.",
+      "confidence": "High",
+      "opened_date": "2026-10-19",
+      "resolution": "CLOSED no action (G13). The 80% personal-injury claim stays unverified.",
+      "resolved_date": "2026-10-22"
     }
   ],
   "phase": "C_ballot_return",

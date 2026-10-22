@@ -1018,10 +1018,10 @@
       "position_label": "Position 4",
       "seat_context": "Charles Johnson seat — open",
       "current_role": "Judge, King County Superior Court",
-      "lean": "unclear",
-      "lean_short": "Not enough to tell",
+      "lean": "keep",
+      "lean_short": "Likely to keep the rule",
       "lean_confidence": "Low",
-      "one_liner": "Career prosecutor turned trial judge. Cross-partisan endorsements. He hasn't said much that would tip his hand either way.",
+      "one_liner": "Career prosecutor turned trial judge who hasn't said anything on Culliton. The lean comes from who's backing him: the anti-income-tax and business coalition is spending heavily for him, and labor is spending against him.",
       "appointed_by": "Elected county judge, not appointed.",
       "prior_practice": "King County Deputy Prosecuting Attorney. Long criminal trial career before the bench.",
       "endorsements": "Confirmed primary endorsers (per campaign site): Gov. Christine Gregoire (ret.), U.S. Reps. Adam Smith and Marilyn Strickland, Public Lands Commissioner Dave Upthegrove, Seattle Mayor Bruce Harrell, King County Prosecutor Dan Satterberg (ret.), Pierce County Prosecutor Mary Robnett, Spokane Mayor Lisa Brown, plus 14 county prosecutors, 4 sheriffs, and 200+ judicial officers. Mainstream-Democratic with bipartisan municipal and law-enforcement reach.; Association of Washington Business (reported September 2026 general-election endorsement); Balance Washington (independent-expenditure committee; October 2026); Seattle Times editorial board (July 26, 2026; reaffirmed in Oct. 15 general-election list); The Chronicle (Centralia) editorial board (October 2026); Washington State Republican Party chair urged votes for O'Donnell (September 23, 2026); O'Donnell has said he did not seek party support",
@@ -1037,11 +1037,11 @@
         },
         {
           "type": "Who's backing him",
-          "text": "Cross-partisan endorsement pattern typical of moderate candidates. Doesn't tell you much about how he'd rule on tax cases."
+          "text": "The groups with the most at stake on the income tax have picked sides. By Oct. 22, 2026, outside groups had reported about $474,000 supporting him, including Citizens for Working Courts (Enterprise Washington, $293,373), Concerned Taxpayers of Washington State (backed by BIAW and Brian Heywood, $91,719) and Balance Washington ($87,000+). The state Republican Party chair urged votes for him. A labor-funded committee reported about $82,000 against him. He has said he didn't seek party support, and the Seattle Times also endorsed him. This is the same kind of coalition read used for Melody, in the other direction: it tells you what his backers expect, not how he would rule."
         },
         {
           "type": "His tax record",
-          "text": "Nothing public on Article VII or Culliton. Genuine uncertainty."
+          "text": "Nothing public on Article VII or Culliton. No tax question came up in the Oct. 9 debate. That's why the confidence is Low."
         },
         {
           "type": "September 2026 Position 4 campaign dispute",
@@ -1092,6 +1092,18 @@
         {
           "label": "WAGOP statement (Sept. 23, 2026)",
           "url": "https://wagop.org/washington-supreme-court-strikes-down-natural-gas-initiative-overriding-the-votes-of-two-million-washingtonians/"
+        },
+        {
+          "label": "PDC C-6: Citizens for Working Courts Enterprise Washington (Oct. 20, 2026)",
+          "url": "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
+        },
+        {
+          "label": "PDC C-6: Concerned Taxpayers of Washington State (Oct. 2026)",
+          "url": "https://data.wa.gov/resource/67cp-h962.json?report_number=14131"
+        },
+        {
+          "label": "PDC C-6: Beware the Attack on Our Courts (Oct. 15, 2026)",
+          "url": "https://data.wa.gov/resource/67cp-h962.json?report_number=14089"
         }
       ],
       "deep_read": "Sean O'Donnell is the most genuinely cross-partisan candidate in the 2026 field, and his cross-partisan profile is the source of both his electoral strength and the genuine uncertainty about how he would rule on ESSB 6346. He was a legislative aide to Republican Senator Slade Gorton in 1995, interned in Democrat Christine Gregoire's Attorney General office, worked under Republican Norm Maleng at the King County Prosecutor's office, and served as a Special Assistant U.S. Attorney under the Obama administration. He has been a King County Superior Court judge since 2013, serving as chief judge of the Family Law Division and the Criminal Division, and has led multiple statewide task forces on courthouse security, pre-trial release, and court interpreter funding. His endorser list runs to more than 200 judicial officers across the state, former Governor Christine Gregoire, and elected officials from both parties. He has also received a $500 contribution from Rob McKenna, the former Republican AG who filed the lawsuit challenging ESSB 6346. O'Donnell has specifically denied any affiliation with the Federalist Society and has not associated himself with Full Court Press despite appearing on a now-deleted version of that organization's 'prospects' page. His judicial questionnaire frames the law through a lens of impact on people, procedural justice, and constitutional fidelity, not through any partisan ideological commitment. The record on Article VII is genuinely empty, and the cross-partisan donor and endorser pattern adds to rather than resolves the uncertainty.",

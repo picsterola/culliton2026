@@ -3,8 +3,8 @@
 **Site:** culliton2026.org
 **Owner:** Viet Nguyen
 **Cadence:** Thursdays 7:00 AM PT (with dynamic cadence changes in the ballot-return window — see "General-election phase calendar")
-**Last manually updated:** 2026-09-01
-**Version:** 1.6
+**Last manually updated:** 2026-10-22
+**Version:** 1.7
 
 ## 🚨 Do NOT escalate to the user
 
@@ -75,9 +75,9 @@ Runs can no longer create or delete sibling automations, so the phase cadence is
 
 The Thursday automation manages only its own schedule, and only to back off:
 
-- On the **Oct 29** run (last Thursday of Phase C), after finishing the scan, defer its next run to Nov 26: `pplx automation edit <own id> --start-at '2026-11-26T07:00:00'`. Phase D Thursdays are skipped; the Monday automation covers Phase D.
-- On the **Nov 26** run (first Phase E run), after finishing, switch to monthly: `pplx automation edit <own id> --rrule 'FREQ=MONTHLY;BYDAY=1TH;BYHOUR=7;BYMINUTE=0'`.
-- Get `<own id>` from `pplx automation current` (act only on `match: "exact"`).
+- On the **Oct 29** run (last Thursday of Phase C), after finishing the scan, defer its next run to Nov 26 with `automation_edit` (start time `2026-11-26T07:00:00`). Phase D Thursdays are skipped; the Monday automation covers Phase D.
+- On the **Nov 26** run (first Phase E run), after finishing, switch to monthly with `automation_edit` (recurrence `FREQ=MONTHLY;BYDAY=1TH;BYHOUR=7;BYMINUTE=0`).
+- Get `<own id>` from `automation_current` (act only on `match: "exact"`). The `pplx automation` CLI is retired; use the native `automation_*` tools only.
 
 If an edit is rejected, report it in the digest and keep the existing cadence. Do NOT escalate to the user.
 
@@ -117,7 +117,7 @@ Use `primary_result.advanced_to_general === true` as the filter for "in scope."
 | 3 | David Stevens | Keep | High | 1st (35.19%) |
 | 3 | Jaime Hawk | Scrap | Medium | 2nd (33.27%) |
 | 4 | Ian Birk | Scrap | Medium | Auto-advanced (no primary) |
-| 4 | Sean O'Donnell | Unclear | Low | Auto-advanced (no primary) |
+| 4 | Sean O'Donnell | Keep | Low | Auto-advanced (no primary). Moved from Unclear on Oct 22, 2026 based on who's backing him (approved by Viet) |
 | 5 | Theo Angelis | Scrap | Medium | 1st (35.84%) |
 | 5 | David Larson | Keep | High | 2nd (32.17%) |
 | 7 | Debra Stephens | Keep | High | 1st (54.37%) |
@@ -167,17 +167,9 @@ This script queries the Washington PDC's open-data endpoint on data.wa.gov (Socr
 
 **Only for the 10 advancing candidates.** Do NOT scan eliminated candidates weekly.
 
-For each of the 10 advancing candidates, run web search covering the **last 7 days** using the `pplx_sdk` primitives:
+For each of the 10 advancing candidates, run web search covering the **last 7 days** using the native `search_web` tool (short queries, up to 2 reformulations per call) and `fetch_url` for specific pages. `pplx_sdk`, `pplx-tool` and the `pplx automation` CLI are retired; do not try them. Batch candidates into shared queries (e.g. by position) to stay under the token budget. Recency isn't a filter, so put time hints in the query ("October 2026", "this week").
 
-```python
-python -m pplx_sdk.exec << 'PY'
-save_and_print(pplx_sdk.search.web("{candidate name} Washington Supreme Court 2026 endorsement"))
-PY
-```
-
-The runbook's older reference to `search_web` with `recency_filter="week"` is deprecated — that tool is no longer available. Use `pplx_sdk.search.web` (see the `search` skill for the full guide). Recency isn't a first-class filter; write queries that include time hints ("September 2026", "this week", "November general election") when you need recent results.
-
-If `pplx_sdk` is unavailable, fall back to `pplx_sdk.content.fetch` on the candidate's campaign site, voter pamphlet URL, and PDC profile — but do NOT block the scan.
+If search is unavailable, fall back to `fetch_url` on the candidate's campaign site, voter pamphlet URL, and PDC profile, but do NOT block the scan.
 
 Look for (all phases):
 - **General-election endorsements** (BIAW, Realtors PAC, WEA-PAC, AFSCME, FOP, newspapers, bar associations, Seattle Times ed board, Stranger, Spokesman-Review, Tri-City Herald, Yakima Herald-Republic) — many groups re-endorse or issue fresh general-election endorsements after the primary
@@ -194,7 +186,7 @@ Look for (all phases):
 - **Head-to-head polling** (if any surfaces — rare for WA judicial races): REVIEW.
 
 **Phase C addenda (Oct 16 → Nov 3) — ballot-return window (Monday + Thursday):**
-- **IE money is priority #1**. Query PDC's C-6 dataset "Independent Campaign Expenditures and Electioneering Communications" (Socrata `67cp-h962`; v1.5's `mvw3-b9tk` was wrong and 404s). Filter `election_year='2026'` and match `upper(candidate_name)` against our 10 candidates' last names, e.g. `https://data.wa.gov/resource/67cp-h962.json?$where=election_year='2026' AND upper(candidate_name) like '%BIRK%'`. Sum `expenditure_amount` by candidate and sponsor; link each filing via its `url` field. Late-cycle IE dumps are the highest-leverage last-minute signal.
+- **IE money is priority #1**. Query PDC's C-6 dataset "Independent Campaign Expenditures and Electioneering Communications" (Socrata `67cp-h962`; v1.5's `mvw3-b9tk` was wrong and 404s). Filter `election_year='2026'` and match `upper(candidate_name)` against our 10 candidates' last names, e.g. `https://data.wa.gov/resource/67cp-h962.json?$where=election_year='2026' AND upper(candidate_name) like '%BIRK%'`. Sum `portion_of_amount` (the per-candidate share; `expenditure_amount` is the whole report) by candidate, sponsor and `for_or_against`, keeping only rows where `candidate_office` contains SUPREME. Link each filing via its `url` field. **Known PDC data error (Oct 2026):** part of Beware the Attack on Our Courts' spending for Hawk is filed under a county coroner candidate named "Jaime Taylor" (reports 14089 and 14146, $65,770.58). For Hawk, also query `upper(candidate_name) like '%JAIME TAYLOR%'` from that sponsor and add those rows by hand. Watch for similar mislabels whenever one candidate's total looks out of line with the others the same committee funds. Late-cycle IE dumps are the highest-leverage last-minute signal.
 - **Late-hit watch**: any negative attack ad, mailer, or media hit landing in the last 2 weeks. These are the highest bad-faith risk and the highest chance of moving a race. Log the source, the funder, and the claim. If the claim is defamatory or factually testable, run one search to confirm/deny and note in `late_hit_log` in `intel_state.json`.
 - **Debate coverage**: TVW, Seattle CityClub, WSBA candidate forums typically schedule in this window. Log any that occurred, with links to recordings if available.
 - **Ballot-drop-rate coverage**: county elections offices publish daily return rates. Not per-candidate signal, but relevant context. One-line note in the digest.
@@ -252,9 +244,9 @@ git -c user.email="agent@perplexity.ai" -c user.name="Culliton Agent" \
     commit -m "Weekly intel update YYYY-MM-DD: {brief summary}"
 git push origin main
 ```
-Use `api_credentials=["github"]`.
+Plain `git push` works; no credentials flag is needed (bash no longer accepts `api_credentials`).
 
-GitHub Pages rebuilds automatically ~30-45s after push. No separate deploy step is required for this project.
+GitHub Pages rebuilds automatically, usually 1-2 minutes after push, but sometimes 5+ minutes when GitHub's build queue is backed up. If the live site still looks stale after about 5 minutes, check `https://api.github.com/repos/picsterola/culliton2026/actions/runs?per_page=2` before assuming the push failed. No separate deploy step is required for this project.
 
 ### Step 6 — Queue review items
 
@@ -353,4 +345,4 @@ If a general-election candidate later withdraws or is DQ'd, they move to the sam
 
 ---
 
-*Runbook version 1.5 — created 2026-05-21. v1.1 (2026-06-04): switched search tooling. v1.2 (2026-07-03): 16-candidate roster locked. v1.3 (2026-08-06): post-primary interim notes. v1.4 (2026-09-01): full post-primary rewrite, added stale-review sweep (Guardrail 7), eliminated-front-runner correction (Guardrail 8), scan-only-advancing policy (Guardrail 9), primary-result immutability (Guardrail 10), CDN cache-bust note, and the eliminated-candidate handling recommendation. v1.5 (2026-09-01): general-election phase calendar (A–E), phase-detection code, dynamic cadence including twice-weekly Monday+Thursday in Phase C ballot-return window, phase-specific scan addenda (voter pamphlet cross-check, IE money priority, late-hit watch, close-race and recount tracking, `general_result_progress` schema), phase-dependent token budgets, general-result immutability (Guardrail 11), no-GOTV-content policy (Guardrail 12), late-hit factual-claim discipline (Guardrail 13). v1.6 (2026-10-01): migrated to the new automation system. Phase cadence is now pre-built as a Thursday automation plus a Monday automation (Oct 19 to Nov 23), and the Thursday run only defers or downshifts itself. Fixed the C-6 IE dataset ID (`67cp-h962`). The digest is now the run's final response. Next expected rewrite: v2.0 for Phase E archive.*
+*Runbook version 1.7 — created 2026-05-21. v1.1 (2026-06-04): switched search tooling. v1.2 (2026-07-03): 16-candidate roster locked. v1.3 (2026-08-06): post-primary interim notes. v1.4 (2026-09-01): full post-primary rewrite, added stale-review sweep (Guardrail 7), eliminated-front-runner correction (Guardrail 8), scan-only-advancing policy (Guardrail 9), primary-result immutability (Guardrail 10), CDN cache-bust note, and the eliminated-candidate handling recommendation. v1.5 (2026-09-01): general-election phase calendar (A–E), phase-detection code, dynamic cadence including twice-weekly Monday+Thursday in Phase C ballot-return window, phase-specific scan addenda (voter pamphlet cross-check, IE money priority, late-hit watch, close-race and recount tracking, `general_result_progress` schema), phase-dependent token budgets, general-result immutability (Guardrail 11), no-GOTV-content policy (Guardrail 12), late-hit factual-claim discipline (Guardrail 13). v1.6 (2026-10-01): migrated to the new automation system. Phase cadence is now pre-built as a Thursday automation plus a Monday automation (Oct 19 to Nov 23), and the Thursday run only defers or downshifts itself. Fixed the C-6 IE dataset ID (`67cp-h962`). The digest is now the run's final response. v1.7 (2026-10-22): tooling moved to native search_web/fetch_url and automation_* tools; plain git push; IE sums use `portion_of_amount` with a Supreme Court filter; documented the Hawk/"Jaime Taylor" PDC error and the Pages queue-delay check; O'Donnell moved to Keep/Low. Next expected rewrite: v2.0 for Phase E archive.*

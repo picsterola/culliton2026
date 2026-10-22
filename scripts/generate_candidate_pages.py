@@ -672,8 +672,9 @@ def build_pdc_aggregate_sentence(candidates):
         f'The <em>scrap-the-rule</em> field ({_cnt("scrap")} candidates reporting) '
         f'has raised <strong>{scrap_amt}</strong>{ratio_phrase}. '
         f'The <em>keep-the-rule</em> field ({_cnt("keep")} reporting) has raised <strong>{keep_amt}</strong>. '
-        f'The <em>not-enough-to-tell</em> field ({_cnt("unclear")} reporting) has raised <strong>{unclear_amt}</strong>. '
     )
+    if totals["unclear"]:
+        sentence += f'The <em>not-enough-to-tell</em> field ({_cnt("unclear")} reporting) has raised <strong>{unclear_amt}</strong>. '
     if as_of_friendly:
         sentence += f'PDC totals current as of <strong>{esc(as_of_friendly)}</strong>. '
     sentence += (
