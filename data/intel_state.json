@@ -493,6 +493,12 @@
       "candidate": "odonnell",
       "change": "Lean unclear/Low -> keep/Low (approved by Viet Oct 22)",
       "source_url": "https://data.wa.gov/resource/67cp-h962.json?report_number=14165"
+    },
+    {
+      "timestamp": "2026-10-26T14:13:37Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh (Oct 26): 7 moved; eliminated-candidate fetches failed on SSL timeouts (frozen, no impact)",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
     }
   ],
   "last_run_new_finding_entries": [
@@ -527,8 +533,8 @@
       ]
     }
   ],
-  "last_run_timestamp": "2026-10-22T14:12:00Z",
-  "last_scan": "2026-10-22",
+  "last_run_timestamp": "2026-10-26T14:13:37Z",
+  "last_scan": "2026-10-26",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -762,7 +768,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 21,
+      "weeks_open": 22,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -794,10 +800,23 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 21
+      "weeks_open": 22
     }
   ],
-  "pending_review_changes": [],
+  "pending_review_changes": [
+    {
+      "id": "beware_claims_check_20261026",
+      "candidate": "odonnell, stevens, larson",
+      "current_state": "Not on site.",
+      "proposed_state": "No site change (G13). Close as informational.",
+      "evidence_urls": [
+        "https://www.protectwacourts.com/"
+      ],
+      "reasoning": "Three testable claims on Beware's site were each checked once: Gorton aide (true, selective), Stevens' GOP history (mostly supported; parts rest on Hawk's campaign), Larson on Obergefell (supported by his 2024 questionnaire answer). None bears on Culliton directly.",
+      "confidence": "High",
+      "opened_date": "2026-10-26"
+    }
+  ],
   "recent_findings_hashes": [
     {
       "date": "2026-08-06",
@@ -1138,6 +1157,34 @@
     {
       "hash": "8a9d95b6df7848da4fcd2f50064fb09fbabb0c5d2969800eb6faec305eae856b",
       "date": "2026-10-22"
+    },
+    {
+      "hash": "8fbaeba56b1b0d9b0ff87762351d0819f4aa4b922ad423d3593062dfcb2c1a88",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "7b0d008f9667af736431e85dbe87b18e5cad12540797f78b2da4a64ee70c725d",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "87a4bad8cba01ebb19b0ee14952fb3d89f1813b2d6603b1e20f7aa61882b4639",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "ceceecebefdb18212086626259a260fc3447908290642cec5b33a2cd4de56f1d",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "5e3920aa2b9de6788a15ba4ba7ec862709d2ba6219d7ffdda07da2e6fc723f63",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "2660adc04b725da4e1c3ecb362ef5ca9b79789929118d3ba3c901f403fee3a4e",
+      "date": "2026-10-26"
+    },
+    {
+      "hash": "99fc05c3ec9b2cc8d28ce6bfa68c63cb42871ac93b39dbcc636a1021a0d8cec3",
+      "date": "2026-10-26"
     }
   ],
   "schema_version": 1,
@@ -1412,7 +1459,8 @@
         "https://www.protectwacourts.com/",
         "https://www.protectwacourts.com/our-candidates",
         "https://data.wa.gov/resource/67cp-h962.json?report_number=14089"
-      ]
+      ],
+      "correction_2026-10-26": "Earlier note said the site made no candidate-specific claims. Wrong: the homepage 'Voter Alert' makes specific claims about O'Donnell, Stevens and Larson. See the Oct 26 entries."
     },
     {
       "date": "2026-10-19",
@@ -1458,6 +1506,50 @@
       "check": "Testable but NOT verified this run: requires classifying PDC contributor employers; classification is subjective. Flagged in review item.",
       "sources": [
         "https://www.seattletimes.com/opinion/editorials/watch-out-state-supreme-court-pos-4-candidate-hits-new-lows/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "funder": "Beware the Attack on Our Courts",
+      "targets": [
+        "odonnell"
+      ],
+      "medium": "Website voter alert / mail",
+      "claim": "O'Donnell 'was a Republican staff member for conservative US Senator Slade Gorton.'",
+      "check": "TRUE but selective: legislative aide to Gorton in 1995 doing constituent services (Urbanist); he also interned for Democratic AG Gregoire and was a Special Assistant US Attorney.",
+      "sources": [
+        "https://www.protectwacourts.com/",
+        "https://www.theurbanist.org/progressives-and-dark-money-backed-conservatives-vie-for-control-of-washington-state-supreme-court/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "funder": "Beware the Attack on Our Courts",
+      "targets": [
+        "stevens"
+      ],
+      "medium": "Website voter alert / mail",
+      "claim": "Stevens 'has twice run for office as a Republican and was the vice chair of the Spokane GOP.'",
+      "check": "MOSTLY SUPPORTED: Spokesman-Review confirms the 2010 Spokane prosecutor run as a Republican; the 2004 state House run and Spokane GOP vice chair come only from Hawk's campaign media page (opponent source).",
+      "sources": [
+        "https://www.protectwacourts.com/",
+        "https://www.spokesman.com/stories/2026/sep/16/2-judges-with-spokane-ties-vie-for-seat-on-washing/",
+        "https://www.judgehawk.com/media"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "funder": "Beware the Attack on Our Courts",
+      "targets": [
+        "larson"
+      ],
+      "medium": "Website voter alert / mail",
+      "claim": "Larson 'has expressed opposition to Constitutional protections for same-sex marriages.'",
+      "check": "SUPPORTED AS CHARACTERIZATION: asked in a 2024 iVoterGuide questionnaire whether Obergefell was rightly decided, Larson answered 'The U.S. Constitution does not regulate marriage.' Larson contests the Trump-alignment framing of the mailers (MyNorthwest, Oct 25).",
+      "sources": [
+        "https://www.protectwacourts.com/",
+        "https://ivoterguide.com/candidate/31425/race/20764/election/1247?culture=en-us",
+        "https://mynorthwest.com/john-curley/larson-challenges-supreme-court/4289669"
       ]
     }
   ]
