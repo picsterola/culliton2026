@@ -499,42 +499,59 @@
       "candidate": "all advancing",
       "change": "PDC refresh (Oct 26): 7 moved; eliminated-candidate fetches failed on SSL timeouts (frozen, no impact)",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-29T14:13:25Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh (Oct 29): 10 moved; biggest O'Donnell +$32,333, Birk +$15,700, Stephens +$14,175; Stevens -$1,695 (refund/amendment)",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-10-29T14:13:25Z",
+      "candidate": "melody",
+      "change": "Endorsement note: Seattle Times reaffirmed in Oct. 15 general-election list",
+      "source_url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "type": "MECHANICAL",
-      "headline": "2026 PDC cash-total refresh via Socrata dataset kv7h-kjye (Oct. 1)",
-      "url": "https://data.wa.gov/resource/kv7h-kjye.json",
-      "candidate_count": 10,
-      "net_delta": 178561.08
+      "type": "REVIEW",
+      "headline": "Beware C-6 14348: $176,940 for Birk, $58,164 against O'Donnell",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348"
+    },
+    {
+      "type": "IE",
+      "headline": "New Direction C-6 14317: $45,000 for Birk",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14317"
+    },
+    {
+      "type": "IE",
+      "headline": "CTWA C-6 14392: $15,153 each for Larson and Edwards",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14392"
+    },
+    {
+      "type": "CONTEXT",
+      "headline": "PDC suspends 21-day large-contribution limit",
+      "url": "https://pdc.wa.gov/news/2026/commission-meeting-highlights-october-2026"
+    },
+    {
+      "type": "LATE_HIT",
+      "headline": "Campaign cash floodgates open after state regulators lift dollar caps",
+      "url": "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
+    },
+    {
+      "type": "MEDIA",
+      "headline": "In WA Supreme Court race, debate focuses on political influence",
+      "url": "https://www.seattletimes.com/seattle-news/in-wa-supreme-court-race-debate-focuses-on-political-influence/"
     },
     {
       "type": "MECHANICAL",
-      "headline": "Official 2026 general-election Voters' Guide statements cross-linked for all 10 advancing candidates; eight unchanged from primary, Birk and O'Donnell auto-advanced",
-      "url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/",
-      "candidate_count": 10,
-      "primary_statement_comparison": "Eight advancing candidates reused their primary statement; Birk and O'Donnell had no primary statement because they auto-advanced. No material Culliton/Quinn/ESSB 6346 or tax-position shift found."
-    },
-    {
-      "type": "MECHANICAL",
-      "headline": "Todd Bloom C3 report covering September 21, 2026 filed September 25, 2026",
-      "url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3395177",
-      "candidate": "bloom",
-      "resolved_question": "bloom_pdc_filing"
-    },
-    {
-      "type": "MECHANICAL",
-      "headline": "Perception or reality? Suggested partisanship a key issue in race for state Supreme Court race between Larson and Angelis",
-      "url": "https://www.spokesman.com/stories/2026/sep/27/perception-or-reality-suggested-partisanship-a-key/",
-      "candidates": [
-        "angelis",
-        "larson"
-      ]
+      "headline": "Seattle Times general-election endorsements list",
+      "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
     }
   ],
-  "last_run_timestamp": "2026-10-26T14:13:37Z",
-  "last_scan": "2026-10-26",
+  "last_run_timestamp": "2026-10-29T14:13:25Z",
+  "last_scan": "2026-10-29",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -768,7 +785,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 22,
+      "weeks_open": 23,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -800,7 +817,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 22
+      "weeks_open": 23
     }
   ],
   "pending_review_changes": [
@@ -815,6 +832,20 @@
       "reasoning": "Three testable claims on Beware's site were each checked once: Gorton aide (true, selective), Stevens' GOP history (mostly supported; parts rest on Hawk's campaign), Larson on Obergefell (supported by his 2024 questionnaire answer). None bears on Culliton directly.",
       "confidence": "High",
       "opened_date": "2026-10-26"
+    },
+    {
+      "id": "odonnell_ie_against_20261029",
+      "candidate": "odonnell",
+      "current_state": "Keep/Low; outside money already cited in lean signal. No per-page IE line.",
+      "proposed_state": "No lean change. Optional: add a one-line note to O'Donnell's signals that Beware filed $58,164 against him on Oct 27 (report 14348), bringing its total against him to $139,935, after the PDC suspended the 21-day $75K cap.",
+      "evidence_urls": [
+        "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348",
+        "https://pdc.wa.gov/news/2026/commission-meeting-highlights-october-2026",
+        "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
+      ],
+      "reasoning": "Phase C rule: any IE over $50K against a single candidate is REVIEW. The money confirms who's on each side but doesn't change the lean.",
+      "confidence": "High",
+      "opened_date": "2026-10-29"
     }
   ],
   "recent_findings_hashes": [
@@ -1185,7 +1216,14 @@
     {
       "hash": "99fc05c3ec9b2cc8d28ce6bfa68c63cb42871ac93b39dbcc636a1021a0d8cec3",
       "date": "2026-10-26"
-    }
+    },
+    "6538f39149aa16d69a0a9c5e219a14948d97a249a89f5892a0f225d248d5097e",
+    "287cefed9bece64bb239ebf31fc9a0e81106cf257d325218675c8a1408b4c19c",
+    "e59f41667be89253c17c6dae49dfa89041dfafb785e890e5e903736d7c25b7a1",
+    "038aff120ee2a1cd85e4cce31f9b061cc4cd2fcebdd630a30196b092f6550762",
+    "2c6c560755b553d5c442cda1267086cb589dc86e7f26b8c81f9aaa7d6b1b9012",
+    "05eb99ceb956268d331b4505ca49b3b071d8706ae8a4f8196e125d263b57aa33",
+    "8654281378143dcc22e5aabf33faeeff85f7a2dbde52c1019c7bcb99296a4729"
   ],
   "schema_version": 1,
   "resolved_review_changes": [
@@ -1550,6 +1588,20 @@
         "https://www.protectwacourts.com/",
         "https://ivoterguide.com/candidate/31425/race/20764/election/1247?culture=en-us",
         "https://mynorthwest.com/john-curley/larson-challenges-supreme-court/4289669"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "funder": "Beware the Attack on Our Courts (funded by $250K from SEIU 775 Quality Care Committee on Oct 27)",
+      "targets": [
+        "odonnell"
+      ],
+      "medium": "Mail and online ads (C-6 report 14348, filed Oct 27)",
+      "claim": "Seattle Times describes mailers and online ads attacking O'Donnell and boosting Birk; no specific factual claim surfaced in coverage.",
+      "check": "No testable claim available, so no G13 check run. Spend: $58,164 against O'Donnell, $176,940 for Birk on this report.",
+      "sources": [
+        "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348",
+        "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
       ]
     }
   ]
