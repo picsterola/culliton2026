@@ -511,6 +511,12 @@
       "candidate": "melody",
       "change": "Endorsement note: Seattle Times reaffirmed in Oct. 15 general-election list",
       "source_url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
+    },
+    {
+      "timestamp": "2026-10-29T17:46:19Z",
+      "candidate": "odonnell",
+      "change": "User-approved: Beware against-IE total ($139,935) added to Who's backing him signal; lean unchanged",
+      "source_url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348"
     }
   ],
   "last_run_new_finding_entries": [
@@ -820,34 +826,7 @@
       "weeks_open": 23
     }
   ],
-  "pending_review_changes": [
-    {
-      "id": "beware_claims_check_20261026",
-      "candidate": "odonnell, stevens, larson",
-      "current_state": "Not on site.",
-      "proposed_state": "No site change (G13). Close as informational.",
-      "evidence_urls": [
-        "https://www.protectwacourts.com/"
-      ],
-      "reasoning": "Three testable claims on Beware's site were each checked once: Gorton aide (true, selective), Stevens' GOP history (mostly supported; parts rest on Hawk's campaign), Larson on Obergefell (supported by his 2024 questionnaire answer). None bears on Culliton directly.",
-      "confidence": "High",
-      "opened_date": "2026-10-26"
-    },
-    {
-      "id": "odonnell_ie_against_20261029",
-      "candidate": "odonnell",
-      "current_state": "Keep/Low; outside money already cited in lean signal. No per-page IE line.",
-      "proposed_state": "No lean change. Optional: add a one-line note to O'Donnell's signals that Beware filed $58,164 against him on Oct 27 (report 14348), bringing its total against him to $139,935, after the PDC suspended the 21-day $75K cap.",
-      "evidence_urls": [
-        "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348",
-        "https://pdc.wa.gov/news/2026/commission-meeting-highlights-october-2026",
-        "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
-      ],
-      "reasoning": "Phase C rule: any IE over $50K against a single candidate is REVIEW. The money confirms who's on each side but doesn't change the lean.",
-      "confidence": "High",
-      "opened_date": "2026-10-29"
-    }
-  ],
+  "pending_review_changes": [],
   "recent_findings_hashes": [
     {
       "date": "2026-08-06",
@@ -1475,6 +1454,36 @@
       "opened_date": "2026-10-19",
       "resolution": "CLOSED no action (G13). The 80% personal-injury claim stays unverified.",
       "resolved_date": "2026-10-22"
+    },
+    {
+      "id": "beware_claims_check_20261026",
+      "candidate": "odonnell, stevens, larson",
+      "current_state": "Not on site.",
+      "proposed_state": "No site change (G13). Close as informational.",
+      "evidence_urls": [
+        "https://www.protectwacourts.com/"
+      ],
+      "reasoning": "Three testable claims on Beware's site were each checked once: Gorton aide (true, selective), Stevens' GOP history (mostly supported; parts rest on Hawk's campaign), Larson on Obergefell (supported by his 2024 questionnaire answer). None bears on Culliton directly.",
+      "confidence": "High",
+      "opened_date": "2026-10-26",
+      "resolved_date": "2026-10-29",
+      "resolution": "approved by user"
+    },
+    {
+      "id": "odonnell_ie_against_20261029",
+      "candidate": "odonnell",
+      "current_state": "Keep/Low; outside money already cited in lean signal. No per-page IE line.",
+      "proposed_state": "No lean change. Optional: add a one-line note to O'Donnell's signals that Beware filed $58,164 against him on Oct 27 (report 14348), bringing its total against him to $139,935, after the PDC suspended the 21-day $75K cap.",
+      "evidence_urls": [
+        "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348",
+        "https://pdc.wa.gov/news/2026/commission-meeting-highlights-october-2026",
+        "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
+      ],
+      "reasoning": "Phase C rule: any IE over $50K against a single candidate is REVIEW. The money confirms who's on each side but doesn't change the lean.",
+      "confidence": "High",
+      "opened_date": "2026-10-29",
+      "resolved_date": "2026-10-29",
+      "resolution": "approved by user"
     }
   ],
   "phase": "C_ballot_return",
