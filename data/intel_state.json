@@ -517,47 +517,60 @@
       "candidate": "odonnell",
       "change": "User-approved: Beware against-IE total ($139,935) added to Who's backing him signal; lean unchanged",
       "source_url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348"
+    },
+    {
+      "timestamp": "2026-11-02T15:10:56Z",
+      "candidate": "all advancing",
+      "change": "PDC refresh (Nov 2): 7 moved; Birk +$11,375, O'Donnell +$19,683, Larson +$14,970",
+      "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-11-02T15:10:56Z",
+      "candidate": "odonnell",
+      "change": "Beware against-IE figure updated to $149,935 (C-6 14467 adds $10,000)",
+      "source_url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14467"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "type": "REVIEW",
-      "headline": "Beware C-6 14348: $176,940 for Birk, $58,164 against O'Donnell",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348"
+      "headline": "C-6 14419 Beware $100K for Birk",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14419"
     },
     {
-      "type": "IE",
-      "headline": "New Direction C-6 14317: $45,000 for Birk",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14317"
+      "headline": "C-6 14467 Beware $34K x4, $49K Birk, $10K vs O'Donnell",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14467"
     },
     {
-      "type": "IE",
-      "headline": "CTWA C-6 14392: $15,153 each for Larson and Edwards",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14392"
+      "headline": "C-6 14444 CTWA vs Birk",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14444"
     },
     {
-      "type": "CONTEXT",
-      "headline": "PDC suspends 21-day large-contribution limit",
-      "url": "https://pdc.wa.gov/news/2026/commission-meeting-highlights-october-2026"
+      "headline": "C-6 14413 CTWA $44K O'Donnell",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14413"
     },
     {
-      "type": "LATE_HIT",
-      "headline": "Campaign cash floodgates open after state regulators lift dollar caps",
-      "url": "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
+      "headline": "C-6 14458 CWC $35K O'Donnell",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14458"
     },
     {
-      "type": "MEDIA",
-      "headline": "In WA Supreme Court race, debate focuses on political influence",
-      "url": "https://www.seattletimes.com/seattle-news/in-wa-supreme-court-race-debate-focuses-on-political-influence/"
+      "headline": "C-6 14465 New Direction $20K Birk",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14465"
     },
     {
-      "type": "MECHANICAL",
-      "headline": "Seattle Times general-election endorsements list",
-      "url": "https://www.seattletimes.com/opinion/editorials/seattle-times-editorial-board-endorsements-nov-3-2026-general-election/"
+      "headline": "C-6 14412 CTWA Larson/Edwards",
+      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14412"
+    },
+    {
+      "headline": "KUOW Beware Google Meta ads",
+      "url": "https://www.kuow.org/elections/2026-10-28/in-heated-wa-judicial-race-labor-pac-buys-ads-on-google-meta-despite-prohibitions"
+    },
+    {
+      "headline": "Fox13 ballot returns 32.84%",
+      "url": "https://www.fox13seattle.com/news/voters-cast-ballots-wa"
     }
   ],
-  "last_run_timestamp": "2026-10-29T14:13:25Z",
-  "last_scan": "2026-10-29",
+  "last_run_timestamp": "2026-11-02T15:10:56Z",
+  "last_scan": "2026-11-02",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -791,7 +804,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 23,
+      "weeks_open": 24,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -823,7 +836,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 23
+      "weeks_open": 24
     }
   ],
   "pending_review_changes": [],
@@ -1202,7 +1215,16 @@
     "038aff120ee2a1cd85e4cce31f9b061cc4cd2fcebdd630a30196b092f6550762",
     "2c6c560755b553d5c442cda1267086cb589dc86e7f26b8c81f9aaa7d6b1b9012",
     "05eb99ceb956268d331b4505ca49b3b071d8706ae8a4f8196e125d263b57aa33",
-    "8654281378143dcc22e5aabf33faeeff85f7a2dbde52c1019c7bcb99296a4729"
+    "8654281378143dcc22e5aabf33faeeff85f7a2dbde52c1019c7bcb99296a4729",
+    "16efcfe0d3ddf5c8bcf9acb65d0f62d3af87e19cc2ad684acf5607f47ef0a75c",
+    "027ac31ba432118550aa252101c1be7462949a3436e748ac8fa89e78458c5377",
+    "1d1c98e667aece4f053f759c37e11440ec2b7e205a000989e8306abb2f8cd03e",
+    "4d838836c0ee51b8e7b06eef93f53eb8a35cd9aa8c639524bc7834d7d0d5152f",
+    "a1e8a0ff6b07454127026fea121e89719e2eb458a533f692ba6fb04e4dc2fd61",
+    "19cf8fc705298d3339297e2926aefee72108ba83b30b0a3f46c24b93fb9733ff",
+    "3567ab2a2c7b6aec9342aec8cd7253d0ae26d80b343d600d76688b922e6caa07",
+    "32064657f3464f559f0c3b382aac0935f4111dc58f63ab3b13c0a4460f18c872",
+    "027f9cd7d2cb15943879588cac3d3c8cc7af4837203c640a2a543cd1319f91bf"
   ],
   "schema_version": 1,
   "resolved_review_changes": [
@@ -1611,6 +1633,33 @@
       "sources": [
         "https://my.pdc.wa.gov/c6/public/-/#/public/report/14348",
         "https://www.seattletimes.com/seattle-news/politics/campaign-cash-floodgates-open-after-state-regulators-lift-dollar-caps/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "funder": "Beware the Attack on Our Courts",
+      "targets": [
+        "odonnell"
+      ],
+      "medium": "Google search ads (~$58K reported) and Meta ads; 300,000 mailers per O'Donnell",
+      "claim": "Ads: 'Radical right-wing orgs and MAGA Republicans want to roll back our rights'; site ties O'Donnell to Republicans citing state GOP support.",
+      "check": "G13: partly supported. State GOP chair did urge votes for O'Donnell (Sept 23), already on his page; O'Donnell says he did not seek party support and cites Locke and Gregoire endorsements. 'MAGA' line is opinion, not testable. Google removed ads Oct 26; Meta rejected them Oct 28; both bar WA state/local political ads. O'Donnell camp calls ads legal but unethical; no PDC complaint reported.",
+      "sources": [
+        "https://www.kuow.org/elections/2026-10-28/in-heated-wa-judicial-race-labor-pac-buys-ads-on-google-meta-despite-prohibitions",
+        "https://seattlered.com/politics/odonnell-google-pulls-union-attack-ads-supreme-court-race"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "funder": "Concerned Taxpayers of Washington State",
+      "targets": [
+        "birk"
+      ],
+      "medium": "C-6 14444 (Oct 30), $17,093 against Birk / for O'Donnell",
+      "claim": "Content not surfaced in coverage.",
+      "check": "No testable claim available.",
+      "sources": [
+        "https://my.pdc.wa.gov/c6/public/-/#/public/report/14444"
       ]
     }
   ]
