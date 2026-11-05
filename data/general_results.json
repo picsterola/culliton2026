@@ -1,0 +1,16 @@
+{
+  "as_of": "Nov. 5, 1:23 p.m.",
+  "as_of_iso": "2026-11-05T21:23:21Z",
+  "certify_date": "Dec. 3",
+  "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+  "data_url": "https://results.votewa.gov/cdn/results/washington/export-20261103.json",
+  "close_note": "Pos. 4 is the only race within a few points (about 44,000 votes), still far from recount range.",
+  "races": {
+    "1": [["melody", "Melody", 59.9], ["edwards", "Edwards", 39.9]],
+    "3": [["hawk", "Hawk", 57.7], ["stevens", "Stevens", 42.0]],
+    "4": [["odonnell", "O'Donnell", 50.9], ["birk", "Birk", 48.7]],
+    "5": [["angelis", "Angelis", 55.4], ["larson", "Larson", 44.3]],
+    "7": [["stephens", "Stephens", 63.6], ["bloom", "Bloom", 36.1]]
+  },
+  "close": ["4"]
+}

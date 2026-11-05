@@ -766,3 +766,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import results_banner
+        results_banner.apply_all()
+    except FileNotFoundError:
+        pass
