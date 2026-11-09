@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-09",
   "candidates": [
     {
       "slug": "melody",
@@ -127,8 +127,8 @@
       "campaign_donate": "https://secure.anedot.com/justicemelody/donate",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 277281.1,
-        "as_of": "2026-10-26",
+        "raised": 282135.58,
+        "as_of": "2026-10-29",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391023",
         "filer_id": "MELOC--814"
       },
@@ -146,6 +146,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1640946,
+        "pct": 59.98,
+        "rank": 1,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -412,8 +419,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/ScottEdwards",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 186020.0,
-        "as_of": "2026-10-26",
+        "raised": 192395.0,
+        "as_of": "2026-10-29",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391385",
         "filer_id": "EDWAS--543"
       },
@@ -431,6 +438,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1088076,
+        "pct": 39.77,
+        "rank": 2,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -711,6 +725,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1141471,
+        "pct": 41.91,
+        "rank": 2,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -840,8 +861,8 @@
       "campaign_donate": "https://www.judgehawk.com",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 358544.12,
-        "as_of": "2026-10-27",
+        "raised": 368219.12,
+        "as_of": "2026-11-04",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391607",
         "filer_id": "HAWKJ--665"
       },
@@ -859,6 +880,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1573296,
+        "pct": 57.77,
+        "rank": 1,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -988,8 +1016,8 @@
       "campaign_donate": "https://secure.ngpvan.com/IEj2ynH1NkKrGLmB629NQQ2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 622563.93,
-        "as_of": "2026-10-29",
+        "raised": 640838.93,
+        "as_of": "2026-11-03",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391099",
         "filer_id": "BIRKI--846"
       },
@@ -1007,6 +1035,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1322921,
+        "pct": 49.13,
+        "rank": 2,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -1151,8 +1186,8 @@
       "campaign_donate": "https://secure.anedot.com/odonnell-for-justice/websitegeneral",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 545785.8,
-        "as_of": "2026-10-26",
+        "raised": 609055.02,
+        "as_of": "2026-11-03",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3390933",
         "filer_id": "ODONS  194"
       },
@@ -1170,6 +1205,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1359887,
+        "pct": 50.5,
+        "rank": 1,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -1294,8 +1336,8 @@
       "campaign_donate": "https://secure.ngpvan.com/gdJPC8ZA_k-cmX0BMxwdOg2",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 480572.31,
-        "as_of": "2026-10-29",
+        "raised": 484872.31,
+        "as_of": "2026-11-04",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391361",
         "filer_id": "ANGET--422"
       },
@@ -1313,6 +1355,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1509936,
+        "pct": 55.72,
+        "rank": 1,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -1433,8 +1482,8 @@
       "campaign_donate": "https://www.efundraisingconnections.com/c/DaveLarson",
       "campaign_website_status": "live",
       "pdc": {
-        "raised": 467962.44,
-        "as_of": "2026-10-30",
+        "raised": 470762.44,
+        "as_of": "2026-11-02",
         "pdc_url": "https://www.pdc.wa.gov/political-disclosure-reporting-data/browse-search-data/candidates/3391234",
         "filer_id": "LARSD  003"
       },
@@ -1452,6 +1501,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1191679,
+        "pct": 43.98,
+        "rank": 2,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -1873,6 +1929,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 1720002,
+        "pct": 63.51,
+        "rank": 1,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     },
     {
@@ -2339,6 +2402,13 @@
           "https://www.sos.wa.gov/about-office/news/2026/secretary-state-certifies-candidates-and-measures-november-general-election",
           "https://en.wikipedia.org/wiki/2026_Washington_Supreme_Court_election"
         ]
+      },
+      "general_result_progress": {
+        "as_of": "2026-11-08T01:04:30Z",
+        "votes": 980434,
+        "pct": 36.2,
+        "rank": 2,
+        "source": "https://results.votewa.gov/results/public/washington/elections/20261103"
       }
     }
   ]
