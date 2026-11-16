@@ -1,16 +1,16 @@
 {
-  "as_of": "Nov. 7, 5:04 p.m.",
-  "as_of_iso": "2026-11-08T01:04:30Z",
+  "as_of": "Nov. 14, 4:59 p.m.",
+  "as_of_iso": "2026-11-15T00:59:09Z",
   "certify_date": "Dec. 3",
   "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103",
   "data_url": "https://results.votewa.gov/cdn/results/washington/export-20261103.json",
-  "close_note": "Pos. 4 has tightened to about 37,000 votes (1.4 points) with roughly 214,000 ballots left statewide, still far from recount range.",
+  "close_note": "O'Donnell has declared victory in Pos. 4, leading by about 40,000 votes (1.4 points); Birk hasn't conceded. It's well outside recount range.",
   "races": {
     "1": [
       [
         "melody",
         "Melody",
-        60.0
+        59.9
       ],
       [
         "edwards",
@@ -22,12 +22,12 @@
       [
         "hawk",
         "Hawk",
-        57.8
+        57.7
       ],
       [
         "stevens",
         "Stevens",
-        41.9
+        42.0
       ]
     ],
     "4": [
@@ -58,12 +58,12 @@
       [
         "stephens",
         "Stephens",
-        63.5
+        63.4
       ],
       [
         "bloom",
         "Bloom",
-        36.2
+        36.3
       ]
     ]
   },

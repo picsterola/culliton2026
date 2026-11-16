@@ -547,6 +547,18 @@
       "candidate": "7 advancing",
       "change": "PDC refresh (Nov 9): O'Donnell +$63,269, Birk +$18,275, Hawk +$9,675",
       "source_url": "https://data.wa.gov/resource/kv7h-kjye.json"
+    },
+    {
+      "timestamp": "2026-11-16T15:09:27Z",
+      "candidate": "10 advancing",
+      "change": "general_result_progress set from SOS feed as of 2026-11-15T00:59:09Z",
+      "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
+    },
+    {
+      "timestamp": "2026-11-16T15:09:27Z",
+      "candidate": "sitewide",
+      "change": "Results banner refreshed to Nov. 14, 4:59 p.m.; Pos. 4 note: O'Donnell declared victory, Birk hasn't conceded",
+      "source_url": "https://tdn.com/news/state-regional/government-politics/elections/article_9631c399-3ac5-4869-96a6-a5f7246f37e2.html"
     }
   ],
   "last_run_new_finding_entries": [
@@ -587,8 +599,8 @@
       "url": "https://www.fox13seattle.com/news/voters-cast-ballots-wa"
     }
   ],
-  "last_run_timestamp": "2026-11-09T15:10:42Z",
-  "last_scan": "2026-11-09",
+  "last_run_timestamp": "2026-11-16T15:09:27Z",
+  "last_scan": "2026-11-16",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -822,7 +834,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 25,
+      "weeks_open": 26,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -854,7 +866,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 25
+      "weeks_open": 26
     }
   ],
   "pending_review_changes": [
@@ -865,11 +877,13 @@
       "proposed_state": "No data change. Acknowledge close-race flag: O'Donnell 1,359,887 (50.50%) vs Birk 1,322,921 (49.13%), margin 36,966 (1.38 pts two-way), ~214,388 ballots left statewide. Not in recount range (RCW 29A.64.021 machine recount needs under 2,000 votes AND under 0.5%).",
       "evidence_urls": [
         "https://results.votewa.gov/results/public/washington/elections/20261103",
-        "https://app.enhancedvoting.com/results/public/washington/elections/20261103/stats"
+        "https://app.enhancedvoting.com/results/public/washington/elections/20261103/stats",
+        "https://tdn.com/news/state-regional/government-politics/elections/article_9631c399-3ac5-4869-96a6-a5f7246f37e2.html"
       ],
       "reasoning": "Runbook Phase D rule: any race inside 2pp during count is REVIEW. Margin narrowed from 2.17 pts (Nov 5) to 1.38. Birk would need about 59% of remaining ballots; late ballots have moved about 1.1 pts his way.",
       "confidence": "High",
-      "opened_date": "2026-11-09"
+      "opened_date": "2026-11-09",
+      "update_20261116": "Margin widened to 39,820 (1.39 pts two-way) as of Nov 14. O'Donnell declared victory Nov 11; Birk had not conceded. SOS est. ~75,000 ballots left as of Nov 11. Still well outside recount range."
     }
   ],
   "recent_findings_hashes": [
@@ -1259,7 +1273,10 @@
     "027f9cd7d2cb15943879588cac3d3c8cc7af4837203c640a2a543cd1319f91bf",
     "ae787a4dff40d158c0f5e31c442603050c183a5b88616eadc6a8791f49d9b175",
     "8cff602e5cbad77229522ec34d631ca5c11e1ad25df0a88c43c158832f721a93",
-    "5210138a244556de8bd2a9a205e59cc72d8efa187fd4b6d005de24d7b5db3c74"
+    "5210138a244556de8bd2a9a205e59cc72d8efa187fd4b6d005de24d7b5db3c74",
+    "d6aa8cc71b113271308aa8a5c26e8b80a67e8c2b52e8fc7ea7dbd80a637da765",
+    "da32fa677be687055750420d4d6268191f3fcec0c46aa6a3ad62df369661888d",
+    "e0ddb9f843f0099d5dd71212d508372d6f6af9ba965ee292ab61145b4d55fa65"
   ],
   "schema_version": 1,
   "resolved_review_changes": [
