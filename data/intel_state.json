@@ -559,48 +559,36 @@
       "candidate": "sitewide",
       "change": "Results banner refreshed to Nov. 14, 4:59 p.m.; Pos. 4 note: O'Donnell declared victory, Birk hasn't conceded",
       "source_url": "https://tdn.com/news/state-regional/government-politics/elections/article_9631c399-3ac5-4869-96a6-a5f7246f37e2.html"
+    },
+    {
+      "timestamp": "2026-11-23T15:20:00Z",
+      "candidate": "10 advancing",
+      "change": "general_result_progress set from SOS feed as of 2026-11-21T01:58:43Z",
+      "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
+    },
+    {
+      "timestamp": "2026-11-23T15:20:00Z",
+      "candidate": "sitewide",
+      "change": "Results banner refreshed to Nov. 20, 5:58 p.m.; Pos. 4 note margin updated to ~37,000 (1.3 pts)",
+      "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "headline": "C-6 14419 Beware $100K for Birk",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14419"
+      "headline": "P4 margin 36,898 as of Nov 20 SOS update",
+      "url": "https://results.votewa.gov/results/public/washington/elections/20261103",
+      "hash": "61b1338dfd9e7b8f8cb04c0f7168440928ce3359fde0616bc3cdeb0ebf6b6ca9",
+      "date": "2026-11-23"
     },
     {
-      "headline": "C-6 14467 Beware $34K x4, $49K Birk, $10K vs O'Donnell",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14467"
-    },
-    {
-      "headline": "C-6 14444 CTWA vs Birk",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14444"
-    },
-    {
-      "headline": "C-6 14413 CTWA $44K O'Donnell",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14413"
-    },
-    {
-      "headline": "C-6 14458 CWC $35K O'Donnell",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14458"
-    },
-    {
-      "headline": "C-6 14465 New Direction $20K Birk",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14465"
-    },
-    {
-      "headline": "C-6 14412 CTWA Larson/Edwards",
-      "url": "https://my.pdc.wa.gov/c6/public/-/#/public/report/14412"
-    },
-    {
-      "headline": "KUOW Beware Google Meta ads",
-      "url": "https://www.kuow.org/elections/2026-10-28/in-heated-wa-judicial-race-labor-pac-buys-ads-on-google-meta-despite-prohibitions"
-    },
-    {
-      "headline": "Fox13 ballot returns 32.84%",
-      "url": "https://www.fox13seattle.com/news/voters-cast-ballots-wa"
+      "headline": "Seattle Times: millionaires tax Feb 5 Klickitat hearing; intervenors to argue Culliton wrongly decided",
+      "url": "https://www.seattletimes.com/seattle-news/politics/voters-upheld-was-millionaires-tax-will-courts-do-the-same/",
+      "hash": "d8c0af5a87e1585248fcd0677356a7a184ce8e0ad39f1b3893ac79899761a31f",
+      "date": "2026-11-23"
     }
   ],
-  "last_run_timestamp": "2026-11-16T15:09:27Z",
-  "last_scan": "2026-11-16",
+  "last_run_timestamp": "2026-11-23T15:20:00Z",
+  "last_scan": "2026-11-23",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -670,6 +658,11 @@
           "date": "2026-10-01",
           "evidence_url": "https://voter.votewa.gov/GenericVoterGuide.aspx?e=899&c=17#/candidates/187081/1602271",
           "note": "O'Donnell's official general-election statement emphasizes legal rights, rule of law, and impartiality, but makes no direct Culliton, Article VII, or ESSB 6346 position statement. Lean remains unclear/Low."
+        },
+        {
+          "date": "2026-11-23",
+          "evidence_url": "https://www.seattletimes.com/seattle-news/politics/voters-upheld-was-millionaires-tax-will-courts-do-the-same/",
+          "note": "Income-tax case (Petter v. State, Klickitat Superior) has a Feb. 5, 2027 hearing; intervenors say they will ask the Supreme Court to overrule Culliton. No O'Donnell statement; lean remains unclear/Low."
         }
       ],
       "question": "What is Sean O'Donnell's lean on Culliton v. Chase / income tax doctrine?",
@@ -834,7 +827,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 26,
+      "weeks_open": 27,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -866,7 +859,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 26
+      "weeks_open": 27
     }
   ],
   "pending_review_changes": [
@@ -883,7 +876,8 @@
       "reasoning": "Runbook Phase D rule: any race inside 2pp during count is REVIEW. Margin narrowed from 2.17 pts (Nov 5) to 1.38. Birk would need about 59% of remaining ballots; late ballots have moved about 1.1 pts his way.",
       "confidence": "High",
       "opened_date": "2026-11-09",
-      "update_20261116": "Margin widened to 39,820 (1.39 pts two-way) as of Nov 14. O'Donnell declared victory Nov 11; Birk had not conceded. SOS est. ~75,000 ballots left as of Nov 11. Still well outside recount range."
+      "update_20261116": "Margin widened to 39,820 (1.39 pts two-way) as of Nov 14. O'Donnell declared victory Nov 11; Birk had not conceded. SOS est. ~75,000 ballots left as of Nov 11. Still well outside recount range.",
+      "update_20261123": "As of SOS Nov 20 5:58pm: O'Donnell 1,465,573 (50.46%) vs Birk 1,428,675 (49.19%), margin 36,898 (1.27 pts two-way), narrowed ~2,900 from Nov 14. No Birk concession found. Outside recount range. Counties certify Nov 24."
     }
   ],
   "recent_findings_hashes": [
@@ -1276,7 +1270,9 @@
     "5210138a244556de8bd2a9a205e59cc72d8efa187fd4b6d005de24d7b5db3c74",
     "d6aa8cc71b113271308aa8a5c26e8b80a67e8c2b52e8fc7ea7dbd80a637da765",
     "da32fa677be687055750420d4d6268191f3fcec0c46aa6a3ad62df369661888d",
-    "e0ddb9f843f0099d5dd71212d508372d6f6af9ba965ee292ab61145b4d55fa65"
+    "e0ddb9f843f0099d5dd71212d508372d6f6af9ba965ee292ab61145b4d55fa65",
+    "61b1338dfd9e7b8f8cb04c0f7168440928ce3359fde0616bc3cdeb0ebf6b6ca9",
+    "d8c0af5a87e1585248fcd0677356a7a184ce8e0ad39f1b3893ac79899761a31f"
   ],
   "schema_version": 1,
   "resolved_review_changes": [
@@ -1560,8 +1556,8 @@
       "resolution": "approved by user"
     }
   ],
-  "phase": "C_ballot_return",
-  "phase_entered_date": "2026-10-16",
+  "phase": "D_certification",
+  "phase_entered_date": "2026-11-04",
   "late_hit_log": [
     {
       "date": "2026-10-19",
