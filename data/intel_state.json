@@ -571,24 +571,42 @@
       "candidate": "sitewide",
       "change": "Results banner refreshed to Nov. 20, 5:58 p.m.; Pos. 4 note margin updated to ~37,000 (1.3 pts)",
       "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
+    },
+    {
+      "timestamp": "2026-11-26T15:30:00Z",
+      "candidate": "10 advancing",
+      "change": "general_result_progress set to county-certified totals (SOS export 2026-11-25T08:00:09Z)",
+      "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
+    },
+    {
+      "timestamp": "2026-11-26T15:30:00Z",
+      "candidate": "sitewide",
+      "change": "Banner: status_note now data-driven (generator update in results_banner.py); says counting done, counties certified Nov 24; P4 margin 36,814",
+      "source_url": "https://results.votewa.gov/results/public/washington/elections/20261103"
+    },
+    {
+      "timestamp": "2026-11-26T15:30:00Z",
+      "candidate": "homepage",
+      "change": "Phase E: cover eyebrow set to '2026 Washington Supreme Court election · archived'",
+      "source_url": "runbook Phase E addendum"
     }
   ],
   "last_run_new_finding_entries": [
     {
-      "headline": "P4 margin 36,898 as of Nov 20 SOS update",
+      "headline": "Counties certified Nov 24; P4 O'Donnell +36,814",
       "url": "https://results.votewa.gov/results/public/washington/elections/20261103",
-      "hash": "61b1338dfd9e7b8f8cb04c0f7168440928ce3359fde0616bc3cdeb0ebf6b6ca9",
-      "date": "2026-11-23"
+      "hash": "9a48767999c99c9a15c232471670af029e3a6b17df6afe32a84ca4bbbe4575b7",
+      "date": "2026-11-26"
     },
     {
-      "headline": "Seattle Times: millionaires tax Feb 5 Klickitat hearing; intervenors to argue Culliton wrongly decided",
-      "url": "https://www.seattletimes.com/seattle-news/politics/voters-upheld-was-millionaires-tax-will-courts-do-the-same/",
-      "hash": "d8c0af5a87e1585248fcd0677356a7a184ce8e0ad39f1b3893ac79899761a31f",
-      "date": "2026-11-23"
+      "headline": "Ballotpedia lists O'Donnell as P4 winner",
+      "url": "https://ballotpedia.org/Washington_Supreme_Court_elections,_2026",
+      "hash": "31b3dd051053a8c1eb231285d8ad981eae43e5748709980c9f5d541e035eef7f",
+      "date": "2026-11-26"
     }
   ],
-  "last_run_timestamp": "2026-11-23T15:20:00Z",
-  "last_scan": "2026-11-23",
+  "last_run_timestamp": "2026-11-26T15:30:00Z",
+  "last_scan": "2026-11-26",
   "notes": "State file for weekly intel cron. Tracks open intelligence questions, deduplication hashes, and pending changes awaiting Viet approval. Updated by the cron each Thursday. 2026-10-01: Phase B scan completed; PDC refresh succeeded (+$178,561.08 net across 10 advancing candidates); official general-election Voters' Guide statements were cross-linked with no material tax-position shifts; Bloom's PDC filing question was resolved; one unresolved AWB endorsement item remains pending review. Search used dated SDK queries because native search_web is not exposed; direct C-6 dataset probe returned HTTP 404, so the scan relied on candidate PDC profiles and search results for IE checks.",
   "open_questions": [
     {
@@ -827,7 +845,7 @@
         "Background and prior public statements"
       ],
       "status": "progressing",
-      "weeks_open": 27,
+      "weeks_open": 28,
       "progress_log": [
         {
           "date": "2026-08-06",
@@ -859,7 +877,7 @@
         "Endorsements"
       ],
       "status": "open",
-      "weeks_open": 27
+      "weeks_open": 28
     }
   ],
   "pending_review_changes": [
@@ -877,7 +895,33 @@
       "confidence": "High",
       "opened_date": "2026-11-09",
       "update_20261116": "Margin widened to 39,820 (1.39 pts two-way) as of Nov 14. O'Donnell declared victory Nov 11; Birk had not conceded. SOS est. ~75,000 ballots left as of Nov 11. Still well outside recount range.",
-      "update_20261123": "As of SOS Nov 20 5:58pm: O'Donnell 1,465,573 (50.46%) vs Birk 1,428,675 (49.19%), margin 36,898 (1.27 pts two-way), narrowed ~2,900 from Nov 14. No Birk concession found. Outside recount range. Counties certify Nov 24."
+      "update_20261123": "As of SOS Nov 20 5:58pm: O'Donnell 1,465,573 (50.46%) vs Birk 1,428,675 (49.19%), margin 36,898 (1.27 pts two-way), narrowed ~2,900 from Nov 14. No Birk concession found. Outside recount range. Counties certify Nov 24.",
+      "update_20261126": "County-certified (Nov 24) totals: O'Donnell 1,468,069 (50.46%) vs Birk 1,431,255 (49.20%), margin 36,814. Ballotpedia now lists O'Donnell as winner. No Birk concession or election contest found. Proposal: remove Close tag once SOS certifies (by Dec 3)."
+    },
+    {
+      "id": "final_general_result_20261126",
+      "candidate": "10 advancing",
+      "current_state": "general_result_progress holds county-certified totals; no general_result field or Elected/Lost badges (runbook requires state certification, due by Dec 3).",
+      "proposed_state": "After SOS certifies, set general_result on all 10 (mirroring primary_result schema), add an Elected/Lost badge to the generator, drop the Close tag, and shrink or retire the results banner. Needs a one-time run on or after Dec 3 because weekly scanning has ended.",
+      "evidence_urls": [
+        "https://results.votewa.gov/results/public/washington/elections/20261103",
+        "https://www.sos.wa.gov/elections/calendar"
+      ],
+      "reasoning": "State certification falls after the final scheduled run; the generator has no general_result badge logic yet (generator update).",
+      "confidence": "High",
+      "opened_date": "2026-11-26"
+    },
+    {
+      "id": "runbook_v2_rewrite_20261126",
+      "candidate": "n/a",
+      "current_state": "Runbook v1.7 covers phases A to E with weekly cadence.",
+      "proposed_state": "Rewrite to v2.0 for archive mode: no recurring scan; event-triggered follow-ups only (income-tax ruling, election contest). Fix recount rule to RCW 29A.64.021 (machine recount: under 2,000 votes AND under 0.5%; manual: under 150 votes AND under 0.25%). Replace the -c user.name commit example with default author plus Co-authored-by trailer.",
+      "evidence_urls": [
+        "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.64.021"
+      ],
+      "reasoning": "Phase E addendum requires queuing this on the first Phase E scan.",
+      "confidence": "High",
+      "opened_date": "2026-11-26"
     }
   ],
   "recent_findings_hashes": [
@@ -1272,7 +1316,9 @@
     "da32fa677be687055750420d4d6268191f3fcec0c46aa6a3ad62df369661888d",
     "e0ddb9f843f0099d5dd71212d508372d6f6af9ba965ee292ab61145b4d55fa65",
     "61b1338dfd9e7b8f8cb04c0f7168440928ce3359fde0616bc3cdeb0ebf6b6ca9",
-    "d8c0af5a87e1585248fcd0677356a7a184ce8e0ad39f1b3893ac79899761a31f"
+    "d8c0af5a87e1585248fcd0677356a7a184ce8e0ad39f1b3893ac79899761a31f",
+    "9a48767999c99c9a15c232471670af029e3a6b17df6afe32a84ca4bbbe4575b7",
+    "31b3dd051053a8c1eb231285d8ad981eae43e5748709980c9f5d541e035eef7f"
   ],
   "schema_version": 1,
   "resolved_review_changes": [
@@ -1556,8 +1602,8 @@
       "resolution": "approved by user"
     }
   ],
-  "phase": "D_certification",
-  "phase_entered_date": "2026-11-04",
+  "phase": "E_archive",
+  "phase_entered_date": "2026-11-25",
   "late_hit_log": [
     {
       "date": "2026-10-19",

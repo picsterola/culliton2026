@@ -21,7 +21,7 @@ def banner(r):
     <ul class="results-banner__races">
 {chr(10).join(items)}
     </ul>
-    <p class="results-banner__note">Counting continues. {html.escape(r['close_note'])} Nothing is official until the state certifies on {r['certify_date']}. <a href="{r['source_url']}">Secretary of State results</a>, as of {r['as_of'].rstrip('.')}.</p>
+    <p class="results-banner__note">{html.escape(r.get('status_note', 'Counting continues.'))} {html.escape(r['close_note'])} Nothing is official until the state certifies on {r['certify_date']}. <a href="{r['source_url']}">Secretary of State results</a>, as of {r['as_of'].rstrip('.')}.</p>
   </div>
 </aside>
 {B1}"""
